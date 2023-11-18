@@ -1,0 +1,271 @@
+[
+  {
+    "command": "createPlaylist",
+    "username": "bob35",
+    "timestamp": 150,
+    "playlistName": "My playlist"
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 170,
+    "type": "song",
+    "filters": {
+      "name": "Nothing Else Matters"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 190,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 195
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 240,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 270,
+    "type": "song",
+    "filters": {
+      "name": "Crazy"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 290,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 320
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 340,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 370,
+    "type": "song",
+    "filters": {
+      "name": "Elevate"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 390,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 400
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 430,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 445,
+    "type": "song",
+    "filters": {
+      "name": "I Don't Wanna Live Forever"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 450,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 460
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 480,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 500,
+    "type": "song",
+    "filters": {
+      "name": "Hustle Hard"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 510,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 520
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 540,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 590,
+    "type": "song",
+    "filters": {
+      "name": "Begin Again"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 650,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 660
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 690,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 700,
+    "type": "playlist",
+    "filters": {
+      "name": "My playlist"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 710,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 740
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 800
+  },
+  {
+    "command": "shuffle",
+    "username": "bob35",
+    "timestamp": 850,
+    "seed": 1024
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 900
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 1250
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 1600
+  },
+  {
+    "command": "shuffle",
+    "username": "bob35",
+    "timestamp": 1610
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 1660
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 2000
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 2350
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 2351,
+    "type": "playlist",
+    "filters": {
+      "name": "My playlist"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 2352,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 2353
+  },
+  {
+    "command": "shuffle",
+    "username": "bob35",
+    "timestamp": 2360,
+    "seed": 4096
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 2410
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 2750
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 3100
+  }
+]

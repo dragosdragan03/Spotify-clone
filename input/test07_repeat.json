@@ -1,0 +1,263 @@
+[
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 10,
+    "type": "song",
+    "filters": {
+      "name": "Dream Chaser"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 15,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "alice22",
+    "timestamp": 20
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 30
+  },
+  {
+    "command": "repeat",
+    "username": "alice22",
+    "timestamp": 31
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 32
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 257
+  },
+  {
+    "command": "repeat",
+    "username": "alice22",
+    "timestamp": 258
+  },
+  {
+    "command": "repeat",
+    "username": "alice22",
+    "timestamp": 258
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 1000
+  },
+  {
+    "command": "createPlaylist",
+    "username": "alice22",
+    "timestamp": 1005,
+    "playlistName": "My favourite songs"
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 1006,
+    "type": "song",
+    "filters": {
+      "name": "99 Problems"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 1007,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "alice22",
+    "timestamp": 1008
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "alice22",
+    "timestamp": 1009,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 1010,
+    "type": "song",
+    "filters": {
+      "name": "Hustle Hard"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 1011,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "alice22",
+    "timestamp": 1012
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "alice22",
+    "timestamp": 1013,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 1014,
+    "type": "song",
+    "filters": {
+      "name": "Butterfly Effect"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 1015,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "alice22",
+    "timestamp": 1016
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "alice22",
+    "timestamp": 1017,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 1018,
+    "type": "song",
+    "filters": {
+      "name": "Moves Like Jagger"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 1019,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "alice22",
+    "timestamp": 1020
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "alice22",
+    "timestamp": 1021,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 1022,
+    "type": "song",
+    "filters": {
+      "name": "Dream Chaser"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 1023,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "alice22",
+    "timestamp": 1024
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "alice22",
+    "timestamp": 1025,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 1026,
+    "type": "playlist",
+    "filters": {
+      "owner": "alice22"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 1027,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "alice22",
+    "timestamp": 1028
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 1035
+  },
+  {
+    "command": "repeat",
+    "username": "alice22",
+    "timestamp": 1036
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 1037
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 2099
+  },
+  {
+    "command": "repeat",
+    "username": "alice22",
+    "timestamp": 2100
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 2101
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 2334
+  },
+  {
+    "command": "repeat",
+    "username": "alice22",
+    "timestamp": 2335
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 2336
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 3600
+  }
+]

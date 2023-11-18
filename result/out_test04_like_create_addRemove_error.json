@@ -1,0 +1,71 @@
+[ {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 5,
+  "message" : "Search returned 5 results",
+  "results" : [ "Money Trees", "Big Pimpin'", "Whatever You Need", "Sicko Mode", "Empire State of Mind" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 10,
+  "message" : "Successfully selected Big Pimpin'."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 15,
+  "message" : "Playback loaded successfully."
+}, null, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 25,
+  "message" : "Search returned 1 results",
+  "results" : [ "The Joe Rogan Experience" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 30,
+  "message" : "Successfully selected The Joe Rogan Experience."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 31,
+  "message" : "Playback loaded successfully."
+}, null, null, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 45,
+  "message" : "Search returned 4 results",
+  "results" : [ "Under Pressure", "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ]
+}, null, null, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 60,
+  "message" : "Search returned 4 results",
+  "results" : [ "The Man", "Freedom", "Castle on the Hill", "Get Lucky" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 70,
+  "message" : "Successfully selected Get Lucky."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 71,
+  "message" : "Playback loaded successfully."
+}, null, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 75,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, null, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 85,
+  "message" : "Please conduct a search before making a selection."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 86,
+  "message" : "Playback loaded successfully."
+}, null, null ]

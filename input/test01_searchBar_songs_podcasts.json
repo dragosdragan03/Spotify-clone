@@ -1,0 +1,119 @@
+[
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 10,
+    "type": "song",
+    "filters": {
+      "name": "Sta"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 15,
+    "itemNumber": 1
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 20,
+    "type": "song",
+    "filters": {
+      "album": "Divide"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 25,
+    "itemNumber": 4
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 30,
+    "type": "song",
+    "filters": {
+      "tags": [
+        "#love",
+        "#rap"
+      ]
+    }
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 40,
+    "type": "song",
+    "filters": {
+      "lyrics": "deep"
+    }
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 50,
+    "type": "song",
+    "filters": {
+      "genre": "pop"
+    }
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 60,
+    "type": "song",
+    "filters": {
+      "releaseYear": "<2010"
+    }
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 70,
+    "type": "song",
+    "filters": {
+      "releaseYear": ">2015"
+    }
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 80,
+    "type": "song",
+    "filters": {
+      "artist": "Kendrick Lamar"
+    }
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 90,
+    "type": "song",
+    "filters": {
+      "tags": [
+        "#rock"
+      ],
+      "artist": "Led Zeppelin"
+    }
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 100,
+    "type": "podcast",
+    "filters": {
+      "name": "The"
+    }
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 110,
+    "type": "podcast",
+    "filters": {
+      "owner": "Guy Raz"
+    }
+  }
+]

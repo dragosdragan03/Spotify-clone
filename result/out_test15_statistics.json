@@ -1,0 +1,146 @@
+[ null, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 170,
+  "message" : "Search returned 4 results",
+  "results" : [ "Under Pressure", "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 190,
+  "message" : "Successfully selected Under Pressure."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 200,
+  "message" : "Playback loaded successfully."
+}, null, null, null, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 270,
+  "message" : "Search returned 4 results",
+  "results" : [ "Freedom", "Happy", "Freedom", "Get Lucky" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 290,
+  "message" : "Successfully selected Freedom."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 300,
+  "message" : "Playback loaded successfully."
+}, null, null, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 370,
+  "message" : "Search returned 4 results",
+  "results" : [ "Under Pressure", "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 390,
+  "message" : "Successfully selected Under Pressure."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 400,
+  "message" : "Playback loaded successfully."
+}, null, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 470,
+  "message" : "Search returned 2 results",
+  "results" : [ "Angie", "Nothing Else Matters" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 490,
+  "message" : "Successfully selected Angie."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 500,
+  "message" : "Playback loaded successfully."
+}, null, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 770,
+  "message" : "Search returned 4 results",
+  "results" : [ "Freedom", "Happy", "Freedom", "Get Lucky" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 790,
+  "message" : "Successfully selected Freedom."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 800,
+  "message" : "Playback loaded successfully."
+}, null, null, null, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 1170,
+  "message" : "Search returned 2 results",
+  "results" : [ "Angie", "Nothing Else Matters" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 1190,
+  "message" : "Successfully selected Angie."
+}, {
+  "command" : "load",
+  "user" : "david27",
+  "timestamp" : 1200,
+  "message" : "Playback loaded successfully."
+}, null, null, null, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2170,
+  "message" : "Search returned 4 results",
+  "results" : [ "Under Pressure", "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2190,
+  "message" : "Successfully selected Under Pressure."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2295,
+  "message" : "Playback loaded successfully."
+}, null, null, null, null, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2460,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2490,
+  "message" : "Please conduct a search before making a selection."
+}, null, null, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 2565,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 2580,
+  "message" : "Please conduct a search before making a selection."
+}, null, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 2765,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 2810,
+  "message" : "Please conduct a search before making a selection."
+}, null, null, null, null, null ]

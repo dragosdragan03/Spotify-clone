@@ -1,0 +1,327 @@
+[
+  {
+    "command": "createPlaylist",
+    "username": "bob35",
+    "timestamp": 150,
+    "playlistName": "My first playlist"
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 170,
+    "type": "song",
+    "filters": {
+      "artist": "Queen"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 190,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 200
+  },
+  {
+    "command": "like",
+    "username": "bob35",
+    "timestamp": 205
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 240,
+    "playlistId": 1
+  },
+  {
+    "command": "createPlaylist",
+    "username": "carol19",
+    "timestamp": 250,
+    "playlistName": "Just for fun"
+  },
+  {
+    "command": "search",
+    "username": "carol19",
+    "timestamp": 270,
+    "type": "song",
+    "filters": {
+      "artist": "Pharrell Williams"
+    }
+  },
+  {
+    "command": "select",
+    "username": "carol19",
+    "timestamp": 290,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "carol19",
+    "timestamp": 300
+  },
+  {
+    "command": "like",
+    "username": "carol19",
+    "timestamp": 305
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "carol19",
+    "timestamp": 340,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "carol19",
+    "timestamp": 370,
+    "type": "song",
+    "filters": {
+      "artist": "Queen"
+    }
+  },
+  {
+    "command": "select",
+    "username": "carol19",
+    "timestamp": 390,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "carol19",
+    "timestamp": 400
+  },
+  {
+    "command": "like",
+    "username": "carol19",
+    "timestamp": 405
+  },
+  {
+    "command": "search",
+    "username": "carol19",
+    "timestamp": 470,
+    "type": "song",
+    "filters": {
+      "tags": [
+        "#ballad"
+      ]
+    }
+  },
+  {
+    "command": "select",
+    "username": "carol19",
+    "timestamp": 490,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "carol19",
+    "timestamp": 500
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "carol19",
+    "timestamp": 540,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "carol19",
+    "timestamp": 770,
+    "type": "song",
+    "filters": {
+      "artist": "Pharrell Williams"
+    }
+  },
+  {
+    "command": "select",
+    "username": "carol19",
+    "timestamp": 790,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "carol19",
+    "timestamp": 800
+  },
+  {
+    "command": "like",
+    "username": "carol19",
+    "timestamp": 805
+  },
+  {
+    "command": "showPreferredSongs",
+    "username": "carol19",
+    "timestamp": 1000
+  },
+  {
+    "command": "createPlaylist",
+    "username": "david27",
+    "timestamp": 1150,
+    "playlistName": "Felt cute might delete later"
+  },
+  {
+    "command": "search",
+    "username": "david27",
+    "timestamp": 1170,
+    "type": "song",
+    "filters": {
+      "tags": [
+        "#ballad"
+      ]
+    }
+  },
+  {
+    "command": "select",
+    "username": "david27",
+    "timestamp": 1190,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "david27",
+    "timestamp": 1200
+  },
+  {
+    "command": "like",
+    "username": "david27",
+    "timestamp": 1205
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "david27",
+    "timestamp": 1240,
+    "playlistId": 1
+  },
+  {
+    "command": "createPlaylist",
+    "username": "emily30",
+    "timestamp": 2150,
+    "playlistName": "Listen on repeat"
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 2170,
+    "type": "song",
+    "filters": {
+      "artist": "Queen"
+    }
+  },
+  {
+    "command": "select",
+    "username": "emily30",
+    "timestamp": 2190,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 2295
+  },
+  {
+    "command": "showPreferredSongs",
+    "username": "emily30",
+    "timestamp": 2300
+  },
+  {
+    "command": "like",
+    "username": "emily30",
+    "timestamp": 2350
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "emily30",
+    "timestamp": 2370,
+    "playlistId": 1
+  },
+  {
+    "command": "showPreferredSongs",
+    "username": "emily30",
+    "timestamp": 2400
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 2460,
+    "type": "playlist",
+    "filters": {
+      "name": "My first playlist"
+    }
+  },
+  {
+    "command": "select",
+    "username": "emily30",
+    "timestamp": 2490,
+    "itemNumber": 1
+  },
+  {
+    "command": "follow",
+    "username": "emily30",
+    "timestamp": 2520
+  },
+  {
+    "command": "getTop5Playlists",
+    "timestamp": 2560
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 2565,
+    "type": "playlist",
+    "filters": {
+      "owner": "carol19"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 2580,
+    "itemNumber": 1
+  },
+  {
+    "command": "follow",
+    "username": "bob35",
+    "timestamp": 2600
+  },
+  {
+    "command": "search",
+    "username": "david27",
+    "timestamp": 2765,
+    "type": "playlist",
+    "filters": {
+      "owner": "carol19"
+    }
+  },
+  {
+    "command": "select",
+    "username": "david27",
+    "timestamp": 2810,
+    "itemNumber": 1
+  },
+  {
+    "command": "follow",
+    "username": "david27",
+    "timestamp": 2850
+  },
+  {
+    "command": "getTop5Playlists",
+    "timestamp": 3000
+  },
+  {
+    "command": "showPreferredSongs",
+    "username": "bob35",
+    "timestamp": 3100
+  },
+  {
+    "command": "showPreferredSongs",
+    "username": "carol19",
+    "timestamp": 3200
+  },
+  {
+    "command": "getTop5Songs",
+    "timestamp": 3300
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "command": "createPlaylist",
+    "username": "emily30",
+    "timestamp": 3210,
+    "playlistName": "LoFi music"
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 3215,
+    "type": "song",
+    "filters": {
+      "lyrics": "the"
+    }
+  },
+  {
+    "command": "select",
+    "username": "emily30",
+    "timestamp": 3260,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 3265
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "emily30",
+    "timestamp": 3270,
+    "playlistId": 1
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 3285
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 3290
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 3315,
+    "type": "podcast",
+    "filters": {
+      "owner": "TED"
+    }
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 3345
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 3375,
+    "type": "playlist",
+    "filters": {
+      "owner": "emily30"
+    }
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 3385
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 3415,
+    "type": "song",
+    "filters": {
+      "artist": "Taylor Swift"
+    }
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 3545
+  },
+  {
+    "command": "select",
+    "username": "emily30",
+    "timestamp": 3560,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 3745
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 3770
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 3815,
+    "type": "song",
+    "filters": {
+      "album": "Divide"
+    }
+  },
+  {
+    "command": "select",
+    "username": "emily30",
+    "timestamp": 3860,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 3945
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 3970
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 4015,
+    "type": "playlist",
+    "filters": {
+      "name": "LoFi music"
+    }
+  },
+  {
+    "command": "select",
+    "username": "emily30",
+    "timestamp": 4060,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 4105
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 4170
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 4245
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 4295,
+    "type": "song",
+    "filters": {
+      "genre": "Rap"
+    }
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 4325
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 4370
+  }
+]

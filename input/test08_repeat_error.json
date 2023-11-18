@@ -1,0 +1,184 @@
+[
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 1000,
+    "type": "song",
+    "filters": {
+      "artist": "Metallica"
+    }
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 1035
+  },
+  {
+    "command": "select",
+    "username": "emily30",
+    "timestamp": 1100,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 1120
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 1190
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 1191
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 1192
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 2000
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 2100
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 2135
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 2200
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 2245,
+    "type": "playlist",
+    "filters": {
+      "name": "Just a playlist"
+    }
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 2290
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 3000
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 3100
+  },
+  {
+    "command": "createPlaylist",
+    "username": "emily30",
+    "timestamp": 3150,
+    "playlistName": "My favourite songs"
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 3170,
+    "type": "song",
+    "filters": {
+      "name": "99 Problems"
+    }
+  },
+  {
+    "command": "select",
+    "username": "emily30",
+    "timestamp": 3190,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 3195
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 3200
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 3220
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "emily30",
+    "timestamp": 3240,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 3260,
+    "type": "playlist",
+    "filters": {
+      "owner": "emily30"
+    }
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 3270
+  },
+  {
+    "command": "select",
+    "username": "emily30",
+    "timestamp": 3290,
+    "itemNumber": 1
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 3295
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 3310
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 3335
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 3400
+  },
+  {
+    "command": "createPlaylist",
+    "username": "emily30",
+    "timestamp": 3405,
+    "playlistName": "My favourite songs"
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 3435
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 3450
+  }
+]

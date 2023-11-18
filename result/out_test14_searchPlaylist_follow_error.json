@@ -1,0 +1,131 @@
+[ null, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 170,
+  "message" : "Search returned 4 results",
+  "results" : [ "Stairway to Heaven", "Black Dog", "Whole Lotta Love", "Good Times Bad Times" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 190,
+  "message" : "Successfully selected Stairway to Heaven."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 200,
+  "message" : "Playback loaded successfully."
+}, null, null, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 470,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "Don't", "Money Trees", "Whatever You Need", "Maps" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 490,
+  "message" : "Successfully selected Shape of You."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 500,
+  "message" : "Playback loaded successfully."
+}, null, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 570,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "The Unforgiven", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 590,
+  "message" : "Successfully selected Stairway to Heaven."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 600,
+  "message" : "Playback loaded successfully."
+}, null, null, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 870,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "Don't", "Money Trees", "Dream On", "The Unforgiven" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 890,
+  "message" : "Successfully selected Shape of You."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 900,
+  "message" : "Playback loaded successfully."
+}, null, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 1000,
+  "message" : "Search returned 1 results",
+  "results" : [ "The Michelle Obama Podcast" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 1190,
+  "message" : "Successfully selected The Michelle Obama Podcast."
+}, null, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1270,
+  "message" : "Search returned 1 results",
+  "results" : [ "The Man" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1290,
+  "message" : "Successfully selected The Man."
+}, null, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1400,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1410,
+  "message" : "Please conduct a search before making a selection."
+}, null, null, null, null, null, null, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 1680,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 1710,
+  "message" : "Please conduct a search before making a selection."
+}, null, null, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 1800,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 1810,
+  "message" : "Please conduct a search before making a selection."
+}, null, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 1865,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 1870,
+  "message" : "Please conduct a search before making a selection."
+}, null, null ]

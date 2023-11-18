@@ -1,0 +1,178 @@
+[ {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3210,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 3215,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "Stairway to Heaven", "Dream On", "Black Dog", "Sad But True" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 3260,
+  "message" : "Successfully selected Shape of You."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 3265,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3270,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 3285,
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 3290,
+  "stats" : {
+    "name" : "Shape of You",
+    "remainedTime" : 208,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 3315,
+  "message" : "Search returned 2 results",
+  "results" : [ "TED Talks Daily", "TED-Ed: Lessons Worth Sharing" ]
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 3345,
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 3375,
+  "message" : "Search returned 1 results",
+  "results" : [ "LoFi music" ]
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 3385,
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 3415,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 3545,
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 3560,
+  "message" : "Successfully selected The Man."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 3745,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 3770,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 165,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 3815,
+  "message" : "Search returned 3 results",
+  "results" : [ "Shape of You", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 3860,
+  "message" : "Successfully selected Shape of You."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 3945,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 3970,
+  "stats" : {
+    "name" : "Shape of You",
+    "remainedTime" : 208,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 4015,
+  "message" : "Search returned 1 results",
+  "results" : [ "LoFi music" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 4060,
+  "message" : "Successfully selected LoFi music."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 4105,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 4170,
+  "stats" : {
+    "name" : "Shape of You",
+    "remainedTime" : 168,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 4245,
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 4295,
+  "message" : "Search returned 5 results",
+  "results" : [ "Money Trees", "Big Pimpin'", "Whatever You Need", "Sicko Mode", "Empire State of Mind" ]
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 4325,
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 4370,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+} ]

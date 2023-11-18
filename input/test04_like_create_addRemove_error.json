@@ -1,0 +1,145 @@
+[
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 5,
+    "type": "song",
+    "filters": {
+      "genre": "Rap"
+    }
+  },
+  {
+    "command": "select",
+    "username": "emily30",
+    "timestamp": 10,
+    "itemNumber": 2
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 15
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "emily30",
+    "timestamp": 20,
+    "playlistId": 3
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 25,
+    "type": "podcast",
+    "filters": {
+      "owner": "Joe Rogan"
+    }
+  },
+  {
+    "command": "select",
+    "username": "emily30",
+    "timestamp": 30,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 31
+  },
+  {
+    "command": "createPlaylist",
+    "username": "emily30",
+    "timestamp": 35,
+    "playlistName": "Playlist alb pentru zile negre"
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "emily30",
+    "timestamp": 40,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 45,
+    "type": "song",
+    "filters": {
+      "artist": "Queen"
+    }
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "emily30",
+    "timestamp": 50,
+    "playlistId": 1
+  },
+  {
+    "command": "createPlaylist",
+    "username": "emily30",
+    "timestamp": 55,
+    "playlistName": "Playlist alb pentru zile negre"
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 60,
+    "type": "song",
+    "filters": {
+      "tags": [
+        "#pop",
+        "#applemusic"
+      ]
+    }
+  },
+  {
+    "command": "select",
+    "username": "emily30",
+    "timestamp": 70,
+    "itemNumber": 4
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 71
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "emily30",
+    "timestamp": 72,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 75,
+    "type": "playlist",
+    "filters": {
+      "owner": "emily30"
+    }
+  },
+  {
+    "command": "like",
+    "username": "emily30",
+    "timestamp": 80
+  },
+  {
+    "command": "select",
+    "username": "emily30",
+    "timestamp": 85,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 86
+  },
+  {
+    "command": "like",
+    "username": "emily30",
+    "timestamp": 90
+  },
+  {
+    "command": "showPlaylists",
+    "username": "emily30",
+    "timestamp": 95
+  }
+]

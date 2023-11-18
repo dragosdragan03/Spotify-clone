@@ -1,0 +1,128 @@
+[
+  {
+    "command": "createPlaylist",
+    "username": "alice22",
+    "timestamp": 5,
+    "playlistName": "Playlist bengos"
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 10,
+    "type": "song",
+    "filters": {
+      "name": "Stairway to Heaven"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 15,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "alice22",
+    "timestamp": 20
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "alice22",
+    "timestamp": 24,
+    "playlistId": 1
+  },
+  {
+    "command": "like",
+    "username": "alice22",
+    "timestamp": 25
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "alice22",
+    "timestamp": 26,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 30,
+    "type": "song",
+    "filters": {
+      "name": "The Unforgiven"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 35,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "alice22",
+    "timestamp": 40
+  },
+  {
+    "command": "like",
+    "username": "alice22",
+    "timestamp": 45
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "alice22",
+    "timestamp": 46,
+    "playlistId": 1
+  },
+  {
+    "command": "like",
+    "username": "alice22",
+    "timestamp": 50
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "alice22",
+    "timestamp": 51,
+    "playlistId": 1
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "alice22",
+    "timestamp": 52,
+    "playlistId": 1
+  },
+  {
+    "command": "like",
+    "username": "alice22",
+    "timestamp": 55
+  },
+  {
+    "command": "like",
+    "username": "alice22",
+    "timestamp": 60
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 63,
+    "type": "playlist",
+    "filters": {
+      "owner": "alice22"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 64,
+    "itemNumber": 1
+  },
+  {
+    "command": "showPlaylists",
+    "username": "alice22",
+    "timestamp": 65
+  },
+  {
+    "command": "showPreferredSongs",
+    "username": "alice22",
+    "timestamp": 70
+  }
+]

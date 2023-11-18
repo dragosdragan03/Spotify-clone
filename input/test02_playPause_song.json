@@ -1,0 +1,62 @@
+[
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 10,
+    "type": "song",
+    "filters": {
+      "name": "Shape of You"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 15,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "alice22",
+    "timestamp": 20
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 25
+  },
+  {
+    "command": "playPause",
+    "username": "alice22",
+    "timestamp": 30
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 35
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 40
+  },
+  {
+    "command": "playPause",
+    "username": "alice22",
+    "timestamp": 45
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 50
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 55
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 1000
+  }
+]

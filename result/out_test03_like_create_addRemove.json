@@ -1,0 +1,44 @@
+[ null, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 10,
+  "message" : "Search returned 1 results",
+  "results" : [ "Stairway to Heaven" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 15,
+  "message" : "Successfully selected Stairway to Heaven."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 20,
+  "message" : "Playback loaded successfully."
+}, null, null, null, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 30,
+  "message" : "Search returned 1 results",
+  "results" : [ "The Unforgiven" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 35,
+  "message" : "Successfully selected The Unforgiven."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 40,
+  "message" : "Playback loaded successfully."
+}, null, null, null, null, null, null, null, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 63,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 64,
+  "message" : "Please conduct a search before making a selection."
+}, null, null ]

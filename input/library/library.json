@@ -1,0 +1,1494 @@
+{
+    "users": [
+      {
+        "username": "alice22",
+        "age": 28,
+        "city": "Los Angeles"
+      },
+      {
+        "username": "bob35",
+        "age": 32,
+        "city": "Chicago"
+      },
+      {
+        "username": "carol19",
+        "age": 23,
+        "city": "Miami"
+      },
+      {
+        "username": "david27",
+        "age": 26,
+        "city": "Houston"
+      },
+      {
+        "username": "emily30",
+        "age": 29,
+        "city": "Dallas"
+      },
+      {
+        "username": "frank21",
+        "age": 31,
+        "city": "Denver"
+      },
+      {
+        "username": "grace25",
+        "age": 24,
+        "city": "Seattle"
+      },
+      {
+        "username": "henry26",
+        "age": 27,
+        "city": "Boston"
+      },
+      {
+        "username": "irene33",
+        "age": 22,
+        "city": "Atlanta"
+      },
+      {
+        "username": "jack29",
+        "age": 30,
+        "city": "Phoenix"
+      }
+    ],
+    "songs": [
+      {
+        "name": "Shape of You",
+        "duration": 233,
+        "album": "Divide",
+        "tags": [
+          "#pop",
+          "#mostlistenedthisyear",
+          "#spotify"
+        ],
+        "lyrics": "The club isn't the best place to find a lover, So the bar is where I go (mm-mm)",
+        "genre": "Pop",
+        "releaseYear": 2017,
+        "artist": "Ed Sheeran"
+      },
+      {
+        "name": "Don't",
+        "duration": 219,
+        "album": "x",
+        "tags": [
+          "#pop",
+          "#relationship",
+          "#spotify"
+        ],
+        "lyrics": "I met this girl late last year, She said, 'Don't you worry if I disappear",
+        "genre": "Pop",
+        "releaseYear": 2014,
+        "artist": "Ed Sheeran"
+      },
+      {
+        "name": "Stairway to Heaven",
+        "duration": 482,
+        "album": "Led Zeppelin IV",
+        "tags": [
+          "#rock",
+          "#epic",
+          "#youtube"
+        ],
+        "lyrics": "There's a lady who's sure all that glitters is gold",
+        "genre": "Rock",
+        "releaseYear": 1971,
+        "artist": "Led Zeppelin"
+      },
+      {
+        "name": "Money Trees",
+        "duration": 387,
+        "album": "good kid, m.A.A.d city",
+        "tags": [
+          "#rap",
+          "#hiphopmusic",
+          "#spotify"
+        ],
+        "lyrics": "It go Halle Berry or hallelujah / Pick your poison, tell me what you doing",
+        "genre": "Rap",
+        "releaseYear": 2012,
+        "artist": "Kendrick Lamar"
+      },
+      {
+        "name": "Under Pressure",
+        "duration": 244,
+        "album": "Hot Space",
+        "tags": [
+          "#rock",
+          "#duet",
+          "#spotify"
+        ],
+        "lyrics": "Pressure pushing down on me, pressing down on you",
+        "genre": "Rock",
+        "releaseYear": 1981,
+        "artist": "Queen, David Bowie"
+      },
+      {
+        "name": "Dream On",
+        "duration": 267,
+        "album": "Aerosmith",
+        "tags": [
+          "#rock",
+          "#anthem",
+          "#applemusic"
+        ],
+        "lyrics": "Every time when I look in the mirror",
+        "genre": "Rock",
+        "releaseYear": 1973,
+        "artist": "Aerosmith"
+      },
+      {
+        "name": "Big Pimpin'",
+        "duration": 284,
+        "album": "Vol. 3... Life and Times of S. Carter",
+        "tags": [
+          "#hiphop",
+          "#rap",
+          "#love"
+        ],
+        "lyrics": "We doin' big pimpin', we spendin' cheese / Check 'em out now",
+        "genre": "Rap",
+        "releaseYear": 2000,
+        "artist": "Jay Z"
+      },
+      {
+        "name": "The Unforgiven",
+        "duration": 386,
+        "album": "Metallica",
+        "tags": [
+          "#rock",
+          "#heavy",
+          "#music"
+        ],
+        "lyrics": "What I've felt, what I've known, never shined through in what I've shown",
+        "genre": "Rock",
+        "releaseYear": 1991,
+        "artist": "Metallica"
+      },
+      {
+        "name": "Whatever You Need",
+        "duration": 210,
+        "album": "Wins & Losses",
+        "tags": [
+          "#hiphop",
+          "#rapmusic",
+          "#follow"
+        ],
+        "lyrics": "Yeah, you can get whatever you want, whatever you need",
+        "genre": "Rap",
+        "releaseYear": 2017,
+        "artist": "Meek Mill"
+      },
+      {
+        "name": "Start Me Up",
+        "duration": 212,
+        "album": "Tattoo You",
+        "tags": [
+          "#rock",
+          "#classic",
+          "#itunes"
+        ],
+        "lyrics": "If you start me up, I'll never stop",
+        "genre": "Rock",
+        "releaseYear": 1981,
+        "artist": "The Rolling Stones"
+      },
+      {
+        "name": "Black Dog",
+        "duration": 294,
+        "album": "Led Zeppelin IV",
+        "tags": [
+          "#rock",
+          "#classic",
+          "#youtube"
+        ],
+        "lyrics": "Hey, hey, mama, said the way you move, gonna make you sweat, gonna make you groove",
+        "genre": "Rock",
+        "releaseYear": 1971,
+        "artist": "Led Zeppelin"
+      },
+      {
+        "name": "Sad But True",
+        "duration": 324,
+        "album": "Metallica",
+        "tags": [
+          "#rock",
+          "#heavy",
+          "#music"
+        ],
+        "lyrics": "Hey, I'm your life, I'm the one who takes you there",
+        "genre": "Rock",
+        "releaseYear": 1991,
+        "artist": "Metallica"
+      },
+      {
+        "name": "Maps",
+        "duration": 190,
+        "album": "V",
+        "tags": [
+          "#pop",
+          "#spotifyplaylist",
+          "#musician"
+        ],
+        "lyrics": "I miss the taste of a sweeter life, I miss the conversation",
+        "genre": "Pop",
+        "releaseYear": 2014,
+        "artist": "Maroon 5"
+      },
+      {
+        "name": "Angie",
+        "duration": 273,
+        "album": "Goats Head Soup",
+        "tags": [
+          "#rock",
+          "#ballad",
+          "#itunes"
+        ],
+        "lyrics": "Angie, Angie, when will those clouds all disappear?",
+        "genre": "Rock",
+        "releaseYear": 1973,
+        "artist": "The Rolling Stones"
+      },
+      {
+        "name": "I Don't Want to Miss a Thing",
+        "duration": 298,
+        "album": "Armageddon: The Album",
+        "tags": [
+          "#rock",
+          "#love",
+          "#applemusic"
+        ],
+        "lyrics": "I could stay awake just to hear you breathing",
+        "genre": "Rock",
+        "releaseYear": 1998,
+        "artist": "Aerosmith"
+      },
+      {
+        "name": "The Man",
+        "duration": 190,
+        "album": "Lover",
+        "tags": [
+          "#pop",
+          "#feminist",
+          "#applemusic"
+        ],
+        "lyrics": "I would be complex, I would be cool, They'd say I played the field before I found someone to commit to",
+        "genre": "Pop",
+        "releaseYear": 2019,
+        "artist": "Taylor Swift"
+      },
+      {
+        "name": "Freedom",
+        "duration": 178,
+        "album": "G I R L",
+        "tags": [
+          "#pop",
+          "#empowerment",
+          "#applemusic"
+        ],
+        "lyrics": "Hold on to me, Don't let me go",
+        "genre": "Pop",
+        "releaseYear": 2014,
+        "artist": "Pharrell Williams"
+      },
+      {
+        "name": "Delicate",
+        "duration": 232,
+        "album": "Reputation",
+        "tags": [
+          "#pop",
+          "#newmusic",
+          "#itunes"
+        ],
+        "lyrics": "This ain't for the best, My reputation's never been worse, so",
+        "genre": "Pop",
+        "releaseYear": 2017,
+        "artist": "Taylor Swift"
+      },
+      {
+        "name": "Sicko Mode",
+        "duration": 313,
+        "album": "Astroworld",
+        "tags": [
+          "#rap",
+          "#trap",
+          "#instagram"
+        ],
+        "lyrics": "Astro, yeah / Sun is down, freezin' cold",
+        "genre": "Rap",
+        "releaseYear": 2018,
+        "artist": "Travis Scott"
+      },
+      {
+        "name": "Happy",
+        "duration": 232,
+        "album": "G I R L",
+        "tags": [
+          "#pop",
+          "#music",
+          "#youtube"
+        ],
+        "lyrics": "It might seem crazy what I'm 'bout to say, Sunshine she's here, you can take a break",
+        "genre": "Pop",
+        "releaseYear": 2013,
+        "artist": "Pharrell Williams"
+      },
+      {
+        "name": "Happier",
+        "duration": 207,
+        "album": "Divide",
+        "tags": [
+          "#pop",
+          "#love",
+          "#spotify"
+        ],
+        "lyrics": "Walking down 29th and Park, I saw you in another's arms",
+        "genre": "Pop",
+        "releaseYear": 2017,
+        "artist": "Ed Sheeran"
+      },
+      {
+        "name": "Love Story",
+        "duration": 236,
+        "album": "Fearless",
+        "tags": [
+          "#pop",
+          "#newmusic",
+          "#itunes"
+        ],
+        "lyrics": "We were both young when I first saw you, I close my eyes, and the flashback starts",
+        "genre": "Pop",
+        "releaseYear": 2008,
+        "artist": "Taylor Swift"
+      },
+      {
+        "name": "Paint It Black",
+        "duration": 202,
+        "album": "Aftermath",
+        "tags": [
+          "#rock",
+          "#classic",
+          "#itunes"
+        ],
+        "lyrics": "I see a red door and I want it painted black",
+        "genre": "Rock",
+        "releaseYear": 1966,
+        "artist": "The Rolling Stones"
+      },
+      {
+        "name": "Gimme Shelter",
+        "duration": 271,
+        "album": "Let It Bleed",
+        "tags": [
+          "#rock",
+          "#classic",
+          "#itunes"
+        ],
+        "lyrics": "Oh, a storm is threatening my very life today",
+        "genre": "Rock",
+        "releaseYear": 1969,
+        "artist": "The Rolling Stones"
+      },
+      {
+        "name": "Nothing Else Matters",
+        "duration": 389,
+        "album": "Metallica",
+        "tags": [
+          "#rock",
+          "#ballad",
+          "#music"
+        ],
+        "lyrics": "So close, no matter how far, couldn't be much more from the heart",
+        "genre": "Rock",
+        "releaseYear": 1991,
+        "artist": "Metallica"
+      },
+      {
+        "name": "Sugar",
+        "duration": 235,
+        "album": "V",
+        "tags": [
+          "#pop",
+          "#wedding",
+          "#musician"
+        ],
+        "lyrics": "I'm hurting, baby, I'm broken down, I need your loving, loving I need it now",
+        "genre": "Pop",
+        "releaseYear": 2014,
+        "artist": "Maroon 5"
+      },
+      {
+        "name": "Crazy",
+        "duration": 314,
+        "album": "Get a Grip",
+        "tags": [
+          "#rock",
+          "#love",
+          "#applemusic"
+        ],
+        "lyrics": "Come here baby, you know you drive me up a wall",
+        "genre": "Rock",
+        "releaseYear": 1994,
+        "artist": "Aerosmith"
+      },
+      {
+        "name": "Bohemian Rhapsody",
+        "duration": 355,
+        "album": "A Night at the Opera",
+        "tags": [
+          "#rock",
+          "#classic",
+          "#spotify"
+        ],
+        "lyrics": "Is this the real life? Is this just fantasy?",
+        "genre": "Rock",
+        "releaseYear": 1975,
+        "artist": "Queen"
+      },
+      {
+        "name": "Freedom",
+        "duration": 163,
+        "album": "G I R L",
+        "tags": [
+          "#pop",
+          "#music",
+          "#youtube"
+        ],
+        "lyrics": "Hold on to me, Don't let me go",
+        "genre": "Pop",
+        "releaseYear": 2014,
+        "artist": "Pharrell Williams"
+      },
+      {
+        "name": "Blank Space",
+        "duration": 231,
+        "album": "1989",
+        "tags": [
+          "#pop",
+          "#love",
+          "#spotify"
+        ],
+        "lyrics": "Nice to meet you, where you been? I could show you incredible things",
+        "genre": "Pop",
+        "releaseYear": 2014,
+        "artist": "Taylor Swift"
+      },
+      {
+        "name": "Empire State of Mind",
+        "duration": 277,
+        "album": "The Blueprint 3",
+        "tags": [
+          "#hiphop",
+          "#spotifyplaylist",
+          "#music"
+        ],
+        "lyrics": "Yeah I'm out that Brooklyn, now I'm down in Tribeca / Right next to De Niro, but I'll be hood forever",
+        "genre": "Rap",
+        "releaseYear": 2009,
+        "artist": "Jay Z"
+      },
+      {
+        "name": "We Will Rock You",
+        "duration": 122,
+        "album": "News of the World",
+        "tags": [
+          "#rock",
+          "#anthem",
+          "#spotify"
+        ],
+        "lyrics": "We will, we will rock you",
+        "genre": "Rock",
+        "releaseYear": 1977,
+        "artist": "Queen"
+      },
+      {
+        "name": "N****s in Paris",
+        "duration": 219,
+        "album": "Watch the Throne",
+        "tags": [
+          "#hiphop",
+          "#rap",
+          "#tidal"
+        ],
+        "lyrics": "Ball so hard motherfuckers wanna fine me / But first n****s gotta find me",
+        "genre": "Rap",
+        "releaseYear": 2011,
+        "artist": "Jay Z"
+      },
+      {
+        "name": "Begin Again",
+        "duration": 238,
+        "album": "Red",
+        "tags": [
+          "#pop",
+          "#nostalgia",
+          "#spotify"
+        ],
+        "lyrics": "Took a deep breath in the mirror, He didn't like it when I wore high heels, but I do",
+        "genre": "Pop",
+        "releaseYear": 2012,
+        "artist": "Taylor Swift"
+      },
+      {
+        "name": "Elevate",
+        "duration": 225,
+        "album": "Climb to the Top",
+        "tags": [
+          "#rap",
+          "#trap",
+          "#soundcloud"
+        ],
+        "lyrics": "Rising to the top, never gonna stop",
+        "genre": "Rap",
+        "releaseYear": 2018,
+        "artist": "Travis Scott"
+      },
+      {
+        "name": "Whole Lotta Love",
+        "duration": 334,
+        "album": "Led Zeppelin II",
+        "tags": [
+          "#rock",
+          "#epic",
+          "#youtube"
+        ],
+        "lyrics": "You need cooling, baby, I'm not fooling",
+        "genre": "Rock",
+        "releaseYear": 1969,
+        "artist": "Led Zeppelin"
+      },
+      {
+        "name": "DNA.",
+        "duration": 185,
+        "album": "DAMN.",
+        "tags": [
+          "#rap",
+          "#hiphopmusic",
+          "#spotifyplaylist"
+        ],
+        "lyrics": "I got, I got, I got, I got / Loyalty, got royalty inside my DNA",
+        "genre": "Rap",
+        "releaseYear": 2017,
+        "artist": "Kendrick Lamar"
+      },
+      {
+        "name": "Castle on the Hill",
+        "duration": 261,
+        "album": "Divide",
+        "tags": [
+          "#pop",
+          "#love",
+          "#applemusic"
+        ],
+        "lyrics": "When I was six years old, I broke my leg, I was running from my brother and his friends",
+        "genre": "Pop",
+        "releaseYear": 2017,
+        "artist": "Ed Sheeran"
+      },
+      {
+        "name": "Stargazing",
+        "duration": 270,
+        "album": "Astroworld",
+        "tags": [
+          "#rap",
+          "#trap",
+          "#deezer"
+        ],
+        "lyrics": "Rollin', rollin', rollin', got me stargazin' (yeah) / Sippin' on purp, feelin' like the Barre Baby",
+        "genre": "Rap",
+        "releaseYear": 2018,
+        "artist": "Travis Scott"
+      },
+      {
+        "name": "Litty",
+        "duration": 256,
+        "album": "DC4",
+        "tags": [
+          "#hiphop",
+          "#rapmusic",
+          "#itunes"
+        ],
+        "lyrics": "I'm on the way with that rarri / Me and my shawty we litty",
+        "genre": "Rap",
+        "releaseYear": 2016,
+        "artist": "Meek Mill"
+      },
+      {
+        "name": "Sweet Emotion",
+        "duration": 274,
+        "album": "Toys in the Attic",
+        "tags": [
+          "#rock",
+          "#anthem",
+          "#applemusic"
+        ],
+        "lyrics": "Sweet emotion, sweet emotion",
+        "genre": "Rock",
+        "releaseYear": 1975,
+        "artist": "Aerosmith"
+      },
+      {
+        "name": "Enter Sandman",
+        "duration": 329,
+        "album": "Metallica",
+        "tags": [
+          "#rock",
+          "#heavy",
+          "#music"
+        ],
+        "lyrics": "Say your prayers, little one, don't forget, my son",
+        "genre": "Rock",
+        "releaseYear": 1991,
+        "artist": "Metallica"
+      },
+      {
+        "name": "Shake It Off",
+        "duration": 219,
+        "album": "1989",
+        "tags": [
+          "#pop",
+          "#rap",
+          "#itunes"
+        ],
+        "lyrics": "I stay out too late, got nothing in my brain, That's what people say, mmm-mmm",
+        "genre": "Pop",
+        "releaseYear": 2014,
+        "artist": "Taylor Swift"
+      },
+      {
+        "name": "I Don't Wanna Live Forever",
+        "duration": 245,
+        "album": "Fifty Shades Darker (Original Motion Picture Soundtrack)",
+        "tags": [
+          "#pop",
+          "#love",
+          "#youtube"
+        ],
+        "lyrics": "Been sitting eyes wide open behind these four walls, Hoping you'd call",
+        "genre": "Pop",
+        "releaseYear": 2016,
+        "artist": "Zayn, Taylor Swift"
+      },
+      {
+        "name": "Radio Ga Ga",
+        "duration": 344,
+        "album": "The Works",
+        "tags": [
+          "#rock",
+          "#nostalgia",
+          "#spotify"
+        ],
+        "lyrics": "All we hear is Radio ga ga, Radio goo goo",
+        "genre": "Rock",
+        "releaseYear": 1984,
+        "artist": "Queen"
+      },
+      {
+        "name": "Kings Dead",
+        "duration": 230,
+        "album": "Black Panther: The Album",
+        "tags": [
+          "#rap",
+          "#hiphopmusic",
+          "#spotify"
+        ],
+        "lyrics": "Miss me with that bullshit (bullshit) / You ain't really wild, you a tourist (a tourist)",
+        "genre": "Rap",
+        "releaseYear": 2018,
+        "artist": "Kendrick Lamar"
+      },
+      {
+        "name": "Championships",
+        "duration": 260,
+        "album": "Championships",
+        "tags": [
+          "#hiphop",
+          "#rapmusic",
+          "#itunes"
+        ],
+        "lyrics": "I got a crown made of thorns / Like Jesus crown on his dome",
+        "genre": "Rap",
+        "releaseYear": 2018,
+        "artist": "Meek Mill"
+      },
+      {
+        "name": "99 Problems",
+        "duration": 234,
+        "album": "The Black Album",
+        "tags": [
+          "#hiphop",
+          "#rap",
+          "#musicproducer"
+        ],
+        "lyrics": "I got 99 problems but a b**** ain't one / Hit me",
+        "genre": "Rap",
+        "releaseYear": 2003,
+        "artist": "Jay Z"
+      },
+      {
+        "name": "Legendary",
+        "duration": 250,
+        "album": "Epic Journeys",
+        "tags": [
+          "#rap",
+          "#hiphopmusic",
+          "#spotify"
+        ],
+        "lyrics": "Writing my story, turning pain into glory",
+        "genre": "Rap",
+        "releaseYear": 2019,
+        "artist": "Kendrick Lamar"
+      },
+      {
+        "name": "Thinking Out Loud",
+        "duration": 281,
+        "album": "x",
+        "tags": [
+          "#pop",
+          "#spotifyplaylist",
+          "#musician"
+        ],
+        "lyrics": "When your legs don't work like they used to before, And I can't sweep you off of your feet",
+        "genre": "Pop",
+        "releaseYear": 2014,
+        "artist": "Ed Sheeran"
+      },
+      {
+        "name": "Get Lucky",
+        "duration": 248,
+        "album": "Random Access Memories",
+        "tags": [
+          "#pop",
+          "#love",
+          "#applemusic"
+        ],
+        "lyrics": "Like the legend of the Phoenix, All ends with beginnings",
+        "genre": "Pop",
+        "releaseYear": 2013,
+        "artist": "Daft Punk ft. Pharrell Williams"
+      },
+      {
+        "name": "Going Bad",
+        "duration": 180,
+        "album": "Championships",
+        "tags": [
+          "#hiphop",
+          "#rapmusic",
+          "#applemusic"
+        ],
+        "lyrics": "Yeah, lot of murk in the hallway (bah) / Got a sticky and I keep it at my dog's place",
+        "genre": "Rap",
+        "releaseYear": 2018,
+        "artist": "Meek Mill"
+      },
+      {
+        "name": "Sicko Mode",
+        "duration": 313,
+        "album": "Astroworld",
+        "tags": [
+          "#rap",
+          "#trap",
+          "#dj"
+        ],
+        "lyrics": "Astro, yeah / Sun is down, freezin' cold",
+        "genre": "Rap",
+        "releaseYear": 2018,
+        "artist": "Travis Scott"
+      },
+      {
+        "name": "Swimming Pools (Drank)",
+        "duration": 247,
+        "album": "good kid, m.A.A.d city",
+        "tags": [
+          "#rap",
+          "#hiphopmusic",
+          "#spotifyplaylist"
+        ],
+        "lyrics": "Pour up (drank), head shot (drank) / Sit down (drank), stand up (drank)",
+        "genre": "Rap",
+        "releaseYear": 2012,
+        "artist": "Kendrick Lamar"
+      },
+      {
+        "name": "Good Times Bad Times",
+        "duration": 167,
+        "album": "Led Zeppelin",
+        "tags": [
+          "#rock",
+          "#classic",
+          "#youtube"
+        ],
+        "lyrics": "In the days of my youth, I was told what it means to be a man",
+        "genre": "Rock",
+        "releaseYear": 1969,
+        "artist": "Led Zeppelin"
+      },
+      {
+        "name": "Hustle Hard",
+        "duration": 232,
+        "album": "Success Stories",
+        "tags": [
+          "#hiphop",
+          "#rap",
+          "#newmusic"
+        ],
+        "lyrics": "Grinding every day, I'm chasing dreams, never stop",
+        "genre": "Rap",
+        "releaseYear": 2020,
+        "artist": "Jay Z"
+      },
+      {
+        "name": "Dream Chaser",
+        "duration": 205,
+        "album": "Ambition",
+        "tags": [
+          "#hiphop",
+          "#rapmusic",
+          "#applemusic"
+        ],
+        "lyrics": "From the streets to the stage, life is a chase",
+        "genre": "Rap",
+        "releaseYear": 2015,
+        "artist": "Meek Mill"
+      },
+      {
+        "name": "Moves Like Jagger",
+        "duration": 201,
+        "album": "Hands All Over",
+        "tags": [
+          "#pop",
+          "#newmusic",
+          "#itunes"
+        ],
+        "lyrics": "Just shoot for the stars, if it feels right, Then aim for my heart, if you feel like",
+        "genre": "Pop",
+        "releaseYear": 2010,
+        "artist": "Maroon 5 ft. Christina Aguilera"
+      },
+      {
+        "name": "Butterfly Effect",
+        "duration": 190,
+        "album": "Astroworld",
+        "tags": [
+          "#rap",
+          "#trap",
+          "#musicproducer"
+        ],
+        "lyrics": "For this life I cannot change / Hidden hills, deep off in the main",
+        "genre": "Rap",
+        "releaseYear": 2017,
+        "artist": "Travis Scott"
+      }
+    ],
+    "podcasts": [
+      {
+        "name": "The Joe Rogan Experience",
+        "owner": "Joe Rogan",
+        "episodes": [
+          {
+            "name": "Elon Musk Returns",
+            "duration": 11927,
+            "description": "Elon Musk, CEO of SpaceX and Tesla, returns to discuss various topics."
+          },
+          {
+            "name": "Jordan Peterson",
+            "duration": 9916,
+            "description": "Dr. Jordan Peterson joins Joe to discuss psychology, philosophy, and current events."
+          },
+          {
+            "name": "Neil deGrasse Tyson",
+            "duration": 11276,
+            "description": "Astrophysicist Neil deGrasse Tyson talks about the universe and science."
+          },
+          {
+            "name": "Elon Musk on Mars",
+            "duration": 10533,
+            "description": "Elon Musk shares his vision for a human settlement on Mars."
+          },
+          {
+            "name": "The Art of MMA",
+            "duration": 8742,
+            "description": "Joe Rogan and guests discuss the art and science of mixed martial arts."
+          }
+        ]
+      },
+      {
+        "name": "Serial",
+        "owner": "Sarah Koenig",
+        "episodes": [
+          {
+            "name": "The Alibi",
+            "duration": 3264,
+            "description": "A deep dive into the alibi of a murder suspect and its credibility."
+          },
+          {
+            "name": "The Breakup",
+            "duration": 2718,
+            "description": "A story of a high school breakup and its unforeseen consequences."
+          },
+          {
+            "name": "Escaping Scientology",
+            "duration": 4329,
+            "description": "A woman's journey to escape from the Church of Scientology."
+          },
+          {
+            "name": "The Disappearing Act",
+            "duration": 3517,
+            "description": "A puzzling case of a disappearance and the search for answers."
+          },
+          {
+            "name": "The Art of Interrogation",
+            "duration": 3922,
+            "description": "Examining the techniques and ethics behind police interrogations."
+          }
+        ]
+      },
+      {
+        "name": "Radiolab",
+        "owner": "Jad Abumrad and Robert Krulwich",
+        "episodes": [
+          {
+            "name": "Ghosts",
+            "duration": 3632,
+            "description": "Exploring the idea of ghosts from various cultural and scientific perspectives."
+          },
+          {
+            "name": "Space",
+            "duration": 3407,
+            "description": "Unraveling the mysteries and wonders of space exploration and the universe."
+          },
+          {
+            "name": "Colors",
+            "duration": 3013,
+            "description": "The perception and science behind colors in our everyday lives."
+          },
+          {
+            "name": "Parallel Universes",
+            "duration": 3489,
+            "description": "Delving into the theoretical concept of parallel universes and their implications."
+          },
+          {
+            "name": "The Mind's Eye",
+            "duration": 3108,
+            "description": "Exploring the complexities of human perception and the inner workings of the mind."
+          },
+          {
+            "name": "The Age of AI",
+            "duration": 3175,
+            "description": "A deep dive into the era of artificial intelligence and its impact on society."
+          }
+        ]
+      },
+      {
+        "name": "How I Built This",
+        "owner": "Guy Raz",
+        "episodes": [
+          {
+            "name": "Airbnb: Joe Gebbia",
+            "duration": 2966,
+            "description": "The co-founder of Airbnb shares the story of how the platform was built."
+          },
+          {
+            "name": "Spanx: Sara Blakely",
+            "duration": 2917,
+            "description": "Sara Blakely, the founder of Spanx, talks about her journey in entrepreneurship."
+          },
+          {
+            "name": "Patagonia: Yvon Chouinard",
+            "duration": 3161,
+            "description": "Yvon Chouinard, the founder of Patagonia, discusses building a sustainable business."
+          },
+          {
+            "name": "Dollar Shave Club: Michael Dubin",
+            "duration": 3018,
+            "description": "Michael Dubin shares the story of founding Dollar Shave Club and disrupting the razor industry."
+          }
+        ]
+      },
+      {
+        "name": "TED Talks Daily",
+        "owner": "TED",
+        "episodes": [
+          {
+            "name": "The Power of Vulnerability",
+            "duration": 1212,
+            "description": "Brené Brown explores the importance of vulnerability in human connection."
+          },
+          {
+            "name": "Your Elusive Creative Genius",
+            "duration": 1167,
+            "description": "Author Elizabeth Gilbert shares insights on nurturing creativity."
+          },
+          {
+            "name": "The Danger of a Single Story",
+            "duration": 1129,
+            "description": "Chimamanda Ngozi Adichie talks about the impact of storytelling on perception."
+          },
+          {
+            "name": "The Art of Mindfulness",
+            "duration": 1325,
+            "description": "Jon Kabat-Zinn explores the practice of mindfulness and its benefits for mental well-being."
+          }
+        ]
+      },
+      {
+        "name": "Science Vs",
+        "owner": "Wendy Zukerman",
+        "episodes": [
+          {
+            "name": "The Keto Diet... Is It BS?",
+            "duration": 2071,
+            "description": "Examining the scientific evidence behind the popular Keto diet trend."
+          },
+          {
+            "name": "Essential Oils: Science or Snake Oil?",
+            "duration": 1744,
+            "description": "Investigating the effectiveness of essential oils based on scientific studies."
+          },
+          {
+            "name": "Vaccines... Are They Safe?",
+            "duration": 2306,
+            "description": "Analyzing the safety and effectiveness of vaccines through scientific research."
+          },
+          {
+            "name": "The Truth About GMOs",
+            "duration": 1978,
+            "description": "Separating fact from fiction when it comes to genetically modified organisms."
+          }
+        ]
+      },
+      {
+        "name": "The Daily",
+        "owner": "The New York Times",
+        "episodes": [
+          {
+            "name": "The Capitol Riot, 1 Year Later",
+            "duration": 1370,
+            "description": "Reflecting on the events of the Capitol riot and its aftermath."
+          },
+          {
+            "name": "Inside the Vaccine Mandate Showdown",
+            "duration": 1411,
+            "description": "Examining the legal and ethical implications of vaccine mandates."
+          },
+          {
+            "name": "The Battle for Abortion Rights",
+            "duration": 1697,
+            "description": "Discussing the ongoing legal and political battles over abortion rights."
+          },
+          {
+            "name": "The Climate Crisis",
+            "duration": 1602,
+            "description": "An in-depth look at the current state of the global climate crisis and potential solutions."
+          },
+          {
+            "name": "The Psychology of Conspiracy Theories",
+            "duration": 1678,
+            "description": "Exploring the psychological factors that contribute to the belief in conspiracy theories."
+          }
+        ]
+      },
+      {
+        "name": "Reply All",
+        "owner": "PJ Vogt and Alex Goldman",
+        "episodes": [
+          {
+            "name": "The Snapchat Thief",
+            "duration": 1967,
+            "description": "Investigating the mysterious case of a Snapchat account being stolen."
+          },
+          {
+            "name": "The Case of the Missing Hit",
+            "duration": 2793,
+            "description": "Unraveling the mystery of a song that disappeared from the internet."
+          },
+          {
+            "name": "The Crime Machine, Part I",
+            "duration": 2469,
+            "description": "Exploring the story of an NYPD officer and the system he exploited."
+          },
+          {
+            "name": "The QAnon Code",
+            "duration": 2755,
+            "description": "Delving into the world of QAnon and the conspiracy theories that fuel it."
+          },
+          {
+            "name": "The Snapchat Thief, Part II",
+            "duration": 2292,
+            "description": "Continuing the investigation into the mysterious Snapchat account theft and its aftermath."
+          }
+        ]
+      },
+      {
+        "name": "TED Radio Hour",
+        "owner": "Guy Raz",
+        "episodes": [
+          {
+            "name": "The Power of Design",
+            "duration": 3104,
+            "description": "Exploring the impact of design on our lives and the world around us."
+          },
+          {
+            "name": "The Science of Us",
+            "duration": 3132,
+            "description": "Understanding the complex nature of human behavior and relationships."
+          },
+          {
+            "name": "Rethinking Medicine",
+            "duration": 3273,
+            "description": "Challenging traditional approaches to medicine and healthcare."
+          },
+          {
+            "name": "The Art of Communication",
+            "duration": 2995,
+            "description": "Exploring the science and significance of effective communication."
+          },
+          {
+            "name": "The Human Connection",
+            "duration": 3028,
+            "description": "Delving into the essence of human connection and its impact on our lives."
+          }
+        ]
+      },
+      {
+        "name": "Hidden Brain",
+        "owner": "Shankar Vedantam",
+        "episodes": [
+          {
+            "name": "You, But Better: The Psychology of Reinvention",
+            "duration": 2916,
+            "description": "Exploring the science of self-improvement and personal transformation."
+          },
+          {
+            "name": "The Fox and the Hedgehog",
+            "duration": 3019,
+            "description": "Understanding the two different types of thinkers and their approaches."
+          },
+          {
+            "name": "You 2.0: Deep Work",
+            "duration": 2517,
+            "description": "Delving into the concept of 'deep work' and its impact on productivity."
+          },
+          {
+            "name": "The Power of Habits",
+            "duration": 2942,
+            "description": "Exploring the psychology and science behind our habits and routines."
+          },
+          {
+            "name": "The Paradox of Choice",
+            "duration": 2748,
+            "description": "Analyzing the impact of an abundance of choices on decision-making and happiness."
+          }
+        ]
+      },
+      {
+        "name": "Crime Junkie",
+        "owner": "Ashley Flowers and Brit Prawat",
+        "episodes": [
+          {
+            "name": "The Disappearance of Madeleine McCann",
+            "duration": 2732,
+            "description": "Investigating the mysterious disappearance of Madeleine McCann."
+          },
+          {
+            "name": "Missing in Alaska",
+            "duration": 2518,
+            "description": "Exploring the unexplained disappearances in the wilderness of Alaska."
+          },
+          {
+            "name": "The Mysterious Death of Ken McElroy",
+            "duration": 2961,
+            "description": "Examining the controversial case of Ken McElroy's death in a small town."
+          },
+          {
+            "name": "The Abduction of Jayme Closs",
+            "duration": 2829,
+            "description": "Unraveling the shocking abduction and escape of Jayme Closs."
+          },
+          {
+            "name": "The Disappearance of Maura Murray",
+            "duration": 2917,
+            "description": "Analyzing the puzzling case of Maura Murray's disappearance."
+          }
+        ]
+      },
+      {
+        "name": "The Michelle Obama Podcast",
+        "owner": "Michelle Obama",
+        "episodes": [
+          {
+            "name": "Growing Up Obama",
+            "duration": 2096,
+            "description": "Michelle and her brother Craig reflect on their childhood and upbringing."
+          },
+          {
+            "name": "Relationships: From the White House to Real Life",
+            "duration": 2265,
+            "description": "Discussing the dynamics of relationships and marriage with close friends."
+          },
+          {
+            "name": "Becoming Me... Again",
+            "duration": 2421,
+            "description": "Exploring personal growth, identity, and self-discovery."
+          },
+          {
+            "name": "Finding Your Voice",
+            "duration": 2177,
+            "description": "Encouraging women to embrace their unique voices and stories."
+          },
+          {
+            "name": "Health: It's Personal",
+            "duration": 2312,
+            "description": "Addressing the importance of mental and physical well-being."
+          }
+        ]
+      },
+      {
+        "name": "The Daily Show With Trevor Noah",
+        "owner": "Trevor Noah",
+        "episodes": [
+          {
+            "name": "Reckoning with the Police",
+            "duration": 1969,
+            "description": "Discussing police reform and accountability in the United States."
+          },
+          {
+            "name": "The Battle Over Voting Rights",
+            "duration": 1798,
+            "description": "Exploring the fight for voting rights and access in America."
+          },
+          {
+            "name": "The Complexity of Immigration",
+            "duration": 1892,
+            "description": "Examining the challenges and debates surrounding immigration policy."
+          },
+          {
+            "name": "The Comedy of Politics",
+            "duration": 1817,
+            "description": "Analyzing the intersection of comedy and politics in today's world."
+          },
+          {
+            "name": "Behind the Scenes: The Daily Show",
+            "duration": 2120,
+            "description": "Offering a glimpse into the production of The Daily Show with Trevor Noah."
+          }
+        ]
+      },
+      {
+        "name": "TED-Ed: Lessons Worth Sharing",
+        "owner": "TED",
+        "episodes": [
+          {
+            "name": "The Science of Cells That Never Get Old",
+            "duration": 311,
+            "description": "Exploring the fascinating science behind immortal cells."
+          },
+          {
+            "name": "The Psychology of Post-Traumatic Growth",
+            "duration": 286,
+            "description": "Understanding how trauma can lead to positive personal growth."
+          },
+          {
+            "name": "The Myth of Prometheus",
+            "duration": 283,
+            "description": "A deep dive into the Greek myth of Prometheus and its enduring significance."
+          },
+          {
+            "name": "The Secrets of Ancient Rome's Buildings",
+            "duration": 387,
+            "description": "Uncovering the engineering marvels of ancient Roman architecture."
+          },
+          {
+            "name": "The Art of Political Spin",
+            "duration": 352,
+            "description": "Examining the strategies and techniques of political persuasion."
+          }
+        ]
+      },
+      {
+        "name": "Science Vs",
+        "owner": "Wendy Zukerman",
+        "episodes": [
+          {
+            "name": "The Mystery of the Placebo Effect",
+            "duration": 2090,
+            "description": "Exploring the science behind the placebo effect and its impact on medicine."
+          },
+          {
+            "name": "The Truth About Detox Diets",
+            "duration": 1864,
+            "description": "Investigating the claims and effectiveness of detox diets."
+          },
+          {
+            "name": "The Hype About Antioxidants",
+            "duration": 1717,
+            "description": "Analyzing the role of antioxidants in health and wellness."
+          },
+          {
+            "name": "The Science of Meditation",
+            "duration": 2001,
+            "description": "Examining the effects of meditation on the brain and well-being."
+          },
+          {
+            "name": "The Battle Over Organic Food",
+            "duration": 1849,
+            "description": "Unraveling the debates and science behind organic food production."
+          }
+        ]
+      },
+      {
+        "name": "Hidden Brain",
+        "owner": "Shankar Vedantam",
+        "episodes": [
+          {
+            "name": "The Psychology of Nudges",
+            "duration": 3080,
+            "description": "Exploring the science of behavioral nudges and their impact on decision-making."
+          },
+          {
+            "name": "The Paradox of Choice",
+            "duration": 3225,
+            "description": "Understanding the psychological effects of having too many choices."
+          },
+          {
+            "name": "The Science of Loneliness",
+            "duration": 2972,
+            "description": "Examining the impact of loneliness on mental and physical health."
+          },
+          {
+            "name": "The Bias Detectives",
+            "duration": 3017,
+            "description": "Investigating the unconscious biases that shape our thoughts and behaviors."
+          },
+          {
+            "name": "The Power of And",
+            "duration": 3249,
+            "description": "Challenging the binary thinking that limits our understanding of complex issues."
+          }
+        ]
+      },
+      {
+        "name": "Conan O'Brien Needs A Friend",
+        "owner": "Conan O'Brien",
+        "episodes": [
+          {
+            "name": "The Funny Friend",
+            "duration": 3571,
+            "description": "Conan discusses comedy and friendship with comedian Bill Burr."
+          },
+          {
+            "name": "The Quirky Friend",
+            "duration": 3825,
+            "description": "Conan talks with actress and comedian Kristen Schaal about her unique sense of humor."
+          },
+          {
+            "name": "The Foreign Friend",
+            "duration": 4100,
+            "description": "Conan chats with comedian Gad Elmaleh about his experiences as a French comedian in the U.S."
+          },
+          {
+            "name": "The Iconic Friend",
+            "duration": 4323,
+            "description": "Conan has a conversation with actor and comedian Bob Newhart."
+          },
+          {
+            "name": "The Late-Night Friend",
+            "duration": 3918,
+            "description": "Conan reflects on his late-night career with fellow late-night host Stephen Colbert."
+          }
+        ]
+      },
+      {
+        "name": "The Happiness Lab",
+        "owner": "Dr. Laurie Santos",
+        "episodes": [
+          {
+            "name": "The Power of Positive People",
+            "duration": 2096,
+            "description": "Exploring how surrounding ourselves with positive people can lead to greater happiness."
+          },
+          {
+            "name": "How to Be a Better Ally",
+            "duration": 2421,
+            "description": "Discussing strategies for becoming a more effective ally for marginalized communities."
+          },
+          {
+            "name": "The Unintended Consequences of Failure",
+            "duration": 2265,
+            "description": "Examining how our perception of failure can influence our overall well-being."
+          },
+          {
+            "name": "The Surprising Benefits of Being in Nature",
+            "duration": 2529,
+            "description": "Analyzing the positive effects of spending time in natural environments on mental health."
+          },
+          {
+            "name": "Why We're Bad at Choosing the Right Person",
+            "duration": 2120,
+            "description": "Delving into the psychology behind our often flawed mate selection process."
+          }
+        ]
+      },
+      {
+        "name": "The Ben Shapiro Show",
+        "owner": "Ben Shapiro",
+        "episodes": [
+          {
+            "name": "The DeSantis Dream",
+            "duration": 3161,
+            "description": "Discussing Florida Governor Ron DeSantis and his political strategies."
+          },
+          {
+            "name": "The Truth About Vaccine Mandates",
+            "duration": 3249,
+            "description": "Analyzing the arguments for and against vaccine mandates."
+          },
+          {
+            "name": "Why Democrats Can't Govern",
+            "duration": 3028,
+            "description": "Examining the challenges faced by Democrats in governing effectively."
+          },
+          {
+            "name": "The Culture Wars",
+            "duration": 3197,
+            "description": "Addressing the ongoing cultural and political battles in America."
+          },
+          {
+            "name": "The Media's Role in Shaping Perception",
+            "duration": 3084,
+            "description": "Exploring the influence of media narratives on public opinion and discourse."
+          }
+        ]
+      },
+      {
+        "name": "The New Yorker: Fiction",
+        "owner": "The New Yorker",
+        "episodes": [
+          {
+            "name": "Salman Rushdie Reads Gabriel Garcia Marquez",
+            "duration": 3375,
+            "description": "Author Salman Rushdie reads and discusses a story by Gabriel Garcia Marquez."
+          },
+          {
+            "name": "Shirley Hazzard Reads Mavis Gallant",
+            "duration": 3422,
+            "description": "Author Shirley Hazzard reads and reflects on a story by Mavis Gallant."
+          },
+          {
+            "name": "David Sedaris Reads Miranda July",
+            "duration": 3513,
+            "description": "Author David Sedaris reads and shares insights on a story by Miranda July."
+          },
+          {
+            "name": "Hilton Als Reads Alice Munro",
+            "duration": 3139,
+            "description": "Author Hilton Als reads and interprets a story by Alice Munro."
+          },
+          {
+            "name": "Jhumpa Lahiri Reads Vladimir Nabokov",
+            "duration": 3117,
+            "description": "Author Jhumpa Lahiri reads and analyzes a story by Vladimir Nabokov."
+          }
+        ]
+      }
+    ]
+  }
