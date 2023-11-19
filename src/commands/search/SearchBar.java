@@ -1,9 +1,7 @@
 package commands.search;
 
 import com.sun.management.DiagnosticCommandMBean;
-import commands.Command;
-import commands.CommandExecute;
-import commands.FilterInput;
+import commands.*;
 import commands.FilterInput;
 import fileio.input.LibraryInput;
 import fileio.input.PodcastInput;
@@ -81,7 +79,7 @@ public class SearchBar extends CommandExecute {
                         this.results.add(var.getName());
             }
         } else if (this.type.equals("podcast")) {
-            for (PodcastInput var : this.library.getPodcasts()) { // vreau sa parcurg toata lista de cantece
+            for (PodcastInput var : this.library.getPodcasts()) { // vreau sa parcurg toata lista de podcasturi
                 if (this.results.size() < 5) {
                     if (this.filter.getName() != null && var.getName().startsWith(this.filter.getName())) // vreau sa vad daca filtrul meu este in cantec
                         this.results.add(var.getName());
@@ -89,13 +87,16 @@ public class SearchBar extends CommandExecute {
                         this.results.add(var.getName());
                 }
             }
-         } //else if (type.equals("playlist")) {
-//            for (Pla var : library.getPodcasts()) { // vreau sa parcurg toata lista de cantece
-//                if (results.size() < 5) {
-//                    if (filter.getName() != null && var.getName().startsWith(filter.getName())) // vreau sa vad daca filtrul meu este in cantec
-//                        this.results.add(var.getName());
-//                    if (filter.getOwner() != null && var.getOwner().contains(filter.getOwner()))
-//                        this.results.add(var.getName());
+         } else if (type.equals("playlist")) {
+            if (getAllUsersPlaylists().size() != 0){
+                for (Playlist var : getAllUsersPlaylists()) { // vreau sa parcurg toata lista de playlisturi
+                    if (this.filter.getName() != null && var.getNamePlaylist().startsWith(filter.getName()) && var.getTypePlaylist().equals("public")) // vreau sa vad daca filtrul meu este in cantec
+                     this.results.add(var.getNamePlaylist());
+                    if (filter.getOwner() != null && var.getUser().contains(filter.getOwner()) && var.getTypePlaylist().equals("public"))
+                        this.results.add(var.getNamePlaylist());
+            }
+            }
+        }
    } // melodiile rezultate
 
     @Override

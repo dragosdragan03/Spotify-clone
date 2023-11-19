@@ -1,4 +1,9 @@
-[ null, {
+[ {
+  "command" : "createPlaylist",
+  "user" : "alice22",
+  "timestamp" : 5,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10,
@@ -14,7 +19,22 @@
   "user" : "alice22",
   "timestamp" : 20,
   "message" : "Playback loaded successfully."
-}, null, null, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 24,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "like",
+  "user" : "alice22",
+  "timestamp" : 25,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 26,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 30,
@@ -30,15 +50,60 @@
   "user" : "alice22",
   "timestamp" : 40,
   "message" : "Playback loaded successfully."
-}, null, null, null, null, null, null, null, {
+}, {
+  "command" : "like",
+  "user" : "alice22",
+  "timestamp" : 45,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 46,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "like",
+  "user" : "alice22",
+  "timestamp" : 50,
+  "message" : "Unlike registered successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 51,
+  "message" : "Successfully removed from playlist."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 52,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "like",
+  "user" : "alice22",
+  "timestamp" : 55,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "like",
+  "user" : "alice22",
+  "timestamp" : 60,
+  "message" : "Unlike registered successfully."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 63,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Playlist bengos" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 64,
-  "message" : "Please conduct a search before making a selection."
-}, null, null ]
+  "message" : "Successfully selected Playlist bengos."
+}, {
+  "command" : "showPlaylists",
+  "user" : "alice22",
+  "timestamp" : 65,
+  "result" : [ {
+    "name" : "Playlist bengos",
+    "songs" : [ "The Unforgiven" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
+}, null ]

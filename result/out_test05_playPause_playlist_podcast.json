@@ -84,7 +84,12 @@
     "shuffle" : false,
     "paused" : true
   }
-}, null, {
+}, {
+  "command" : "createPlaylist",
+  "user" : "alice22",
+  "timestamp" : 3210,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 3215,
@@ -100,7 +105,12 @@
   "user" : "alice22",
   "timestamp" : 3225,
   "message" : "Playback loaded successfully."
-}, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 3230,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 3235,
@@ -116,17 +126,22 @@
   "user" : "alice22",
   "timestamp" : 3245,
   "message" : "Playback loaded successfully."
-}, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 3250,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 3255,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Playlist bengos", "My favourite songs", "Classic Sounds Adventure #1", "Electric Rhythms Quest #2", "Breezy Vibes Voyage #1" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 3260,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected Playlist bengos."
 }, {
   "command" : "load",
   "user" : "alice22",

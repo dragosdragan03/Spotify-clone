@@ -7,11 +7,10 @@ public class Command {
     private String type;
     private int itemNumber;
     private FilterInput filters;
-    private Integer playlistId;
+    private int playlistId;
     private String playlistName;
     private int seed;
 
-    // am pastrat doar getterele pe care vreau sa le afisez
     public Command(){
     }
 
@@ -63,11 +62,11 @@ public class Command {
         this.filters = filters;
     }
 
-    public Integer getPlaylistId() {
+    public int getPlaylistId() {
         return playlistId;
     }
 
-    public void setPlaylistId(Integer playlistId) {
+    public void setPlaylistId(int playlistId) {
         this.playlistId = playlistId;
     }
 

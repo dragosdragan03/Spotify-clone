@@ -1,4 +1,9 @@
-[ null, {
+[ {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 50,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 100,
@@ -30,7 +35,12 @@
   "user" : "bob35",
   "timestamp" : 213,
   "message" : "Playback loaded successfully."
-}, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 215,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 250,
@@ -46,7 +56,12 @@
   "user" : "bob35",
   "timestamp" : 263,
   "message" : "Playback loaded successfully."
-}, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 265,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 400,
@@ -78,7 +93,12 @@
   "user" : "bob35",
   "timestamp" : 513,
   "message" : "Playback loaded successfully."
-}, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 515,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 550,
@@ -94,7 +114,12 @@
   "user" : "bob35",
   "timestamp" : 563,
   "message" : "Playback loaded successfully."
-}, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 565,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 3100,
@@ -109,13 +134,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 3110,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Colaj" ]
 }, null, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 3130,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected Colaj."
 }, {
   "command" : "load",
   "user" : "bob35",

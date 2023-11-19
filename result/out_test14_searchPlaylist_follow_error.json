@@ -1,4 +1,9 @@
-[ null, {
+[ {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 150,
+  "message" : "A playlist with the same name already exists."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 170,
@@ -14,7 +19,17 @@
   "user" : "bob35",
   "timestamp" : 200,
   "message" : "Playback loaded successfully."
-}, null, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 240,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 450,
+  "message" : "A playlist with the same name already exists."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 470,
@@ -30,7 +45,12 @@
   "user" : "bob35",
   "timestamp" : 500,
   "message" : "Playback loaded successfully."
-}, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 540,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 570,
@@ -46,7 +66,17 @@
   "user" : "bob35",
   "timestamp" : 600,
   "message" : "Playback loaded successfully."
-}, null, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 640,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "createPlaylist",
+  "user" : "carol19",
+  "timestamp" : 750,
+  "message" : "A playlist with the same name already exists."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 870,
@@ -62,7 +92,12 @@
   "user" : "carol19",
   "timestamp" : 900,
   "message" : "Playback loaded successfully."
-}, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 940,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 1000,
@@ -88,44 +123,99 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1400,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "My second playlist" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1410,
-  "message" : "Please conduct a search before making a selection."
-}, null, null, null, null, null, null, {
+  "message" : "Successfully selected My second playlist."
+}, null, {
+  "command" : "showPlaylists",
+  "user" : "bob35",
+  "timestamp" : 1460,
+  "result" : [ {
+    "name" : "My first playlist",
+    "songs" : [ "Start Me Up", "Stairway to Heaven" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "My second playlist",
+    "songs" : [ "Shape of You", "Stairway to Heaven" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
+}, {
+  "command" : "showPlaylists",
+  "user" : "carol19",
+  "timestamp" : 1500,
+  "result" : [ {
+    "name" : "The best",
+    "songs" : [ "Start Me Up", "Shape of You" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
+}, null, {
+  "command" : "showPlaylists",
+  "user" : "bob35",
+  "timestamp" : 1560,
+  "result" : [ {
+    "name" : "My first playlist",
+    "songs" : [ "Start Me Up", "Stairway to Heaven" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "My second playlist",
+    "songs" : [ "Shape of You", "Stairway to Heaven" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
+}, null, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1680,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "My second playlist" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 1710,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected My second playlist."
 }, null, null, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1800,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "My second playlist" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 1810,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected My second playlist."
 }, null, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 1865,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "My second playlist" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 1870,
-  "message" : "Please conduct a search before making a selection."
-}, null, null ]
+  "message" : "Successfully selected My second playlist."
+}, null, {
+  "command" : "showPlaylists",
+  "user" : "bob35",
+  "timestamp" : 1900,
+  "result" : [ {
+    "name" : "My first playlist",
+    "songs" : [ "Start Me Up", "Stairway to Heaven" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "My second playlist",
+    "songs" : [ "Shape of You", "Stairway to Heaven" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
+} ]

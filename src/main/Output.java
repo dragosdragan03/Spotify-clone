@@ -1,7 +1,9 @@
 package main;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import commands.Playlist;
 import commands.player.Stats;
+import commands.playlist.ShowPlaylists;
 
 import java.util.ArrayList;
 
@@ -15,6 +17,8 @@ public class Output {
     private ArrayList<String> results;
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private Stats stats;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    private ArrayList<ShowPlaylists.PlaylistShow> result;
 
     public Output(String command, String user, Integer timestamp) {
         this.command = command;
@@ -33,6 +37,13 @@ public class Output {
 
     public void outputStatus(Stats status) {
         this.stats = status;
+    }
+
+    public void outputPlaylist(ArrayList<ShowPlaylists.PlaylistShow> result) {
+        this.result = result;
+    }
+    public ArrayList<ShowPlaylists.PlaylistShow> getResult() {
+        return result;
     }
 
     public String getCommand() {

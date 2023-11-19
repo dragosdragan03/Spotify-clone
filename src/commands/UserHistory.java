@@ -1,5 +1,7 @@
 package commands;
 
+import fileio.input.SongInput;
+
 import java.util.ArrayList;
 
 // vreau sa fac o clasa care sa mi retine toate comenzile care au fost date la un user
@@ -8,6 +10,7 @@ public class UserHistory{
     private String user;
     private AudioFile audioFile; // retin in el ce mi a fost selectat
     private ArrayList<String> resultSearch = new ArrayList<>(); // fac un arraylist pentru toate comenzile unui user
+    private ArrayList<SongInput> likedSongs = new ArrayList<>(); // vreau sa fac un array list de melodii like
     /**
      * prima oara zic ca nu am incarcat nimic;
      * 1. ma folosesc sa vad cand a incarcat melodia;
@@ -16,6 +19,9 @@ public class UserHistory{
     private int timeLoad = 0;
     private int listeningTime = 0; // il folosesc sa vad cat timp a ascultat din AudioFile
     private boolean playPauseResult = true; // cand ii dau load inseamnca ca e pe play (1), altfel pe nimic
+
+    private ArrayList<Playlist> userPlaylists = new ArrayList<>(); // o lista de playlist uri pentru un user
+
 
     public UserHistory(String user) {
         this.user = user;
@@ -67,5 +73,13 @@ public class UserHistory{
 
     public void setPlayPauseResult(boolean playPauseResult) {
         this.playPauseResult = playPauseResult;
+    }
+
+    public ArrayList<Playlist> getUserPlaylists() {
+        return userPlaylists;
+    }
+
+    public ArrayList<SongInput> getLikedSongs() {
+        return likedSongs;
     }
 }

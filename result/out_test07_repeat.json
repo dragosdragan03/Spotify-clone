@@ -58,7 +58,12 @@
     "shuffle" : false,
     "paused" : true
   }
-}, null, {
+}, {
+  "command" : "createPlaylist",
+  "user" : "alice22",
+  "timestamp" : 1005,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1006,
@@ -74,7 +79,12 @@
   "user" : "alice22",
   "timestamp" : 1008,
   "message" : "Playback loaded successfully."
-}, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 1009,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1010,
@@ -90,7 +100,12 @@
   "user" : "alice22",
   "timestamp" : 1012,
   "message" : "Playback loaded successfully."
-}, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 1013,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1014,
@@ -106,7 +121,12 @@
   "user" : "alice22",
   "timestamp" : 1016,
   "message" : "Playback loaded successfully."
-}, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 1017,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1018,
@@ -122,7 +142,12 @@
   "user" : "alice22",
   "timestamp" : 1020,
   "message" : "Playback loaded successfully."
-}, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 1021,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1022,
@@ -138,17 +163,22 @@
   "user" : "alice22",
   "timestamp" : 1024,
   "message" : "Playback loaded successfully."
-}, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 1025,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1026,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Playlist bengos", "My favourite songs" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 1027,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected Playlist bengos."
 }, {
   "command" : "load",
   "user" : "alice22",

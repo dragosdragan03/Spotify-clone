@@ -1,13 +1,12 @@
 package commands;
 
-import commands.player.Load;
-import commands.player.PlayPause;
-import commands.player.Stats;
+import commands.player.*;
+import commands.playlist.CreatePlaylist;
+import commands.playlist.ShowPlaylists;
 import commands.search.SearchBar;
 import commands.search.Select;
 import fileio.input.LibraryInput;
 import main.Output;
-
 import java.util.ArrayList;
 
 public class CommandExecute {
@@ -17,6 +16,7 @@ public class CommandExecute {
     private int timestamp;
     private static ArrayList<UserHistory> userHistory = new ArrayList<>();
     protected LibraryInput library;
+    private static ArrayList<Playlist> allUsersPlaylists = new ArrayList<>(); // fac un arraylist cu playlisturule publice ale userilor
 
     public CommandExecute(Command command, LibraryInput library) {
         this.command = command.getCommand();
@@ -31,6 +31,10 @@ public class CommandExecute {
     public Output generateOutput() {
         Output output = new Output(this.getCommand(), this.getUsername(), this.getTimestamp());
         return output;
+    }
+
+    public static ArrayList<Playlist> getAllUsersPlaylists() {
+        return allUsersPlaylists;
     }
 
     public String getCommand() {
@@ -77,9 +81,6 @@ public int verifyUser(String user) {
                 return load.generateOutput();
             case "playPause":
                 PlayPause playPause = new PlayPause(command, library);
-//                System.out.println(userHistory.get(verifyUser(command.getUsername())).getAudioFile().getSong().getName());
-//                System.out.println(userHistory.get(verifyUser(command.getUsername())).isPlayPauseResult());
-//                System.out.println(userHistory.get(verifyUser(command.getUsername())).getListeningTime());
                 return playPause.generateOutput();
             case "status":
                 Stats status = new Stats(command, library);
@@ -87,36 +88,21 @@ public int verifyUser(String user) {
                 Output output = new Output(getCommand(), getUsername(), getTimestamp());
                 output.outputStatus(status);
                 return output;
-            case "repeat":
-
-            case "shuffle":
-
-            case "forward":
-
-            case "backward":
-
-            case "like":
-
-            case "next":
-
-            case "prev":
-
             case "addRemoveInPlaylist":
-
+                AddRemoveInPlaylist addRemoveInPlaylist = new AddRemoveInPlaylist(command, library, command.getPlaylistId());
+                return addRemoveInPlaylist.generateOutput();
             case "createPlaylist":
-
-            case "switchVisibility":
-
-            case "follow":
-
+                CreatePlaylist createPlaylist = new CreatePlaylist(command, library, command.getPlaylistName());
+                return createPlaylist.generateOutput();
+            case "like":
+                Like likeSong = new Like(command, library);
+                return likeSong.generateOutput();
             case "showPlaylists":
-
-            case "showPreferredSongs":
-
-            case "getTop5Songs":
-
-            case "getTop5Playlists":
-
+                ShowPlaylists showPlaylists = new ShowPlaylists(command, library);
+                return showPlaylists.generateOutput();
+            case "ShowPreferredSongs":
+                ShowPreferredSongs showPreferredSongs = new ShowPreferredSongs(command, library);
+                return showPreferredSongs.generateOutput();
         }
         return null;
     }

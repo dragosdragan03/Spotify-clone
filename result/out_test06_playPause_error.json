@@ -1,4 +1,9 @@
-[ null, {
+[ {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3210,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 3215,
@@ -14,7 +19,12 @@
   "user" : "emily30",
   "timestamp" : 3265,
   "message" : "Playback loaded successfully."
-}, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3270,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 3285,
@@ -45,8 +55,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 3375,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "LoFi music" ]
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -115,13 +125,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 4015,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "LoFi music" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 4060,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected LoFi music."
 }, {
   "command" : "load",
   "user" : "emily30",

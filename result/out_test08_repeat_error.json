@@ -69,7 +69,12 @@
     "shuffle" : false,
     "paused" : true
   }
-}, null, {
+}, {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3150,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 3170,
@@ -96,17 +101,22 @@
     "shuffle" : false,
     "paused" : true
   }
-}, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3240,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 3260,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "LoFi music", "Electric Harmonies Dream #1", "Vibey Melodies Trek #2", "Groovy Bangers Escape #1", "Vibey Harmonies Safari #2" ]
 }, null, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 3290,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected LoFi music."
 }, null, {
   "command" : "status",
   "user" : "emily30",
@@ -129,7 +139,12 @@
     "shuffle" : false,
     "paused" : true
   }
-}, null, null, {
+}, {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3405,
+  "message" : "A playlist with the same name already exists."
+}, null, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 3450,

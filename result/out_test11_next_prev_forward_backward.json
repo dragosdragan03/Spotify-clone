@@ -1,4 +1,9 @@
-[ null, {
+[ {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 150,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 170,
@@ -14,7 +19,12 @@
   "user" : "bob35",
   "timestamp" : 195,
   "message" : "Playback loaded successfully."
-}, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 240,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 270,
@@ -30,7 +40,12 @@
   "user" : "bob35",
   "timestamp" : 295,
   "message" : "Playback loaded successfully."
-}, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 320,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 370,
@@ -46,7 +61,12 @@
   "user" : "bob35",
   "timestamp" : 420,
   "message" : "Playback loaded successfully."
-}, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 430,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 440,
@@ -62,7 +82,12 @@
   "user" : "bob35",
   "timestamp" : 446,
   "message" : "Playback loaded successfully."
-}, null, {
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 450,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 480,
@@ -77,13 +102,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 500,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "My favourite songs", "My favourite songs" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 510,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected My favourite songs."
 }, {
   "command" : "load",
   "user" : "bob35",
