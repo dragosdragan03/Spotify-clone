@@ -178,7 +178,7 @@
   "timestamp" : 1250,
   "stats" : {
     "name" : "Hustle Hard",
-    "remainedTime" : 108,
+    "remainedTime" : 111,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -188,8 +188,8 @@
   "user" : "bob35",
   "timestamp" : 1600,
   "stats" : {
-    "name" : "Crazy",
-    "remainedTime" : 82,
+    "name" : "I Don't Wanna Live Forever",
+    "remainedTime" : 231,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -204,8 +204,8 @@
   "user" : "bob35",
   "timestamp" : 1660,
   "stats" : {
-    "name" : "Crazy",
-    "remainedTime" : 22,
+    "name" : "I Don't Wanna Live Forever",
+    "remainedTime" : 171,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -215,11 +215,11 @@
   "user" : "bob35",
   "timestamp" : 2000,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Hustle Hard",
+    "remainedTime" : 63,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
@@ -269,8 +269,8 @@
   "user" : "bob35",
   "timestamp" : 2750,
   "stats" : {
-    "name" : "I Don't Wanna Live Forever",
-    "remainedTime" : 0,
+    "name" : "Elevate",
+    "remainedTime" : 217,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -280,10 +280,10 @@
   "user" : "bob35",
   "timestamp" : 3100,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Begin Again",
+    "remainedTime" : 105,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 } ]

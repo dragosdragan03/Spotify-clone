@@ -79,7 +79,7 @@
   "timestamp" : 3201,
   "stats" : {
     "name" : "The Science of Us",
-    "remainedTime" : 3012,
+    "remainedTime" : 3081,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -164,7 +164,7 @@
   "timestamp" : 3448,
   "stats" : {
     "name" : "Happier",
-    "remainedTime" : 168,
+    "remainedTime" : 202,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false

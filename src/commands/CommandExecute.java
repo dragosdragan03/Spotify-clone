@@ -100,7 +100,7 @@ public int verifyUser(String user) {
             case "showPlaylists":
                 ShowPlaylists showPlaylists = new ShowPlaylists(command, library);
                 return showPlaylists.generateOutput();
-            case "ShowPreferredSongs":
+            case "showPreferredSongs":
                 ShowPreferredSongs showPreferredSongs = new ShowPreferredSongs(command, library);
                 return showPreferredSongs.generateOutput();
         }

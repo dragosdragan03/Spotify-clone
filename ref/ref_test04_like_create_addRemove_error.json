@@ -107,7 +107,7 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 90,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "showPlaylists",
   "user" : "emily30",

@@ -1,7 +1,8 @@
 package main;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import commands.Playlist;
+import java.util.Map;
+import java.util.HashMap;
 import commands.player.Stats;
 import commands.playlist.ShowPlaylists;
 
@@ -14,11 +15,12 @@ public class Output {
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private String message;
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    private ArrayList<String> results;
+    private ArrayList<String> results; // pe asta il folosesc in primul test
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private Stats stats;
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    private ArrayList<ShowPlaylists.PlaylistShow> result;
+    private Map<String, ArrayList<?>> result;
+    //    private ArrayList<ShowPlaylists.PlaylistShow> result;
 
     public Output(String command, String user, Integer timestamp) {
         this.command = command;
@@ -31,6 +33,10 @@ public class Output {
         this.results = results;
     }
 
+    public void setResults(ArrayList<String> results) {
+        this.results = results;
+    }
+
     public void outputMessage(String message){
         this.message = message;
     }
@@ -39,12 +45,36 @@ public class Output {
         this.stats = status;
     }
 
-    public void outputPlaylist(ArrayList<ShowPlaylists.PlaylistShow> result) {
-        this.result = result;
+//    public Map<String, ArrayList<?>> getResult() {
+//        return result;
+//    }
+
+    public void setResultPlylist(ArrayList<ShowPlaylists.PlaylistShow> playlist) {
+        if (this.result == null)
+        this.result = new HashMap<>();
+        this.result.put("playlist", playlist);
     }
-    public ArrayList<ShowPlaylists.PlaylistShow> getResult() {
-        return result;
+
+    public void setResultPreferredSongs(ArrayList<String> songs) {
+        if (this.result == null)
+        this.result = new HashMap<>();
+        this.result.put("song", songs);
     }
+
+    public ArrayList<?> getResult() {
+        if (this.result != null) { // inseamnca ca e un arraylist de tip string
+            return (ArrayList<?>) this.result; // This is an ArrayList<String>
+        } else {
+            return (ArrayList<?>) this.result; // This is an ArrayList<ShowPlaylists.PlaylistShow>
+        }
+    }
+
+    //    public void outputPlaylist(ArrayList<ShowPlaylists.PlaylistShow> result) {
+//        this.result = result;
+//    }
+//    public ArrayList<ShowPlaylists.PlaylistShow> getResult() {
+//        return result;
+//    }
 
     public String getCommand() {
         return command;
@@ -52,10 +82,6 @@ public class Output {
 
     public String getUser() {
         return user;
-    }
-
-    public void setUser(String username) {
-        this.user = username;
     }
 
     public Integer getTimestamp() {

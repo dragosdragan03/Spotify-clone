@@ -17,6 +17,10 @@ public class ShowPreferredSongs extends CommandExecute{
         super(command, library);
     }
 
+    public ArrayList<String> getResult() {
+        return result;
+    }
+
     public void execute() {
         UserHistory user = getUserHistory().get(verifyUser(getUsername()));
         if (user.getLikedSongs().size() != 0) { // sa vad daca a fost ceva adaugat pana acm
@@ -25,10 +29,12 @@ public class ShowPreferredSongs extends CommandExecute{
         }
     }
 
+
     @Override
     public Output generateOutput() {
         execute();
         Output output = new Output(getCommand(), getUsername(), getTimestamp());
-        output.
+        output.setResultPreferredSongs(this.result);
+        return output;
     }
 }
