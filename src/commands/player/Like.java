@@ -34,7 +34,10 @@ public class Like extends CommandExecute {
                 if (listeningTime > s) // sa vad cand depaseste
                     s += playlist.getListSongs().get(i).getDuration();
                 else
-                    return playlist.getListSongs().get(i);
+                    return playlist.getListSongs().get(i - 1);
+
+            if (listeningTime <= s)
+                return playlist.getListSongs().get(playlist.getListSongs().size() - 1);
         }
        return null;
     }

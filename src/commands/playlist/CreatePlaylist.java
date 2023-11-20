@@ -15,14 +15,6 @@ public class CreatePlaylist extends CommandExecute {
         this.playlistName = playlistName;
     }
 
-//    private int verifyPrivatePlaylist(String playlistName) { // vreau sa verific daca exista playlist ul meu in lista
-//        if (getUserHistory().get(verifyUser(getUsername())).getUserPlaylists().size() == 0)
-//        for (Playlist iter : getUserHistory().get(verifyUser(getUsername())).getUserPlaylists())
-//            if (iter.getNamePlaylist().contains(playlistName))
-//                return 1; // inseamna ca deja exista numele asta
-//        return 0; // inseamnca ca nu exista
-//    }
-
     private int verifyUserPlaylist() { // vreau sa verific daca exista playlist ul meu in lista
         if (getUserHistory().get(verifyUser(getUsername())).getUserPlaylists().size() != 0) { // daca exista ceva in lista
             for (Playlist iter : getUserHistory().get(verifyUser(getUsername())).getUserPlaylists())

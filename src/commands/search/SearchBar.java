@@ -3,9 +3,7 @@ package commands.search;
 import com.sun.management.DiagnosticCommandMBean;
 import commands.*;
 import commands.FilterInput;
-import fileio.input.LibraryInput;
-import fileio.input.PodcastInput;
-import fileio.input.SongInput;
+import fileio.input.*;
 import main.Output;
 
 import java.util.ArrayList;
@@ -48,7 +46,33 @@ public class SearchBar extends CommandExecute {
         this.results = results;
     }
 
-    // fac o metoda pentru a retine ce ce melodii/podcasturi/playlist uri sunt alese
+    /* fac o functie pentru a retine podcastul si timpul pe care l a asculta*/
+    private void loadPodcast() {
+        UserHistory user = getUserHistory().get(verifyUser(getUsername()));
+        if (user.getAudioFile() != null) {// vreau sa vad daca a mai fost incarcat ceva pana acm
+            if (user.getAudioFile().getPodcast() != null) { // sa vad daca a fost incarcat un podcast
+                String name = user.getAudioFile().getPodcast().getName();
+                String owner = user.getAudioFile().getPodcast().getOwner();
+                ArrayList<EpisodeInput> episodes = user.getAudioFile().getPodcast().getEpisodes();
+                if (user.isPlayPauseResult() == false) { // inseamna ca e pe pauza....(automat inseamna ca au mai fost date play uri)
+                    int listeningTime = user.getListeningTime(); // retin direct cat a ascultat deoarece e pe pauza si am retinut valoarea
+                    PodcastInputModified podcastInputModified = new PodcastInputModified(name, owner, episodes, listeningTime);
+                    user.getPastPodcast().add(podcastInputModified); // am retinut in user ul meu podcastul pe care l a ascultat
+                } else if (user.isPlayPauseResult() == true) { // inseamnca ca ori n a fost dat NICIODATA pauza ori acm ruleaza
+                    if (user.getListeningTime() == 0) { // inseamna ca nu a pus niciodata pauza
+                        int listeningTime = getTimestamp() - user.getTimeLoad();
+                        PodcastInputModified podcastInputModified = new PodcastInputModified(name, owner, episodes, listeningTime);
+                        user.getPastPodcast().add(podcastInputModified);
+                    } else { // inseamna ca e pe play
+                        int moreSeconds = getTimestamp() - user.getTimeLoad(); // sa retin cat a trecut de la ultmul play panaa cm
+                        int timePlayed = user.getListeningTime();
+                        PodcastInputModified podcastInputModified = new PodcastInputModified(name, owner, episodes, timePlayed + moreSeconds);
+                        user.getPastPodcast().add(podcastInputModified);
+                    }
+                }
+            }
+        }
+    }
     private void eraseHistory() {
         UserHistory user = getUserHistory().get(verifyUser(getUsername()));
         user.setResultSearch(new ArrayList<>());
@@ -59,6 +83,7 @@ public class SearchBar extends CommandExecute {
     }
     @Override
     public void execute() {
+        loadPodcast();
         eraseHistory();
         this.results.clear();
         if (this.type.equals("song")) { // sa verific daca vreau sa caut o melodie
@@ -70,7 +95,7 @@ public class SearchBar extends CommandExecute {
                         detector = false;
                     if (this.filter.getTags().size() != 0 && !var.getTags().containsAll(this.filter.getTags()))
                         detector = false;
-                    if (this.filter.getLyrics() != null && !var.getLyrics().contains(this.filter.getLyrics()))
+                    if (this.filter.getLyrics() != null && !var.getLyrics().toLowerCase().contains(this.filter.getLyrics().toLowerCase()))
                         detector = false;
                     if (this.filter.getGenre() != null && !var.getGenre().toLowerCase().contains(this.filter.getGenre().toLowerCase()))
                         detector = false;

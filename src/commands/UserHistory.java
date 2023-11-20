@@ -1,5 +1,7 @@
 package commands;
 
+import fileio.input.PodcastInput;
+import fileio.input.PodcastInputModified;
 import fileio.input.SongInput;
 
 import java.util.ArrayList;
@@ -8,6 +10,7 @@ import java.util.ArrayList;
 public class UserHistory{
 
     private String user;
+    private ArrayList<PodcastInputModified> pastPodcast = new ArrayList<>(); // retin sa vad ce podcsturi a ascultat pana acm si in cazul in care s a terminat il sterg
     private AudioFile audioFile; // retin in el ce mi a fost selectat
     private ArrayList<String> resultSearch = new ArrayList<>(); // fac un arraylist pentru toate comenzile unui user
     private ArrayList<SongInput> likedSongs = new ArrayList<>(); // vreau sa fac un array list de melodii like
@@ -81,5 +84,13 @@ public class UserHistory{
 
     public ArrayList<SongInput> getLikedSongs() {
         return likedSongs;
+    }
+
+    public void setPastPodcast(ArrayList<PodcastInputModified> pastPodcast) {
+        this.pastPodcast = pastPodcast;
+    }
+
+    public ArrayList<PodcastInputModified> getPastPodcast() {
+        return pastPodcast;
     }
 }
