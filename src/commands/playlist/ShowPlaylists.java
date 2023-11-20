@@ -6,6 +6,7 @@ import commands.Playlist;
 import commands.UserHistory;
 import fileio.input.LibraryInput;
 import fileio.input.SongInput;
+import fileio.input.SongInputModified;
 import main.Output;
 
 import java.util.ArrayList;
@@ -57,8 +58,8 @@ public class ShowPlaylists extends CommandExecute {
                 String playlistName = iter.getNamePlaylist();
                 ArrayList<String> songs = new ArrayList<>();
                 if (iter.getListSongs().size() != 0) {// sa vad daca au fost bagate pana acm in lista melodii
-                    for (SongInput song : iter.getListSongs()) {
-                        songs.add(song.getName());
+                    for (SongInputModified song : iter.getListSongs()) {
+                        songs.add(song.getSong().getName());
                     }
                 }
                 String visibility = iter.getTypePlaylist();

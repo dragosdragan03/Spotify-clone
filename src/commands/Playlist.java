@@ -1,6 +1,7 @@
 package commands;
 
 import fileio.input.SongInput;
+import fileio.input.SongInputModified;
 
 import java.util.ArrayList;
 import java.util.StringTokenizer;
@@ -8,10 +9,10 @@ import java.util.StringTokenizer;
 public class Playlist {
 
     private String namePlaylist;
-    private ArrayList<SongInput> listSongs = new ArrayList<>();
+    private ArrayList<SongInputModified> listSongs = new ArrayList<>();
     private String typePlaylist; // sa vad daca este de tip public sau privat
     private String user; // vreau sa vad al cui este playlist ul
-    private int listeningPlaylist = 0;
+//    private int listeningPlaylist = 0;
 
     public Playlist(String namePlaylist, String typePlaylist, String user) {
         this.namePlaylist = namePlaylist;
@@ -23,24 +24,12 @@ public class Playlist {
         return namePlaylist;
     }
 
-    public void setNamePlaylist(String namePlaylist) {
-        this.namePlaylist = namePlaylist;
-    }
-
-    public ArrayList<SongInput> getListSongs() {
+    public ArrayList<SongInputModified> getListSongs() {
         return listSongs;
-    }
-
-    public void setListSongs(ArrayList<SongInput> listSongs) {
-        this.listSongs = listSongs;
     }
 
     public String getTypePlaylist() {
         return typePlaylist;
-    }
-
-    public void setTypePlaylist(String typePlaylist) {
-        this.typePlaylist = typePlaylist;
     }
 
     public String getUser() {
@@ -51,11 +40,11 @@ public class Playlist {
         this.user = user;
     }
 
-    public int getListeningPlaylist() {
-        return listeningPlaylist;
-    }
-
-    public void setListeningPlaylist(int listeningPlaylist) {
-        this.listeningPlaylist = listeningPlaylist;
-    }
+//    public int getListeningPlaylist() {
+//        return listeningPlaylist;
+//    }
+//
+//    public void setListeningPlaylist(int listeningPlaylist) {
+//        this.listeningPlaylist = listeningPlaylist;
+//    }
 }

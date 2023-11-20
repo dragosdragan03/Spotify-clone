@@ -1,6 +1,5 @@
 package commands.search;
 
-import com.sun.management.DiagnosticCommandMBean;
 import commands.*;
 import commands.FilterInput;
 import fileio.input.*;
@@ -50,10 +49,10 @@ public class SearchBar extends CommandExecute {
     private void loadPodcast() {
         UserHistory user = getUserHistory().get(verifyUser(getUsername()));
         if (user.getAudioFile() != null) {// vreau sa vad daca a mai fost incarcat ceva pana acm
-            if (user.getAudioFile().getPodcast() != null) { // sa vad daca a fost incarcat un podcast
-                String name = user.getAudioFile().getPodcast().getName();
-                String owner = user.getAudioFile().getPodcast().getOwner();
-                ArrayList<EpisodeInput> episodes = user.getAudioFile().getPodcast().getEpisodes();
+            if (user.getAudioFile().getPodcastFile() != null) { // sa vad daca a fost incarcat un podcast
+                String name = user.getAudioFile().getPodcastFile().getName();
+                String owner = user.getAudioFile().getPodcastFile().getOwner();
+                ArrayList<EpisodeInput> episodes = user.getAudioFile().getPodcastFile().getEpisodes();
                 if (user.isPlayPauseResult() == false) { // inseamna ca e pe pauza....(automat inseamna ca au mai fost date play uri)
                     int listeningTime = user.getListeningTime(); // retin direct cat a ascultat deoarece e pe pauza si am retinut valoarea
                     PodcastInputModified podcastInputModified = new PodcastInputModified(name, owner, episodes, listeningTime);

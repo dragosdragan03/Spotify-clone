@@ -7,6 +7,7 @@ import commands.Playlist;
 import fileio.input.LibraryInput;
 import fileio.input.PodcastInput;
 import fileio.input.SongInput;
+import fileio.input.SongInputModified;
 import main.Output;
 
 import java.util.ArrayList;
@@ -65,7 +66,8 @@ public class Select extends CommandExecute {
                     AudioFile audioFile = new AudioFile(returnPodcast(this.audio), "podcast"); // selectez un podcast
                     getUserHistory().get(verifyUser(getUsername())).setAudioFile(audioFile);
                 } else if (returnSong(this.audio) != null) {
-                    AudioFile audioFile = new AudioFile(returnSong(this.audio), "song"); // selectez o melodie
+                    SongInputModified songInputModified = new SongInputModified(returnSong(this.audio), 0);
+                    AudioFile audioFile = new AudioFile(songInputModified, "song"); // selectez o melodie
                     getUserHistory().get(verifyUser(getUsername())).setAudioFile(audioFile);
                 } else if (returnPlaylist(this.audio) != null) {
                     AudioFile audioFile = new AudioFile(returnPlaylist(this.audio), "playlist"); // aici selectez un playlist

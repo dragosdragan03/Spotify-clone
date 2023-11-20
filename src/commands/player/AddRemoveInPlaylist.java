@@ -2,10 +2,9 @@ package commands.player;
 
 import commands.Command;
 import commands.CommandExecute;
-import commands.Playlist;
 import commands.UserHistory;
 import fileio.input.LibraryInput;
-import fileio.input.SongInput;
+import fileio.input.SongInputModified;
 import main.Output;
 
 public class AddRemoveInPlaylist extends CommandExecute {
@@ -20,8 +19,8 @@ public class AddRemoveInPlaylist extends CommandExecute {
 
     private int verifySongExist(UserHistory user, String namePlaylist) {
         for (int i = 0; i < user.getUserPlaylists().get(this.playlistId - 1).getListSongs().size(); i ++) {// vreau sa parcurg lista de melodiii
-            SongInput song = user.getUserPlaylists().get(this.playlistId - 1).getListSongs().get(i);
-            if (song.getName().equals(namePlaylist)) // inseamnca ca nu numele exista in playlist
+            SongInputModified song = user.getUserPlaylists().get(this.playlistId - 1).getListSongs().get(i);
+            if (song.getSong().getName().equals(namePlaylist)) // inseamnca ca nu numele exista in playlist
                 return i; // inseamnca ca a gasit melodia mea in playlist
 
         }
@@ -34,17 +33,17 @@ public class AddRemoveInPlaylist extends CommandExecute {
         UserHistory user = getUserHistory().get(verifyUser(getUsername()));
         if (user.getUserPlaylists().size() >= this.playlistId) {// sa verific daca exista playlist ul user ului
             if (user.getTimeLoad() != 0) {// inseamna ca am incarcat ceva
-                if (user.getAudioFile().getSong() != null) {// inseamnca ca e incarcat un song
+                if (user.getAudioFile().getSongFile() != null) {// inseamnca ca e incarcat un song
                     if (user.getUserPlaylists().get(this.playlistId - 1).getListSongs() == null) { // inseamnca ca nu am bagat nicio melodie pana acm
-                        SongInput song = user.getAudioFile().getSong();
+                        SongInputModified song = user.getAudioFile().getSongFile();
                         user.getUserPlaylists().get(this.playlistId - 1).getListSongs().add(song);
                         this.message = "Successfully added to playlist.";
-                    } else if (verifySongExist(user, user.getAudioFile().getSong().getName()) != -1) { // inseamna ca am gasit o melodie in playlist cu acelasi nume
-                        int indexSongToRemove = verifySongExist(user, user.getAudioFile().getSong().getName());
+                    } else if (verifySongExist(user, user.getAudioFile().getSongFile().getSong().getName()) != -1) { // inseamna ca am gasit o melodie in playlist cu acelasi nume
+                        int indexSongToRemove = verifySongExist(user, user.getAudioFile().getSongFile().getSong().getName());
                         user.getUserPlaylists().get(this.playlistId - 1).getListSongs().remove(indexSongToRemove);
                         this.message = "Successfully removed from playlist.";
-                    } else if (verifySongExist(user, user.getAudioFile().getSong().getName()) == -1) { // inseamna ca nu am mai gasit o melodie cu ac nume
-                        SongInput song = user.getAudioFile().getSong();
+                    } else if (verifySongExist(user, user.getAudioFile().getSongFile().getSong().getName()) == -1) { // inseamna ca nu am mai gasit o melodie cu ac nume
+                        SongInputModified song = user.getAudioFile().getSongFile();
                         user.getUserPlaylists().get(this.playlistId - 1).getListSongs().add(song);
                         this.message = "Successfully added to playlist.";
                     }
