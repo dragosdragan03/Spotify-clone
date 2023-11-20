@@ -34,7 +34,9 @@ public class ShowPreferredSongs extends CommandExecute{
     public Output generateOutput() {
         execute();
         Output output = new Output(getCommand(), getUsername(), getTimestamp());
-        output.setResultPreferredSongs(this.result);
+        output.setResult();
+        for (String iter : this.result)
+            output.getResult().add(iter);
         return output;
     }
 }

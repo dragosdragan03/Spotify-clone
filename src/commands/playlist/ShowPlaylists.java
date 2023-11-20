@@ -72,7 +72,9 @@ public class ShowPlaylists extends CommandExecute {
     public Output generateOutput() {
         execute();
         Output output = new Output(getCommand(), getUsername(), getTimestamp());
-        output.setResultPlylist(this.result);
+        output.setResult();
+        for (PlaylistShow iter : this.result)
+            output.getResult().add(iter);
         return output;
     }
 }

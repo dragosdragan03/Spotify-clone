@@ -18,6 +18,10 @@ public class CommandExecute {
     protected LibraryInput library;
     private static ArrayList<Playlist> allUsersPlaylists = new ArrayList<>(); // fac un arraylist cu playlisturule publice ale userilor
 
+    public static void clear() {
+        userHistory = new ArrayList<>();
+        allUsersPlaylists = new ArrayList<>();
+    }
     public CommandExecute(Command command, LibraryInput library) {
         this.command = command.getCommand();
         this.username = command.getUsername();

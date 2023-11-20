@@ -19,8 +19,7 @@ public class Output {
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private Stats stats;
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    private Map<String, ArrayList<?>> result;
-    //    private ArrayList<ShowPlaylists.PlaylistShow> result;
+    private ArrayList<Object> result;
 
     public Output(String command, String user, Integer timestamp) {
         this.command = command;
@@ -33,10 +32,6 @@ public class Output {
         this.results = results;
     }
 
-    public void setResults(ArrayList<String> results) {
-        this.results = results;
-    }
-
     public void outputMessage(String message){
         this.message = message;
     }
@@ -45,36 +40,14 @@ public class Output {
         this.stats = status;
     }
 
-//    public Map<String, ArrayList<?>> getResult() {
-//        return result;
-//    }
+    public ArrayList<Object> getResult() {
+        return result;
+    }
 
-    public void setResultPlylist(ArrayList<ShowPlaylists.PlaylistShow> playlist) {
+    public void setResult() {
         if (this.result == null)
-        this.result = new HashMap<>();
-        this.result.put("playlist", playlist);
+            this.result = new ArrayList<>();
     }
-
-    public void setResultPreferredSongs(ArrayList<String> songs) {
-        if (this.result == null)
-        this.result = new HashMap<>();
-        this.result.put("song", songs);
-    }
-
-    public ArrayList<?> getResult() {
-        if (this.result != null) { // inseamnca ca e un arraylist de tip string
-            return (ArrayList<?>) this.result; // This is an ArrayList<String>
-        } else {
-            return (ArrayList<?>) this.result; // This is an ArrayList<ShowPlaylists.PlaylistShow>
-        }
-    }
-
-    //    public void outputPlaylist(ArrayList<ShowPlaylists.PlaylistShow> result) {
-//        this.result = result;
-//    }
-//    public ArrayList<ShowPlaylists.PlaylistShow> getResult() {
-//        return result;
-//    }
 
     public String getCommand() {
         return command;

@@ -49,8 +49,17 @@ public class SearchBar extends CommandExecute {
     }
 
     // fac o metoda pentru a retine ce ce melodii/podcasturi/playlist uri sunt alese
+    private void eraseHistory() {
+        UserHistory user = getUserHistory().get(verifyUser(getUsername()));
+        user.setResultSearch(new ArrayList<>());
+        user.setAudioFile(new AudioFile());
+        user.setTimeLoad(0);
+        user.setListeningTime(0);
+        user.setPlayPauseResult(true);
+    }
     @Override
     public void execute() {
+        eraseHistory();
         this.results.clear();
         if (this.type.equals("song")) { // sa verific daca vreau sa caut o melodie
             for (SongInput var : this.library.getSongs()) { // vreau sa parcurg toata lista de cantece
@@ -72,7 +81,7 @@ public class SearchBar extends CommandExecute {
                         if (sign == '<' && Integer.parseInt(this.filter.getReleaseYear().substring(1)) < var.getReleaseYear())
                             detector = false;
                     }
-                    if (this.filter.getArtist() != null && !var.getArtist().contains(this.filter.getArtist()))
+                    if (this.filter.getArtist() != null && !var.getArtist().equals(this.filter.getArtist()))
                         detector = false;
 
                     if (detector)

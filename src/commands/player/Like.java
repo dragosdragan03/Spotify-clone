@@ -1,7 +1,9 @@
 package commands.player;
 
+import com.sun.source.tree.LiteralTree;
 import commands.Command;
 import commands.CommandExecute;
+import commands.Playlist;
 import commands.UserHistory;
 import fileio.input.LibraryInput;
 import fileio.input.SongInput;
@@ -14,6 +16,7 @@ public class Like extends CommandExecute {
     public Like(Command command, LibraryInput library) {
         super(command, library);
     }
+
     public int verifyLikedSongs(UserHistory user, String nameSong){
         for (SongInput iter : user.getLikedSongs()){
             if (iter.getName().equals(nameSong)) // inseamna ca a mai fost apreciat melodia respectiva
@@ -21,6 +24,31 @@ public class Like extends CommandExecute {
         }
         return 0;
     }
+
+    private SongInput listeningSong(Playlist playlist, int listeningTime) { // vreau sa fac o functie pentru a vedea la ce melodie a ajuns
+        if (playlist.getListSongs() != null) {
+            int s = playlist.getListSongs().get(0).getDuration(); // fac un contor pentru a face suma melodiilor si o initializez cu durata primei melodii
+            if (listeningTime < s)
+                return playlist.getListSongs().get(0);
+            for (int i = 1; i < playlist.getListSongs().size(); i++)
+                if (listeningTime > s) // sa vad cand depaseste
+                    s += playlist.getListSongs().get(i).getDuration();
+                else
+                    return playlist.getListSongs().get(i);
+        }
+       return null;
+    }
+
+    private void InsertOrRemove(UserHistory user, SongInput song) {
+        if (verifyLikedSongs(user, song.getName()) == 0) { // inseamna ca nu a mai fost gasita o melodie
+            user.getLikedSongs().add(song);
+            this.message = "Like registered successfully.";
+        } else { // inseamna ca a mai fost gasit in lista mea si trebuie eliminata
+            user.getLikedSongs().remove(song);
+            this.message = "Unlike registered successfully.";
+        }
+    }
+
     @Override
     public void execute() {
         UserHistory user = getUserHistory().get(verifyUser(getUsername())); // vreau sa vad userul meu
@@ -30,12 +58,27 @@ public class Like extends CommandExecute {
                     user.getLikedSongs().add(user.getAudioFile().getSong());
                     this.message = "Like registered successfully.";
                 } else { // inseamna ca au mai fost apreciate melodii pana acm
-                    if (verifyLikedSongs(user, user.getAudioFile().getSong().getName()) == 0) { // inseamna ca nu a mai fost gasita o melodie
-                        user.getLikedSongs().add(user.getAudioFile().getSong());
-                        this.message = "Like registered successfully.";
-                    } else { // inseamna ca a mai fost gasit in lista mea si trebuie eliminata
-                        user.getLikedSongs().remove(user.getAudioFile().getSong());
-                        this.message = "Unlike registered successfully.";
+                    InsertOrRemove(user, user.getAudioFile().getSong());
+                }
+            } else if (user.getAudioFile().getPlaylist() != null) { // inseamnca ca am incarcat un playlist si vreau sa vad la ce melodie am ajuns
+                    int listeningTime = user.getListeningTime(); // retin sa vad cat a ascultat pana acm
+                if (listeningTime == 0) { // daca e 0 inseamnca ca nu am pus niciun pause pana acm (e pe play)
+                    int startListening = user.getTimeLoad(); // sa vad cand am incarcat playlistul
+                    SongInput song = listeningSong(user.getAudioFile().getPlaylist(), getTimestamp() - startListening);
+                    if (song != null)
+                    InsertOrRemove(user, song);
+                } else { // inseamna ca a mai dat play/pause pana acm
+                    if (user.isPlayPauseResult()) { // inseamna ca este pe play
+                            int moreSeconds = getTimestamp() - user.getTimeLoad(); // retin cat timp a trecut de la ultimul play pana acm
+                            int secondsNow = user.getListeningTime(); // ca sa adun timpul de ascultare pana acum cu cat a ascultat in plus
+                        SongInput song = listeningSong(user.getAudioFile().getPlaylist(), moreSeconds + secondsNow); // adun sa vad cat a ascultat pana acm
+                        if (song != null)
+                        InsertOrRemove(user, song);
+
+                    } else { // inseamnca ca este pe pauza
+                        SongInput song = listeningSong(user.getAudioFile().getPlaylist(), listeningTime); // adun sa vad cat a ascultat pana acm
+                        if (song != null)
+                        InsertOrRemove(user, song);
                     }
                 }
             } else {

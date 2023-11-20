@@ -3,8 +3,12 @@ package commands.player;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import commands.Command;
 import commands.CommandExecute;
+import commands.Playlist;
 import commands.UserHistory;
+import fileio.input.EpisodeInput;
 import fileio.input.LibraryInput;
+import fileio.input.PodcastInput;
+import fileio.input.SongInput;
 
 @JsonIgnoreProperties(value = { "username", "userHistory", "command", "timestamp" }) // pentru a ignora campurile mostenite
 public class Stats extends CommandExecute {
@@ -14,6 +18,8 @@ public class Stats extends CommandExecute {
     private String repeat = "No Repeat";
     private boolean shuffle = false;
     private boolean paused = true;
+
+    private static int sumEpisodes;
 
     @JsonIgnoreProperties
     public Stats(Command command, LibraryInput library) {
@@ -40,11 +46,46 @@ public class Stats extends CommandExecute {
         return paused;
     }
 
+    private EpisodeInput verifyEpisodePodcast(PodcastInput podcast, int listeningTime){
+        sumEpisodes = podcast.getEpisodes().get(0).getDuration(); // fac un contor pentru a face suma melodiilor si o initializez cu durata primei melodii
+        int s = podcast.getEpisodes().get(0).getDuration(); // fac un contor pentru a face suma melodiilor si o initializez cu durata primei melodii
+        if (listeningTime < s)
+            return podcast.getEpisodes().get(0);
+        for (int i = 1; i < podcast.getEpisodes().size(); i++)
+            if (listeningTime > s) // sa vad cand depaseste
+                s += podcast.getEpisodes().get(i).getDuration();
+            else
+                return podcast.getEpisodes().get(i);
+            return null;
+    }
+
     public void execute() {
         // vreau sa vad user ul meu ce comenzi a fct pana acm
         UserHistory user = getUserHistory().get(verifyUser(getUsername())); // retin sa vad ce user am
-        if (user.getAudioFile().getPodcast() != null) {// sa vad daca am retinut un podcas sau un song
+        if (user.getAudioFile().getPodcast() != null) { // sa vad daca am retinut un podcast
+            if (user.getListeningTime() != 0) { // inseamna ca a fost un play/pause pana acm si sa vad cat timp a ascultat
+                if (user.isPlayPauseResult() == false) { // inseamnca ca e pe pauza si retin direct cat a ascultat
+                    int listeningTime = user.getListeningTime();
+                    EpisodeInput episodActual = verifyEpisodePodcast(user.getAudioFile().getPodcast(), listeningTime);
 
+                        this.remainedTime = sumEpisodes - listeningTime;
+                        this.name = episodActual.getName();
+                        this.paused = !user.isPlayPauseResult(); // retin cu not, deoarece NU este pe play;
+                } else { // inseamna ca e pe play si au mai fost date Play/Pause
+                    int moreSeconds = getTimestamp() - user.getTimeLoad(); // ultima oara cand a fost dat play (inseamna ca inca asculta)
+                    int secondsNow = user.getListeningTime(); // sa vad cat timp a ascultat pana acm
+                    EpisodeInput episodActual = verifyEpisodePodcast(user.getAudioFile().getPodcast(), moreSeconds + secondsNow);
+                        this.remainedTime = sumEpisodes - (moreSeconds - secondsNow);
+                        this.name = episodActual.getName();
+                        this.paused = !user.isPlayPauseResult(); // retin cu not, deoarece NU este pe play;
+                }
+            } else { // inseamna ca nu a dat niciun Play/Pause pana acm deci a ascultat incotninuu
+                int listeningTime = getTimestamp() - user.getTimeLoad(); // retin sa vad cand a fost incarcata melodia (timpul 0)
+                EpisodeInput episodActual = verifyEpisodePodcast(user.getAudioFile().getPodcast(), listeningTime);
+                    this.remainedTime = sumEpisodes - listeningTime;
+                    this.name = episodActual.getName();
+                    this.paused = !user.isPlayPauseResult(); // retin cu not, deoarece NU este pe play;
+            }
         } else if (user.getAudioFile().getSong() != null) { // inseamna ca am incarcat un song
             // prima oara trebuie sa verific cat timp are song ul meu si cat timp a mai ramas din el
             if (user.getListeningTime() != 0) { // inseamna ca a fost un play/pause pana acm si sa vad cat timp a ascultat

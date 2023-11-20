@@ -78,7 +78,7 @@ public final class Main {
                               final String filePathOutput) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
         LibraryInput library = objectMapper.readValue(new File(LIBRARY_PATH), LibraryInput.class); // este o baza de date
-
+        CommandExecute.clear();
         ArrayList<Command> commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + filePathInput), new TypeReference<ArrayList<Command>>() {
         }); // imi intra automat in clasa
 //        ArrayList<Command> commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + "test01_searchBar_songs_podcasts.json"), new TypeReference<ArrayList<Command>>() {
@@ -86,6 +86,10 @@ public final class Main {
 //        ArrayList<Command> commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + "test02_playPause_song.json"), new TypeReference<ArrayList<Command>>() {
 //        });
 //        ArrayList<Command> commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + "test03_like_create_addRemove.json"), new TypeReference<ArrayList<Command>>() {
+//        });
+//        ArrayList<Command> commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + "test04_like_create_addRemove_error.json"), new TypeReference<ArrayList<Command>>() {
+//        });
+//        ArrayList<Command> commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + "test05_playPause_playlist_podcast.json"), new TypeReference<ArrayList<Command>>() {
 //        });
         ArrayNode outputs = objectMapper.createArrayNode();
         for (int i = 0; i < commands.size(); i++) {

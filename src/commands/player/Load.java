@@ -2,6 +2,7 @@ package commands.player;
 
 import commands.Command;
 import commands.CommandExecute;
+import commands.UserHistory;
 import fileio.input.LibraryInput;
 import main.Output;
 
@@ -14,11 +15,23 @@ public class Load extends CommandExecute {
 
     @Override
     public void execute() {
-        if (getUserHistory().get(verifyUser(getUsername())).getAudioFile() != null) { // asta inseamna ca s a selectat ceva deja
+        UserHistory user = getUserHistory().get(verifyUser(getUsername()));
+        if (user.getAudioFile() != null) { // asta inseamna ca s a selectat ceva deja
+            if (user.getAudioFile().getPlaylist() != null && user.getAudioFile().getPlaylist().getListSongs().size() != 0) {
+                this.message = "Playback loaded successfully."; // retin mesajul si l afisez
+                // chiar daca am fct load ul vreau sa pastrez valoarea selectata ca sa o pot prelucra
+                user.setTimeLoad(getTimestamp()); // retin cand a fost incarcat fisierul
+                user.setPlayPauseResult(true); // inseamna ca i am dat play
+                return;
+            }
+            if (user.getAudioFile().getPlaylist() != null && user.getAudioFile().getPlaylist().getListSongs().size() == 0){
+                this.message = "You can't load an empty audio collection!";
+                return;
+            }
             this.message = "Playback loaded successfully."; // retin mesajul si l afisez
             // chiar daca am fct load ul vreau sa pastrez valoarea selectata ca sa o pot prelucra
-            getUserHistory().get(verifyUser(getUsername())).setTimeLoad(getTimestamp()); // retin cand a fost incarcat fisierul
-            getUserHistory().get(verifyUser(getUsername())).setPlayPauseResult(true); // inseamna ca i am dat play
+            user.setTimeLoad(getTimestamp()); // retin cand a fost incarcat fisierul
+            user.setPlayPauseResult(true); // inseamna ca i am dat play
         }
         else
         {

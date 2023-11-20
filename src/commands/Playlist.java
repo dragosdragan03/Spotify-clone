@@ -11,6 +11,7 @@ public class Playlist {
     private ArrayList<SongInput> listSongs = new ArrayList<>();
     private String typePlaylist; // sa vad daca este de tip public sau privat
     private String user; // vreau sa vad al cui este playlist ul
+    private int listeningPlaylist = 0;
 
     public Playlist(String namePlaylist, String typePlaylist, String user) {
         this.namePlaylist = namePlaylist;
@@ -48,5 +49,13 @@ public class Playlist {
 
     public void setUser(String user) {
         this.user = user;
+    }
+
+    public int getListeningPlaylist() {
+        return listeningPlaylist;
+    }
+
+    public void setListeningPlaylist(int listeningPlaylist) {
+        this.listeningPlaylist = listeningPlaylist;
     }
 }
