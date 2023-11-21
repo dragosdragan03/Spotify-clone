@@ -8,6 +8,7 @@ public class PodcastInputModified {
     private String owner;
     private ArrayList<EpisodeInput> episodes;
     private int listeningTimePodcast; // retin sa vad cat timp a ascultat din podcast
+    private int repeat;
 
     public PodcastInputModified(String name, String owner, ArrayList<EpisodeInput> episodes, int listeningTimePodcast) {
         this.name = name;
@@ -36,7 +37,11 @@ public class PodcastInputModified {
         return listeningTimePodcast;
     }
 
-    public void setListeningTimePodcast(int listeningTimePodcast) {
-        this.listeningTimePodcast = listeningTimePodcast;
+    public int getRepeat() {
+        return repeat;
+    }
+
+    public void setRepeat(int repeat) {
+        this.repeat = repeat;
     }
 }

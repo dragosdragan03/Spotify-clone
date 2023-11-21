@@ -91,6 +91,8 @@ public final class Main {
 //        });
 //        ArrayList<Command> commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + "test05_playPause_playlist_podcast.json"), new TypeReference<ArrayList<Command>>() {
 //        });
+//        ArrayList<Command> commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + "test08_repeat_error.json"), new TypeReference<ArrayList<Command>>() {
+//        });
         ArrayNode outputs = objectMapper.createArrayNode();
         for (int i = 0; i < commands.size(); i++) {
             CommandExecute commandExecute = new CommandExecute(commands.get(i), library);

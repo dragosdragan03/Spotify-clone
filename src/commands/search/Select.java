@@ -56,7 +56,7 @@ public class Select extends CommandExecute {
     @Override
     public void execute() {
         if (this.verifyUser(getUsername()) != -1) { // sa vad daca exista userul mai intai
-            if (getUserHistory().get(verifyUser(getUsername())).getResultSearch().size() == 0) { // sa vad daca a fost facut un search pana acum
+            if (getUserHistory().get(verifyUser(getUsername())).getResultSearch() == null) { // sa vad daca a fost facut un search pana acum
                 this.message = "Please conduct a search before making a selection.";
                 return;
             }
@@ -73,7 +73,7 @@ public class Select extends CommandExecute {
                     AudioFile audioFile = new AudioFile(returnPlaylist(this.audio), "playlist"); // aici selectez un playlist
                     getUserHistory().get(verifyUser(getUsername())).setAudioFile(audioFile);
                 }
-                getUserHistory().get(verifyUser(getUsername())).setResultSearch(new ArrayList<String>()); // trebuie sa sterg search ul care este acum
+                getUserHistory().get(verifyUser(getUsername())).setResultSearch(null); // trebuie sa sterg search ul care este acum
                 this.message = "Successfully selected " + this.audio + ".";
                 return;
             } else {

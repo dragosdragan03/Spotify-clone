@@ -7,6 +7,7 @@ import commands.search.SearchBar;
 import commands.search.Select;
 import fileio.input.LibraryInput;
 import main.Output;
+
 import java.util.ArrayList;
 
 public class CommandExecute {
@@ -22,6 +23,7 @@ public class CommandExecute {
         userHistory = new ArrayList<>();
         allUsersPlaylists = new ArrayList<>();
     }
+
     public CommandExecute(Command command, LibraryInput library) {
         this.command = command.getCommand();
         this.username = command.getUsername();
@@ -57,20 +59,45 @@ public class CommandExecute {
         return userHistory;
     }
 
+    /*fac o functie pentru a mi da update mereu la AudioFile*/
+    public void updateAudioFile() {
+        UserHistory user = getUserHistory().get(verifyUser(getUsername()));
 
-public int verifyUser(String user) {
-    for (int i = 0; i < userHistory.size(); i++) {
-        UserHistory iter = userHistory.get(i);
-        if (user != null && iter.getUser().equals(user)) {
-            return i; // Returnez indexul userului daca exista
+        if (user.getTimeLoad() != 0) { // sa vad daca a fost incarcat ceva pana acm
+            if (user.isPlayPauseResult()) { // inseamna ca e pe play
+                if (user.getListeningTime() == 0) { // inseamna ca a mers incontinuu pana acm fara niciun pause
+                    int firstLoad = user.getTimeLoad(); // retin de cand a inceput melodia
+                    user.setListeningTime(getTimestamp() - firstLoad); // inseamna ca a ascultat pana acm
+                    user.setTimeLoad(getTimestamp());
+                } else {
+                    int moreSeconds = getTimestamp() - user.getTimeLoad(); // retin cat timp a trecut de la ultimul play pana acm
+                    int secondsNow = user.getListeningTime(); // ca sa adun timpul de ascultare pana acum cu cat a ascultat in plus
+                    user.setListeningTime(moreSeconds + secondsNow);
+                    user.setTimeLoad(getTimestamp());
+                }
+            } else { // inseamnca ca era pe pause si acm ii dau play
+                user.setTimeLoad(getTimestamp()); // aici se reincepe play ul => incepe sa asculte iar
+            }
         }
+        else
+            user.setTimeLoad(0);
     }
-    return -1; // Returnez -1 daca nu exista
-}
+
+    public int verifyUser(String user) {
+        for (int i = 0; i < userHistory.size(); i++) {
+            UserHistory iter = userHistory.get(i);
+            if (user != null && iter.getUser().equals(user)) {
+                return i; // Returnez indexul userului daca exista
+            }
+        }
+        return -1; // Returnez -1 daca nu exista
+    }
 
     public Output executeCommand(Command command) {
-       if (verifyUser(command.getUsername()) == -1)
-           this.userHistory.add(new UserHistory(command.getUsername()));
+        if (verifyUser(command.getUsername()) == -1)
+            this.userHistory.add(new UserHistory(command.getUsername()));
+        if (verifyUser(command.getUsername()) != -1) // daca nu exista
+            updateAudioFile();
         switch (this.command) {
             case "search":
                 SearchBar search = new SearchBar(command, this.library, command.getType(), command.getFilters());
@@ -107,6 +134,9 @@ public int verifyUser(String user) {
             case "showPreferredSongs":
                 ShowPreferredSongs showPreferredSongs = new ShowPreferredSongs(command, library);
                 return showPreferredSongs.generateOutput();
+            case "repeat":
+                Repeat repeat = new Repeat(command, library);
+                return repeat.generateOutput();
         }
         return null;
     }

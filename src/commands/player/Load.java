@@ -7,6 +7,8 @@ import fileio.input.LibraryInput;
 import fileio.input.PodcastInput;
 import main.Output;
 
+import java.util.ArrayList;
+
 public class Load extends CommandExecute {
 
     private String message;
@@ -32,7 +34,7 @@ public class Load extends CommandExecute {
     @Override
     public void execute() {
         UserHistory user = getUserHistory().get(verifyUser(getUsername()));
-        if (user.getAudioFile() != null && user.getTimeLoad() == 0 && user.getResultSearch().size() == 0) { // asta inseamna ca s a selectat ceva deja
+        if (user.getAudioFile() != null && user.getTimeLoad() == 0 && user.getResultSearch() == null && user.getListeningTime() == 0) { // asta inseamna ca s a selectat ceva deja
             if (user.getAudioFile().getPlaylistFile() != null && user.getAudioFile().getPlaylistFile().getListSongs().size() != 0) {
                 this.message = "Playback loaded successfully."; // retin mesajul si l afisez
                 // chiar daca am fct load ul vreau sa pastrez valoarea selectata ca sa o pot prelucra

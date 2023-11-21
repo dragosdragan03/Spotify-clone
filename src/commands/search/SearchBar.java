@@ -72,6 +72,7 @@ public class SearchBar extends CommandExecute {
             }
         }
     }
+
     private void eraseHistory() {
         UserHistory user = getUserHistory().get(verifyUser(getUsername()));
         user.setResultSearch(new ArrayList<>());
@@ -80,6 +81,7 @@ public class SearchBar extends CommandExecute {
         user.setListeningTime(0);
         user.setPlayPauseResult(true);
     }
+
     @Override
     public void execute() {
         loadPodcast();
@@ -87,29 +89,29 @@ public class SearchBar extends CommandExecute {
         this.results.clear();
         if (this.type.equals("song")) { // sa verific daca vreau sa caut o melodie
             for (SongInput var : this.library.getSongs()) { // vreau sa parcurg toata lista de cantece
-                     boolean detector = true;
-                    if (this.filter.getName() != null && !var.getName().startsWith(this.filter.getName())) // vreau sa vad daca filtrul meu este in cantec
+                boolean detector = true;
+                if (this.filter.getName() != null && !var.getName().startsWith(this.filter.getName())) // vreau sa vad daca filtrul meu este in cantec
+                    detector = false;
+                if (this.filter.getAlbum() != null && !var.getAlbum().startsWith(this.filter.getAlbum()))
+                    detector = false;
+                if (this.filter.getTags().size() != 0 && !var.getTags().containsAll(this.filter.getTags()))
+                    detector = false;
+                if (this.filter.getLyrics() != null && !var.getLyrics().toLowerCase().contains(this.filter.getLyrics().toLowerCase()))
+                    detector = false;
+                if (this.filter.getGenre() != null && !var.getGenre().toLowerCase().contains(this.filter.getGenre().toLowerCase()))
+                    detector = false;
+                if (this.filter.getReleaseYear() != null) {
+                    char sign = this.filter.getReleaseYear().charAt(0); // semnul stringului
+                    if (sign == '>' && Integer.parseInt(this.filter.getReleaseYear().substring(1)) > var.getReleaseYear())
                         detector = false;
-                    if (this.filter.getAlbum() != null && !var.getAlbum().startsWith(this.filter.getAlbum()))
+                    if (sign == '<' && Integer.parseInt(this.filter.getReleaseYear().substring(1)) < var.getReleaseYear())
                         detector = false;
-                    if (this.filter.getTags().size() != 0 && !var.getTags().containsAll(this.filter.getTags()))
-                        detector = false;
-                    if (this.filter.getLyrics() != null && !var.getLyrics().toLowerCase().contains(this.filter.getLyrics().toLowerCase()))
-                        detector = false;
-                    if (this.filter.getGenre() != null && !var.getGenre().toLowerCase().contains(this.filter.getGenre().toLowerCase()))
-                        detector = false;
-                    if (this.filter.getReleaseYear() != null) {
-                        char sign = this.filter.getReleaseYear().charAt(0); // semnul stringului
-                        if (sign == '>' && Integer.parseInt(this.filter.getReleaseYear().substring(1)) > var.getReleaseYear())
-                            detector = false;
-                        if (sign == '<' && Integer.parseInt(this.filter.getReleaseYear().substring(1)) < var.getReleaseYear())
-                            detector = false;
-                    }
-                    if (this.filter.getArtist() != null && !var.getArtist().equals(this.filter.getArtist()))
-                        detector = false;
+                }
+                if (this.filter.getArtist() != null && !var.getArtist().equals(this.filter.getArtist()))
+                    detector = false;
 
-                    if (detector)
-                        this.results.add(var.getName());
+                if (detector)
+                    this.results.add(var.getName());
             }
         } else if (this.type.equals("podcast")) {
             for (PodcastInput var : this.library.getPodcasts()) { // vreau sa parcurg toata lista de podcasturi
@@ -120,22 +122,22 @@ public class SearchBar extends CommandExecute {
                         this.results.add(var.getName());
                 }
             }
-         } else if (type.equals("playlist")) {
-            if (getAllUsersPlaylists().size() != 0){
+        } else if (type.equals("playlist")) {
+            if (getAllUsersPlaylists().size() != 0) {
                 for (Playlist var : getAllUsersPlaylists()) { // vreau sa parcurg toata lista de playlisturi
                     if (this.filter.getName() != null && var.getNamePlaylist().startsWith(filter.getName()) && var.getTypePlaylist().equals("public")) // vreau sa vad daca filtrul meu este in cantec
-                     this.results.add(var.getNamePlaylist());
+                        this.results.add(var.getNamePlaylist());
                     if (filter.getOwner() != null && var.getUser().contains(filter.getOwner()) && var.getTypePlaylist().equals("public"))
                         this.results.add(var.getNamePlaylist());
-            }
+                }
             }
         }
-   } // melodiile rezultate
+    } // melodiile rezultate
 
     @Override
     public Output generateOutput() {
         Output output = new Output(this.getCommand(), this.getUsername(), this.getTimestamp());
-        for (String songs : this.results){
+        for (String songs : this.results) {
             if (firstFive.size() < 5)
                 this.firstFive.add(songs);
         }

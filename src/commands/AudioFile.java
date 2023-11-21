@@ -8,6 +8,7 @@ public class AudioFile {
     private SongInputModified songFile; // vreau sa retin melodia rezultata
     private PodcastInput podcastFile; // vreau sa retin podcastul rezultat
     private Playlist playlistFile;
+    private int repeat;
     private String type; // pentru a vedea ce fel de fisier e
 
     public AudioFile() {
@@ -37,5 +38,13 @@ public class AudioFile {
 
     public Playlist getPlaylistFile() {
         return playlistFile;
+    }
+
+    public int getRepeat() {
+        return repeat;
+    }
+
+    public void setRepeat(int repeat) {
+        this.repeat = repeat;
     }
 }

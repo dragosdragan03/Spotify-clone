@@ -10,6 +10,10 @@ public class PlayPause extends CommandExecute {
 
     private String message;
 
+    public PlayPause() {
+        super(new Command(), new LibraryInput());
+    }
+
     public PlayPause(Command command, LibraryInput library) {
         super(command, library);
     }
