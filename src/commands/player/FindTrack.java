@@ -18,6 +18,7 @@ public class FindTrack {
     private int remainedTime = 0;
     private int sumEpisodes;
     private int sumSongs;
+    private boolean shuffle;
 
     public FindTrack(UserHistory user, int timeStamp) {
         this.user = user;
@@ -48,7 +49,15 @@ public class FindTrack {
         return episodeFound;
     }
 
-    private SongInputModified listeningSong(Playlist playlist, int listeningTime) { // vreau sa fac o functie pentru a vedea la ce melodie a ajuns
+    public int getSumSongs() {
+        return sumSongs;
+    }
+
+    public boolean isShuffle() {
+        return shuffle;
+    }
+
+    public SongInputModified listeningSong(Playlist playlist, int listeningTime) { // vreau sa fac o functie pentru a vedea la ce melodie a ajuns
         if (playlist.getListSongs() != null) {
             sumSongs = playlist.getListSongs().get(0).getSong().getDuration(); // fac un contor pentru a face suma melodiilor si o initializez cu durata primei melodii
             if (listeningTime < sumSongs)
@@ -165,7 +174,7 @@ public class FindTrack {
                         this.name = user.getAudioFile().getSongFile().getSong().getName();
                         this.paused = !user.isPlayPauseResult();
                         this.repeat = user.getAudioFile().getSongFile().getRepeat();
-//                        user.setListeningTime(user.getListeningTime() - user.getAudioFile().getSongFile().getSong().getDuration());
+                        user.setListeningTime(user.getListeningTime() - user.getAudioFile().getSongFile().getSong().getDuration());
                     }
                 }
             } else if (user.getAudioFile().getSongFile().getRepeat() == 2) {
@@ -181,6 +190,7 @@ public class FindTrack {
                 }
             }
         } else if (user.getAudioFile().getPlaylistFile() != null && user.getAudioFile().getPlaylistFile().getRepeatPlaylist() != 2) { // inseamna ca am un playlist si vreau sa vad la ce melodie am ajuns
+            this.shuffle = user.getAudioFile().getPlaylistFile().isShuffle();
             if (user.getListeningTime() != 0) { // inseamna ca a fost un play/pause pana acm si sa vad cat timp a ascultat
                 if (user.isPlayPauseResult() == false) { // inseamnca ca e pe pauza si retin direct cat a ascultat
                     int listeningTime = user.getListeningTime();
@@ -248,6 +258,7 @@ public class FindTrack {
         } else if (user.getAudioFile().getPlaylistFile() != null && user.getAudioFile().getPlaylistFile().getRepeatPlaylist() == 2) {
             // fac suma pana la melodia asta
             // scad din timpul trecut suma asta (user.getLiseningtime
+            this.shuffle = user.getAudioFile().getPlaylistFile().isShuffle();
             SongInputModified infiniteSong = returnRepeatInfiniteSong(user.getAudioFile().getPlaylistFile());
             if (infiniteSong != null) {
              int sumSong = 0;// o fac in gol pentru a vedea suma melodiilor

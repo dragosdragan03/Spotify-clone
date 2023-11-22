@@ -85,6 +85,7 @@ public class Stats extends CommandExecute {
         this.name = findTrack.getName();
         this.paused = findTrack.isPaused();
         this.remainedTime = findTrack.getRemainedTime();
+        this.shuffle = findTrack.isShuffle();
         if (findTrack.getRepeat() == 0)
             this.repeat = "No Repeat";
         else if (findTrack.getRepeat() == 1) {

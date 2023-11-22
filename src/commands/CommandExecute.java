@@ -3,6 +3,7 @@ package commands;
 import commands.player.*;
 import commands.playlist.CreatePlaylist;
 import commands.playlist.ShowPlaylists;
+import commands.playlist.SwitchVisibility;
 import commands.search.SearchBar;
 import commands.search.Select;
 import fileio.input.LibraryInput;
@@ -59,27 +60,48 @@ public class CommandExecute {
         return userHistory;
     }
 
+    private void eraseHistory() {
+        UserHistory user = getUserHistory().get(verifyUser(getUsername()));
+        user.setResultSearch(new ArrayList<>());
+        user.setAudioFile(new AudioFile());
+        user.setTimeLoad(0);
+        user.setListeningTime(0);
+        user.setPlayPauseResult(true);
+    }
+
     /*fac o functie pentru a mi da update mereu la AudioFile*/
     public void updateAudioFile() {
         UserHistory user = getUserHistory().get(verifyUser(getUsername()));
-
+        FindTrack findTrack = new FindTrack(user, getTimestamp());
         if (user.getTimeLoad() != 0) { // sa vad daca a fost incarcat ceva pana acm
             if (user.isPlayPauseResult()) { // inseamna ca e pe play
                 if (user.getListeningTime() == 0) { // inseamna ca a mers incontinuu pana acm fara niciun pause
                     int firstLoad = user.getTimeLoad(); // retin de cand a inceput melodia
                     user.setListeningTime(getTimestamp() - firstLoad); // inseamna ca a ascultat pana acm
                     user.setTimeLoad(getTimestamp());
+
+
+                    findTrack.findTrackExecute();
+                    if (findTrack.getName() == "")
+                        eraseHistory();
                 } else {
                     int moreSeconds = getTimestamp() - user.getTimeLoad(); // retin cat timp a trecut de la ultimul play pana acm
                     int secondsNow = user.getListeningTime(); // ca sa adun timpul de ascultare pana acum cu cat a ascultat in plus
                     user.setListeningTime(moreSeconds + secondsNow);
                     user.setTimeLoad(getTimestamp());
+
+                    findTrack.findTrackExecute();
+                    if (findTrack.getName() == "")
+                        eraseHistory();
                 }
             } else { // inseamnca ca era pe pause si acm ii dau play
                 user.setTimeLoad(getTimestamp()); // aici se reincepe play ul => incepe sa asculte iar
+
+                findTrack.findTrackExecute();
+                if (findTrack.getName() == "")
+                    eraseHistory();
             }
-        }
-        else
+        } else
             user.setTimeLoad(0);
     }
 
@@ -137,6 +159,15 @@ public class CommandExecute {
             case "repeat":
                 Repeat repeat = new Repeat(command, library);
                 return repeat.generateOutput();
+            case "shuffle":
+                Shuffle shuffle = new Shuffle(command, library, command.getSeed());
+                return shuffle.generateOutput();
+            case "switchVisibility":
+                SwitchVisibility switchVisibility = new SwitchVisibility(command, library, command.getPlaylistId());
+                return switchVisibility.generateOutput();
+            case "next":
+                Next nextTrack = new Next(command, library);
+                return nextTrack.generateOutput();
         }
         return null;
     }

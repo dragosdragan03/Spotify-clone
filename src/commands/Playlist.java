@@ -10,9 +10,11 @@ public class Playlist {
 
     private String namePlaylist;
     private ArrayList<SongInputModified> listSongs = new ArrayList<>();
+    private ArrayList<SongInputModified> coppiedListSongs = new ArrayList<>();
     private String typePlaylist; // sa vad daca este de tip public sau privat
     private String user; // vreau sa vad al cui este playlist ul
     private int repeatPlaylist;
+    private boolean shuffle = false; // inseamna ca nu este pe shuffle
 
     public Playlist(String namePlaylist, String typePlaylist, String user) {
         this.namePlaylist = namePlaylist;
@@ -46,5 +48,25 @@ public class Playlist {
 
     public void setRepeatPlaylist(int repeatPlaylist) {
         this.repeatPlaylist = repeatPlaylist;
+    }
+
+    public void setTypePlaylist(String typePlaylist) {
+        this.typePlaylist = typePlaylist;
+    }
+
+    public boolean isShuffle() {
+        return shuffle;
+    }
+
+    public void setShuffle(boolean shuffle) {
+        this.shuffle = shuffle;
+    }
+
+    public ArrayList<SongInputModified> getCoppiedListSongs() {
+        return coppiedListSongs;
+    }
+
+    public void setCoppiedListSongs(ArrayList<SongInputModified> coppiedListSongs) {
+        this.coppiedListSongs = coppiedListSongs;
     }
 }
