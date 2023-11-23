@@ -60,7 +60,7 @@ public class CommandExecute {
         return userHistory;
     }
 
-    private void eraseHistory() {
+    public void eraseHistory() {
         UserHistory user = getUserHistory().get(verifyUser(getUsername()));
         user.setResultSearch(new ArrayList<>());
         user.setAudioFile(new AudioFile());
@@ -79,7 +79,6 @@ public class CommandExecute {
                     int firstLoad = user.getTimeLoad(); // retin de cand a inceput melodia
                     user.setListeningTime(getTimestamp() - firstLoad); // inseamna ca a ascultat pana acm
                     user.setTimeLoad(getTimestamp());
-
 
                     findTrack.findTrackExecute();
                     if (findTrack.getName() == "")
@@ -168,6 +167,15 @@ public class CommandExecute {
             case "next":
                 Next nextTrack = new Next(command, library);
                 return nextTrack.generateOutput();
+            case "prev":
+                Prev prevTrack = new Prev(command, library);
+                return prevTrack.generateOutput();
+            case "forward":
+                Forward forward = new Forward(command, library);
+                return forward.generateOutput();
+            case "backward":
+                Backward backward = new Backward(command, library);
+                return backward.generateOutput();
         }
         return null;
     }

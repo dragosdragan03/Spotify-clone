@@ -73,15 +73,6 @@ public class SearchBar extends CommandExecute {
         }
     }
 
-    private void eraseHistory() {
-        UserHistory user = getUserHistory().get(verifyUser(getUsername()));
-        user.setResultSearch(new ArrayList<>());
-        user.setAudioFile(new AudioFile());
-        user.setTimeLoad(0);
-        user.setListeningTime(0);
-        user.setPlayPauseResult(true);
-    }
-
     @Override
     public void execute() {
         loadPodcast();
