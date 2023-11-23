@@ -79,19 +79,10 @@ public final class Main {
         ObjectMapper objectMapper = new ObjectMapper();
         LibraryInput library = objectMapper.readValue(new File(LIBRARY_PATH), LibraryInput.class); // este o baza de date
         CommandExecute.clear();
+
         ArrayList<Command> commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + filePathInput), new TypeReference<ArrayList<Command>>() {
         }); // imi intra automat in clasa
 //        ArrayList<Command> commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + "test01_searchBar_songs_podcasts.json"), new TypeReference<ArrayList<Command>>() {
-//        });
-//        ArrayList<Command> commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + "test02_playPause_song.json"), new TypeReference<ArrayList<Command>>() {
-//        });
-//        ArrayList<Command> commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + "test03_like_create_addRemove.json"), new TypeReference<ArrayList<Command>>() {
-//        });
-//        ArrayList<Command> commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + "test04_like_create_addRemove_error.json"), new TypeReference<ArrayList<Command>>() {
-//        });
-//        ArrayList<Command> commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + "test05_playPause_playlist_podcast.json"), new TypeReference<ArrayList<Command>>() {
-//        });
-//        ArrayList<Command> commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + "test08_repeat_error.json"), new TypeReference<ArrayList<Command>>() {
 //        });
         ArrayNode outputs = objectMapper.createArrayNode();
         for (int i = 0; i < commands.size(); i++) {
@@ -99,28 +90,8 @@ public final class Main {
             JsonNode jsonString = objectMapper.valueToTree(commandExecute.executeCommand(commands.get(i)));
             outputs.add(jsonString);
         }
-//
-//            UserHistory userHistory = new UserHistory();
-//            JsonNode newjsonString = objectMapper.valueToTree(userHistory);
-//            outputs.add(newjsonString);
 
-//            SearchBar search = new SearchBar(commands.get(0), library, commands.get(0).getType(), commands.get(0).getFilters());
-//            CommandExecute commandExecute = new CommandExecute(commands.get(0), library);
-//            JsonNode jsonString = objectMapper.valueToTree(commandExecute.executeCommand(commands.get(0)));
-//        JsonNode jsonString = objectMapper.valueToTree(commandExecute);
-//        JsonNode jsonString = objectMapper.valueToTree(search);
-//            outputs.add(jsonString);
         // TODO add your implementation
-
-
-        // trebuie sa transform json de input in obiect java cu objectMapper
-        // trebuie sa l transform inapoi in json ca sa l afisez
-        // trebuie sa verific outputul
-
-//        library.getPodcasts();
-
-        //String json = "{ \"color\" : \"Black\", \"type\" : \"BMW\" }";
-        //Car car = objectMapper.readValue(json, Car.class);
 
         ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
         objectWriter.writeValue(new File(filePathOutput), outputs);

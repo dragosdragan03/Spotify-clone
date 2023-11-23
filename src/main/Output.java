@@ -10,6 +10,7 @@ import java.util.ArrayList;
 
 public class Output {
     private String command;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private String user;
     private Integer timestamp;
     @JsonInclude(JsonInclude.Include.NON_NULL)

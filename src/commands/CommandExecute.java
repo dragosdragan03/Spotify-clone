@@ -1,5 +1,7 @@
 package commands;
 
+import commands.generals.GetTop5Playlists;
+import commands.generals.GetTop5Songs;
 import commands.player.*;
 import commands.playlist.CreatePlaylist;
 import commands.playlist.FollowPlaylist;
@@ -180,6 +182,12 @@ public class CommandExecute {
             case "follow":
                 FollowPlaylist followPlaylist = new FollowPlaylist(command, library);
                 return followPlaylist.generateOutput();
+            case "getTop5Playlists":
+                GetTop5Playlists getTop5Playlists = new GetTop5Playlists(command, library);
+                return getTop5Playlists.generateOutput();
+            case "getTop5Songs":
+                GetTop5Songs getTop5Songs = new GetTop5Songs(command, library);
+                return getTop5Songs.generateOutput();
         }
         return null;
     }
