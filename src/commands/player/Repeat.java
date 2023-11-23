@@ -43,7 +43,6 @@ public class Repeat extends CommandExecute {
                     this.message = "Repeat mode changed to repeat once.";
                     return;
                 } else if (user.getAudioFile().getSongFile().getRepeat() == 1) {
-//                user.setListeningTime(user.getListeningTime() - user.getAudioFile().getSongFile().getSong().getDuration());
                     FindTrack findTrack = new FindTrack(user, getTimestamp()); // inseamna ca am incarcat un playlist si vreau sa vad la ce melodie pun repeat
                     findTrack.findTrackExecute();
                     user.getAudioFile().getSongFile().setRepeat(2);

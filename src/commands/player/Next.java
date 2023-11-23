@@ -30,6 +30,7 @@ public class Next extends CommandExecute {
                 FindTrack newFindTrack = new FindTrack(user, getTimestamp() + remainedTime);
                 newFindTrack.findTrackExecute(); // ii dau sa mai execute o data sa vad daca mai gaseste ceva dupa sau nu
                 if (newFindTrack.getSongFound() != null) {
+                    user.setPlayPauseResult(true);
                     this.message = "Skipped to next track successfully. The current track is " + newFindTrack.getName() + ".";
                 } else {
                     this.message = "Please load a source before skipping to the next track."; // inseamna ca nu mi a mai gasit nimci dupa deci trebuie sa l sterg

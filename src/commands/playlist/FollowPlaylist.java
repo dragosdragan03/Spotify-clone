@@ -29,7 +29,7 @@ public class FollowPlaylist extends CommandExecute {
         if (user.getAudioFile() != null && user.getResultSearch() == null) { // inseamna ca am incarcat ceva
             if (user.getAudioFile().getPlaylistFile() != null) {// inseamna ca am incarcat un playlist
                 // prima oara trebuie sa verific daca playlistul pe care l am selectat este al meu
-                if (user.getUserPlaylists().contains(user.getAudioFile().getPlaylistFile())) {// inseamna ca este unul din playlisturile mele
+                if (user.getUserPlaylists().contains(user.getAudioFile().getPlaylistFile())) { // inseamna ca este unul din playlisturile mele
                     this.message = "You cannot follow or unfollow your own playlist.";
                 } else { // daca nu l mai am in lista mea de playlisturi inseamna ca pot sa i dau fllw
                     if (user.getFollowPlaylists().contains(user.getAudioFile().getPlaylistFile())) { // inseamna ca deja il contine si trevuie scos de la fllw

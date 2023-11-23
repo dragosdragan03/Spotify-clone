@@ -29,7 +29,6 @@ public class Shuffle extends CommandExecute {
     }
 
     private int returnSumSongsCurrent(Playlist playlist, SongInputModified song) {
-        UserHistory user = getUserHistory().get(verifyUser(getUsername()));
         int s = 0;
         for (SongInputModified iter : playlist.getListSongs()) {
             if (iter != song)
@@ -39,11 +38,6 @@ public class Shuffle extends CommandExecute {
         }
         return 0;
     }
-
-//    /*fac o metoda pentru a gasi suma din nooua lista amestecata pana la melodia mea si a o aduna la listeninf time*/
-//    private int returnSumSongsModified (Playlist playlist, SongInputModified song) {
-//        for (SongInputModified iter : playlist.get)
-//    }
 
     private void moveSongsBack(Playlist playlist) {
         UserHistory user = getUserHistory().get(verifyUser(getUsername()));
@@ -67,9 +61,11 @@ public class Shuffle extends CommandExecute {
                     Collections.shuffle(user.getAudioFile().getPlaylistFile().getListSongs(), new Random(this.seed)); // fac shuffle pe array listul meu nou generat
 
                     int addListeningTime = returnSumSongsCurrent(user.getAudioFile().getPlaylistFile(), findTrack.getSongFound());
-                    user.setListeningTime(user.getListeningTime() + addListeningTime);
-                    // trebuie sa mai adaug suma curenta pana la melodia mea in ordinea in care am pus 0
+                    user.setListeningTime(user.getListeningTime() + addListeningTime); // adaugat timp pana la melodia mea din playlistul amestecat
 
+                    // trebuie sa mai adaug suma curenta pana la melodia mea in ordinea in care am pus 0
+//                    FindTrack findNewTrack = new FindTrack(user, getTimestamp());
+//                    findNewTrack.findTrackExecute();
                     user.getAudioFile().getPlaylistFile().setShuffle(true); // inseamna ca e pe shuffle
                     this.message = "Shuffle function activated successfully.";
                 }

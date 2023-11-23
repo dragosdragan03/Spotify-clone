@@ -7,10 +7,12 @@ import fileio.input.LibraryInput;
 import main.Output;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class GetTop5Playlists extends CommandExecute {
 
-    private final  ArrayList<String> result = new ArrayList<>();
+    private final ArrayList<String> result = new ArrayList<>();
     private final ArrayList<Playlist> publicPlaylists = new ArrayList<>();
 
     public GetTop5Playlists(Command command, LibraryInput library) {
@@ -27,23 +29,19 @@ public class GetTop5Playlists extends CommandExecute {
         }
     }
 
+//    private int indexPlaylist(String namePlaylist) {
+//        for (int i = 0; i < this.publicPlaylists.size(); i++)
+//            if (this.publicPlaylists.get(i).getNamePlaylist().equals(namePlaylist))
+//                return i;
+//        return -1;
+//    }
+
     @Override
     public void execute() {
         addPlaylist();
         // trebuie sa ordonez crescator vectorul meu dupa nr de followeri
-//        this.publicPlaylists.sort(Comparator.comparingInt(Playlist::getFollowers)); // imi sorteaza crescator vectorul meu de playlisturi dupa nr de followeri
-        for (int i = 0; i < this.publicPlaylists.size() - 1; i++) {
-            for (int j = i + 1; j < this.publicPlaylists.size(); j++) {
-                if (publicPlaylists.get(i).getFollowers() < publicPlaylists.get(j).getFollowers()) {
-                    Playlist aux = publicPlaylists.get(i);
-                    publicPlaylists.set(i, publicPlaylists.get(j));
-                    publicPlaylists.set(j, aux);
-                }
-
-            }
-
-        }
-        for (int i = 0; i < this.publicPlaylists.size() ; i++) {
+        Collections.sort(this.publicPlaylists, Comparator.comparingInt(Playlist::getFollowers).reversed()); // imi sorteaza descrescator vectorul meu de playlisturi dupa nr de followeri
+        for (int i = 0; i < this.publicPlaylists.size(); i++) {
             if (this.result.size() < 5)
                 this.result.add(this.publicPlaylists.get(i).getNamePlaylist());
         }

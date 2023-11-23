@@ -63,7 +63,7 @@ public class FindTrack {
             if (listeningTime < sumSongs)
                 return playlist.getListSongs().get(0);
             for (int i = 1; i < playlist.getListSongs().size(); i++)
-                if (listeningTime > sumSongs) // sa vad cand depaseste
+                if (listeningTime >= sumSongs) // sa vad cand depaseste
                     sumSongs += playlist.getListSongs().get(i).getSong().getDuration();
                 else
                     return playlist.getListSongs().get(i - 1);
@@ -185,7 +185,7 @@ public class FindTrack {
                 this.paused = !user.isPlayPauseResult();
                 this.repeat = user.getAudioFile().getSongFile().getRepeat();
 
-                while (user.getListeningTime() > durationSong){
+                while (user.getListeningTime() > durationSong) {
                     user.setListeningTime(user.getListeningTime() - durationSong);
                 }
             }
@@ -261,24 +261,30 @@ public class FindTrack {
             this.shuffle = user.getAudioFile().getPlaylistFile().isShuffle();
             SongInputModified infiniteSong = returnRepeatInfiniteSong(user.getAudioFile().getPlaylistFile());
             if (infiniteSong != null) {
-             int sumSong = 0;// o fac in gol pentru a vedea suma melodiilor
+                int durationSong = infiniteSong.getSong().getDuration();
+
+                int sumSong = 0;// o fac in gol pentru a vedea suma melodiilor
                 for (SongInputModified iter : user.getAudioFile().getPlaylistFile().getListSongs())
                     if (iter == infiniteSong)
                         break;
                     else
                         sumSong += iter.getSong().getDuration();
 
-            int durationSong = infiniteSong.getSong().getDuration();
-            this.remainedTime = durationSong - user.getListeningTime() % durationSong;
-            this.songFound = infiniteSong;
-            this.name = infiniteSong.getSong().getName();
-            this.paused = !user.isPlayPauseResult();
-            this.repeat = 2;
-            // trebuie sa i dau update la timelistening
-                while (user.getListeningTime() > durationSong){
+                user.setListeningTime(user.getListeningTime() - sumSong); // vreau sa scad ce a fost inainte de melodia mea pusa in bucla
+
+                while (user.getListeningTime() >= durationSong) { // vreau sa vad cat a ascultat efectiv din melodia mea
                     user.setListeningTime(user.getListeningTime() - durationSong);
                 }
-                user.setListeningTime(user.getListeningTime() + sumSong);
+                int listenedSong = user.getListeningTime();
+                user.setListeningTime(user.getListeningTime() + sumSong); // setez listening timpul adevarat
+
+                this.remainedTime = durationSong - listenedSong;
+                this.songFound = infiniteSong;
+                this.name = infiniteSong.getSong().getName();
+                this.paused = !user.isPlayPauseResult();
+                this.repeat = 2;
+                // trebuie sa i dau update la timelistening
+
             }
         }
     }

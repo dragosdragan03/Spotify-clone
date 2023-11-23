@@ -114,11 +114,12 @@ public class SearchBar extends CommandExecute {
                 }
             }
         } else if (type.equals("playlist")) {
+            UserHistory user = getUserHistory().get(verifyUser(getUsername()));
             if (getAllUsersPlaylists().size() != 0) {
                 for (Playlist var : getAllUsersPlaylists()) { // vreau sa parcurg toata lista de playlisturi
-                    if (this.filter.getName() != null && var.getNamePlaylist().startsWith(filter.getName()) && var.getTypePlaylist().equals("public")) // vreau sa vad daca filtrul meu este in cantec
+                    if (this.filter.getName() != null && var.getNamePlaylist().startsWith(filter.getName()) && (var.getTypePlaylist().equals("public") || var.getUser().equals(user.getUser()))) // vreau sa vad daca filtrul meu este in cantec
                         this.results.add(var.getNamePlaylist());
-                    if (filter.getOwner() != null && var.getUser().contains(filter.getOwner()) && var.getTypePlaylist().equals("public"))
+                    if (filter.getOwner() != null && var.getUser().contains(filter.getOwner()) && (var.getTypePlaylist().equals("public") || var.getUser().equals(user.getUser())))
                         this.results.add(var.getNamePlaylist());
                 }
             }

@@ -1,9 +1,6 @@
 package commands.search;
 
-import commands.AudioFile;
-import commands.Command;
-import commands.CommandExecute;
-import commands.Playlist;
+import commands.*;
 import fileio.input.LibraryInput;
 import fileio.input.PodcastInput;
 import fileio.input.SongInput;
@@ -46,8 +43,9 @@ public class Select extends CommandExecute {
     }
 
     private Playlist returnPlaylist(String name) {
+        UserHistory user = getUserHistory().get(verifyUser(getUsername()));
         for (Playlist iter : getAllUsersPlaylists()) // vreau sa parcurg toata lista de playlisturi publice
-            if (iter.getNamePlaylist().equals(name) && iter.getTypePlaylist().equals("public")) // verific daca mi a gasit un playlist public
+            if (iter.getNamePlaylist().equals(name) && (iter.getTypePlaylist().equals("public") ||  iter.getUser().equals(user.getUser()))) // verific daca mi a gasit un playlist public
                 return iter;
         return null;
     }

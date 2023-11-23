@@ -54,12 +54,18 @@ public class ShowPlaylists extends CommandExecute {
     public void execute() {
         UserHistory user = getUserHistory().get(verifyUser(getUsername()));
         if (user.getUserPlaylists().size() != 0) {// inseamna ca este ceva adaugat in lista
-            for (Playlist iter : user.getUserPlaylists()) {
+            for (Playlist iter : user.getUserPlaylists()) { // fac un for ca sa parcurg playlisturile userului meu
                 String playlistName = iter.getNamePlaylist();
                 ArrayList<String> songs = new ArrayList<>();
                 if (iter.getListSongs().size() != 0) {// sa vad daca au fost bagate pana acm in lista melodii
-                    for (SongInputModified song : iter.getListSongs()) {
-                        songs.add(song.getSong().getName());
+                    if (iter.isShuffle() == false) {
+                        for (SongInputModified song : iter.getListSongs()) {
+                            songs.add(song.getSong().getName());
+                        }
+                    } else {
+                        for (SongInputModified song : iter.getCoppiedListSongs()) {
+                            songs.add(song.getSong().getName());
+                        }
                     }
                 }
                 String visibility = iter.getTypePlaylist();

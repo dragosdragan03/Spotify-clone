@@ -42,6 +42,7 @@ public class Prev extends CommandExecute {
             if (user.getAudioFile().getPlaylistFile() != null) {
                 int durationSong = findTrack.getSongFound().getSong().getDuration(); // durata melodiei la care am ramas
                 int timeListenedSong = durationSong - findTrack.getRemainedTime(); // sa verific cat am ascultat
+                user.setPlayPauseResult(true);
                 if (timeListenedSong != 0) {
                     user.setListeningTime(user.getListeningTime() - timeListenedSong);
                     this.message = "Returned to previous track successfully. The current track is " + findTrack.getName() + ".";
