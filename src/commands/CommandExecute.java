@@ -2,6 +2,7 @@ package commands;
 
 import commands.player.*;
 import commands.playlist.CreatePlaylist;
+import commands.playlist.FollowPlaylist;
 import commands.playlist.ShowPlaylists;
 import commands.playlist.SwitchVisibility;
 import commands.search.SearchBar;
@@ -176,6 +177,9 @@ public class CommandExecute {
             case "backward":
                 Backward backward = new Backward(command, library);
                 return backward.generateOutput();
+            case "follow":
+                FollowPlaylist followPlaylist = new FollowPlaylist(command, library);
+                return followPlaylist.generateOutput();
         }
         return null;
     }

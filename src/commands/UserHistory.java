@@ -25,6 +25,8 @@ public class UserHistory{
 
     private ArrayList<Playlist> userPlaylists = new ArrayList<>(); // o lista de playlist uri pentru un user
 
+    private ArrayList<Playlist> followPlaylists = new ArrayList<>();
+
 
     public UserHistory(String user) {
         this.user = user;
@@ -92,5 +94,9 @@ public class UserHistory{
 
     public ArrayList<PodcastInputModified> getPastPodcast() {
         return pastPodcast;
+    }
+
+    public ArrayList<Playlist> getFollowPlaylists() {
+        return followPlaylists;
     }
 }

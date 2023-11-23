@@ -15,6 +15,7 @@ public class Playlist {
     private String user; // vreau sa vad al cui este playlist ul
     private int repeatPlaylist;
     private boolean shuffle = false; // inseamna ca nu este pe shuffle
+    private int followers = 0; // vreau sa retin cati oameni dau follow la playlistul
 
     public Playlist(String namePlaylist, String typePlaylist, String user) {
         this.namePlaylist = namePlaylist;
@@ -68,5 +69,13 @@ public class Playlist {
 
     public void setCoppiedListSongs(ArrayList<SongInputModified> coppiedListSongs) {
         this.coppiedListSongs = coppiedListSongs;
+    }
+
+    public int getFollowers() {
+        return followers;
+    }
+
+    public void setFollowers(int followers) {
+        this.followers = followers;
     }
 }

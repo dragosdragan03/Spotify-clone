@@ -32,14 +32,14 @@ public class SwitchVisibility extends CommandExecute {
         if (user.getUserPlaylists() != null) {// sa vad daca am mai incarcat playlisturi in el
             if (user.getUserPlaylists().size() >= this.playlistId) {
                 int pozitiePlaylist = playlistPosition(user.getUserPlaylists().get(this.playlistId - 1));
-                if (user.getUserPlaylists().get(this.playlistId - 1).equals("public")) {// inseamna ca este un playlist public si vreau sa l fac privat
-                    user.getUserPlaylists().get(this.playlistId - 1).setTypePlaylist("privat"); // deoarece este indexat de la 0
-                    getAllUsersPlaylists().get(pozitiePlaylist).setTypePlaylist("privat");
-                    this.message = "Visibility status updated successfully to " + user.getUserPlaylists().get(this.playlistId - 1).getTypePlaylist();
+                if (user.getUserPlaylists().get(this.playlistId - 1).getTypePlaylist().equals("public")) {// inseamna ca este un playlist public si vreau sa l fac privat
+                    user.getUserPlaylists().get(this.playlistId - 1).setTypePlaylist("private"); // deoarece este indexat de la 0
+                    getAllUsersPlaylists().get(pozitiePlaylist).setTypePlaylist("private");
+                    this.message = "Visibility status updated successfully to " + user.getUserPlaylists().get(this.playlistId - 1).getTypePlaylist() + ".";
                 } else { // inseamna ca el este privat acm si trebuie sa l fac public
                     user.getUserPlaylists().get(this.playlistId - 1).setTypePlaylist("public"); // deoarece este indexat de la 0
                     getAllUsersPlaylists().get(pozitiePlaylist).setTypePlaylist("public");
-                    this.message = "Visibility status updated successfully to " + user.getUserPlaylists().get(this.playlistId - 1).getTypePlaylist();
+                    this.message = "Visibility status updated successfully to " + user.getUserPlaylists().get(this.playlistId - 1).getTypePlaylist() + ".";
                 }
             }
             else

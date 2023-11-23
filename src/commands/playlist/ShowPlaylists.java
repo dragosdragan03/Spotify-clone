@@ -63,7 +63,8 @@ public class ShowPlaylists extends CommandExecute {
                     }
                 }
                 String visibility = iter.getTypePlaylist();
-                PlaylistShow playlistShow = new PlaylistShow(playlistName, songs, visibility, 0);
+                int followers = iter.getFollowers();
+                PlaylistShow playlistShow = new PlaylistShow(playlistName, songs, visibility, followers);
                 this.result.add(playlistShow);
             }
         }
