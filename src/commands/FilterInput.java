@@ -13,84 +13,71 @@ public class FilterInput {
     private String artist;
     private String owner;
 
-    public FilterInput(){
+    public FilterInput() {
     }
 
+    /**
+     *
+     * @return numele AudioFile ului dupa care caut
+     */
     public String getName() {
         return name;
     }
 
+    /**
+     *
+     * @return albumul din care face parte
+     */
     public String getAlbum() {
         return album;
     }
 
+    /**
+     *
+     * @return lista de taguri dupa care sa caut
+     */
     public List<String> getTags() {
         return tags;
     }
 
+    /**
+     *
+     * @return Lyrics dupa care sa caut o melodie
+     */
     public String getLyrics() {
         return lyrics;
     }
 
+    /**
+     *
+     * @return genul muzicalal unei melodii
+     */
     public String getGenre() {
         return genre;
     }
 
+    /**
+     *
+     * @return intervalul de timp cand a fost lansata o melodie
+     */
     public String getReleaseYear() {
         return releaseYear;
     }
 
+    /**
+     *
+     * @return artistul unei melodii
+     */
     public String getArtist() {
         return artist;
     }
 
+    /**
+     *
+     * @return owner ul unui playlist sau podcast
+     */
     public String getOwner() {
         return owner;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setAlbum(String album) {
-        this.album = album;
-    }
-
-    public void setTags(ArrayList<String> tags) {
-        this.tags = tags;
-    }
-
-    public void setLyrics(String lyrics) {
-        this.lyrics = lyrics;
-    }
-
-    public void setGenre(String genre) {
-        this.genre = genre;
-    }
-
-    public void setReleaseYear(String releaseYear) {
-        this.releaseYear = releaseYear;
-    }
-
-    public void setArtist(String artist) {
-        this.artist = artist;
-    }
-
-    public void setOwner(String owner) {
-        this.owner = owner;
-    }
-
-//    @Override
-//    public String toString() {
-//        return "Filters{" +
-//                "name='" + name + '\'' +
-//                ", album='" + album + '\'' +
-//                ", tags=" + tags +
-//                ", lyrics='" + lyrics + '\'' +
-//                ", genre='" + genre + '\'' +
-//                ", releaseYear='" + releaseYear + '\'' +
-//                ", artist='" + artist + '\'' +
-//                ", owner='" + owner + '\'' +
-//                '}';
-//    }
 }

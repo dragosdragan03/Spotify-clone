@@ -11,78 +11,78 @@ public class Command {
     private String playlistName;
     private int seed;
 
-    public Command(){
+    public Command() {
     }
 
+    /**
+     *
+     * @return ce fel de comanda a fost data
+     */
     public String getCommand() {
         return command;
     }
 
-    public void setCommand(String command) {
-        this.command = command;
-    }
-
+    /**
+     *
+     * @return userul care executa comanda
+     */
     public String getUsername() {
         return username;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
+    /**
+     *
+     * @return momentul de timp cand se executa comanda
+     */
     public int getTimestamp() {
         return timestamp;
     }
 
-    public void setTimestamp(int timestamp) {
-        this.timestamp = timestamp;
-    }
-
+    /**
+     * o sa l folosesc in search
+     * @return tipul fisierului pe care il cauta
+     */
     public String getType() {
         return type;
     }
 
-    public void setType(String type) {
-        this.type = type;
-    }
-
+    /**
+     * il folosesc in select
+     * @return numarul fisieruluipe care trebuie sa l selectez
+     */
     public int getItemNumber() {
         return itemNumber;
     }
 
-    public void setItemNumber(int itemNumber) {
-        this.itemNumber = itemNumber;
-    }
-
+    /**
+     * il folosesc in search
+     * @return filtrele dupa care caut un AudioFile
+     */
     public FilterInput getFilters() {
         return filters;
     }
 
-    public void setFilters(FilterInput filters) {
-        this.filters = filters;
-    }
-
+    /**
+     *
+     * @return indexul playlistului
+     */
     public int getPlaylistId() {
         return playlistId;
     }
 
-    public void setPlaylistId(int playlistId) {
-        this.playlistId = playlistId;
-    }
-
+    /**
+     * il folosesc in addInRemove
+     * @return numele playlistului pe care vreau sa l adaug/sterg
+     */
     public String getPlaylistName() {
         return playlistName;
     }
 
-    public void setPlaylistName(String playlistName) {
-        this.playlistName = playlistName;
-    }
-
+    /**
+     * il folosesc in shuffle
+     * @return seed ul dupa care fac shuffle ul
+     */
     public int getSeed() {
         return seed;
-    }
-
-    public void setSeed(int seed) {
-        this.seed = seed;
     }
 }

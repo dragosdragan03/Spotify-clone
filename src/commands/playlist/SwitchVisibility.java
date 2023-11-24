@@ -12,41 +12,58 @@ public class SwitchVisibility extends CommandExecute {
     private int playlistId;
     private String message;
 
-    public SwitchVisibility(Command command, LibraryInput library, int playlistId) {
+    public SwitchVisibility(final Command command, final LibraryInput library,
+                            final int playlistId) {
         super(command, library);
         this.playlistId = playlistId;
     }
 
     // fac o metoda pentru a mi returna playlistul userului din toata lista de playlisturi
-    private int playlistPosition(Playlist playlist) {
-        for (int i = 0; i <= getAllUsersPlaylists().size(); i++) // fac un for pentru a parcurge toata lista
-            if (getAllUsersPlaylists().get(i) == playlist)
+    private int playlistPosition(final Playlist playlist) {
+        // fac un for pentru a parcurge toata lista de playlisturi create
+        for (int i = 0; i <= getAllUsersPlaylists().size(); i++) {
+            if (getAllUsersPlaylists().get(i) == playlist) {
                 return i; // returnez pozitia din vector pentru a l putea seta
+            }
+        }
 
         return -1;
     }
 
+    /**
+     * verific tipul playlistul cu indexul "this.playlistId - 1" si i schimb statusul din
+     * public -> privat sau privat -> public dupa caz
+     */
     @Override
     public void execute() {
-        UserHistory user = getUserHistory().get(verifyUser(getUsername())); // retin userul sa vad pe ce user fac modificari
-        if (user.getUserPlaylists() != null) {// sa vad daca am mai incarcat playlisturi in el
+        // retin userul sa vad pe ce user fac modificari
+        UserHistory user = getUserHistory().get(verifyUser(getUsername()));
+        if (user.getUserPlaylists() != null) { // sa vad daca am mai incarcat playlisturi in el
             if (user.getUserPlaylists().size() >= this.playlistId) {
-                int pozitiePlaylist = playlistPosition(user.getUserPlaylists().get(this.playlistId - 1));
-                if (user.getUserPlaylists().get(this.playlistId - 1).getTypePlaylist().equals("public")) {// inseamna ca este un playlist public si vreau sa l fac privat
-                    user.getUserPlaylists().get(this.playlistId - 1).setTypePlaylist("private"); // deoarece este indexat de la 0
+                Playlist playlist = user.getUserPlaylists().get(this.playlistId - 1);
+                int pozitiePlaylist = playlistPosition(playlist);
+                // inseamna ca este un playlist public si vreau sa l fac privat
+                if (playlist.getTypePlaylist().equals("public")) {
+                    playlist.setTypePlaylist("private");
                     getAllUsersPlaylists().get(pozitiePlaylist).setTypePlaylist("private");
-                    this.message = "Visibility status updated successfully to " + user.getUserPlaylists().get(this.playlistId - 1).getTypePlaylist() + ".";
-                } else { // inseamna ca el este privat acm si trebuie sa l fac public
-                    user.getUserPlaylists().get(this.playlistId - 1).setTypePlaylist("public"); // deoarece este indexat de la 0
+                    this.message = "Visibility status updated successfully to "
+                            + playlist.getTypePlaylist() + ".";
+                } else { // inseamna ca el este privat deci trebuie sa l fac public
+                    playlist.setTypePlaylist("public");
                     getAllUsersPlaylists().get(pozitiePlaylist).setTypePlaylist("public");
-                    this.message = "Visibility status updated successfully to " + user.getUserPlaylists().get(this.playlistId - 1).getTypePlaylist() + ".";
+                    this.message = "Visibility status updated successfully to "
+                            + playlist.getTypePlaylist() + ".";
                 }
-            }
-            else
+            } else {
                 this.message = "The specified playlist ID is too high.";
+            }
         }
     }
 
+    /**
+     *
+     * @return mesajul care mi s a generat in functia execute.
+     */
     @Override
     public Output generateOutput() {
         execute();
