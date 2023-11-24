@@ -16,75 +16,93 @@ public class Shuffle extends CommandExecute {
     private int seed;
     private String message;
 
-    public Shuffle(Command command, LibraryInput library, int seed) {
+    public Shuffle(final Command command, final LibraryInput library, final int seed) {
         super(command, library);
         this.seed = seed;
     }
 
-    private void moeveSongsIntoCopy(Playlist playlist) {
+    private void moeveSongsIntoCopy(final Playlist playlist) {
         UserHistory user = getUserHistory().get(verifyUser(getUsername()));
-        for (SongInputModified iter : playlist.getListSongs())  // fac un for pentru a adauga melodiile
-            user.getAudioFile().getPlaylistFile().getCoppiedListSongs().add(iter);// adaug melodiile in lista mea copiata de song uri
-
+        // fac un for pentru a adauga melodiile in copie
+        for (SongInputModified iter : playlist.getListSongs()) {
+            user.getAudioFile().getPlaylistFile().getCoppiedListSongs().add(iter);
+        }
     }
 
-    private int returnSumSongsCurrent(Playlist playlist, SongInputModified song) {
+    private int returnSumSongsCurrent(final Playlist playlist, final SongInputModified song) {
         int s = 0;
         for (SongInputModified iter : playlist.getListSongs()) {
-            if (iter != song)
+            if (iter != song) {
                 s += iter.getSong().getDuration();
-            else
+            } else {
                 return s;
+            }
         }
         return 0;
     }
 
-    private void moveSongsBack(Playlist playlist) {
+    private void moveSongsBack(final Playlist playlist) {
         UserHistory user = getUserHistory().get(verifyUser(getUsername()));
         user.getAudioFile().getPlaylistFile().getListSongs().clear();
-        for (SongInputModified iter : playlist.getCoppiedListSongs())
+        for (SongInputModified iter : playlist.getCoppiedListSongs()) {
             user.getAudioFile().getPlaylistFile().getListSongs().add(iter);
+        }
     }
 
+    /**
+     * aceasta metoda imi seteaza playlistul pe shuffle si imi amesteca melodiile
+     * dupa parametrul seed citit
+     */
     @Override
     public void execute() {
         UserHistory user = getUserHistory().get(verifyUser(getUsername()));
-        if (user.getTimeLoad() != 0) { // inseamna ca am incarcat nimic
-            if (user.getAudioFile().getPlaylistFile() != null) { // inseamna ca am incarcat un playlist si =i fac shuffle
-                if (user.getAudioFile().getPlaylistFile().isShuffle() == false) { // inseamna ca nu este pe shuffle
-                    FindTrack findTrack = new FindTrack(user, getTimestamp()); // vreau sa mi returneze suma episoadelor de pana acm
-                    findTrack.findTrackExecute();
-                    int newListeningTime = user.getListeningTime() - returnSumSongsCurrent(user.getAudioFile().getPlaylistFile(), findTrack.getSongFound());
-                    user.setListeningTime(newListeningTime);
-
-                    moeveSongsIntoCopy(user.getAudioFile().getPlaylistFile()); // copiez lista mea de songurii initiale intr un array
-                    Collections.shuffle(user.getAudioFile().getPlaylistFile().getListSongs(), new Random(this.seed)); // fac shuffle pe array listul meu nou generat
-
-                    int addListeningTime = returnSumSongsCurrent(user.getAudioFile().getPlaylistFile(), findTrack.getSongFound());
-                    user.setListeningTime(user.getListeningTime() + addListeningTime); // adaugat timp pana la melodia mea din playlistul amestecat
-
-                    // trebuie sa mai adaug suma curenta pana la melodia mea in ordinea in care am pus 0
-//                    FindTrack findNewTrack = new FindTrack(user, getTimestamp());
-//                    findNewTrack.findTrackExecute();
-                    user.getAudioFile().getPlaylistFile().setShuffle(true); // inseamna ca e pe shuffle
-                    this.message = "Shuffle function activated successfully.";
-                }
-                else if (user.getAudioFile().getPlaylistFile().isShuffle() == true) { // inseamna ca este pe shuffle si vreau sa revin la lista initiala
+        if (user.getTimeLoad() != 0) { // inseamna ca am incarcat ceva
+            // inseamna ca am incarcat un playlist si i fac shuffle
+            if (user.getAudioFile().getPlaylistFile() != null) {
+                // inseamna ca nu este pe shuffle
+                if (!user.getAudioFile().getPlaylistFile().isShuffle()) {
                     FindTrack findTrack = new FindTrack(user, getTimestamp());
-                    findTrack.findTrackExecute(); // vreau sa vad la ce melodie a ajuns prin lista mea de melodii shuffled
-
-                    // momentan in user.getPlaylistFile este pastrata lista mea de melodii amestecate
-                    // vreau sa vad cat a ascultat pana la melodia mea
-                    int newListeningTime = user.getListeningTime() - returnSumSongsCurrent(user.getAudioFile().getPlaylistFile(), findTrack.getSongFound());
+                    findTrack.findTrackExecute();
+                    int newListeningTime = user.getListeningTime()
+                            - returnSumSongsCurrent(user.getAudioFile().getPlaylistFile(),
+                            findTrack.getSongFound());
                     user.setListeningTime(newListeningTime);
 
-                    moveSongsBack(user.getAudioFile().getPlaylistFile()); // mut in vectorul meu de melodii ordinea initiala
+                    // copiez lista mea de songurii initiale intr un array
+                    moeveSongsIntoCopy(user.getAudioFile().getPlaylistFile());
+                    Collections.shuffle(user.getAudioFile().getPlaylistFile().getListSongs(),
+                            new Random(this.seed)); // fac shuffle listei de melodii
 
-                    int addListeningTime = returnSumSongsCurrent(user.getAudioFile().getPlaylistFile(), findTrack.getSongFound());
+                    int addListeningTime =
+                            returnSumSongsCurrent(user.getAudioFile().getPlaylistFile(),
+                                    findTrack.getSongFound());
+                    // adaugat timp pana la melodia mea din playlistul amestecat
                     user.setListeningTime(user.getListeningTime() + addListeningTime);
 
-                    user.getAudioFile().getPlaylistFile().getCoppiedListSongs().clear(); // sterg ce a fost pana acm
-                    user.getAudioFile().getPlaylistFile().setShuffle(false); // nu mai este shuffled
+                    user.getAudioFile().getPlaylistFile().setShuffle(true); // e pe shuffle
+                    this.message = "Shuffle function activated successfully.";
+                } else if (user.getAudioFile().getPlaylistFile().isShuffle()) {
+                    // inseamna ca este pe shuffle si vreau sa revin la lista initiala
+                    FindTrack findTrack = new FindTrack(user, getTimestamp());
+                    findTrack.findTrackExecute();
+                    // vreau sa vad la ce melodie a ajuns prin lista mea de melodii shuffled
+                    // vreau sa vad cat a ascultat pana la melodia mea
+                    int newListeningTime = user.getListeningTime()
+                            - returnSumSongsCurrent(user.getAudioFile().getPlaylistFile(),
+                            findTrack.getSongFound());
+                    user.setListeningTime(newListeningTime);
+
+                    // mut in vectorul meu de melodii ordinea initiala
+                    moveSongsBack(user.getAudioFile().getPlaylistFile());
+
+                    int addListeningTime =
+                            returnSumSongsCurrent(user.getAudioFile().getPlaylistFile(),
+                                    findTrack.getSongFound());
+                    user.setListeningTime(user.getListeningTime() + addListeningTime);
+
+                    // sterg ce a fost pana acm stocat
+                    user.getAudioFile().getPlaylistFile().getCoppiedListSongs().clear();
+                    user.getAudioFile().getPlaylistFile().setShuffle(false);
                     this.message = "Shuffle function deactivated successfully.";
                 }
             } else {
@@ -95,6 +113,10 @@ public class Shuffle extends CommandExecute {
         }
     }
 
+    /**
+     *
+     * @return mesajul generat in metoda execute
+     */
     @Override
     public Output generateOutput() {
         execute();
