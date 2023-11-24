@@ -34,6 +34,7 @@ public final class Main {
     /**
      * DO NOT MODIFY MAIN METHOD
      * Call the checker
+     *
      * @param args from command line
      * @throws IOException in case of exceptions to reading / writing
      */
@@ -67,24 +68,25 @@ public final class Main {
     }
 
     /**
-     * @param filePathInput for input file
+     * @param filePathInput  for input file
      * @param filePathOutput for output file
      * @throws IOException in case of exceptions to reading / writing
      */
     public static void action(final String filePathInput,
                               final String filePathOutput) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
-        LibraryInput library = objectMapper.readValue(new File(LIBRARY_PATH), LibraryInput.class); // este o baza de date
+        LibraryInput library = objectMapper.readValue(new File(LIBRARY_PATH), LibraryInput.class);
         CommandExecute.clear();
 
-        ArrayList<Command> commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + filePathInput), new TypeReference<ArrayList<Command>>() {
-        }); // imi intra automat in clasa
-//        ArrayList<Command> commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + "test01_searchBar_songs_podcasts.json"), new TypeReference<ArrayList<Command>>() {
-//        });
+        ArrayList<Command> commands = objectMapper.
+                readValue(new File(CheckerConstants.TESTS_PATH + filePathInput),
+                        new TypeReference<ArrayList<Command>>() {
+                        });
         ArrayNode outputs = objectMapper.createArrayNode();
         for (int i = 0; i < commands.size(); i++) {
             CommandExecute commandExecute = new CommandExecute(commands.get(i), library);
-            JsonNode jsonString = objectMapper.valueToTree(commandExecute.executeCommand(commands.get(i)));
+            JsonNode jsonString = objectMapper.
+                    valueToTree(commandExecute.executeCommand(commands.get(i)));
             outputs.add(jsonString);
         }
 

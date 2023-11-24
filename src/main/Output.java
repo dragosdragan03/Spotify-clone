@@ -1,10 +1,7 @@
 package main;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import java.util.Map;
-import java.util.HashMap;
 import commands.player.Stats;
-import commands.playlist.ShowPlaylists;
 
 import java.util.ArrayList;
 
@@ -16,60 +13,102 @@ public class Output {
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private String message;
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    private ArrayList<String> results; // pe asta il folosesc in primul test
+    private ArrayList<String> results;
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private Stats stats;
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private ArrayList<Object> result;
 
-    public Output(String command, String user, Integer timestamp) {
+    /**
+     * @param command   reprezinta comanda citita
+     * @param user      numele userului
+     * @param timestamp momentul de timp la care a fost data comanda
+     */
+    public Output(final String command, final String user, final Integer timestamp) {
         this.command = command;
         this.user = user;
         this.timestamp = timestamp;
     }
 
-    public void outputSearch(String message, ArrayList<String> results) {
-        this.message = message;
-        this.results = results;
+    /**
+     * @param mssg    mesajul generat
+     * @param strings arraylistul generat pentru comanda search
+     */
+    public void outputSearch(final String mssg, final ArrayList<String> strings) {
+        this.message = mssg;
+        this.results = strings;
     }
 
-    public void outputMessage(String message){
-        this.message = message;
+    /**
+     * @param mssg mesajul care este generat in metodele execute
+     */
+    public void outputMessage(final String mssg) {
+        this.message = mssg;
     }
 
-    public void outputStatus(Stats status) {
+    /**
+     * @param status clasa status pentru comanda "status"
+     */
+    public void outputStatus(final Stats status) {
         this.stats = status;
     }
 
+    /**
+     * @return un arraylist de string/clase
+     * acest getter a fost facut cu un arraylist de tip Object, deoarece
+     * era o suprapunere de nume cu obiecte diferite
+     */
     public ArrayList<Object> getResult() {
         return result;
     }
 
+    /**
+     * seteaza lista pentru a nu fi null
+     */
     public void setResult() {
-        if (this.result == null)
+        if (this.result == null) {
             this.result = new ArrayList<>();
+        }
     }
 
+    /**
+     * @return numele comenzii
+     */
     public String getCommand() {
         return command;
     }
 
+    /**
+     * @return numele utilizatorului
+     */
     public String getUser() {
         return user;
     }
 
+    /**
+     * @return momentul de timp cand a fost data comanda
+     */
     public Integer getTimestamp() {
         return timestamp;
     }
 
+    /**
+     * @return mesajul generat
+     */
     public String getMessage() {
         return message;
     }
 
+    /**
+     * @return arraylist ul generat in clasa search
+     */
     public ArrayList<String> getResults() {
         return results;
     }
 
+    /**
+     * @return clasa Status pentru comanda "stats"
+     */
     public Stats getStats() {
         return stats;
     }
