@@ -7,7 +7,7 @@ import commands.playlist.CreatePlaylist;
 import commands.playlist.FollowPlaylist;
 import commands.playlist.ShowPlaylists;
 import commands.playlist.SwitchVisibility;
-import commands.search.SearchBar;
+import commands.search.Search;
 import commands.search.Select;
 import fileio.input.LibraryInput;
 import main.Output;
@@ -124,7 +124,7 @@ public class CommandExecute {
             updateAudioFile();
         switch (this.command) {
             case "search":
-                SearchBar search = new SearchBar(command, this.library, command.getType(), command.getFilters());
+                Search search = new Search(command, this.library, command.getType(), command.getFilters());
                 search.execute();
                 userHistory.get(verifyUser(command.getUsername())).setResultSearch(search.getResults());
                 return search.generateOutput();

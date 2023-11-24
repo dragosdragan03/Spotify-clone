@@ -9,9 +9,6 @@ import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import commands.Command;
 import commands.CommandExecute;
-import commands.UserHistory;
-import commands.search.SearchBar;
-import commands.search.Select;
 import fileio.input.LibraryInput;
 
 import java.io.File;
