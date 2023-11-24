@@ -10,38 +10,39 @@ public class PodcastInputModified {
     private int listeningTimePodcast; // retin sa vad cat timp a ascultat din podcast
     private int repeat;
 
-    public PodcastInputModified(String name, String owner, ArrayList<EpisodeInput> episodes, int listeningTimePodcast) {
+    public PodcastInputModified(final String name, final String owner,
+           final ArrayList<EpisodeInput> episodes, final int listeningTimePodcast) {
         this.name = name;
         this.owner = owner;
         this.episodes = episodes;
         this.listeningTimePodcast = listeningTimePodcast;
     }
 
-    public String getName() {
+    public final String getName() {
         return name;
     }
 
-    public void setName(final String name) {
+    public final void setName(final String name) {
         this.name = name;
     }
 
-    public String getOwner() {
+    public final String getOwner() {
         return owner;
     }
 
-    public void setOwner(final String owner) {
+    public final void setOwner(final String owner) {
         this.owner = owner;
     }
 
-    public int getListeningTimePodcast() {
+    public final int getListeningTimePodcast() {
         return listeningTimePodcast;
     }
 
-    public int getRepeat() {
+    public final int getRepeat() {
         return repeat;
     }
 
-    public void setRepeat(int repeat) {
+    public final void setRepeat(final int repeat) {
         this.repeat = repeat;
     }
 }

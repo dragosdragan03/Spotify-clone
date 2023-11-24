@@ -5,7 +5,6 @@ import commands.CommandExecute;
 import commands.Playlist;
 import commands.UserHistory;
 import fileio.input.LibraryInput;
-import fileio.input.SongInput;
 import fileio.input.SongInputModified;
 import main.Output;
 
@@ -19,26 +18,27 @@ public class ShowPlaylists extends CommandExecute {
         private String visibility = "";
         private int followers = 0;
 
-        public PlaylistShow(String name, ArrayList<String> songs, String visibility, int followers) {
+        public PlaylistShow(final String name, final ArrayList<String> songs,
+                            final String visibility, final int followers) {
             this.name = name;
             this.songs = songs;
             this.visibility = visibility;
             this.followers = followers;
         }
 
-        public String getName() {
+        public final String getName() {
             return name;
         }
 
-        public ArrayList<String> getSongs() {
+        public final ArrayList<String> getSongs() {
             return songs;
         }
 
-        public String getVisibility() {
+        public final String getVisibility() {
             return visibility;
         }
 
-        public int getFollowers() {
+        public final int getFollowers() {
             return followers;
         }
     }
@@ -46,43 +46,52 @@ public class ShowPlaylists extends CommandExecute {
     private ArrayList<PlaylistShow> result = new ArrayList<>();
 
 
-    public ShowPlaylists(Command command, LibraryInput library) {
+    public ShowPlaylists(final Command command, final LibraryInput library) {
         super(command, library);
     }
 
+    /**
+     * imi creeaza Arraylistul de PlaylistShow, pentru a putea afisa detaliile
+     * tututor playlisturilor unui user
+     */
     @Override
     public void execute() {
         UserHistory user = getUserHistory().get(verifyUser(getUsername()));
-        if (user.getUserPlaylists().size() != 0) {// inseamna ca este ceva adaugat in lista
-            for (Playlist iter : user.getUserPlaylists()) { // fac un for ca sa parcurg playlisturile userului meu
+        if (user.getUserPlaylists().size() != 0) { // inseamna ca este ceva adaugat in lista
+            for (Playlist iter : user.getUserPlaylists()) { // parcurg playlisturile userului meu
                 String playlistName = iter.getNamePlaylist();
                 ArrayList<String> songs = new ArrayList<>();
-                if (iter.getListSongs().size() != 0) {// sa vad daca au fost bagate pana acm in lista melodii
-                    if (iter.isShuffle() == false) {
-                        for (SongInputModified song : iter.getListSongs()) {
-                            songs.add(song.getSong().getName());
-                        }
-                    } else {
-                        for (SongInputModified song : iter.getCoppiedListSongs()) {
-                            songs.add(song.getSong().getName());
-                        }
+                // sa vad daca au fost adaugate pana acm in lista, melodii
+                if (iter.getListSongs().size() != 0 && !iter.isShuffle()) {
+                    for (SongInputModified song : iter.getListSongs()) {
+                        songs.add(song.getSong().getName());
+                    }
+                } else {
+                    for (SongInputModified song : iter.getCoppiedListSongs()) {
+                        songs.add(song.getSong().getName());
                     }
                 }
+
                 String visibility = iter.getTypePlaylist();
                 int followers = iter.getFollowers();
-                PlaylistShow playlistShow = new PlaylistShow(playlistName, songs, visibility, followers);
+                PlaylistShow playlistShow =
+                        new PlaylistShow(playlistName, songs, visibility, followers);
                 this.result.add(playlistShow);
             }
         }
     }
 
+    /**
+     *  afiseaza detaliile tututor playlisturilor unui user
+     */
     @Override
     public Output generateOutput() {
         execute();
         Output output = new Output(getCommand(), getUsername(), getTimestamp());
         output.setResult();
-        for (PlaylistShow iter : this.result)
+        for (PlaylistShow iter : this.result) {
             output.getResult().add(iter);
+        }
         return output;
     }
 }
