@@ -1,39 +1,32 @@
-# Proiect GlobalWaves  - Etapa 1
+**Nume:** Dragan Dragos Ovidiu
+**Grupă:** 323 CA
 
-<div align="center"><img src="https://tenor.com/view/listening-to-music-spongebob-gif-8009182.gif" width="300px"></div>
+## Titlu temă
+Proiect GlobalWaves - Etapa 1 - Audio Player
+### Descriere:
 
-#### Assignment Link: [https://ocw.cs.pub.ro/courses/poo-ca-cd/teme/proiect/etapa1](https://ocw.cs.pub.ro/courses/poo-ca-cd/teme/proiect/etapa1)
+* Scurtă descriere a funcționalității temei
+* Eventuale explicații suplimentare pentru anumite părți din temă ce crezi că nu sunt suficient de clare doar urmărind codul
 
+Pentru inceput am facut clasa Command care imi citeste comenzile din fisierele de input.
 
-## Skel Structure
+Clasa CommandExecute este o clasa parinte care va contine: comanda, timestampul, numele userului, o lista de playlisuri public si private ale tuturor userilor, precum si o lista de useri care retine istoricul acestora (cat timp a ascultat, tipul fisierelor incarcate(podcast/melodie/playlist), ce podcasturi a asculta, daca este pe Play/Pause, cand a fost incarcat fisierul etc). In metoda executeCommand de tip Output se va apela comanda respectiva si va returna mesajul generat/lista generata.
 
-* src/
-  * checker/ - checker files
-  * fileio/ - contains classes used to read data from the json files
-  * main/
-      * Main - the Main class runs the checker on your implementation. Add the entry point to your implementation in it. Run Main to test your implementation from the IDE or from command line.
-      * Test - run the main method from Test class with the name of the input file from the command line and the result will be written
-        to the out.txt file. Thus, you can compare this result with ref.
-* input/ - contains the tests and library in JSON format
-* ref/ - contains all reference output for the tests in JSON format
+Majoritatea celorlalte clase vor mosteni clasa CommandExecute, deoarece ma voi folosi de parametrii respectivi.
 
-## Tests:
-1. test01_searchBar_songs_podcasts - 4p
-2. test02_playPause_song - 4p
-3. test03_like_create_addRemove - 4p
-4. test04_like_create_addRemove_error - 4p
-5. test05_playPause_playlist_podcast - 4p
-6. test06_playPause_error -4p
-7. test07_repeat - 4p
-8. test08_repeat_error - 4p
-9. test09_shuffle - 4p
-10. test10_shuffle_error - 4p
-11. test11_next_prev_forward_backward - 4p
-12. test12_next_prev_forward_backward_error - 4p
-13. test13_searchPlaylist_follow ---  (+4)
-14. test14_searchPlaylist_follow_error - 4p
-15. test15_statistics - 4p
-16. test16_complex - 10p
-17. test17_complex - 10p
+Clasa FindTrack are scopul de a returna: cat timp a ascultat un utilizator, la ce episod/melodie este, numele melodiei/episodul, precum si alte detalii ce tin de AudioFile ul respectiv
 
-<div align="center"><img src="https://tenor.com/view/homework-time-gif-24854817.gif" width="500px"></div>
+Clasa AudioFile retine ce a incarcat un utilizator (un podcast, melodie sau playlist)
+
+Am creat si o clasa noua numita PodcastInputModified pentru a putea retine cat timp a ascultat din podcastul respectiv, daca este pe repeat, de cine apartine podcastul etc.
+
+Clasa SongInputModified a fost creata cu scopul de a putea insera un camp nou de tip repeat si pentru a vedea pe ce fel de repeat este melodia respectiva (no repeat/repeat once/ repeat infinite).
+
+Clasa FilterInput are rolul de a pastra toate campurile citite din fisierele de input. Aceasta clasa va fi folostia in Clasa Search pentru a cauta melodia/podcastul/playlistul.
+
+Clasa UserHistory are rolul de a retine toate statisticile unui utilizator (numele, cat timp a ascultat un AudioFile, daca este pe Play/Pause, melodiile la care a dat like, playlisturile pe care le detine si playlisturile la care a dat follow).
+
+Clasa Playlist a fost creata pentru a retine o lista cu melodiile pe care un utilizator le adauga, numarul de followeri, tipul playlistului (public/privat), numele playlistului, daca este pus pe shuffle sau nu, precum si prorpietarul playlistului.
+
+* Ce ai invățat din realizarea acestei teme?
+M am familiarizat cu limbajul de programare java si am inteles rolul constructorilor si a metodelor. Am inteles conceptul de mostenire, clase interne, overriding, overloading, getter si setter.
