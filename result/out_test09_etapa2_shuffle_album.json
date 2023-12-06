@@ -1,0 +1,437 @@
+[ {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 150,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 170,
+  "message" : "Search returned 1 results",
+  "results" : [ "Nothing Else Matters" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 190,
+  "message" : "Successfully selected Nothing Else Matters."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 195,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 240,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 270,
+  "message" : "Search returned 2 results",
+  "results" : [ "Don't", "Delicate" ]
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 270,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 290,
+  "message" : "Please conduct a search before making a selection."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 320,
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 320,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 340,
+  "message" : "Successfully removed from playlist."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 340,
+  "message" : "Search returned 1 results",
+  "results" : [ "Radio Ga Ga" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 340,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 340,
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 340,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 340,
+  "message" : "Please load a source before adding to or removing from the playlist."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 370,
+  "message" : "Search returned 1 results",
+  "results" : [ "Elevate" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 390,
+  "message" : "Successfully selected Elevate."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 400,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 430,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 431,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 432,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 433,
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 434,
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 434,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 440,
+  "message" : "Please load a source before using the shuffle function."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 446,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "repeat",
+  "user" : "carol19",
+  "timestamp" : 690,
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "repeat",
+  "user" : "carol19",
+  "timestamp" : 950,
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 1000,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "like",
+  "user" : "carol19",
+  "timestamp" : 1115,
+  "message" : "Please load a source before liking or unliking."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1500,
+  "message" : "Search returned 1 results",
+  "results" : [ "My playlist" ]
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 2400,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 2435,
+  "message" : "Successfully selected My playlist."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 2445,
+  "message" : "Search returned 1 results",
+  "results" : [ "I Don't Wanna Live Forever" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 2450,
+  "message" : "Successfully selected I Don't Wanna Live Forever."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 2460,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 2480,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 2500,
+  "message" : "Search returned 1 results",
+  "results" : [ "Hustle Hard" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 2510,
+  "message" : "Successfully selected Hustle Hard."
+}, {
+  "command" : "follow",
+  "user" : "carol19",
+  "timestamp" : 2515,
+  "message" : "Playlist followed successfully."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 2520,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 2540,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 2590,
+  "message" : "Search returned 1 results",
+  "results" : [ "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 2650,
+  "message" : "Successfully selected Begin Again."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 2660,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 2690,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 2700,
+  "message" : "Search returned 1 results",
+  "results" : [ "My playlist" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 2710,
+  "message" : "Successfully selected My playlist."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 2740,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 2800,
+  "stats" : {
+    "name" : "Elevate",
+    "remainedTime" : 165,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 2850,
+  "message" : "Shuffle function activated successfully."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 2900,
+  "stats" : {
+    "name" : "Elevate",
+    "remainedTime" : 65,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3250,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3600,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 3610,
+  "message" : "Please load a source before using the shuffle function."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3660,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 4000,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 4350,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 4351,
+  "message" : "Search returned 1 results",
+  "results" : [ "My playlist" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 4352,
+  "message" : "Successfully selected My playlist."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 4353,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 4360,
+  "message" : "Shuffle function activated successfully."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 4410,
+  "stats" : {
+    "name" : "Elevate",
+    "remainedTime" : 168,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 4750,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 5100,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "showPlaylists",
+  "user" : "bob35",
+  "timestamp" : 6000,
+  "result" : [ {
+    "name" : "My playlist",
+    "songs" : [ "Elevate", "I Don't Wanna Live Forever", "Hustle Hard", "Begin Again" ],
+    "visibility" : "public",
+    "followers" : 1
+  } ]
+} ]

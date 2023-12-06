@@ -1,0 +1,29 @@
+[ {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 65,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 70,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 105,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 105,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 110,
+  "message" : "The selected ID is too high."
+} ]

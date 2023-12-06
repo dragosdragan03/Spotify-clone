@@ -1,0 +1,268 @@
+[ {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 10,
+  "message" : "Search returned 1 results",
+  "results" : [ "TED Radio Hour" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 15,
+  "message" : "Successfully selected TED Radio Hour."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 20,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 49,
+  "stats" : {
+    "name" : "The Power of Design",
+    "remainedTime" : 3075,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 50,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 57,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 60,
+  "message" : "Search returned 1 results",
+  "results" : [ "TED Radio Hour" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 65,
+  "message" : "Successfully selected TED Radio Hour."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 70,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 73,
+  "stats" : {
+    "name" : "The Power of Design",
+    "remainedTime" : 3061,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 75,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 80,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 85,
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 86,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "playPause",
+  "user" : "alice22",
+  "timestamp" : 3200,
+  "message" : "Please load a source before attempting to pause or resume playback."
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 3201,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "createPlaylist",
+  "user" : "alice22",
+  "timestamp" : 3210,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 3215,
+  "message" : "Search returned 2 results",
+  "results" : [ "Freedom", "Freedom" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 3220,
+  "message" : "Successfully selected Freedom."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 3225,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 3225,
+  "message" : "Search returned 1 results",
+  "results" : [ "2010 hits" ]
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 3230,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 3235,
+  "message" : "Search returned 1 results",
+  "results" : [ "Happier" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 3240,
+  "message" : "Successfully selected Happier."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 3245,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 3247,
+  "message" : "Successfully selected 2010 hits."
+}, {
+  "command" : "follow",
+  "user" : "david27",
+  "timestamp" : 3250,
+  "message" : "Playlist followed successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 3250,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "showPlaylists",
+  "user" : "alice22",
+  "timestamp" : 3252,
+  "result" : [ {
+    "name" : "2010 hits",
+    "songs" : [ "Freedom", "Happier" ],
+    "visibility" : "public",
+    "followers" : 1
+  } ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 3255,
+  "message" : "Search returned 1 results",
+  "results" : [ "2010 hits" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 3260,
+  "message" : "Successfully selected 2010 hits."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 3265,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 3267,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 3270,
+  "stats" : {
+    "name" : "Freedom",
+    "remainedTime" : 173,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 3300,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 3448,
+  "stats" : {
+    "name" : "Happier",
+    "remainedTime" : 202,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 3450,
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 4000,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "showPlaylists",
+  "user" : "alice22",
+  "timestamp" : 4005,
+  "result" : [ {
+    "name" : "2010 hits",
+    "songs" : [ "Freedom", "Happier" ],
+    "visibility" : "public",
+    "followers" : 1
+  } ]
+}, {
+  "command" : "status",
+  "user" : "carol19",
+  "timestamp" : 4500,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+} ]

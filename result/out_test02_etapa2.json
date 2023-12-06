@@ -1,0 +1,60 @@
+[ {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 10,
+  "message" : "Search returned 1 results",
+  "results" : [ "Shape of You" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 15,
+  "message" : "Successfully selected Shape of You."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 20,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 25,
+  "stats" : {
+    "name" : "Shape of You",
+    "remainedTime" : 228,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "like",
+  "user" : "alice22",
+  "timestamp" : 280,
+  "message" : "Please load a source before liking or unliking."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 395,
+  "message" : "Search returned 1 results",
+  "results" : [ "Radio Ga Ga" ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 420,
+  "message" : "Search returned 3 results",
+  "results" : [ "Money Trees", "Maps", "Moves Like Jagger" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 430,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 440,
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "like",
+  "user" : "alice22",
+  "timestamp" : 460,
+  "message" : "Please load a source before liking or unliking."
+} ]

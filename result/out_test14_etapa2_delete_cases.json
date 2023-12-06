@@ -1,0 +1,143 @@
+[ {
+  "command" : "createPlaylist",
+  "user" : "melodicwanderer",
+  "timestamp" : 305,
+  "message" : null
+}, {
+  "command" : "search",
+  "user" : "melodicwanderer",
+  "timestamp" : 315,
+  "message" : null,
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "melodicwanderer",
+  "timestamp" : 320,
+  "message" : null
+}, {
+  "command" : "load",
+  "user" : "melodicwanderer",
+  "timestamp" : 325,
+  "message" : null
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "melodicwanderer",
+  "timestamp" : 330,
+  "message" : null
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 335,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 340,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 345,
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 350,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 355,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "follow",
+  "user" : "bob35",
+  "timestamp" : 360,
+  "message" : "Please select a source before following or unfollowing."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 365,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 370,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 375,
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "like",
+  "user" : "bob35",
+  "timestamp" : 380,
+  "message" : "Please load a source before liking or unliking."
+}, {
+  "command" : "repeat",
+  "user" : "melodicwanderer",
+  "timestamp" : 480,
+  "message" : null
+}, {
+  "command" : "search",
+  "user" : "soundseeker21",
+  "timestamp" : 625,
+  "message" : null,
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "soundseeker21",
+  "timestamp" : 630,
+  "message" : null
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 725,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 730,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "follow",
+  "user" : "carol19",
+  "timestamp" : 735,
+  "message" : "Please select a source before following or unfollowing."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 740,
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 760,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "repeat",
+  "user" : "carol19",
+  "timestamp" : 965,
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 1225,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "repeat",
+  "user" : "carol19",
+  "timestamp" : 7200,
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "repeat",
+  "user" : "carol19",
+  "timestamp" : 7505,
+  "message" : "Please load a source before setting the repeat status."
+} ]

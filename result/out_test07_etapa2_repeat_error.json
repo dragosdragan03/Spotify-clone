@@ -1,0 +1,286 @@
+[ {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 1000,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 1035,
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 1100,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 1120,
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "search",
+  "user" : "rhythmicrider58",
+  "timestamp" : 1170,
+  "message" : null,
+  "results" : [ ]
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 1190,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 1191,
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 1192,
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 2000,
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "select",
+  "user" : "rhythmicrider58",
+  "timestamp" : 2050,
+  "message" : null
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 2100,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 2135,
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "load",
+  "user" : "rhythmicrider58",
+  "timestamp" : 2185,
+  "message" : null
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 2200,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2245,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 2290,
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "like",
+  "user" : "rhythmicrider58",
+  "timestamp" : 2295,
+  "message" : null
+}, {
+  "command" : "repeat",
+  "user" : "rhythmicrider58",
+  "timestamp" : 2480,
+  "message" : null
+}, {
+  "command" : "forward",
+  "user" : "rhythmicrider58",
+  "timestamp" : 2555,
+  "message" : null
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 3000,
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 3100,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3150,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 3170,
+  "message" : "Search returned 1 results",
+  "results" : [ "99 Problems" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 3190,
+  "message" : "Successfully selected 99 Problems."
+}, {
+  "command" : "search",
+  "user" : "rhythmicrider58",
+  "timestamp" : 3190,
+  "message" : null,
+  "results" : [ ]
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 3195,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 3200,
+  "message" : "Repeat mode changed to repeat once."
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 3220,
+  "stats" : {
+    "name" : "99 Problems",
+    "remainedTime" : 209,
+    "repeat" : "Repeat Once",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "select",
+  "user" : "rhythmicrider58",
+  "timestamp" : 3225,
+  "message" : null
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3240,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 3260,
+  "message" : "Search returned 1 results",
+  "results" : [ "My favourite songs" ]
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 3270,
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "follow",
+  "user" : "rhythmicrider58",
+  "timestamp" : 3285,
+  "message" : null
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 3290,
+  "message" : "Successfully selected My favourite songs."
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 3295,
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 3310,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 3335,
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "search",
+  "user" : "rhythmicrider58",
+  "timestamp" : 3380,
+  "message" : null,
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "rhythmicrider58",
+  "timestamp" : 3395,
+  "message" : null,
+  "results" : [ ]
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 3400,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3405,
+  "message" : "A playlist with the same name already exists."
+}, {
+  "command" : "select",
+  "user" : "rhythmicrider58",
+  "timestamp" : 3410,
+  "message" : null
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 3435,
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "showPlaylists",
+  "user" : "emily30",
+  "timestamp" : 3438,
+  "result" : [ {
+    "name" : "My favourite songs",
+    "songs" : [ "99 Problems" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
+}, {
+  "command" : "load",
+  "user" : "rhythmicrider58",
+  "timestamp" : 3440,
+  "message" : null
+}, {
+  "command" : "like",
+  "user" : "rhythmicrider58",
+  "timestamp" : 3445,
+  "message" : null
+} ]
