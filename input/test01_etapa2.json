@@ -1,0 +1,193 @@
+[
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 10,
+    "type": "song",
+    "filters": {
+      "name": "Sta"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 15,
+    "itemNumber": 1
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 20,
+    "type": "song",
+    "filters": {
+      "album": "Divide"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 25,
+    "itemNumber": 4
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 30,
+    "type": "song",
+    "filters": {
+      "tags": [
+        "#love",
+        "#rap"
+      ]
+    }
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 40,
+    "type": "song",
+    "filters": {
+      "lyrics": "deep"
+    }
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 50,
+    "type": "song",
+    "filters": {
+      "genre": "pop"
+    }
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 60,
+    "type": "song",
+    "filters": {
+      "releaseYear": "<2010"
+    }
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 70,
+    "type": "song",
+    "filters": {
+      "releaseYear": ">2015"
+    }
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 80,
+    "type": "song",
+    "filters": {
+      "artist": "Kendrick Lamar"
+    }
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 90,
+    "type": "song",
+    "filters": {
+      "tags": [
+        "#rock"
+      ],
+      "artist": "Led Zeppelin"
+    }
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 100,
+    "type": "podcast",
+    "filters": {
+      "name": "The"
+    }
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 110,
+    "type": "podcast",
+    "filters": {
+      "owner": "Guy Raz"
+    }
+  },
+  {
+    "command": "switchConnectionStatus",
+    "username": "alice22",
+    "timestamp": 130
+  },
+  {
+    "command": "switchConnectionStatus",
+    "username": "bob35",
+    "timestamp": 140
+  },
+  {
+    "command": "switchConnectionStatus",
+    "username": "mari21",
+    "timestamp": 150
+  },
+  {
+    "command": "getOnlineUsers",
+    "timestamp": 170
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 180,
+    "type": "song",
+    "filters": {
+      "tags": [
+        "#rock"
+      ],
+      "artist": "Led Zeppelin"
+    }
+  },
+  {
+    "command": "switchConnectionStatus",
+    "username": "alice22",
+    "timestamp": 210
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 240,
+    "type": "song",
+    "filters": {
+      "tags": [
+        "#love",
+        "#rap"
+      ]
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 250,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "alice22",
+    "timestamp": 280
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 420
+  },
+  {
+    "command": "switchConnectionStatus",
+    "username": "alice22",
+    "timestamp": 430
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 700
+  }
+]

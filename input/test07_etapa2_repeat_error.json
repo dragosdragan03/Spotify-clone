@@ -1,0 +1,387 @@
+[
+  {
+    "command": "addUser",
+    "timestamp": 1,
+    "type": "artist",
+    "username": "melodymaster",
+    "age": 25,
+    "city": "Los Angeles"
+  },
+  {
+    "command": "addAlbum",
+    "username": "melodymaster",
+    "timestamp": 2,
+    "name": "Harmonic Horizons",
+    "releaseYear": 2023,
+    "description": "Exploring new soundscapes in modern music.",
+    "songs": [
+      {
+        "name": "Vibrant Echoes",
+        "duration": 250,
+        "album": "Harmonic Horizons",
+        "tags": ["#innovative", "#electronic", "#spotify"],
+        "lyrics": "Echoes in the night, vibrant lights taking flight",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Synth Symphony",
+        "duration": 300,
+        "album": "Harmonic Horizons",
+        "tags": ["#synthwave", "#electronic", "#applemusic"],
+        "lyrics": "Waves of sound, in a digital sea, a symphony",
+        "genre": "Rap",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Retro Rhythms",
+        "duration": 220,
+        "album": "Harmonic Horizons",
+        "tags": ["#retro", "#dance", "#deezer"],
+        "lyrics": "Back in time with beats so fine, rhythm's line",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Digital Dreams",
+        "duration": 260,
+        "album": "Harmonic Horizons",
+        "tags": ["#chillwave", "#relaxing", "#spotify"],
+        "lyrics": "In a digital dream, where the stars gleam",
+        "genre": "Pop",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Night Pulse",
+        "duration": 240,
+        "album": "Harmonic Horizons",
+        "tags": ["#nightlife", "#electronic", "#soundcloud"],
+        "lyrics": "In the pulse of the night, city lights shine bright",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      }
+    ]
+  },
+  {
+    "command": "addUser",
+    "timestamp": 30,
+    "type": "user",
+    "username": "rhythmicrider58",
+    "age": 34,
+    "city": "Portland"
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 1000,
+    "type": "song",
+    "filters": {
+      "name": "Night Pulse"
+    }
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 1035
+  },
+  {
+    "command": "select",
+    "username": "emily30",
+    "timestamp": 1100,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 1120
+  },
+  {
+    "command": "search",
+    "username": "rhythmicrider58",
+    "timestamp": 1170,
+    "type": "song",
+    "filters": {
+      "name": "S",
+      "genre": "Rap"
+    }
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 1190
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 1191
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 1192
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 2000
+  },
+  {
+    "command": "select",
+    "username": "rhythmicrider58",
+    "timestamp": 2050,
+    "itemNumber": 5
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 2100
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 2135
+  },
+  {
+    "command": "load",
+    "username": "rhythmicrider58",
+    "timestamp": 2185
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 2200
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 2245,
+    "type": "playlist",
+    "filters": {
+      "name": "Just a playlist"
+    }
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 2290
+  },
+  {
+    "command": "like",
+    "username": "rhythmicrider58",
+    "timestamp": 2295
+  },
+  {
+    "command": "repeat",
+    "username": "rhythmicrider58",
+    "timestamp": 2480
+  },
+  {
+    "command" : "forward",
+    "username" : "rhythmicrider58",
+    "timestamp" : 2555
+  },
+  {
+    "command": "changePage",
+    "username": "rhythmicrider58",
+    "timestamp": 2755,
+    "nextPage": "LikedContent"
+  },
+  {
+    "command": "deleteUser",
+    "username": "melodymaster",
+    "timestamp": 2760
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 3000
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 3100
+  },
+  {
+    "command": "createPlaylist",
+    "username": "emily30",
+    "timestamp": 3150,
+    "playlistName": "My favourite songs"
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 3170,
+    "type": "song",
+    "filters": {
+      "name": "99 Problems"
+    }
+  },
+  {
+    "command": "select",
+    "username": "emily30",
+    "timestamp": 3190,
+    "itemNumber": 1
+  },
+  {
+    "command": "search",
+    "username": "rhythmicrider58",
+    "timestamp": 3190,
+    "type": "playlist",
+    "filters": {
+      "name": "My"
+    }
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 3195
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 3200
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 3220
+  },
+  {
+    "command": "select",
+    "username": "rhythmicrider58",
+    "timestamp": 3225,
+    "itemNumber": 1
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "emily30",
+    "timestamp": 3240,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 3260,
+    "type": "playlist",
+    "filters": {
+      "owner": "emily30"
+    }
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 3270
+  },
+  {
+    "command": "follow",
+    "username": "rhythmicrider58",
+    "timestamp": 3285
+  },
+  {
+    "command": "select",
+    "username": "emily30",
+    "timestamp": 3290,
+    "itemNumber": 1
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 3295
+  },
+  {
+    "command": "printCurrentPage",
+    "username": "rhythmicrider58",
+    "timestamp": 3300
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 3310
+  },
+  {
+    "command": "changePage",
+    "username": "rhythmicrider58",
+    "timestamp": 3320,
+    "nextPage": "Home"
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 3335
+  },
+  {
+    "command": "deleteUser",
+    "username": "melodymaster",
+    "timestamp": 3335
+  },
+  {
+    "command": "search",
+    "username": "rhythmicrider58",
+    "timestamp": 3380,
+    "type": "song",
+    "filters": {
+      "name": "Vibrant Echoes"
+    }
+  },
+  {
+    "command": "search",
+    "username": "rhythmicrider58",
+    "timestamp": 3395,
+    "type": "song",
+    "filters": {
+      "name": "Shape of You"
+    }
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 3400
+  },
+  {
+    "command": "createPlaylist",
+    "username": "emily30",
+    "timestamp": 3405,
+    "playlistName": "My favourite songs"
+  },
+  {
+    "command": "select",
+    "username": "rhythmicrider58",
+    "timestamp": 3410,
+    "itemNumber": 1
+  },
+  {
+    "command": "repeat",
+    "username": "emily30",
+    "timestamp": 3435
+  },
+  {
+    "command": "showPlaylists",
+    "username": "emily30",
+    "timestamp": 3438
+  },
+  {
+    "command": "load",
+    "username": "rhythmicrider58",
+    "timestamp": 3440
+  },
+  {
+    "command": "deleteUser",
+    "username": "emily30",
+    "timestamp": 3443
+  },
+  {
+    "command": "like",
+    "username": "rhythmicrider58",
+    "timestamp": 3445
+  },
+  {
+    "command": "printCurrentPage",
+    "username": "rhythmicrider58",
+    "timestamp": 7000
+  }
+]

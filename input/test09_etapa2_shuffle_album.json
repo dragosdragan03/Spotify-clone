@@ -1,0 +1,572 @@
+[
+  {
+    "command": "createPlaylist",
+    "username": "bob35",
+    "timestamp": 150,
+    "playlistName": "My playlist"
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 170,
+    "type": "song",
+    "filters": {
+      "name": "Nothing Else Matters"
+    }
+  },
+  {
+    "command": "addUser",
+    "timestamp": 171,
+    "type": "artist",
+    "username": "melodymaster",
+    "age": 25,
+    "city": "Los Angeles"
+  },
+  {
+    "command": "addAlbum",
+    "username": "melodymaster",
+    "timestamp": 172,
+    "name": "Harmonic Horizons",
+    "releaseYear": 2023,
+    "description": "Exploring new soundscapes in modern music.",
+    "songs": [
+      {
+        "name": "Vibrant Echoes",
+        "duration": 250,
+        "album": "Harmonic Horizons",
+        "tags": ["#innovative", "#electronic", "#spotify"],
+        "lyrics": "Echoes in the night, vibrant lights taking flight",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Synth Symphony",
+        "duration": 300,
+        "album": "Harmonic Horizons",
+        "tags": ["#synthwave", "#electronic", "#applemusic"],
+        "lyrics": "Waves of sound, in a digital sea, a symphony",
+        "genre": "Rap",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Retro Rhythms",
+        "duration": 220,
+        "album": "Harmonic Horizons",
+        "tags": ["#retro", "#dance", "#deezer"],
+        "lyrics": "Back in time with beats so fine, rhythm's line",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Digital Dreams",
+        "duration": 260,
+        "album": "Harmonic Horizons",
+        "tags": ["#chillwave", "#relaxing", "#spotify"],
+        "lyrics": "In a digital dream, where the stars gleam",
+        "genre": "Pop",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Night Pulse",
+        "duration": 240,
+        "album": "Harmonic Horizons",
+        "tags": ["#nightlife", "#electronic", "#soundcloud"],
+        "lyrics": "In the pulse of the night, city lights shine bright",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      }
+    ]
+  },
+  {
+    "command": "addEvent",
+    "username": "melodymaster",
+    "timestamp": 185,
+    "name": "Event1",
+    "description": "Primul Event adaugat!",
+    "date": "01-01-2022"
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 190,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 195
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 240,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "carol19",
+    "timestamp": 270,
+    "type": "song",
+    "filters": {
+      "name": "D",
+      "genre": "Pop"
+    }
+  },
+  {
+    "command": "search",
+    "username": "david27",
+    "timestamp": 270,
+    "type": "artist",
+    "filters": {
+      "name": "m"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 290,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 320
+  },
+  {
+    "command": "select",
+    "username": "david27",
+    "timestamp": 320,
+    "itemNumber": 1
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 340,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 340,
+    "type": "song",
+    "filters": {
+      "name": "R"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 340,
+    "itemNumber": 2
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 340
+  },
+  {
+    "command": "select",
+    "username": "carol19",
+    "timestamp": 340,
+    "itemNumber": 3
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 340,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 370,
+    "type": "song",
+    "filters": {
+      "name": "Elevate"
+    }
+  },
+  {
+    "command": "removeAlbum",
+    "username": "Ed Sheeran",
+    "timestamp": 375,
+    "name": "Album1"
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 390,
+    "itemNumber": 1
+  },
+  {
+    "command": "addEvent",
+    "username": "melodymaster",
+    "timestamp": 395,
+    "name": "Event2",
+    "description": "Al doilea Event adaugat!",
+    "date": "02-13-2021"
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 400
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 430,
+    "playlistId": 1
+  },
+  {
+    "command": "printCurrentPage",
+    "username": "david27",
+    "timestamp": 430
+  },
+  {
+    "command": "removeAlbum",
+    "username": "melodymaster",
+    "timestamp": 430,
+    "name": "Album1"
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 431,
+    "type": "album",
+    "filters": {
+      "name": "Harmonic Horizons"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 432,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 433
+  },
+  {
+    "command": "addMerch",
+    "username": "melodymaster",
+    "timestamp": 433,
+    "name": "Merch1",
+    "description": "Primul Merch adaugat!",
+    "price": 100
+  },
+  {
+    "command": "load",
+    "username": "carol19",
+    "timestamp": 434
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 434
+  },
+  {
+    "command": "shuffle",
+    "username": "bob35",
+    "timestamp": 440,
+    "seed": 1024
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 446
+  },
+  {
+    "command": "repeat",
+    "username": "carol19",
+    "timestamp": 690
+  },
+  {
+    "command": "addEvent",
+    "username": "melodymaster",
+    "timestamp": 785,
+    "name": "Event2",
+    "description": "Al doilea Event adaugat!",
+    "date": "05-02-2021"
+  },
+  {
+    "command": "repeat",
+    "username": "carol19",
+    "timestamp": 950
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 1000
+  },
+  {
+    "command": "like",
+    "username": "carol19",
+    "timestamp": 1115
+  },
+  {
+    "command": "removeAlbum",
+    "username": "melodymaster",
+    "timestamp": 1200,
+    "name": "Harmonic Horizons"
+  },
+  {
+    "command": "search",
+    "username": "carol19",
+    "timestamp": 1500,
+    "type": "playlist",
+    "filters": {
+      "name": "M"
+    }
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 2400
+  },
+  {
+    "command": "select",
+    "username": "carol19",
+    "timestamp": 2435,
+    "itemNumber": 1
+  },
+  {
+    "command": "removeEvent",
+    "username": "melodymaster",
+    "timestamp": 2440,
+    "name": "Event1"
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 2445,
+    "type": "song",
+    "filters": {
+      "name": "I Don't Wanna Live Forever"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 2450,
+    "itemNumber": 1
+  },
+  {
+    "command": "printCurrentPage",
+    "username": "carol19",
+    "timestamp": 2455
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 2460
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 2480,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 2500,
+    "type": "song",
+    "filters": {
+      "name": "Hustle Hard"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 2510,
+    "itemNumber": 1
+  },
+  {
+    "command": "follow",
+    "username": "carol19",
+    "timestamp": 2515
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 2520
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 2540,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 2590,
+    "type": "song",
+    "filters": {
+      "name": "Begin Again"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 2650,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 2660
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 2690,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 2700,
+    "type": "playlist",
+    "filters": {
+      "name": "My playlist"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 2710,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 2740
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 2800
+  },
+
+  {
+    "command": "shuffle",
+    "username": "bob35",
+    "timestamp": 2850,
+    "seed": 1024
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 2900
+  },
+  {
+    "command": "removeAlbum",
+    "username": "melodymaster",
+    "timestamp": 3000,
+    "name": "Harmonic Horizons"
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 3250
+  },
+  {
+    "command": "changePage",
+    "username": "carol19",
+    "timestamp": 3251,
+    "nextPage": "LikedContent"
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 3600
+  },
+  {
+    "command": "shuffle",
+    "username": "bob35",
+    "timestamp": 3610
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 3660
+  },
+  {
+    "command": "printCurrentPage",
+    "username": "david27",
+    "timestamp": 3900
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 4000
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 4350
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 4351,
+    "type": "playlist",
+    "filters": {
+      "name": "My playlist"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 4352,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 4353
+  },
+  {
+    "command": "shuffle",
+    "username": "bob35",
+    "timestamp": 4360,
+    "seed": 4096
+  },
+  {
+    "command": "printCurrentPage",
+    "username": "david27",
+    "timestamp": 4400
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 4410
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 4750
+  },
+  {
+    "command": "printCurrentPage",
+    "username": "carol19",
+    "timestamp": 5000
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 5100
+  },
+  {
+    "command": "showPlaylists",
+    "username": "bob35",
+    "timestamp": 6000
+  }
+]

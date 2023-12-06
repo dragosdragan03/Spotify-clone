@@ -1,0 +1,354 @@
+[
+  {
+    "command": "addUser",
+    "timestamp": 2,
+    "type": "artist",
+    "username": "melodymaster",
+    "age": 25,
+    "city": "Los Angeles"
+  },
+  {
+    "command": "addAlbum",
+    "username": "melodymaster",
+    "timestamp": 4,
+    "name": "Harmonic Horizons",
+    "releaseYear": 2023,
+    "description": "Exploring new soundscapes in modern music.",
+    "songs": [
+      {
+        "name": "Vibrant Echoes",
+        "duration": 250,
+        "album": "Harmonic Horizons",
+        "tags": ["#innovative", "#electronic", "#spotify"],
+        "lyrics": "Echoes in the night, vibrant lights taking flight",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Synth Symphony",
+        "duration": 300,
+        "album": "Harmonic Horizons",
+        "tags": ["#synthwave", "#electronic", "#applemusic"],
+        "lyrics": "Waves of sound, in a digital sea, a symphony",
+        "genre": "Rap",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Retro Rhythms",
+        "duration": 220,
+        "album": "Harmonic Horizons",
+        "tags": ["#retro", "#dance", "#deezer"],
+        "lyrics": "Back in time with beats so fine, rhythm's line",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Digital Dreams",
+        "duration": 260,
+        "album": "Harmonic Horizons",
+        "tags": ["#chillwave", "#relaxing", "#spotify"],
+        "lyrics": "In a digital dream, where the stars gleam",
+        "genre": "Pop",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Night Pulse",
+        "duration": 240,
+        "album": "Harmonic Horizons",
+        "tags": ["#nightlife", "#electronic", "#soundcloud"],
+        "lyrics": "In the pulse of the night, city lights shine bright",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      }
+    ]
+  },
+  {
+    "command": "createPlaylist",
+    "username": "bob35",
+    "timestamp": 150,
+    "playlistName": "My favourite songs"
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 170,
+    "type": "song",
+    "filters": {
+      "tags": [
+        "#nightlife"
+      ]
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 190,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 195
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 240,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 270,
+    "type": "song",
+    "filters": {
+      "genre": "Pop"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 290,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 295
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 320,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 370,
+    "type": "song",
+    "filters": {
+      "releaseYear": "<2005"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 390,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 420
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 430,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 440,
+    "type": "song",
+    "filters": {
+      "name": "Vibrant Echoes"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 445,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 446
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 450,
+    "playlistId": 1
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 480
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 500,
+    "type": "playlist",
+    "filters": {
+      "name": "My favourite songs"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 510,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 650
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 655
+  },
+  {
+    "command": "next",
+    "username": "bob35",
+    "timestamp": 670
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 690
+  },
+  {
+    "command": "prev",
+    "username": "bob35",
+    "timestamp": 710
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 711
+  },
+  {
+    "command": "prev",
+    "username": "bob35",
+    "timestamp": 712
+  },
+  {
+    "command": "prev",
+    "username": "bob35",
+    "timestamp": 712
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 713
+  },
+  {
+    "command": "addUser",
+    "timestamp": 715,
+    "type": "host",
+    "username": "soundseeker",
+    "age": 50,
+    "city": "Los Angeles"
+  },
+  {
+    "command": "addPodcast",
+    "username": "soundseeker",
+    "timestamp": 716,
+    "name": "Auditory Adventures",
+    "episodes": [
+      {
+        "name": "Exploring Sonic Landscapes",
+        "duration": 2700,
+        "description": "Journey through the world's most unique auditory experiences."
+      },
+      {
+        "name": "The Future of Music Technology",
+        "duration": 3200,
+        "description": "A look into the innovations shaping the future of music production and listening."
+      },
+      {
+        "name": "Cultural Beats",
+        "duration": 2900,
+        "description": "An exploration of how different cultures influence music genres."
+      }
+    ]
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 800,
+    "type": "podcast",
+    "filters": {
+      "name": "Auditory Adventures"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 890,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 900
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 1049
+  },
+  {
+    "command": "forward",
+    "username": "bob35",
+    "timestamp": 1050
+  },
+  {
+    "command": "removePodcast",
+    "username": "soundseeker",
+    "timestamp": 1050,
+    "name": "Auditory Adventures"
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 1051
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 1198,
+    "type": "podcast",
+    "filters": {
+      "name": "Auditory Adventures"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 1199,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 1200
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 1389
+  },
+  {
+    "command": "backward",
+    "username": "bob35",
+    "timestamp": 1390
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 1391
+  }
+]

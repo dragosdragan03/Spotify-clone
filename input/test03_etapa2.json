@@ -1,0 +1,234 @@
+[
+  {
+    "command": "addUser",
+    "timestamp": 5,
+    "type": "artist",
+    "username": "melodymaster",
+    "age": 25,
+    "city": "Los Angeles"
+  },
+  {
+    "command": "addUser",
+    "timestamp": 10,
+    "type": "artist",
+    "username": "rhythmrider",
+    "age": 28,
+    "city": "Chicago"
+  },
+  {
+    "command": "addUser",
+    "timestamp": 15,
+    "type": "artist",
+    "username": "beatblazer",
+    "age": 22,
+    "city": "Miami"
+  },
+  {
+    "command": "addUser",
+    "timestamp": 20,
+    "type": "artist",
+    "username": "harmonichero",
+    "age": 27,
+    "city": "Houston"
+  },
+  {
+    "command": "getOnlineUsers",
+    "timestamp": 25
+  },
+  {
+    "command": "addAlbum",
+    "username": "melodymaster",
+    "timestamp": 35,
+    "name": "Harmonic Horizons",
+    "releaseYear": 2023,
+    "description": "Exploring new soundscapes in modern music.",
+    "songs": [
+      {
+        "name": "Vibrant Echoes",
+        "duration": 250,
+        "album": "Harmonic Horizons",
+        "tags": ["#innovative", "#electronic", "#spotify"],
+        "lyrics": "Echoes in the night, vibrant lights taking flight",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Synth Symphony",
+        "duration": 300,
+        "album": "Harmonic Horizons",
+        "tags": ["#synthwave", "#electronic", "#applemusic"],
+        "lyrics": "Waves of sound, in a digital sea, a symphony",
+        "genre": "Rap",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Retro Rhythms",
+        "duration": 220,
+        "album": "Harmonic Horizons",
+        "tags": ["#retro", "#dance", "#deezer"],
+        "lyrics": "Back in time with beats so fine, rhythm's line",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Digital Dreams",
+        "duration": 260,
+        "album": "Harmonic Horizons",
+        "tags": ["#chillwave", "#relaxing", "#spotify"],
+        "lyrics": "In a digital dream, where the stars gleam",
+        "genre": "Pop",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Night Pulse",
+        "duration": 240,
+        "album": "Harmonic Horizons",
+        "tags": ["#nightlife", "#electronic", "#soundcloud"],
+        "lyrics": "In the pulse of the night, city lights shine bright",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      }
+    ]
+  },
+  {
+    "command": "showAlbums",
+    "username": "beatblazer",
+    "timestamp": 40
+  },
+  {
+    "command": "addEvent",
+    "username": "melodymaster",
+    "timestamp": 45,
+    "name": "Harmonic Convergence",
+    "description": "A night of mesmerizing melodies and soundscapes.",
+    "date": "15-06-2022"
+  },
+  {
+    "command": "addEvent",
+    "username": "melodymaster",
+    "timestamp": 50,
+    "name": "Echoes of the Future",
+    "description": "Exploring futuristic sounds in a live performance.",
+    "date": "23-09-2022"
+  },
+  {
+    "command": "addEvent",
+    "username": "alice23",
+    "timestamp": 55,
+    "name": "Rhythmic Revelations Live",
+    "description": "A live showcase of our latest rhythmic innovations.",
+    "date": "05-12-2022"
+  },
+  {
+    "command": "addEvent",
+    "username": "bob35",
+    "timestamp": 60,
+    "name": "Rhythmic Revelations Live",
+    "description": "A live showcase of our latest rhythmic innovations.",
+    "date": "05-12-2022"
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 65,
+    "type": "artist",
+    "filters": {
+      "name": "m"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 70,
+    "itemNumber": 1
+  },
+  {
+    "command": "printCurrentPage",
+    "username": "alice22",
+    "timestamp": 75
+  },
+  {
+    "command": "addMerch",
+    "username": "melodymaster",
+    "timestamp": 80,
+    "name": "Harmonic T-Shirt",
+    "description": "Limited edition T-shirt featuring unique harmonic designs.",
+    "price": 25
+  },
+  {
+    "command": "addMerch",
+    "username": "melodymaster",
+    "timestamp": 85,
+    "name": "Echoes Cap",
+    "description": "Stylish cap with the 'Echoes of Harmony' album artwork.",
+    "price": 20
+  },
+  {
+    "command": "switchConnectionStatus",
+    "username": "alice22",
+    "timestamp": 87
+  },
+  {
+    "command": "addMerch",
+    "username": "melodymaster",
+    "timestamp": 90,
+    "name": "Melodic Hoodie",
+    "description": "Comfortable hoodie with a vibrant melodic wave pattern.",
+    "price": -5
+  },
+  {
+    "command": "addMerch",
+    "username": "Melodic Hoodie",
+    "timestamp": 95,
+    "name": "Rhythm Revolution Poster",
+    "description": "Decorative poster capturing the essence of the 'Rhythm Revolution' series.",
+    "price": 15
+  },
+  {
+    "command": "addMerch",
+    "username": "melodymaster",
+    "timestamp": 100,
+    "name": "Echoes Cap",
+    "description": "Enjoy your favorite beverage with this music-themed mug.",
+    "price": 12
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 105,
+    "type": "artist",
+    "filters": {
+      "name": "mel"
+    }
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 105,
+    "type": "artist",
+    "filters": {
+      "name": "mel"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 110,
+    "itemNumber": 1
+  },
+  {
+    "command": "printCurrentPage",
+    "username": "alice22",
+    "timestamp": 115
+  },
+  {
+  "command": "printCurrentPage",
+  "username": "bob35",
+  "timestamp": 120
+  }
+]
