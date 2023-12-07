@@ -75,11 +75,35 @@
   "message" : "Search returned 2 results",
   "results" : [ "How I Built This", "TED Radio Hour" ]
 }, {
+  "command" : "switchConnectionStatus",
+  "user" : "alice22",
+  "timestamp" : 130,
+  "message" : "alice22 has changed status successfully."
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "bob35",
+  "timestamp" : 140,
+  "message" : "bob35 has changed status successfully."
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "mari21",
+  "timestamp" : 150,
+  "message" : "The username mari21 doesn't exist."
+}, {
+  "command" : "getOnlineUsers",
+  "timestamp" : 170,
+  "result" : [ "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 180,
-  "message" : "Search returned 4 results",
-  "results" : [ "Stairway to Heaven", "Black Dog", "Whole Lotta Love", "Good Times Bad Times" ]
+  "message" : "alice22 is offline.",
+  "results" : [ ]
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "alice22",
+  "timestamp" : 210,
+  "message" : "alice22 has changed status successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -108,14 +132,19 @@
     "paused" : false
   }
 }, {
+  "command" : "switchConnectionStatus",
+  "user" : "alice22",
+  "timestamp" : 430,
+  "message" : "alice22 has changed status successfully."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 700,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Big Pimpin'",
+    "remainedTime" : 134,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 } ]

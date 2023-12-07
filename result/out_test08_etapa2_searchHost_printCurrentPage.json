@@ -26,6 +26,11 @@
     "paused" : false
   }
 }, {
+  "command" : "addUser",
+  "user" : "soundseeker",
+  "timestamp" : 50,
+  "message" : "The username soundseeker has been added successfully."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 50,
@@ -155,10 +160,20 @@
   "timestamp" : 3245,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addUser",
+  "user" : "magichost",
+  "timestamp" : 3247,
+  "message" : "The username magichost has been added successfully."
+}, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 3247,
   "message" : "Successfully selected 2010 hits."
+}, {
+  "command" : "addUser",
+  "user" : "magichost",
+  "timestamp" : 3247,
+  "message" : "The username magichost is already taken."
 }, {
   "command" : "follow",
   "user" : "david27",

@@ -1,9 +1,59 @@
 [ {
+  "command" : "addUser",
+  "user" : "melodymaster",
+  "timestamp" : 5,
+  "message" : "The username melodymaster has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "rhythmrider",
+  "timestamp" : 10,
+  "message" : "The username rhythmrider has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "beatblazer",
+  "timestamp" : 15,
+  "message" : "The username beatblazer has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "harmonichero",
+  "timestamp" : 20,
+  "message" : "The username harmonichero has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "melodicmind42",
+  "timestamp" : 25,
+  "message" : "The username melodicmind42 has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "rhythmicrider58",
+  "timestamp" : 30,
+  "message" : "The username rhythmicrider58 has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "harmonyhunter73",
+  "timestamp" : 35,
+  "message" : "The username harmonyhunter73 has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "irene33",
+  "timestamp" : 40,
+  "message" : "The username irene33 is already taken."
+}, {
+  "command" : "addAlbum",
+  "user" : "rhythmrider",
+  "timestamp" : 50,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "beatblazer",
+  "timestamp" : 55,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "melodicmind42",
   "timestamp" : 60,
-  "message" : null,
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Radio Ga Ga" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -13,22 +63,28 @@
   "command" : "select",
   "user" : "melodicmind42",
   "timestamp" : 70,
-  "message" : null
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "melodicmind42",
   "timestamp" : 75,
-  "message" : null
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "status",
   "user" : "melodicmind42",
   "timestamp" : 90,
-  "stats" : null
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
 }, {
   "command" : "like",
   "user" : "melodicmind42",
   "timestamp" : 120,
-  "message" : null
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -54,21 +110,21 @@
   "command" : "search",
   "user" : "melodicmind42",
   "timestamp" : 1385,
-  "message" : null,
+  "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
   "command" : "select",
   "user" : "melodicmind42",
   "timestamp" : 1390,
-  "message" : null
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "melodicmind42",
   "timestamp" : 1440,
-  "message" : null
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "like",
   "user" : "melodicmind42",
   "timestamp" : 1455,
-  "message" : null
+  "message" : "Please load a source before liking or unliking."
 } ]

@@ -4,10 +4,14 @@ import app.audio.Collections.Playlist;
 import app.audio.Collections.Podcast;
 import app.audio.Files.Episode;
 import app.audio.Files.Song;
+import app.user.Artist;
+import app.user.Host;
 import app.user.User;
 import fileio.input.*;
+import org.checkerframework.checker.units.qual.A;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Admin {
     private static List<User> users = new ArrayList<>();
@@ -105,6 +109,37 @@ public class Admin {
             count++;
         }
         return topPlaylists;
+    }
+
+    public static List<String> getOnlineUsers() {
+        List<String> onlineUsers; // fac un string pentru a vedea userii activi
+         onlineUsers = users.stream()
+                .filter(User::isOnline)
+                 .map(User::getUsername)
+                .collect(Collectors.toList());
+
+         return onlineUsers;
+    }
+
+    public static String addUser(String username, int age, String city, String type) {
+
+        for (User iter : users) { // verific daca mai exista userul respectiv
+            if (iter.getUsername().equals(username)) {
+                return "The username " + username + " is already taken.";
+            }
+        }
+        // inseamna ca nu a mai fost gasit userul respectiv
+        if (type.equals("user")) { // inseamna ca este admin
+            User user = new User(username, age, city); // creez un user normal
+            users.add(user);
+        } else if (type.equals("artist")) {
+           User artist = new Artist(username, age, city);
+           users.add(artist);
+        } else if (type.equals("host")) {
+            User host = new Host(username, age, city);
+            users.add(host);
+        }
+        return "The username " + username + " has been added successfully.";
     }
 
     public static void reset() {

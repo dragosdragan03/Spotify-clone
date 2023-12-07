@@ -1,4 +1,19 @@
 [ {
+  "command" : "addUser",
+  "user" : "melodymaster",
+  "timestamp" : 1,
+  "message" : "The username melodymaster has been added successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "melodymaster",
+  "timestamp" : 2,
+  "message" : null
+}, {
+  "command" : "addUser",
+  "user" : "rhythmicrider58",
+  "timestamp" : 30,
+  "message" : "The username rhythmicrider58 has been added successfully."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 1000,
@@ -23,8 +38,8 @@
   "command" : "search",
   "user" : "rhythmicrider58",
   "timestamp" : 1170,
-  "message" : null,
-  "results" : [ ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Sicko Mode", "Stargazing", "Sicko Mode", "Swimming Pools (Drank)" ]
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -55,7 +70,7 @@
   "command" : "select",
   "user" : "rhythmicrider58",
   "timestamp" : 2050,
-  "message" : null
+  "message" : "The selected ID is too high."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -76,7 +91,7 @@
   "command" : "load",
   "user" : "rhythmicrider58",
   "timestamp" : 2185,
-  "message" : null
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -103,17 +118,17 @@
   "command" : "like",
   "user" : "rhythmicrider58",
   "timestamp" : 2295,
-  "message" : null
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "repeat",
   "user" : "rhythmicrider58",
   "timestamp" : 2480,
-  "message" : null
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "forward",
   "user" : "rhythmicrider58",
   "timestamp" : 2555,
-  "message" : null
+  "message" : "Please load a source before attempting to forward."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -150,8 +165,8 @@
   "command" : "search",
   "user" : "rhythmicrider58",
   "timestamp" : 3190,
-  "message" : null,
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "My favourite songs" ]
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -177,7 +192,7 @@
   "command" : "select",
   "user" : "rhythmicrider58",
   "timestamp" : 3225,
-  "message" : null
+  "message" : "Successfully selected My favourite songs."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
@@ -198,7 +213,7 @@
   "command" : "follow",
   "user" : "rhythmicrider58",
   "timestamp" : 3285,
-  "message" : null
+  "message" : "Playlist followed successfully."
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -229,14 +244,14 @@
   "command" : "search",
   "user" : "rhythmicrider58",
   "timestamp" : 3380,
-  "message" : null,
+  "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
   "command" : "search",
   "user" : "rhythmicrider58",
   "timestamp" : 3395,
-  "message" : null,
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Shape of You" ]
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -257,7 +272,7 @@
   "command" : "select",
   "user" : "rhythmicrider58",
   "timestamp" : 3410,
-  "message" : null
+  "message" : "Successfully selected Shape of You."
 }, {
   "command" : "repeat",
   "user" : "emily30",
@@ -271,16 +286,16 @@
     "name" : "My favourite songs",
     "songs" : [ "99 Problems" ],
     "visibility" : "public",
-    "followers" : 0
+    "followers" : 1
   } ]
 }, {
   "command" : "load",
   "user" : "rhythmicrider58",
   "timestamp" : 3440,
-  "message" : null
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "rhythmicrider58",
   "timestamp" : 3445,
-  "message" : null
+  "message" : "Like registered successfully."
 } ]

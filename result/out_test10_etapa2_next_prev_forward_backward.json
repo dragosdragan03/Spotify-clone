@@ -1,4 +1,14 @@
 [ {
+  "command" : "addUser",
+  "user" : "melodymaster",
+  "timestamp" : 2,
+  "message" : "The username melodymaster has been added successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "melodymaster",
+  "timestamp" : 4,
+  "message" : null
+}, {
   "command" : "createPlaylist",
   "user" : "bob35",
   "timestamp" : 150,
@@ -178,6 +188,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "addUser",
+  "user" : "soundseeker",
+  "timestamp" : 715,
+  "message" : "The username soundseeker has been added successfully."
 }, {
   "command" : "search",
   "user" : "bob35",

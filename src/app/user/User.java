@@ -12,6 +12,7 @@ import app.searchBar.Filters;
 import app.searchBar.SearchBar;
 import app.utils.Enums;
 import lombok.Getter;
+import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,6 +33,8 @@ public class User {
     private final Player player;
     private final SearchBar searchBar;
     private boolean lastSearched;
+    @Getter @Setter
+    private boolean online = true;
 
     public User(String username, int age, String city) {
         this.username = username;
@@ -48,10 +51,12 @@ public class User {
     public ArrayList<String> search(Filters filters, String type) {
         searchBar.clearSelection();
         player.stop();
-
         lastSearched = true;
         ArrayList<String> results = new ArrayList<>();
-        List<LibraryEntry> libraryEntries = searchBar.search(filters, type);
+        List<LibraryEntry> libraryEntries = new ArrayList<>();
+        if (isOnline()) {
+            libraryEntries = searchBar.search(filters, type);
+        }
 
         for (LibraryEntry libraryEntry : libraryEntries) {
             results.add(libraryEntry.getName());
@@ -317,7 +322,18 @@ public class User {
         return "This user's preferred genre is %s.".formatted(preferredGenre);
     }
 
+    public String switchConnectionStatus() {
+        online = !online;
+        return username + " has changed status successfully.";
+    }
+
+    public String addAlbum(String username, List<Song> songs) {
+        return username + "  is not an artist.";
+    }
+
     public void simulateTime(int time) {
-        player.simulatePlayer(time);
+        if (isOnline()) { // doar daca este online verific
+            player.simulatePlayer(time);
+        }
     }
 }

@@ -1,4 +1,33 @@
 [ {
+  "command" : "addUser",
+  "user" : "melodymaster",
+  "timestamp" : 5,
+  "message" : "The username melodymaster has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "rhythmrider",
+  "timestamp" : 10,
+  "message" : "The username rhythmrider has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "beatblazer",
+  "timestamp" : 15,
+  "message" : "The username beatblazer has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "harmonichero",
+  "timestamp" : 20,
+  "message" : "The username harmonichero has been added successfully."
+}, {
+  "command" : "getOnlineUsers",
+  "timestamp" : 25,
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "melodymaster", "rhythmrider", "beatblazer", "harmonichero" ]
+}, {
+  "command" : "addAlbum",
+  "user" : "melodymaster",
+  "timestamp" : 35,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 65,
@@ -10,10 +39,15 @@
   "timestamp" : 70,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "switchConnectionStatus",
+  "user" : "alice22",
+  "timestamp" : 87,
+  "message" : "alice22 has changed status successfully."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 105,
-  "message" : "Search returned 0 results",
+  "message" : "alice22 is offline.",
   "results" : [ ]
 }, {
   "command" : "search",

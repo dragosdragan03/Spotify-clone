@@ -1,4 +1,14 @@
 [ {
+  "command" : "addUser",
+  "user" : "melodymaster",
+  "timestamp" : 1,
+  "message" : "The username melodymaster has been added successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "melodymaster",
+  "timestamp" : 2,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 6,

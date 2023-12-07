@@ -1,29 +1,74 @@
 [ {
+  "command" : "addUser",
+  "user" : "sonicpainter",
+  "timestamp" : 45,
+  "message" : "The username sonicpainter has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "echoexplorer",
+  "timestamp" : 50,
+  "message" : "The username echoexplorer has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "rhythmweaver",
+  "timestamp" : 55,
+  "message" : "The username rhythmweaver has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "soundseeker21",
+  "timestamp" : 60,
+  "message" : "The username soundseeker21 has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "melodicwanderer",
+  "timestamp" : 65,
+  "message" : "The username melodicwanderer has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "audiosage",
+  "timestamp" : 70,
+  "message" : "The username audiosage has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "soundcurator",
+  "timestamp" : 75,
+  "message" : "The username soundcurator has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "musicmaven",
+  "timestamp" : 80,
+  "message" : "The username musicmaven has been added successfully."
+}, {
   "command" : "createPlaylist",
   "user" : "melodicwanderer",
   "timestamp" : 305,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "sonicpainter",
+  "timestamp" : 310,
   "message" : null
 }, {
   "command" : "search",
   "user" : "melodicwanderer",
   "timestamp" : 315,
-  "message" : null,
+  "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
   "command" : "select",
   "user" : "melodicwanderer",
   "timestamp" : 320,
-  "message" : null
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "melodicwanderer",
   "timestamp" : 325,
-  "message" : null
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "melodicwanderer",
   "timestamp" : 330,
-  "message" : null
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -44,18 +89,18 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 350,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Playlist bengos" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 355,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Playlist bengos."
 }, {
   "command" : "follow",
   "user" : "bob35",
   "timestamp" : 360,
-  "message" : "Please select a source before following or unfollowing."
+  "message" : "Playlist followed successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -81,39 +126,39 @@
   "command" : "repeat",
   "user" : "melodicwanderer",
   "timestamp" : 480,
-  "message" : null
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "search",
   "user" : "soundseeker21",
   "timestamp" : 625,
-  "message" : null,
+  "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
   "command" : "select",
   "user" : "soundseeker21",
   "timestamp" : 630,
-  "message" : null
+  "message" : "The selected ID is too high."
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 725,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Playlist bengos" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 730,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Playlist bengos."
 }, {
   "command" : "follow",
   "user" : "carol19",
   "timestamp" : 735,
-  "message" : "Please select a source before following or unfollowing."
+  "message" : "Playlist followed successfully."
 }, {
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 740,
-  "message" : "Please select a source before attempting to load."
+  "message" : "You can't load an empty audio collection!"
 }, {
   "command" : "search",
   "user" : "david27",

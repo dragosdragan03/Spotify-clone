@@ -1,4 +1,379 @@
 [ {
+  "command" : "addUser",
+  "user" : "jsimpson",
+  "timestamp" : 100,
+  "message" : "The username jsimpson has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "barmstrong",
+  "timestamp" : 101,
+  "message" : "The username barmstrong has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "mccarthyluis",
+  "timestamp" : 102,
+  "message" : "The username mccarthyluis has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "mccarthyluis",
+  "timestamp" : 103,
+  "message" : "The username mccarthyluis is already taken."
+}, {
+  "command" : "addUser",
+  "user" : "charlesgarcia",
+  "timestamp" : 104,
+  "message" : "The username charlesgarcia has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "glester",
+  "timestamp" : 105,
+  "message" : "The username glester has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "john99",
+  "timestamp" : 106,
+  "message" : "The username john99 has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "jenningsbeth",
+  "timestamp" : 107,
+  "message" : "The username jenningsbeth has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "barmstrong",
+  "timestamp" : 108,
+  "message" : "The username barmstrong is already taken."
+}, {
+  "command" : "addUser",
+  "user" : "mccarthyluis",
+  "timestamp" : 109,
+  "message" : "The username mccarthyluis is already taken."
+}, {
+  "command" : "addUser",
+  "user" : "barmstrong",
+  "timestamp" : 110,
+  "message" : "The username barmstrong is already taken."
+}, {
+  "command" : "addUser",
+  "user" : "jsimpson",
+  "timestamp" : 111,
+  "message" : "The username jsimpson is already taken."
+}, {
+  "command" : "addUser",
+  "user" : "john99",
+  "timestamp" : 112,
+  "message" : "The username john99 is already taken."
+}, {
+  "command" : "addUser",
+  "user" : "barmstrong",
+  "timestamp" : 113,
+  "message" : "The username barmstrong is already taken."
+}, {
+  "command" : "addUser",
+  "user" : "anthony22",
+  "timestamp" : 114,
+  "message" : "The username anthony22 has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "fwebb",
+  "timestamp" : 115,
+  "message" : "The username fwebb has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "jacobdean",
+  "timestamp" : 116,
+  "message" : "The username jacobdean has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "anthony22",
+  "timestamp" : 117,
+  "message" : "The username anthony22 is already taken."
+}, {
+  "command" : "addUser",
+  "user" : "matthewporter",
+  "timestamp" : 118,
+  "message" : "The username matthewporter has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "amanda16",
+  "timestamp" : 119,
+  "message" : "The username amanda16 has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "barmstrong",
+  "timestamp" : 120,
+  "message" : "The username barmstrong is already taken."
+}, {
+  "command" : "addUser",
+  "user" : "jacobdean",
+  "timestamp" : 121,
+  "message" : "The username jacobdean is already taken."
+}, {
+  "command" : "addUser",
+  "user" : "fwebb",
+  "timestamp" : 122,
+  "message" : "The username fwebb is already taken."
+}, {
+  "command" : "addUser",
+  "user" : "cbutler",
+  "timestamp" : 123,
+  "message" : "The username cbutler has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "glester",
+  "timestamp" : 124,
+  "message" : "The username glester is already taken."
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 125,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 126,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 127,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 128,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 129,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 130,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 131,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "anthony22",
+  "timestamp" : 132,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 133,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "anthony22",
+  "timestamp" : 134,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 135,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 136,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 137,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "charlesgarcia",
+  "timestamp" : 138,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 139,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 140,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 141,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 142,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 143,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 144,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 145,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 146,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 147,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 148,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 149,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 150,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 151,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "jsimpson",
+  "timestamp" : 152,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 153,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 154,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 155,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "anthony22",
+  "timestamp" : 156,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 157,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 158,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "anthony22",
+  "timestamp" : 159,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 160,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 161,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "jsimpson",
+  "timestamp" : 162,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "jsimpson",
+  "timestamp" : 163,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 164,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 165,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 166,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 167,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 168,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "jsimpson",
+  "timestamp" : 169,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 170,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 171,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 172,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 173,
+  "message" : null
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 174,
+  "message" : null
+}, {
   "command" : "switchVisibility",
   "user" : "alice22",
   "timestamp" : 190,
@@ -4356,6 +4731,11 @@
     "paused" : true
   }
 }, {
+  "command" : "switchConnectionStatus",
+  "user" : "alice22",
+  "timestamp" : 5410,
+  "message" : "alice22 has changed status successfully."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 5415,
@@ -4366,6 +4746,20 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "alice22",
+  "timestamp" : 5420,
+  "message" : "alice22 has changed status successfully."
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "jsimpson",
+  "timestamp" : 5420,
+  "message" : "jsimpson has changed status successfully."
+}, {
+  "command" : "getOnlineUsers",
+  "timestamp" : 5420,
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong", "mccarthyluis", "charlesgarcia", "glester", "john99", "jenningsbeth", "anthony22", "fwebb", "jacobdean", "matthewporter", "amanda16", "cbutler" ]
 }, {
   "command" : "shuffle",
   "user" : "alice22",
@@ -4431,6 +4825,11 @@
     "paused" : true
   }
 }, {
+  "command" : "switchConnectionStatus",
+  "user" : "bob35",
+  "timestamp" : 5721,
+  "message" : "bob35 has changed status successfully."
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 5726,
@@ -4441,6 +4840,20 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "bob35",
+  "timestamp" : 5731,
+  "message" : "bob35 has changed status successfully."
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "jsimpson",
+  "timestamp" : 5731,
+  "message" : "jsimpson has changed status successfully."
+}, {
+  "command" : "getOnlineUsers",
+  "timestamp" : 5731,
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "jsimpson", "barmstrong", "mccarthyluis", "charlesgarcia", "glester", "john99", "jenningsbeth", "anthony22", "fwebb", "jacobdean", "matthewporter", "amanda16", "cbutler" ]
 }, {
   "command" : "shuffle",
   "user" : "bob35",
@@ -4506,6 +4919,11 @@
     "paused" : true
   }
 }, {
+  "command" : "switchConnectionStatus",
+  "user" : "carol19",
+  "timestamp" : 6032,
+  "message" : "carol19 has changed status successfully."
+}, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6037,
@@ -4516,6 +4934,20 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "carol19",
+  "timestamp" : 6042,
+  "message" : "carol19 has changed status successfully."
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "jsimpson",
+  "timestamp" : 6042,
+  "message" : "jsimpson has changed status successfully."
+}, {
+  "command" : "getOnlineUsers",
+  "timestamp" : 6042,
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong", "mccarthyluis", "charlesgarcia", "glester", "john99", "jenningsbeth", "anthony22", "fwebb", "jacobdean", "matthewporter", "amanda16", "cbutler" ]
 }, {
   "command" : "shuffle",
   "user" : "carol19",
@@ -4581,6 +5013,11 @@
     "paused" : true
   }
 }, {
+  "command" : "switchConnectionStatus",
+  "user" : "david27",
+  "timestamp" : 6343,
+  "message" : "david27 has changed status successfully."
+}, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6348,
@@ -4591,6 +5028,20 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "david27",
+  "timestamp" : 6353,
+  "message" : "david27 has changed status successfully."
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "jsimpson",
+  "timestamp" : 6353,
+  "message" : "jsimpson has changed status successfully."
+}, {
+  "command" : "getOnlineUsers",
+  "timestamp" : 6353,
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "jsimpson", "barmstrong", "mccarthyluis", "charlesgarcia", "glester", "john99", "jenningsbeth", "anthony22", "fwebb", "jacobdean", "matthewporter", "amanda16", "cbutler" ]
 }, {
   "command" : "shuffle",
   "user" : "david27",
@@ -4656,6 +5107,11 @@
     "paused" : true
   }
 }, {
+  "command" : "switchConnectionStatus",
+  "user" : "emily30",
+  "timestamp" : 6654,
+  "message" : "emily30 has changed status successfully."
+}, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6659,
@@ -4666,6 +5122,20 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "emily30",
+  "timestamp" : 6664,
+  "message" : "emily30 has changed status successfully."
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "jsimpson",
+  "timestamp" : 6664,
+  "message" : "jsimpson has changed status successfully."
+}, {
+  "command" : "getOnlineUsers",
+  "timestamp" : 6664,
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong", "mccarthyluis", "charlesgarcia", "glester", "john99", "jenningsbeth", "anthony22", "fwebb", "jacobdean", "matthewporter", "amanda16", "cbutler" ]
 }, {
   "command" : "shuffle",
   "user" : "emily30",
@@ -4731,6 +5201,11 @@
     "paused" : true
   }
 }, {
+  "command" : "switchConnectionStatus",
+  "user" : "frank21",
+  "timestamp" : 6965,
+  "message" : "frank21 has changed status successfully."
+}, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6970,
@@ -4741,6 +5216,20 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "frank21",
+  "timestamp" : 6975,
+  "message" : "frank21 has changed status successfully."
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "jsimpson",
+  "timestamp" : 6975,
+  "message" : "jsimpson has changed status successfully."
+}, {
+  "command" : "getOnlineUsers",
+  "timestamp" : 6975,
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "jsimpson", "barmstrong", "mccarthyluis", "charlesgarcia", "glester", "john99", "jenningsbeth", "anthony22", "fwebb", "jacobdean", "matthewporter", "amanda16", "cbutler" ]
 }, {
   "command" : "shuffle",
   "user" : "frank21",
@@ -4806,6 +5295,11 @@
     "paused" : true
   }
 }, {
+  "command" : "switchConnectionStatus",
+  "user" : "grace25",
+  "timestamp" : 7276,
+  "message" : "grace25 has changed status successfully."
+}, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 7281,
@@ -4816,6 +5310,20 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "grace25",
+  "timestamp" : 7286,
+  "message" : "grace25 has changed status successfully."
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "jsimpson",
+  "timestamp" : 7286,
+  "message" : "jsimpson has changed status successfully."
+}, {
+  "command" : "getOnlineUsers",
+  "timestamp" : 7286,
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong", "mccarthyluis", "charlesgarcia", "glester", "john99", "jenningsbeth", "anthony22", "fwebb", "jacobdean", "matthewporter", "amanda16", "cbutler" ]
 }, {
   "command" : "shuffle",
   "user" : "grace25",
@@ -4881,6 +5389,11 @@
     "paused" : true
   }
 }, {
+  "command" : "switchConnectionStatus",
+  "user" : "henry26",
+  "timestamp" : 7587,
+  "message" : "henry26 has changed status successfully."
+}, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 7592,
@@ -4891,6 +5404,20 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "henry26",
+  "timestamp" : 7597,
+  "message" : "henry26 has changed status successfully."
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "jsimpson",
+  "timestamp" : 7597,
+  "message" : "jsimpson has changed status successfully."
+}, {
+  "command" : "getOnlineUsers",
+  "timestamp" : 7597,
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "jsimpson", "barmstrong", "mccarthyluis", "charlesgarcia", "glester", "john99", "jenningsbeth", "anthony22", "fwebb", "jacobdean", "matthewporter", "amanda16", "cbutler" ]
 }, {
   "command" : "shuffle",
   "user" : "henry26",
@@ -4956,6 +5483,11 @@
     "paused" : true
   }
 }, {
+  "command" : "switchConnectionStatus",
+  "user" : "irene33",
+  "timestamp" : 7898,
+  "message" : "irene33 has changed status successfully."
+}, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 7903,
@@ -4966,6 +5498,20 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "irene33",
+  "timestamp" : 7908,
+  "message" : "irene33 has changed status successfully."
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "jsimpson",
+  "timestamp" : 7908,
+  "message" : "jsimpson has changed status successfully."
+}, {
+  "command" : "getOnlineUsers",
+  "timestamp" : 7908,
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong", "mccarthyluis", "charlesgarcia", "glester", "john99", "jenningsbeth", "anthony22", "fwebb", "jacobdean", "matthewporter", "amanda16", "cbutler" ]
 }, {
   "command" : "shuffle",
   "user" : "irene33",
@@ -5031,6 +5577,11 @@
     "paused" : true
   }
 }, {
+  "command" : "switchConnectionStatus",
+  "user" : "jack29",
+  "timestamp" : 8209,
+  "message" : "jack29 has changed status successfully."
+}, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 8214,
@@ -5041,6 +5592,20 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "jack29",
+  "timestamp" : 8219,
+  "message" : "jack29 has changed status successfully."
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "jsimpson",
+  "timestamp" : 8219,
+  "message" : "jsimpson has changed status successfully."
+}, {
+  "command" : "getOnlineUsers",
+  "timestamp" : 8219,
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "jsimpson", "barmstrong", "mccarthyluis", "charlesgarcia", "glester", "john99", "jenningsbeth", "anthony22", "fwebb", "jacobdean", "matthewporter", "amanda16", "cbutler" ]
 }, {
   "command" : "shuffle",
   "user" : "jack29",
@@ -13471,6 +14036,11 @@
   "timestamp" : 11770,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 11770,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11780,
@@ -13481,6 +14051,11 @@
   "user" : "bob35",
   "timestamp" : 11780,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 11780,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -13493,6 +14068,11 @@
   "timestamp" : 11790,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 11790,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11800,
@@ -13503,6 +14083,11 @@
   "user" : "david27",
   "timestamp" : 11800,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 11800,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -13515,6 +14100,11 @@
   "timestamp" : 11810,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 11810,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11820,
@@ -13525,6 +14115,11 @@
   "user" : "frank21",
   "timestamp" : 11820,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 11820,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -13537,6 +14132,11 @@
   "timestamp" : 11830,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 11830,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11840,
@@ -13547,6 +14147,11 @@
   "user" : "henry26",
   "timestamp" : 11840,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "jsimpson",
+  "timestamp" : 11840,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -13559,6 +14164,11 @@
   "timestamp" : 11850,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 11850,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 11860,
@@ -13569,6 +14179,11 @@
   "user" : "jack29",
   "timestamp" : 11860,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 11860,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -13581,6 +14196,11 @@
   "timestamp" : 11870,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 11870,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11880,
@@ -13591,6 +14211,11 @@
   "user" : "bob35",
   "timestamp" : 11880,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 11880,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -13603,6 +14228,11 @@
   "timestamp" : 11890,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "charlesgarcia",
+  "timestamp" : 11890,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11900,
@@ -13613,6 +14243,11 @@
   "user" : "david27",
   "timestamp" : 11900,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 11900,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -13625,6 +14260,11 @@
   "timestamp" : 11910,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 11910,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11920,
@@ -13635,6 +14275,11 @@
   "user" : "frank21",
   "timestamp" : 11920,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 11920,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -13647,6 +14292,11 @@
   "timestamp" : 11930,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 11930,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11940,
@@ -13657,6 +14307,11 @@
   "user" : "henry26",
   "timestamp" : 11940,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "anthony22",
+  "timestamp" : 11940,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -13669,6 +14324,11 @@
   "timestamp" : 11950,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 11950,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 11960,
@@ -13679,6 +14339,11 @@
   "user" : "jack29",
   "timestamp" : 11960,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "charlesgarcia",
+  "timestamp" : 11960,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -13691,6 +14356,11 @@
   "timestamp" : 11970,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 11970,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11980,
@@ -13701,6 +14371,11 @@
   "user" : "bob35",
   "timestamp" : 11980,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 11980,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -13713,6 +14388,11 @@
   "timestamp" : 11990,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 11990,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12000,
@@ -13723,6 +14403,11 @@
   "user" : "david27",
   "timestamp" : 12000,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12000,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -13735,6 +14420,11 @@
   "timestamp" : 12010,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12010,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12020,
@@ -13745,6 +14435,11 @@
   "user" : "frank21",
   "timestamp" : 12020,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12020,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -13757,6 +14452,11 @@
   "timestamp" : 12030,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12030,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12040,
@@ -13767,6 +14467,11 @@
   "user" : "henry26",
   "timestamp" : 12040,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12040,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -13779,6 +14484,11 @@
   "timestamp" : 12050,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12050,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12060,
@@ -13789,6 +14499,11 @@
   "user" : "jack29",
   "timestamp" : 12060,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12060,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -13801,6 +14516,11 @@
   "timestamp" : 12070,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12070,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12080,
@@ -13811,6 +14531,11 @@
   "user" : "bob35",
   "timestamp" : 12080,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12080,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -13823,6 +14548,11 @@
   "timestamp" : 12090,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "jsimpson",
+  "timestamp" : 12090,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12100,
@@ -13833,6 +14563,11 @@
   "user" : "david27",
   "timestamp" : 12100,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12100,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -13845,6 +14580,11 @@
   "timestamp" : 12110,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12110,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12120,
@@ -13855,6 +14595,11 @@
   "user" : "frank21",
   "timestamp" : 12120,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 12120,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -13867,6 +14612,11 @@
   "timestamp" : 12130,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12130,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12140,
@@ -13877,6 +14627,11 @@
   "user" : "henry26",
   "timestamp" : 12140,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12140,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -13889,6 +14644,11 @@
   "timestamp" : 12150,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12150,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12160,
@@ -13899,6 +14659,11 @@
   "user" : "jack29",
   "timestamp" : 12160,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12160,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -13911,6 +14676,11 @@
   "timestamp" : 12170,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12170,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12180,
@@ -13921,6 +14691,11 @@
   "user" : "bob35",
   "timestamp" : 12180,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12180,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -13933,6 +14708,11 @@
   "timestamp" : 12190,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12190,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12200,
@@ -13943,6 +14723,11 @@
   "user" : "david27",
   "timestamp" : 12200,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12200,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -13955,6 +14740,11 @@
   "timestamp" : 12210,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12210,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12220,
@@ -13965,6 +14755,11 @@
   "user" : "frank21",
   "timestamp" : 12220,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12220,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -13977,6 +14772,11 @@
   "timestamp" : 12230,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12230,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12240,
@@ -13987,6 +14787,11 @@
   "user" : "henry26",
   "timestamp" : 12240,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12240,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -13999,6 +14804,11 @@
   "timestamp" : 12250,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12250,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12260,
@@ -14009,6 +14819,11 @@
   "user" : "jack29",
   "timestamp" : 12260,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "anthony22",
+  "timestamp" : 12260,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14021,6 +14836,11 @@
   "timestamp" : 12270,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "charlesgarcia",
+  "timestamp" : 12270,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12280,
@@ -14031,6 +14851,11 @@
   "user" : "bob35",
   "timestamp" : 12280,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12280,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14043,6 +14868,11 @@
   "timestamp" : 12290,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12290,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12300,
@@ -14053,6 +14883,11 @@
   "user" : "david27",
   "timestamp" : 12300,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12300,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14065,6 +14900,11 @@
   "timestamp" : 12310,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12310,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12320,
@@ -14075,6 +14915,11 @@
   "user" : "frank21",
   "timestamp" : 12320,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 12320,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14087,6 +14932,11 @@
   "timestamp" : 12330,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12330,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12340,
@@ -14097,6 +14947,11 @@
   "user" : "henry26",
   "timestamp" : 12340,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12340,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14109,6 +14964,11 @@
   "timestamp" : 12350,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12350,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12360,
@@ -14119,6 +14979,11 @@
   "user" : "jack29",
   "timestamp" : 12360,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12360,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14131,6 +14996,11 @@
   "timestamp" : 12370,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12370,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12380,
@@ -14141,6 +15011,11 @@
   "user" : "bob35",
   "timestamp" : 12380,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12380,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14153,6 +15028,11 @@
   "timestamp" : 12390,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12390,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12400,
@@ -14163,6 +15043,11 @@
   "user" : "david27",
   "timestamp" : 12400,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12400,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14175,6 +15060,11 @@
   "timestamp" : 12410,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12410,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12420,
@@ -14185,6 +15075,11 @@
   "user" : "frank21",
   "timestamp" : 12420,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12420,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14197,6 +15092,11 @@
   "timestamp" : 12430,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12430,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12440,
@@ -14207,6 +15107,11 @@
   "user" : "henry26",
   "timestamp" : 12440,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12440,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14219,6 +15124,11 @@
   "timestamp" : 12450,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12450,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12460,
@@ -14229,6 +15139,11 @@
   "user" : "jack29",
   "timestamp" : 12460,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12460,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14241,6 +15156,11 @@
   "timestamp" : 12470,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12470,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12480,
@@ -14251,6 +15171,11 @@
   "user" : "bob35",
   "timestamp" : 12480,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12480,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14263,6 +15188,11 @@
   "timestamp" : 12490,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12490,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12500,
@@ -14273,6 +15203,11 @@
   "user" : "david27",
   "timestamp" : 12500,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12500,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14285,6 +15220,11 @@
   "timestamp" : 12510,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12510,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12520,
@@ -14295,6 +15235,11 @@
   "user" : "frank21",
   "timestamp" : 12520,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "charlesgarcia",
+  "timestamp" : 12520,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14307,6 +15252,11 @@
   "timestamp" : 12530,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12530,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12540,
@@ -14317,6 +15267,11 @@
   "user" : "henry26",
   "timestamp" : 12540,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12540,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14329,6 +15284,11 @@
   "timestamp" : 12550,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12550,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12560,
@@ -14339,6 +15299,11 @@
   "user" : "jack29",
   "timestamp" : 12560,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12560,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14351,6 +15316,11 @@
   "timestamp" : 12570,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12570,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12580,
@@ -14361,6 +15331,11 @@
   "user" : "bob35",
   "timestamp" : 12580,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12580,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14373,6 +15348,11 @@
   "timestamp" : 12590,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12590,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12600,
@@ -14383,6 +15363,11 @@
   "user" : "david27",
   "timestamp" : 12600,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12600,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14395,6 +15380,11 @@
   "timestamp" : 12610,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12610,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12620,
@@ -14405,6 +15395,11 @@
   "user" : "frank21",
   "timestamp" : 12620,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12620,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14417,6 +15412,11 @@
   "timestamp" : 12630,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12630,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12640,
@@ -14427,6 +15427,11 @@
   "user" : "henry26",
   "timestamp" : 12640,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 12640,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14439,6 +15444,11 @@
   "timestamp" : 12650,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12650,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12660,
@@ -14449,6 +15459,11 @@
   "user" : "jack29",
   "timestamp" : 12660,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12660,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14461,6 +15476,11 @@
   "timestamp" : 12670,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12670,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12680,
@@ -14471,6 +15491,11 @@
   "user" : "bob35",
   "timestamp" : 12680,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12680,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14483,6 +15508,11 @@
   "timestamp" : 12690,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12690,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12700,
@@ -14493,6 +15523,11 @@
   "user" : "david27",
   "timestamp" : 12700,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12700,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14505,6 +15540,11 @@
   "timestamp" : 12710,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12710,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12720,
@@ -14515,6 +15555,11 @@
   "user" : "frank21",
   "timestamp" : 12720,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "charlesgarcia",
+  "timestamp" : 12720,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14527,6 +15572,11 @@
   "timestamp" : 12730,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12730,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12740,
@@ -14537,6 +15587,11 @@
   "user" : "henry26",
   "timestamp" : 12740,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "charlesgarcia",
+  "timestamp" : 12740,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14549,6 +15604,11 @@
   "timestamp" : 12750,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12750,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12760,
@@ -14559,6 +15619,11 @@
   "user" : "jack29",
   "timestamp" : 12760,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 12760,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14571,6 +15636,11 @@
   "timestamp" : 12770,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12770,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12780,
@@ -14581,6 +15651,11 @@
   "user" : "bob35",
   "timestamp" : 12780,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "anthony22",
+  "timestamp" : 12780,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14593,6 +15668,11 @@
   "timestamp" : 12790,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12790,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12800,
@@ -14603,6 +15683,11 @@
   "user" : "david27",
   "timestamp" : 12800,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12800,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14615,6 +15700,11 @@
   "timestamp" : 12810,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12810,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12820,
@@ -14625,6 +15715,11 @@
   "user" : "frank21",
   "timestamp" : 12820,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12820,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14637,6 +15732,11 @@
   "timestamp" : 12830,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12830,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12840,
@@ -14647,6 +15747,11 @@
   "user" : "henry26",
   "timestamp" : 12840,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12840,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14659,6 +15764,11 @@
   "timestamp" : 12850,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12850,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12860,
@@ -14669,6 +15779,11 @@
   "user" : "jack29",
   "timestamp" : 12860,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12860,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14681,6 +15796,11 @@
   "timestamp" : 12870,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12870,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12880,
@@ -14691,6 +15811,11 @@
   "user" : "bob35",
   "timestamp" : 12880,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12880,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14703,6 +15828,11 @@
   "timestamp" : 12890,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12890,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12900,
@@ -14713,6 +15843,11 @@
   "user" : "david27",
   "timestamp" : 12900,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12900,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14725,6 +15860,11 @@
   "timestamp" : 12910,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12910,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12920,
@@ -14735,6 +15875,11 @@
   "user" : "frank21",
   "timestamp" : 12920,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12920,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14747,6 +15892,11 @@
   "timestamp" : 12930,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12930,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12940,
@@ -14757,6 +15907,11 @@
   "user" : "henry26",
   "timestamp" : 12940,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12940,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14769,6 +15924,11 @@
   "timestamp" : 12950,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12950,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12960,
@@ -14779,6 +15939,11 @@
   "user" : "jack29",
   "timestamp" : 12960,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "jsimpson",
+  "timestamp" : 12960,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14791,6 +15956,11 @@
   "timestamp" : 12970,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 12970,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12980,
@@ -14801,6 +15971,11 @@
   "user" : "bob35",
   "timestamp" : 12980,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12980,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14813,6 +15988,11 @@
   "timestamp" : 12990,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12990,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 13000,
@@ -14823,6 +16003,11 @@
   "user" : "david27",
   "timestamp" : 13000,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 13000,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14835,6 +16020,11 @@
   "timestamp" : 13010,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "charlesgarcia",
+  "timestamp" : 13010,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 13020,
@@ -14845,6 +16035,11 @@
   "user" : "frank21",
   "timestamp" : 13020,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 13020,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14857,6 +16052,11 @@
   "timestamp" : 13030,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 13030,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 13040,
@@ -14867,6 +16067,11 @@
   "user" : "henry26",
   "timestamp" : 13040,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 13040,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14879,6 +16084,11 @@
   "timestamp" : 13050,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 13050,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 13060,
@@ -14889,6 +16099,11 @@
   "user" : "jack29",
   "timestamp" : 13060,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 13060,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14901,6 +16116,11 @@
   "timestamp" : 13070,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 13070,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 13080,
@@ -14911,6 +16131,11 @@
   "user" : "bob35",
   "timestamp" : 13080,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 13080,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14923,6 +16148,11 @@
   "timestamp" : 13090,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 13090,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 13100,
@@ -14933,6 +16163,11 @@
   "user" : "david27",
   "timestamp" : 13100,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 13100,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14945,6 +16180,11 @@
   "timestamp" : 13110,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 13110,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 13120,
@@ -14955,6 +16195,11 @@
   "user" : "frank21",
   "timestamp" : 13120,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 13120,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14967,6 +16212,11 @@
   "timestamp" : 13130,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 13130,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 13140,
@@ -14977,6 +16227,11 @@
   "user" : "henry26",
   "timestamp" : 13140,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 13140,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14989,6 +16244,11 @@
   "timestamp" : 13150,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 13150,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 13160,
@@ -14999,6 +16259,11 @@
   "user" : "jack29",
   "timestamp" : 13160,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 13160,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -15011,6 +16276,11 @@
   "timestamp" : 13170,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 13170,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 13180,
@@ -15021,6 +16291,11 @@
   "user" : "bob35",
   "timestamp" : 13180,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 13180,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -15033,6 +16308,11 @@
   "timestamp" : 13190,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 13190,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 13200,
@@ -15043,6 +16323,11 @@
   "user" : "david27",
   "timestamp" : 13200,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 13200,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15055,6 +16340,11 @@
   "timestamp" : 13210,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 13210,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 13220,
@@ -15065,6 +16355,11 @@
   "user" : "frank21",
   "timestamp" : 13220,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 13220,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -15077,6 +16372,11 @@
   "timestamp" : 13230,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 13230,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 13240,
@@ -15087,6 +16387,11 @@
   "user" : "henry26",
   "timestamp" : 13240,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 13240,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -15099,6 +16404,11 @@
   "timestamp" : 13250,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 13250,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 13260,
@@ -15109,6 +16419,11 @@
   "user" : "jack29",
   "timestamp" : 13260,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 13260,
+  "message" : null
 }, {
   "command" : "search",
   "user" : "alice22",

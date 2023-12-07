@@ -4,6 +4,16 @@
   "timestamp" : 150,
   "message" : "Playlist created successfully."
 }, {
+  "command" : "addUser",
+  "user" : "melodymaster",
+  "timestamp" : 152,
+  "message" : "The username melodymaster has been added successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "melodymaster",
+  "timestamp" : 152,
+  "message" : null
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 170,

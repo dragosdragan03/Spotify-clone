@@ -11,7 +11,6 @@ public class PlaylistOutput {
     private final ArrayList<String> songs;
     private final String visibility;
     private final int followers;
-//    private final int timestamp;
 
 
     public PlaylistOutput(Playlist playlist) {
@@ -22,7 +21,6 @@ public class PlaylistOutput {
         }
         this.visibility = playlist.getVisibility() == Enums.Visibility.PRIVATE ? "private" : "public";
         this.followers = playlist.getFollowers();
-//        this.timestamp = playlist.getTimestamp();
     }
 
 }
