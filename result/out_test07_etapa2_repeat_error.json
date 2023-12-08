@@ -7,7 +7,7 @@
   "command" : "addAlbum",
   "user" : "melodymaster",
   "timestamp" : 2,
-  "message" : null
+  "message" : "melodymaster has added new album successfully."
 }, {
   "command" : "addUser",
   "user" : "rhythmicrider58",
@@ -17,8 +17,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 1000,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Night Pulse" ]
 }, {
   "command" : "repeat",
   "user" : "emily30",
@@ -28,49 +28,49 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 1100,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Night Pulse."
 }, {
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 1120,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "rhythmicrider58",
   "timestamp" : 1170,
-  "message" : "Search returned 4 results",
-  "results" : [ "Sicko Mode", "Stargazing", "Sicko Mode", "Swimming Pools (Drank)" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Sicko Mode", "Stargazing", "Sicko Mode", "Swimming Pools (Drank)", "Synth Symphony" ]
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 1190,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Night Pulse",
+    "remainedTime" : 170,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 1191,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat once."
 }, {
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 1192,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat infinite."
 }, {
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 2000,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "select",
   "user" : "rhythmicrider58",
   "timestamp" : 2050,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Synth Symphony."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -91,7 +91,7 @@
   "command" : "load",
   "user" : "rhythmicrider58",
   "timestamp" : 2185,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -118,17 +118,17 @@
   "command" : "like",
   "user" : "rhythmicrider58",
   "timestamp" : 2295,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "repeat",
   "user" : "rhythmicrider58",
   "timestamp" : 2480,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat once."
 }, {
   "command" : "forward",
   "user" : "rhythmicrider58",
   "timestamp" : 2555,
-  "message" : "Please load a source before attempting to forward."
+  "message" : "The loaded source is not a podcast."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -244,8 +244,8 @@
   "command" : "search",
   "user" : "rhythmicrider58",
   "timestamp" : 3380,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Vibrant Echoes" ]
 }, {
   "command" : "search",
   "user" : "rhythmicrider58",

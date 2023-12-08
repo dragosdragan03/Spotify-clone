@@ -12,28 +12,28 @@
   "command" : "addAlbum",
   "user" : "melodymaster",
   "timestamp" : 152,
-  "message" : null
+  "message" : "melodymaster has added new album successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 170,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Digital Dreams" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 190,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Digital Dreams."
 }, {
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 195,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
   "timestamp" : 240,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -97,8 +97,8 @@
   "user" : "emily30",
   "timestamp" : 1220,
   "stats" : {
-    "name" : "Swimming Pools (Drank)",
-    "remainedTime" : 222,
+    "name" : "Digital Dreams",
+    "remainedTime" : 235,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -107,44 +107,44 @@
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 1240,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Swimming Pools (Drank)."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 1250,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Swimming Pools (Drank)",
+    "remainedTime" : 237,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "prev",
   "user" : "emily30",
   "timestamp" : 1260,
-  "message" : "Please load a source before returning to the previous track."
+  "message" : "Returned to previous track successfully. The current track is Swimming Pools (Drank)."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 1320,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Swimming Pools (Drank)",
+    "remainedTime" : 187,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "forward",
   "user" : "emily30",
   "timestamp" : 1350,
-  "message" : "Please load a source before attempting to forward."
+  "message" : "The loaded source is not a podcast."
 }, {
   "command" : "backward",
   "user" : "emily30",
   "timestamp" : 1390,
-  "message" : "Please select a source before rewinding."
+  "message" : "The loaded source is not a podcast."
 }, {
   "command" : "search",
   "user" : "emily30",

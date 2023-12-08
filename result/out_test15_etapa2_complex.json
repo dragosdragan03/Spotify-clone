@@ -127,252 +127,924 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 125,
-  "message" : null
+  "message" : "jacobdean has the same song at least twice in this album."
 }, {
   "command" : "addAlbum",
   "user" : "charlesgarcia",
   "timestamp" : 126,
-  "message" : null
+  "message" : "charlesgarcia  is not an artist."
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 127,
-  "message" : null
+  "message" : "cbutler has added new album successfully."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 128,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 129,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "addAlbum",
   "user" : "jenningsbeth",
   "timestamp" : 130,
-  "message" : null
+  "message" : "jenningsbeth  is not an artist."
 }, {
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 131,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "addAlbum",
   "user" : "leslie27",
   "timestamp" : 132,
-  "message" : null
+  "message" : "leslie27 has added new album successfully."
 }, {
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 133,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 134,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "addAlbum",
   "user" : "jenningsbeth",
   "timestamp" : 135,
-  "message" : null
+  "message" : "jenningsbeth  is not an artist."
 }, {
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 136,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "addAlbum",
   "user" : "nancymontgomery",
   "timestamp" : 137,
-  "message" : null
+  "message" : "nancymontgomery  is not an artist."
 }, {
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 138,
-  "message" : null
+  "message" : "matthewfernandez has the same song at least twice in this album."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 139,
-  "message" : null
+  "message" : "jacobdean has the same song at least twice in this album."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 140,
-  "message" : null
+  "message" : "jacobdean has the same song at least twice in this album."
 }, {
   "command" : "addAlbum",
   "user" : "leslie27",
   "timestamp" : 141,
-  "message" : null
+  "message" : "leslie27 has added new album successfully."
 }, {
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 142,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 143,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 144,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 145,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 146,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 147,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 148,
-  "message" : null
+  "message" : "cbutler has the same song at least twice in this album."
 }, {
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 149,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 150,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 151,
-  "message" : null
+  "message" : "barmstrong has the same song at least twice in this album."
 }, {
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 152,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 153,
-  "message" : null
+  "message" : "matthewfernandez has the same song at least twice in this album."
 }, {
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 154,
-  "message" : null
+  "message" : "matthewfernandez has the same song at least twice in this album."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 155,
-  "message" : null
+  "message" : "jacobdean has the same song at least twice in this album."
 }, {
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 156,
-  "message" : null
+  "message" : "amanda16 has the same song at least twice in this album."
 }, {
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 157,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 158,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 159,
-  "message" : null
+  "message" : "cbutler has the same song at least twice in this album."
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 160,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "addAlbum",
   "user" : "jenningsbeth",
   "timestamp" : 161,
-  "message" : null
+  "message" : "jenningsbeth  is not an artist."
 }, {
   "command" : "addAlbum",
   "user" : "leslie27",
   "timestamp" : 162,
-  "message" : null
+  "message" : "leslie27 has added new album successfully."
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 163,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 164,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "addAlbum",
   "user" : "leslie27",
   "timestamp" : 165,
-  "message" : null
+  "message" : "leslie27 has added new album successfully."
 }, {
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 166,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "addAlbum",
   "user" : "jenningsbeth",
   "timestamp" : 167,
-  "message" : null
+  "message" : "jenningsbeth  is not an artist."
 }, {
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 168,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 169,
-  "message" : null
+  "message" : "jacobdean has the same song at least twice in this album."
 }, {
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 170,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "addAlbum",
   "user" : "jenningsbeth",
   "timestamp" : 171,
-  "message" : null
+  "message" : "jenningsbeth  is not an artist."
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 172,
-  "message" : null
+  "message" : "cbutler has the same song at least twice in this album."
 }, {
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 173,
-  "message" : null
+  "message" : "amanda16 has the same song at least twice in this album."
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 174,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
+}, {
+  "command" : "showAlbums",
+  "user" : "barmstrong",
+  "timestamp" : 175,
+  "result" : [ {
+    "name" : "Teen Technology",
+    "songs" : [ "Paradox Aurora", "Heart Ethereal", "Colors Bliss", "Euphoria Eclipse", "Cascade Solitude", "Cascade Sunset", "Odyssey Pinnacle", "Dance Infinity", "Euphoria Aurora", "Whisper Echo", "Celestial Crescendo" ]
+  }, {
+    "name" : "Chill Hood",
+    "songs" : [ "Enigma Glow", "Euphoria Twilight", "Colors Echo", "Infinity Soul", "Twilight Lullaby", "Luminescence Zephyr", "Dream Whisper", "Odyssey Rapture", "Serenade Infinity", "Tranquility Odyssey", "Harmony Rapture", "Lullaby Melody", "Rapture Euphoria" ]
+  }, {
+    "name" : "Blue Dirt",
+    "songs" : [ "Love Love", "Soul Love", "Mystique Bliss", "Melody Colors", "Infinity Paradox", "Harmony Bliss", "Euphoria Celestial", "Serendipity Enigma", "Essence Colors", "Twilight Serenade" ]
+  }, {
+    "name" : "Groovy Revolution",
+    "songs" : [ "Mystique Harmonize", "Harmony Mystique", "Whisper Pandora", "Pulse Solitude", "Harmony Glow", "Pinnacle Celestial", "Paradox Echo", "Heart Tranquility", "Serendipity Twilight" ]
+  }, {
+    "name" : "Heroic Hood",
+    "songs" : [ "Ethereal Rapture", "Whirlwind Whirlwind", "Echo Odyssey", "Eclipse Luminescence", "Adventure Essence", "Essence Rhythm", "Sunset Pinnacle", "Crescendo Ethereal", "Rapture Harmonize", "Melody Whisper", "Dance Harmony" ]
+  }, {
+    "name" : "Bad Harmonies",
+    "songs" : [ "Odyssey Serendipity", "Sunset Essence", "Soul Celestial", "Ethereal Starlight", "Sunset Infinity", "Rapture Twilight", "Infinity Euphoria", "Voyage Pulse" ]
+  }, {
+    "name" : "Teen Dreams",
+    "songs" : [ "Luminescence Crescendo", "Bliss Rhythm", "Echo Pinnacle", "Zephyr Eclipse", "Voyage Solitude", "Sunset Melody", "Colors Rapture" ]
+  }, {
+    "name" : "Heroic Harmonies",
+    "songs" : [ "Heart Bliss", "Pinnacle Euphoria", "Whirlwind Solitude", "Sunset Night", "Whirlwind Serenade", "Enigma Euphoria", "Essence Voyage", "Adventure Cascade", "Aurora Voyage", "Zephyr Twilight" ]
+  }, {
+    "name" : "Chill Funeral ",
+    "songs" : [ "Serendipity Serendipity", "Melody Sunset", "Rapture Odyssey", "Mystique Radiance", "Cascade Mystique", "Dance Pinnacle", "Essence Cascade", "Radiance Starlight" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Celestial Soul", "Utopia Harmony", "Dream Infinity", "Ethereal Velvet", "Soul Mystique", "Love Colors", "Celestial Dream", "Tranquility Zephyr" ]
+  }, {
+    "name" : "Breezy Autumn",
+    "songs" : [ "Whisper Paradox", "Radiance Voyage", "Euphoria Eclipse", "Pandora Mystique", "Cascade Serendipity", "Pulse Whisper", "Paradox Pulse", "Whirlwind Pulse", "Dance Harmonize", "Reflection Night", "Voyage Velvet", "Colors Serendipity" ]
+  }, {
+    "name" : "Bad Funeral ",
+    "songs" : [ "Radiance Velvet", "Mystique Euphoria", "Crescendo Night", "Glow Glow", "Cascade Melody", "Celestial Dance", "Bliss Sunset", "Love Serendipity", "Velvet Utopia", "Tranquility Paradox", "Twilight Ethereal", "Mystique Pinnacle", "Aurora Dream" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Rhythm Voyage", "Aurora Rapture", "Twilight Zephyr", "Zephyr Eclipse", "Starlight Euphoria", "Bliss Radiance", "Luminescence Whirlwind" ]
+  }, {
+    "name" : "Electric Harmonies",
+    "songs" : [ "Celestial Lullaby", "Harmonize Eclipse", "Euphoria Sunset", "Dream Love", "Glow Whisper", "Celestial Heart", "Love Echo", "Zephyr Reflection", "Rapture Dream", "Rapture Infinity" ]
+  }, {
+    "name" : "Bad Hood",
+    "songs" : [ "Night Utopia", "Celestial Harmony", "Harmonize Enigma", "Melody Melody", "Melody Paradox", "Cascade Reflection", "Essence Mystique", "Serendipity Melody", "Heart Utopia", "Pulse Infinity" ]
+  }, {
+    "name" : "Groovy View",
+    "songs" : [ "Whisper Pulse", "Radiance Euphoria", "Odyssey Rapture", "Dream Rhythm", "Euphoria Luminescence", "Voyage Cascade", "Dance Harmonize", "Ethereal Solitude", "Aurora Velvet" ]
+  }, {
+    "name" : "Teen Funeral ",
+    "songs" : [ "Melody Echo", "Paradox Echo", "Luminescence Rhythm", "Zephyr Velvet", "Serendipity Love", "Night Cascade", "Mystique Voyage", "Soul Soul", "Sunset Whisper" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "matthewporter",
+  "timestamp" : 176,
+  "result" : [ {
+    "name" : "Teen Technology",
+    "songs" : [ "Paradox Aurora", "Heart Ethereal", "Colors Bliss", "Euphoria Eclipse", "Cascade Solitude", "Cascade Sunset", "Odyssey Pinnacle", "Dance Infinity", "Euphoria Aurora", "Whisper Echo", "Celestial Crescendo" ]
+  }, {
+    "name" : "Chill Hood",
+    "songs" : [ "Enigma Glow", "Euphoria Twilight", "Colors Echo", "Infinity Soul", "Twilight Lullaby", "Luminescence Zephyr", "Dream Whisper", "Odyssey Rapture", "Serenade Infinity", "Tranquility Odyssey", "Harmony Rapture", "Lullaby Melody", "Rapture Euphoria" ]
+  }, {
+    "name" : "Blue Dirt",
+    "songs" : [ "Love Love", "Soul Love", "Mystique Bliss", "Melody Colors", "Infinity Paradox", "Harmony Bliss", "Euphoria Celestial", "Serendipity Enigma", "Essence Colors", "Twilight Serenade" ]
+  }, {
+    "name" : "Groovy Revolution",
+    "songs" : [ "Mystique Harmonize", "Harmony Mystique", "Whisper Pandora", "Pulse Solitude", "Harmony Glow", "Pinnacle Celestial", "Paradox Echo", "Heart Tranquility", "Serendipity Twilight" ]
+  }, {
+    "name" : "Heroic Hood",
+    "songs" : [ "Ethereal Rapture", "Whirlwind Whirlwind", "Echo Odyssey", "Eclipse Luminescence", "Adventure Essence", "Essence Rhythm", "Sunset Pinnacle", "Crescendo Ethereal", "Rapture Harmonize", "Melody Whisper", "Dance Harmony" ]
+  }, {
+    "name" : "Bad Harmonies",
+    "songs" : [ "Odyssey Serendipity", "Sunset Essence", "Soul Celestial", "Ethereal Starlight", "Sunset Infinity", "Rapture Twilight", "Infinity Euphoria", "Voyage Pulse" ]
+  }, {
+    "name" : "Teen Dreams",
+    "songs" : [ "Luminescence Crescendo", "Bliss Rhythm", "Echo Pinnacle", "Zephyr Eclipse", "Voyage Solitude", "Sunset Melody", "Colors Rapture" ]
+  }, {
+    "name" : "Heroic Harmonies",
+    "songs" : [ "Heart Bliss", "Pinnacle Euphoria", "Whirlwind Solitude", "Sunset Night", "Whirlwind Serenade", "Enigma Euphoria", "Essence Voyage", "Adventure Cascade", "Aurora Voyage", "Zephyr Twilight" ]
+  }, {
+    "name" : "Chill Funeral ",
+    "songs" : [ "Serendipity Serendipity", "Melody Sunset", "Rapture Odyssey", "Mystique Radiance", "Cascade Mystique", "Dance Pinnacle", "Essence Cascade", "Radiance Starlight" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Celestial Soul", "Utopia Harmony", "Dream Infinity", "Ethereal Velvet", "Soul Mystique", "Love Colors", "Celestial Dream", "Tranquility Zephyr" ]
+  }, {
+    "name" : "Breezy Autumn",
+    "songs" : [ "Whisper Paradox", "Radiance Voyage", "Euphoria Eclipse", "Pandora Mystique", "Cascade Serendipity", "Pulse Whisper", "Paradox Pulse", "Whirlwind Pulse", "Dance Harmonize", "Reflection Night", "Voyage Velvet", "Colors Serendipity" ]
+  }, {
+    "name" : "Bad Funeral ",
+    "songs" : [ "Radiance Velvet", "Mystique Euphoria", "Crescendo Night", "Glow Glow", "Cascade Melody", "Celestial Dance", "Bliss Sunset", "Love Serendipity", "Velvet Utopia", "Tranquility Paradox", "Twilight Ethereal", "Mystique Pinnacle", "Aurora Dream" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Rhythm Voyage", "Aurora Rapture", "Twilight Zephyr", "Zephyr Eclipse", "Starlight Euphoria", "Bliss Radiance", "Luminescence Whirlwind" ]
+  }, {
+    "name" : "Electric Harmonies",
+    "songs" : [ "Celestial Lullaby", "Harmonize Eclipse", "Euphoria Sunset", "Dream Love", "Glow Whisper", "Celestial Heart", "Love Echo", "Zephyr Reflection", "Rapture Dream", "Rapture Infinity" ]
+  }, {
+    "name" : "Bad Hood",
+    "songs" : [ "Night Utopia", "Celestial Harmony", "Harmonize Enigma", "Melody Melody", "Melody Paradox", "Cascade Reflection", "Essence Mystique", "Serendipity Melody", "Heart Utopia", "Pulse Infinity" ]
+  }, {
+    "name" : "Groovy View",
+    "songs" : [ "Whisper Pulse", "Radiance Euphoria", "Odyssey Rapture", "Dream Rhythm", "Euphoria Luminescence", "Voyage Cascade", "Dance Harmonize", "Ethereal Solitude", "Aurora Velvet" ]
+  }, {
+    "name" : "Teen Funeral ",
+    "songs" : [ "Melody Echo", "Paradox Echo", "Luminescence Rhythm", "Zephyr Velvet", "Serendipity Love", "Night Cascade", "Mystique Voyage", "Soul Soul", "Sunset Whisper" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "amanda16",
+  "timestamp" : 178,
+  "result" : [ {
+    "name" : "Teen Technology",
+    "songs" : [ "Paradox Aurora", "Heart Ethereal", "Colors Bliss", "Euphoria Eclipse", "Cascade Solitude", "Cascade Sunset", "Odyssey Pinnacle", "Dance Infinity", "Euphoria Aurora", "Whisper Echo", "Celestial Crescendo" ]
+  }, {
+    "name" : "Chill Hood",
+    "songs" : [ "Enigma Glow", "Euphoria Twilight", "Colors Echo", "Infinity Soul", "Twilight Lullaby", "Luminescence Zephyr", "Dream Whisper", "Odyssey Rapture", "Serenade Infinity", "Tranquility Odyssey", "Harmony Rapture", "Lullaby Melody", "Rapture Euphoria" ]
+  }, {
+    "name" : "Blue Dirt",
+    "songs" : [ "Love Love", "Soul Love", "Mystique Bliss", "Melody Colors", "Infinity Paradox", "Harmony Bliss", "Euphoria Celestial", "Serendipity Enigma", "Essence Colors", "Twilight Serenade" ]
+  }, {
+    "name" : "Groovy Revolution",
+    "songs" : [ "Mystique Harmonize", "Harmony Mystique", "Whisper Pandora", "Pulse Solitude", "Harmony Glow", "Pinnacle Celestial", "Paradox Echo", "Heart Tranquility", "Serendipity Twilight" ]
+  }, {
+    "name" : "Heroic Hood",
+    "songs" : [ "Ethereal Rapture", "Whirlwind Whirlwind", "Echo Odyssey", "Eclipse Luminescence", "Adventure Essence", "Essence Rhythm", "Sunset Pinnacle", "Crescendo Ethereal", "Rapture Harmonize", "Melody Whisper", "Dance Harmony" ]
+  }, {
+    "name" : "Bad Harmonies",
+    "songs" : [ "Odyssey Serendipity", "Sunset Essence", "Soul Celestial", "Ethereal Starlight", "Sunset Infinity", "Rapture Twilight", "Infinity Euphoria", "Voyage Pulse" ]
+  }, {
+    "name" : "Teen Dreams",
+    "songs" : [ "Luminescence Crescendo", "Bliss Rhythm", "Echo Pinnacle", "Zephyr Eclipse", "Voyage Solitude", "Sunset Melody", "Colors Rapture" ]
+  }, {
+    "name" : "Heroic Harmonies",
+    "songs" : [ "Heart Bliss", "Pinnacle Euphoria", "Whirlwind Solitude", "Sunset Night", "Whirlwind Serenade", "Enigma Euphoria", "Essence Voyage", "Adventure Cascade", "Aurora Voyage", "Zephyr Twilight" ]
+  }, {
+    "name" : "Chill Funeral ",
+    "songs" : [ "Serendipity Serendipity", "Melody Sunset", "Rapture Odyssey", "Mystique Radiance", "Cascade Mystique", "Dance Pinnacle", "Essence Cascade", "Radiance Starlight" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Celestial Soul", "Utopia Harmony", "Dream Infinity", "Ethereal Velvet", "Soul Mystique", "Love Colors", "Celestial Dream", "Tranquility Zephyr" ]
+  }, {
+    "name" : "Breezy Autumn",
+    "songs" : [ "Whisper Paradox", "Radiance Voyage", "Euphoria Eclipse", "Pandora Mystique", "Cascade Serendipity", "Pulse Whisper", "Paradox Pulse", "Whirlwind Pulse", "Dance Harmonize", "Reflection Night", "Voyage Velvet", "Colors Serendipity" ]
+  }, {
+    "name" : "Bad Funeral ",
+    "songs" : [ "Radiance Velvet", "Mystique Euphoria", "Crescendo Night", "Glow Glow", "Cascade Melody", "Celestial Dance", "Bliss Sunset", "Love Serendipity", "Velvet Utopia", "Tranquility Paradox", "Twilight Ethereal", "Mystique Pinnacle", "Aurora Dream" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Rhythm Voyage", "Aurora Rapture", "Twilight Zephyr", "Zephyr Eclipse", "Starlight Euphoria", "Bliss Radiance", "Luminescence Whirlwind" ]
+  }, {
+    "name" : "Electric Harmonies",
+    "songs" : [ "Celestial Lullaby", "Harmonize Eclipse", "Euphoria Sunset", "Dream Love", "Glow Whisper", "Celestial Heart", "Love Echo", "Zephyr Reflection", "Rapture Dream", "Rapture Infinity" ]
+  }, {
+    "name" : "Bad Hood",
+    "songs" : [ "Night Utopia", "Celestial Harmony", "Harmonize Enigma", "Melody Melody", "Melody Paradox", "Cascade Reflection", "Essence Mystique", "Serendipity Melody", "Heart Utopia", "Pulse Infinity" ]
+  }, {
+    "name" : "Groovy View",
+    "songs" : [ "Whisper Pulse", "Radiance Euphoria", "Odyssey Rapture", "Dream Rhythm", "Euphoria Luminescence", "Voyage Cascade", "Dance Harmonize", "Ethereal Solitude", "Aurora Velvet" ]
+  }, {
+    "name" : "Teen Funeral ",
+    "songs" : [ "Melody Echo", "Paradox Echo", "Luminescence Rhythm", "Zephyr Velvet", "Serendipity Love", "Night Cascade", "Mystique Voyage", "Soul Soul", "Sunset Whisper" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "cbutler",
+  "timestamp" : 179,
+  "result" : [ {
+    "name" : "Teen Technology",
+    "songs" : [ "Paradox Aurora", "Heart Ethereal", "Colors Bliss", "Euphoria Eclipse", "Cascade Solitude", "Cascade Sunset", "Odyssey Pinnacle", "Dance Infinity", "Euphoria Aurora", "Whisper Echo", "Celestial Crescendo" ]
+  }, {
+    "name" : "Chill Hood",
+    "songs" : [ "Enigma Glow", "Euphoria Twilight", "Colors Echo", "Infinity Soul", "Twilight Lullaby", "Luminescence Zephyr", "Dream Whisper", "Odyssey Rapture", "Serenade Infinity", "Tranquility Odyssey", "Harmony Rapture", "Lullaby Melody", "Rapture Euphoria" ]
+  }, {
+    "name" : "Blue Dirt",
+    "songs" : [ "Love Love", "Soul Love", "Mystique Bliss", "Melody Colors", "Infinity Paradox", "Harmony Bliss", "Euphoria Celestial", "Serendipity Enigma", "Essence Colors", "Twilight Serenade" ]
+  }, {
+    "name" : "Groovy Revolution",
+    "songs" : [ "Mystique Harmonize", "Harmony Mystique", "Whisper Pandora", "Pulse Solitude", "Harmony Glow", "Pinnacle Celestial", "Paradox Echo", "Heart Tranquility", "Serendipity Twilight" ]
+  }, {
+    "name" : "Heroic Hood",
+    "songs" : [ "Ethereal Rapture", "Whirlwind Whirlwind", "Echo Odyssey", "Eclipse Luminescence", "Adventure Essence", "Essence Rhythm", "Sunset Pinnacle", "Crescendo Ethereal", "Rapture Harmonize", "Melody Whisper", "Dance Harmony" ]
+  }, {
+    "name" : "Bad Harmonies",
+    "songs" : [ "Odyssey Serendipity", "Sunset Essence", "Soul Celestial", "Ethereal Starlight", "Sunset Infinity", "Rapture Twilight", "Infinity Euphoria", "Voyage Pulse" ]
+  }, {
+    "name" : "Teen Dreams",
+    "songs" : [ "Luminescence Crescendo", "Bliss Rhythm", "Echo Pinnacle", "Zephyr Eclipse", "Voyage Solitude", "Sunset Melody", "Colors Rapture" ]
+  }, {
+    "name" : "Heroic Harmonies",
+    "songs" : [ "Heart Bliss", "Pinnacle Euphoria", "Whirlwind Solitude", "Sunset Night", "Whirlwind Serenade", "Enigma Euphoria", "Essence Voyage", "Adventure Cascade", "Aurora Voyage", "Zephyr Twilight" ]
+  }, {
+    "name" : "Chill Funeral ",
+    "songs" : [ "Serendipity Serendipity", "Melody Sunset", "Rapture Odyssey", "Mystique Radiance", "Cascade Mystique", "Dance Pinnacle", "Essence Cascade", "Radiance Starlight" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Celestial Soul", "Utopia Harmony", "Dream Infinity", "Ethereal Velvet", "Soul Mystique", "Love Colors", "Celestial Dream", "Tranquility Zephyr" ]
+  }, {
+    "name" : "Breezy Autumn",
+    "songs" : [ "Whisper Paradox", "Radiance Voyage", "Euphoria Eclipse", "Pandora Mystique", "Cascade Serendipity", "Pulse Whisper", "Paradox Pulse", "Whirlwind Pulse", "Dance Harmonize", "Reflection Night", "Voyage Velvet", "Colors Serendipity" ]
+  }, {
+    "name" : "Bad Funeral ",
+    "songs" : [ "Radiance Velvet", "Mystique Euphoria", "Crescendo Night", "Glow Glow", "Cascade Melody", "Celestial Dance", "Bliss Sunset", "Love Serendipity", "Velvet Utopia", "Tranquility Paradox", "Twilight Ethereal", "Mystique Pinnacle", "Aurora Dream" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Rhythm Voyage", "Aurora Rapture", "Twilight Zephyr", "Zephyr Eclipse", "Starlight Euphoria", "Bliss Radiance", "Luminescence Whirlwind" ]
+  }, {
+    "name" : "Electric Harmonies",
+    "songs" : [ "Celestial Lullaby", "Harmonize Eclipse", "Euphoria Sunset", "Dream Love", "Glow Whisper", "Celestial Heart", "Love Echo", "Zephyr Reflection", "Rapture Dream", "Rapture Infinity" ]
+  }, {
+    "name" : "Bad Hood",
+    "songs" : [ "Night Utopia", "Celestial Harmony", "Harmonize Enigma", "Melody Melody", "Melody Paradox", "Cascade Reflection", "Essence Mystique", "Serendipity Melody", "Heart Utopia", "Pulse Infinity" ]
+  }, {
+    "name" : "Groovy View",
+    "songs" : [ "Whisper Pulse", "Radiance Euphoria", "Odyssey Rapture", "Dream Rhythm", "Euphoria Luminescence", "Voyage Cascade", "Dance Harmonize", "Ethereal Solitude", "Aurora Velvet" ]
+  }, {
+    "name" : "Teen Funeral ",
+    "songs" : [ "Melody Echo", "Paradox Echo", "Luminescence Rhythm", "Zephyr Velvet", "Serendipity Love", "Night Cascade", "Mystique Voyage", "Soul Soul", "Sunset Whisper" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "jacobdean",
+  "timestamp" : 180,
+  "result" : [ {
+    "name" : "Teen Technology",
+    "songs" : [ "Paradox Aurora", "Heart Ethereal", "Colors Bliss", "Euphoria Eclipse", "Cascade Solitude", "Cascade Sunset", "Odyssey Pinnacle", "Dance Infinity", "Euphoria Aurora", "Whisper Echo", "Celestial Crescendo" ]
+  }, {
+    "name" : "Chill Hood",
+    "songs" : [ "Enigma Glow", "Euphoria Twilight", "Colors Echo", "Infinity Soul", "Twilight Lullaby", "Luminescence Zephyr", "Dream Whisper", "Odyssey Rapture", "Serenade Infinity", "Tranquility Odyssey", "Harmony Rapture", "Lullaby Melody", "Rapture Euphoria" ]
+  }, {
+    "name" : "Blue Dirt",
+    "songs" : [ "Love Love", "Soul Love", "Mystique Bliss", "Melody Colors", "Infinity Paradox", "Harmony Bliss", "Euphoria Celestial", "Serendipity Enigma", "Essence Colors", "Twilight Serenade" ]
+  }, {
+    "name" : "Groovy Revolution",
+    "songs" : [ "Mystique Harmonize", "Harmony Mystique", "Whisper Pandora", "Pulse Solitude", "Harmony Glow", "Pinnacle Celestial", "Paradox Echo", "Heart Tranquility", "Serendipity Twilight" ]
+  }, {
+    "name" : "Heroic Hood",
+    "songs" : [ "Ethereal Rapture", "Whirlwind Whirlwind", "Echo Odyssey", "Eclipse Luminescence", "Adventure Essence", "Essence Rhythm", "Sunset Pinnacle", "Crescendo Ethereal", "Rapture Harmonize", "Melody Whisper", "Dance Harmony" ]
+  }, {
+    "name" : "Bad Harmonies",
+    "songs" : [ "Odyssey Serendipity", "Sunset Essence", "Soul Celestial", "Ethereal Starlight", "Sunset Infinity", "Rapture Twilight", "Infinity Euphoria", "Voyage Pulse" ]
+  }, {
+    "name" : "Teen Dreams",
+    "songs" : [ "Luminescence Crescendo", "Bliss Rhythm", "Echo Pinnacle", "Zephyr Eclipse", "Voyage Solitude", "Sunset Melody", "Colors Rapture" ]
+  }, {
+    "name" : "Heroic Harmonies",
+    "songs" : [ "Heart Bliss", "Pinnacle Euphoria", "Whirlwind Solitude", "Sunset Night", "Whirlwind Serenade", "Enigma Euphoria", "Essence Voyage", "Adventure Cascade", "Aurora Voyage", "Zephyr Twilight" ]
+  }, {
+    "name" : "Chill Funeral ",
+    "songs" : [ "Serendipity Serendipity", "Melody Sunset", "Rapture Odyssey", "Mystique Radiance", "Cascade Mystique", "Dance Pinnacle", "Essence Cascade", "Radiance Starlight" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Celestial Soul", "Utopia Harmony", "Dream Infinity", "Ethereal Velvet", "Soul Mystique", "Love Colors", "Celestial Dream", "Tranquility Zephyr" ]
+  }, {
+    "name" : "Breezy Autumn",
+    "songs" : [ "Whisper Paradox", "Radiance Voyage", "Euphoria Eclipse", "Pandora Mystique", "Cascade Serendipity", "Pulse Whisper", "Paradox Pulse", "Whirlwind Pulse", "Dance Harmonize", "Reflection Night", "Voyage Velvet", "Colors Serendipity" ]
+  }, {
+    "name" : "Bad Funeral ",
+    "songs" : [ "Radiance Velvet", "Mystique Euphoria", "Crescendo Night", "Glow Glow", "Cascade Melody", "Celestial Dance", "Bliss Sunset", "Love Serendipity", "Velvet Utopia", "Tranquility Paradox", "Twilight Ethereal", "Mystique Pinnacle", "Aurora Dream" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Rhythm Voyage", "Aurora Rapture", "Twilight Zephyr", "Zephyr Eclipse", "Starlight Euphoria", "Bliss Radiance", "Luminescence Whirlwind" ]
+  }, {
+    "name" : "Electric Harmonies",
+    "songs" : [ "Celestial Lullaby", "Harmonize Eclipse", "Euphoria Sunset", "Dream Love", "Glow Whisper", "Celestial Heart", "Love Echo", "Zephyr Reflection", "Rapture Dream", "Rapture Infinity" ]
+  }, {
+    "name" : "Bad Hood",
+    "songs" : [ "Night Utopia", "Celestial Harmony", "Harmonize Enigma", "Melody Melody", "Melody Paradox", "Cascade Reflection", "Essence Mystique", "Serendipity Melody", "Heart Utopia", "Pulse Infinity" ]
+  }, {
+    "name" : "Groovy View",
+    "songs" : [ "Whisper Pulse", "Radiance Euphoria", "Odyssey Rapture", "Dream Rhythm", "Euphoria Luminescence", "Voyage Cascade", "Dance Harmonize", "Ethereal Solitude", "Aurora Velvet" ]
+  }, {
+    "name" : "Teen Funeral ",
+    "songs" : [ "Melody Echo", "Paradox Echo", "Luminescence Rhythm", "Zephyr Velvet", "Serendipity Love", "Night Cascade", "Mystique Voyage", "Soul Soul", "Sunset Whisper" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "jacobdean",
+  "timestamp" : 181,
+  "result" : [ {
+    "name" : "Teen Technology",
+    "songs" : [ "Paradox Aurora", "Heart Ethereal", "Colors Bliss", "Euphoria Eclipse", "Cascade Solitude", "Cascade Sunset", "Odyssey Pinnacle", "Dance Infinity", "Euphoria Aurora", "Whisper Echo", "Celestial Crescendo" ]
+  }, {
+    "name" : "Chill Hood",
+    "songs" : [ "Enigma Glow", "Euphoria Twilight", "Colors Echo", "Infinity Soul", "Twilight Lullaby", "Luminescence Zephyr", "Dream Whisper", "Odyssey Rapture", "Serenade Infinity", "Tranquility Odyssey", "Harmony Rapture", "Lullaby Melody", "Rapture Euphoria" ]
+  }, {
+    "name" : "Blue Dirt",
+    "songs" : [ "Love Love", "Soul Love", "Mystique Bliss", "Melody Colors", "Infinity Paradox", "Harmony Bliss", "Euphoria Celestial", "Serendipity Enigma", "Essence Colors", "Twilight Serenade" ]
+  }, {
+    "name" : "Groovy Revolution",
+    "songs" : [ "Mystique Harmonize", "Harmony Mystique", "Whisper Pandora", "Pulse Solitude", "Harmony Glow", "Pinnacle Celestial", "Paradox Echo", "Heart Tranquility", "Serendipity Twilight" ]
+  }, {
+    "name" : "Heroic Hood",
+    "songs" : [ "Ethereal Rapture", "Whirlwind Whirlwind", "Echo Odyssey", "Eclipse Luminescence", "Adventure Essence", "Essence Rhythm", "Sunset Pinnacle", "Crescendo Ethereal", "Rapture Harmonize", "Melody Whisper", "Dance Harmony" ]
+  }, {
+    "name" : "Bad Harmonies",
+    "songs" : [ "Odyssey Serendipity", "Sunset Essence", "Soul Celestial", "Ethereal Starlight", "Sunset Infinity", "Rapture Twilight", "Infinity Euphoria", "Voyage Pulse" ]
+  }, {
+    "name" : "Teen Dreams",
+    "songs" : [ "Luminescence Crescendo", "Bliss Rhythm", "Echo Pinnacle", "Zephyr Eclipse", "Voyage Solitude", "Sunset Melody", "Colors Rapture" ]
+  }, {
+    "name" : "Heroic Harmonies",
+    "songs" : [ "Heart Bliss", "Pinnacle Euphoria", "Whirlwind Solitude", "Sunset Night", "Whirlwind Serenade", "Enigma Euphoria", "Essence Voyage", "Adventure Cascade", "Aurora Voyage", "Zephyr Twilight" ]
+  }, {
+    "name" : "Chill Funeral ",
+    "songs" : [ "Serendipity Serendipity", "Melody Sunset", "Rapture Odyssey", "Mystique Radiance", "Cascade Mystique", "Dance Pinnacle", "Essence Cascade", "Radiance Starlight" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Celestial Soul", "Utopia Harmony", "Dream Infinity", "Ethereal Velvet", "Soul Mystique", "Love Colors", "Celestial Dream", "Tranquility Zephyr" ]
+  }, {
+    "name" : "Breezy Autumn",
+    "songs" : [ "Whisper Paradox", "Radiance Voyage", "Euphoria Eclipse", "Pandora Mystique", "Cascade Serendipity", "Pulse Whisper", "Paradox Pulse", "Whirlwind Pulse", "Dance Harmonize", "Reflection Night", "Voyage Velvet", "Colors Serendipity" ]
+  }, {
+    "name" : "Bad Funeral ",
+    "songs" : [ "Radiance Velvet", "Mystique Euphoria", "Crescendo Night", "Glow Glow", "Cascade Melody", "Celestial Dance", "Bliss Sunset", "Love Serendipity", "Velvet Utopia", "Tranquility Paradox", "Twilight Ethereal", "Mystique Pinnacle", "Aurora Dream" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Rhythm Voyage", "Aurora Rapture", "Twilight Zephyr", "Zephyr Eclipse", "Starlight Euphoria", "Bliss Radiance", "Luminescence Whirlwind" ]
+  }, {
+    "name" : "Electric Harmonies",
+    "songs" : [ "Celestial Lullaby", "Harmonize Eclipse", "Euphoria Sunset", "Dream Love", "Glow Whisper", "Celestial Heart", "Love Echo", "Zephyr Reflection", "Rapture Dream", "Rapture Infinity" ]
+  }, {
+    "name" : "Bad Hood",
+    "songs" : [ "Night Utopia", "Celestial Harmony", "Harmonize Enigma", "Melody Melody", "Melody Paradox", "Cascade Reflection", "Essence Mystique", "Serendipity Melody", "Heart Utopia", "Pulse Infinity" ]
+  }, {
+    "name" : "Groovy View",
+    "songs" : [ "Whisper Pulse", "Radiance Euphoria", "Odyssey Rapture", "Dream Rhythm", "Euphoria Luminescence", "Voyage Cascade", "Dance Harmonize", "Ethereal Solitude", "Aurora Velvet" ]
+  }, {
+    "name" : "Teen Funeral ",
+    "songs" : [ "Melody Echo", "Paradox Echo", "Luminescence Rhythm", "Zephyr Velvet", "Serendipity Love", "Night Cascade", "Mystique Voyage", "Soul Soul", "Sunset Whisper" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "matthewfernandez",
+  "timestamp" : 183,
+  "result" : [ {
+    "name" : "Teen Technology",
+    "songs" : [ "Paradox Aurora", "Heart Ethereal", "Colors Bliss", "Euphoria Eclipse", "Cascade Solitude", "Cascade Sunset", "Odyssey Pinnacle", "Dance Infinity", "Euphoria Aurora", "Whisper Echo", "Celestial Crescendo" ]
+  }, {
+    "name" : "Chill Hood",
+    "songs" : [ "Enigma Glow", "Euphoria Twilight", "Colors Echo", "Infinity Soul", "Twilight Lullaby", "Luminescence Zephyr", "Dream Whisper", "Odyssey Rapture", "Serenade Infinity", "Tranquility Odyssey", "Harmony Rapture", "Lullaby Melody", "Rapture Euphoria" ]
+  }, {
+    "name" : "Blue Dirt",
+    "songs" : [ "Love Love", "Soul Love", "Mystique Bliss", "Melody Colors", "Infinity Paradox", "Harmony Bliss", "Euphoria Celestial", "Serendipity Enigma", "Essence Colors", "Twilight Serenade" ]
+  }, {
+    "name" : "Groovy Revolution",
+    "songs" : [ "Mystique Harmonize", "Harmony Mystique", "Whisper Pandora", "Pulse Solitude", "Harmony Glow", "Pinnacle Celestial", "Paradox Echo", "Heart Tranquility", "Serendipity Twilight" ]
+  }, {
+    "name" : "Heroic Hood",
+    "songs" : [ "Ethereal Rapture", "Whirlwind Whirlwind", "Echo Odyssey", "Eclipse Luminescence", "Adventure Essence", "Essence Rhythm", "Sunset Pinnacle", "Crescendo Ethereal", "Rapture Harmonize", "Melody Whisper", "Dance Harmony" ]
+  }, {
+    "name" : "Bad Harmonies",
+    "songs" : [ "Odyssey Serendipity", "Sunset Essence", "Soul Celestial", "Ethereal Starlight", "Sunset Infinity", "Rapture Twilight", "Infinity Euphoria", "Voyage Pulse" ]
+  }, {
+    "name" : "Teen Dreams",
+    "songs" : [ "Luminescence Crescendo", "Bliss Rhythm", "Echo Pinnacle", "Zephyr Eclipse", "Voyage Solitude", "Sunset Melody", "Colors Rapture" ]
+  }, {
+    "name" : "Heroic Harmonies",
+    "songs" : [ "Heart Bliss", "Pinnacle Euphoria", "Whirlwind Solitude", "Sunset Night", "Whirlwind Serenade", "Enigma Euphoria", "Essence Voyage", "Adventure Cascade", "Aurora Voyage", "Zephyr Twilight" ]
+  }, {
+    "name" : "Chill Funeral ",
+    "songs" : [ "Serendipity Serendipity", "Melody Sunset", "Rapture Odyssey", "Mystique Radiance", "Cascade Mystique", "Dance Pinnacle", "Essence Cascade", "Radiance Starlight" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Celestial Soul", "Utopia Harmony", "Dream Infinity", "Ethereal Velvet", "Soul Mystique", "Love Colors", "Celestial Dream", "Tranquility Zephyr" ]
+  }, {
+    "name" : "Breezy Autumn",
+    "songs" : [ "Whisper Paradox", "Radiance Voyage", "Euphoria Eclipse", "Pandora Mystique", "Cascade Serendipity", "Pulse Whisper", "Paradox Pulse", "Whirlwind Pulse", "Dance Harmonize", "Reflection Night", "Voyage Velvet", "Colors Serendipity" ]
+  }, {
+    "name" : "Bad Funeral ",
+    "songs" : [ "Radiance Velvet", "Mystique Euphoria", "Crescendo Night", "Glow Glow", "Cascade Melody", "Celestial Dance", "Bliss Sunset", "Love Serendipity", "Velvet Utopia", "Tranquility Paradox", "Twilight Ethereal", "Mystique Pinnacle", "Aurora Dream" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Rhythm Voyage", "Aurora Rapture", "Twilight Zephyr", "Zephyr Eclipse", "Starlight Euphoria", "Bliss Radiance", "Luminescence Whirlwind" ]
+  }, {
+    "name" : "Electric Harmonies",
+    "songs" : [ "Celestial Lullaby", "Harmonize Eclipse", "Euphoria Sunset", "Dream Love", "Glow Whisper", "Celestial Heart", "Love Echo", "Zephyr Reflection", "Rapture Dream", "Rapture Infinity" ]
+  }, {
+    "name" : "Bad Hood",
+    "songs" : [ "Night Utopia", "Celestial Harmony", "Harmonize Enigma", "Melody Melody", "Melody Paradox", "Cascade Reflection", "Essence Mystique", "Serendipity Melody", "Heart Utopia", "Pulse Infinity" ]
+  }, {
+    "name" : "Groovy View",
+    "songs" : [ "Whisper Pulse", "Radiance Euphoria", "Odyssey Rapture", "Dream Rhythm", "Euphoria Luminescence", "Voyage Cascade", "Dance Harmonize", "Ethereal Solitude", "Aurora Velvet" ]
+  }, {
+    "name" : "Teen Funeral ",
+    "songs" : [ "Melody Echo", "Paradox Echo", "Luminescence Rhythm", "Zephyr Velvet", "Serendipity Love", "Night Cascade", "Mystique Voyage", "Soul Soul", "Sunset Whisper" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "leslie27",
+  "timestamp" : 184,
+  "result" : [ {
+    "name" : "Teen Technology",
+    "songs" : [ "Paradox Aurora", "Heart Ethereal", "Colors Bliss", "Euphoria Eclipse", "Cascade Solitude", "Cascade Sunset", "Odyssey Pinnacle", "Dance Infinity", "Euphoria Aurora", "Whisper Echo", "Celestial Crescendo" ]
+  }, {
+    "name" : "Chill Hood",
+    "songs" : [ "Enigma Glow", "Euphoria Twilight", "Colors Echo", "Infinity Soul", "Twilight Lullaby", "Luminescence Zephyr", "Dream Whisper", "Odyssey Rapture", "Serenade Infinity", "Tranquility Odyssey", "Harmony Rapture", "Lullaby Melody", "Rapture Euphoria" ]
+  }, {
+    "name" : "Blue Dirt",
+    "songs" : [ "Love Love", "Soul Love", "Mystique Bliss", "Melody Colors", "Infinity Paradox", "Harmony Bliss", "Euphoria Celestial", "Serendipity Enigma", "Essence Colors", "Twilight Serenade" ]
+  }, {
+    "name" : "Groovy Revolution",
+    "songs" : [ "Mystique Harmonize", "Harmony Mystique", "Whisper Pandora", "Pulse Solitude", "Harmony Glow", "Pinnacle Celestial", "Paradox Echo", "Heart Tranquility", "Serendipity Twilight" ]
+  }, {
+    "name" : "Heroic Hood",
+    "songs" : [ "Ethereal Rapture", "Whirlwind Whirlwind", "Echo Odyssey", "Eclipse Luminescence", "Adventure Essence", "Essence Rhythm", "Sunset Pinnacle", "Crescendo Ethereal", "Rapture Harmonize", "Melody Whisper", "Dance Harmony" ]
+  }, {
+    "name" : "Bad Harmonies",
+    "songs" : [ "Odyssey Serendipity", "Sunset Essence", "Soul Celestial", "Ethereal Starlight", "Sunset Infinity", "Rapture Twilight", "Infinity Euphoria", "Voyage Pulse" ]
+  }, {
+    "name" : "Teen Dreams",
+    "songs" : [ "Luminescence Crescendo", "Bliss Rhythm", "Echo Pinnacle", "Zephyr Eclipse", "Voyage Solitude", "Sunset Melody", "Colors Rapture" ]
+  }, {
+    "name" : "Heroic Harmonies",
+    "songs" : [ "Heart Bliss", "Pinnacle Euphoria", "Whirlwind Solitude", "Sunset Night", "Whirlwind Serenade", "Enigma Euphoria", "Essence Voyage", "Adventure Cascade", "Aurora Voyage", "Zephyr Twilight" ]
+  }, {
+    "name" : "Chill Funeral ",
+    "songs" : [ "Serendipity Serendipity", "Melody Sunset", "Rapture Odyssey", "Mystique Radiance", "Cascade Mystique", "Dance Pinnacle", "Essence Cascade", "Radiance Starlight" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Celestial Soul", "Utopia Harmony", "Dream Infinity", "Ethereal Velvet", "Soul Mystique", "Love Colors", "Celestial Dream", "Tranquility Zephyr" ]
+  }, {
+    "name" : "Breezy Autumn",
+    "songs" : [ "Whisper Paradox", "Radiance Voyage", "Euphoria Eclipse", "Pandora Mystique", "Cascade Serendipity", "Pulse Whisper", "Paradox Pulse", "Whirlwind Pulse", "Dance Harmonize", "Reflection Night", "Voyage Velvet", "Colors Serendipity" ]
+  }, {
+    "name" : "Bad Funeral ",
+    "songs" : [ "Radiance Velvet", "Mystique Euphoria", "Crescendo Night", "Glow Glow", "Cascade Melody", "Celestial Dance", "Bliss Sunset", "Love Serendipity", "Velvet Utopia", "Tranquility Paradox", "Twilight Ethereal", "Mystique Pinnacle", "Aurora Dream" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Rhythm Voyage", "Aurora Rapture", "Twilight Zephyr", "Zephyr Eclipse", "Starlight Euphoria", "Bliss Radiance", "Luminescence Whirlwind" ]
+  }, {
+    "name" : "Electric Harmonies",
+    "songs" : [ "Celestial Lullaby", "Harmonize Eclipse", "Euphoria Sunset", "Dream Love", "Glow Whisper", "Celestial Heart", "Love Echo", "Zephyr Reflection", "Rapture Dream", "Rapture Infinity" ]
+  }, {
+    "name" : "Bad Hood",
+    "songs" : [ "Night Utopia", "Celestial Harmony", "Harmonize Enigma", "Melody Melody", "Melody Paradox", "Cascade Reflection", "Essence Mystique", "Serendipity Melody", "Heart Utopia", "Pulse Infinity" ]
+  }, {
+    "name" : "Groovy View",
+    "songs" : [ "Whisper Pulse", "Radiance Euphoria", "Odyssey Rapture", "Dream Rhythm", "Euphoria Luminescence", "Voyage Cascade", "Dance Harmonize", "Ethereal Solitude", "Aurora Velvet" ]
+  }, {
+    "name" : "Teen Funeral ",
+    "songs" : [ "Melody Echo", "Paradox Echo", "Luminescence Rhythm", "Zephyr Velvet", "Serendipity Love", "Night Cascade", "Mystique Voyage", "Soul Soul", "Sunset Whisper" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "amanda16",
+  "timestamp" : 185,
+  "result" : [ {
+    "name" : "Teen Technology",
+    "songs" : [ "Paradox Aurora", "Heart Ethereal", "Colors Bliss", "Euphoria Eclipse", "Cascade Solitude", "Cascade Sunset", "Odyssey Pinnacle", "Dance Infinity", "Euphoria Aurora", "Whisper Echo", "Celestial Crescendo" ]
+  }, {
+    "name" : "Chill Hood",
+    "songs" : [ "Enigma Glow", "Euphoria Twilight", "Colors Echo", "Infinity Soul", "Twilight Lullaby", "Luminescence Zephyr", "Dream Whisper", "Odyssey Rapture", "Serenade Infinity", "Tranquility Odyssey", "Harmony Rapture", "Lullaby Melody", "Rapture Euphoria" ]
+  }, {
+    "name" : "Blue Dirt",
+    "songs" : [ "Love Love", "Soul Love", "Mystique Bliss", "Melody Colors", "Infinity Paradox", "Harmony Bliss", "Euphoria Celestial", "Serendipity Enigma", "Essence Colors", "Twilight Serenade" ]
+  }, {
+    "name" : "Groovy Revolution",
+    "songs" : [ "Mystique Harmonize", "Harmony Mystique", "Whisper Pandora", "Pulse Solitude", "Harmony Glow", "Pinnacle Celestial", "Paradox Echo", "Heart Tranquility", "Serendipity Twilight" ]
+  }, {
+    "name" : "Heroic Hood",
+    "songs" : [ "Ethereal Rapture", "Whirlwind Whirlwind", "Echo Odyssey", "Eclipse Luminescence", "Adventure Essence", "Essence Rhythm", "Sunset Pinnacle", "Crescendo Ethereal", "Rapture Harmonize", "Melody Whisper", "Dance Harmony" ]
+  }, {
+    "name" : "Bad Harmonies",
+    "songs" : [ "Odyssey Serendipity", "Sunset Essence", "Soul Celestial", "Ethereal Starlight", "Sunset Infinity", "Rapture Twilight", "Infinity Euphoria", "Voyage Pulse" ]
+  }, {
+    "name" : "Teen Dreams",
+    "songs" : [ "Luminescence Crescendo", "Bliss Rhythm", "Echo Pinnacle", "Zephyr Eclipse", "Voyage Solitude", "Sunset Melody", "Colors Rapture" ]
+  }, {
+    "name" : "Heroic Harmonies",
+    "songs" : [ "Heart Bliss", "Pinnacle Euphoria", "Whirlwind Solitude", "Sunset Night", "Whirlwind Serenade", "Enigma Euphoria", "Essence Voyage", "Adventure Cascade", "Aurora Voyage", "Zephyr Twilight" ]
+  }, {
+    "name" : "Chill Funeral ",
+    "songs" : [ "Serendipity Serendipity", "Melody Sunset", "Rapture Odyssey", "Mystique Radiance", "Cascade Mystique", "Dance Pinnacle", "Essence Cascade", "Radiance Starlight" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Celestial Soul", "Utopia Harmony", "Dream Infinity", "Ethereal Velvet", "Soul Mystique", "Love Colors", "Celestial Dream", "Tranquility Zephyr" ]
+  }, {
+    "name" : "Breezy Autumn",
+    "songs" : [ "Whisper Paradox", "Radiance Voyage", "Euphoria Eclipse", "Pandora Mystique", "Cascade Serendipity", "Pulse Whisper", "Paradox Pulse", "Whirlwind Pulse", "Dance Harmonize", "Reflection Night", "Voyage Velvet", "Colors Serendipity" ]
+  }, {
+    "name" : "Bad Funeral ",
+    "songs" : [ "Radiance Velvet", "Mystique Euphoria", "Crescendo Night", "Glow Glow", "Cascade Melody", "Celestial Dance", "Bliss Sunset", "Love Serendipity", "Velvet Utopia", "Tranquility Paradox", "Twilight Ethereal", "Mystique Pinnacle", "Aurora Dream" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Rhythm Voyage", "Aurora Rapture", "Twilight Zephyr", "Zephyr Eclipse", "Starlight Euphoria", "Bliss Radiance", "Luminescence Whirlwind" ]
+  }, {
+    "name" : "Electric Harmonies",
+    "songs" : [ "Celestial Lullaby", "Harmonize Eclipse", "Euphoria Sunset", "Dream Love", "Glow Whisper", "Celestial Heart", "Love Echo", "Zephyr Reflection", "Rapture Dream", "Rapture Infinity" ]
+  }, {
+    "name" : "Bad Hood",
+    "songs" : [ "Night Utopia", "Celestial Harmony", "Harmonize Enigma", "Melody Melody", "Melody Paradox", "Cascade Reflection", "Essence Mystique", "Serendipity Melody", "Heart Utopia", "Pulse Infinity" ]
+  }, {
+    "name" : "Groovy View",
+    "songs" : [ "Whisper Pulse", "Radiance Euphoria", "Odyssey Rapture", "Dream Rhythm", "Euphoria Luminescence", "Voyage Cascade", "Dance Harmonize", "Ethereal Solitude", "Aurora Velvet" ]
+  }, {
+    "name" : "Teen Funeral ",
+    "songs" : [ "Melody Echo", "Paradox Echo", "Luminescence Rhythm", "Zephyr Velvet", "Serendipity Love", "Night Cascade", "Mystique Voyage", "Soul Soul", "Sunset Whisper" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "leslie27",
+  "timestamp" : 186,
+  "result" : [ {
+    "name" : "Teen Technology",
+    "songs" : [ "Paradox Aurora", "Heart Ethereal", "Colors Bliss", "Euphoria Eclipse", "Cascade Solitude", "Cascade Sunset", "Odyssey Pinnacle", "Dance Infinity", "Euphoria Aurora", "Whisper Echo", "Celestial Crescendo" ]
+  }, {
+    "name" : "Chill Hood",
+    "songs" : [ "Enigma Glow", "Euphoria Twilight", "Colors Echo", "Infinity Soul", "Twilight Lullaby", "Luminescence Zephyr", "Dream Whisper", "Odyssey Rapture", "Serenade Infinity", "Tranquility Odyssey", "Harmony Rapture", "Lullaby Melody", "Rapture Euphoria" ]
+  }, {
+    "name" : "Blue Dirt",
+    "songs" : [ "Love Love", "Soul Love", "Mystique Bliss", "Melody Colors", "Infinity Paradox", "Harmony Bliss", "Euphoria Celestial", "Serendipity Enigma", "Essence Colors", "Twilight Serenade" ]
+  }, {
+    "name" : "Groovy Revolution",
+    "songs" : [ "Mystique Harmonize", "Harmony Mystique", "Whisper Pandora", "Pulse Solitude", "Harmony Glow", "Pinnacle Celestial", "Paradox Echo", "Heart Tranquility", "Serendipity Twilight" ]
+  }, {
+    "name" : "Heroic Hood",
+    "songs" : [ "Ethereal Rapture", "Whirlwind Whirlwind", "Echo Odyssey", "Eclipse Luminescence", "Adventure Essence", "Essence Rhythm", "Sunset Pinnacle", "Crescendo Ethereal", "Rapture Harmonize", "Melody Whisper", "Dance Harmony" ]
+  }, {
+    "name" : "Bad Harmonies",
+    "songs" : [ "Odyssey Serendipity", "Sunset Essence", "Soul Celestial", "Ethereal Starlight", "Sunset Infinity", "Rapture Twilight", "Infinity Euphoria", "Voyage Pulse" ]
+  }, {
+    "name" : "Teen Dreams",
+    "songs" : [ "Luminescence Crescendo", "Bliss Rhythm", "Echo Pinnacle", "Zephyr Eclipse", "Voyage Solitude", "Sunset Melody", "Colors Rapture" ]
+  }, {
+    "name" : "Heroic Harmonies",
+    "songs" : [ "Heart Bliss", "Pinnacle Euphoria", "Whirlwind Solitude", "Sunset Night", "Whirlwind Serenade", "Enigma Euphoria", "Essence Voyage", "Adventure Cascade", "Aurora Voyage", "Zephyr Twilight" ]
+  }, {
+    "name" : "Chill Funeral ",
+    "songs" : [ "Serendipity Serendipity", "Melody Sunset", "Rapture Odyssey", "Mystique Radiance", "Cascade Mystique", "Dance Pinnacle", "Essence Cascade", "Radiance Starlight" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Celestial Soul", "Utopia Harmony", "Dream Infinity", "Ethereal Velvet", "Soul Mystique", "Love Colors", "Celestial Dream", "Tranquility Zephyr" ]
+  }, {
+    "name" : "Breezy Autumn",
+    "songs" : [ "Whisper Paradox", "Radiance Voyage", "Euphoria Eclipse", "Pandora Mystique", "Cascade Serendipity", "Pulse Whisper", "Paradox Pulse", "Whirlwind Pulse", "Dance Harmonize", "Reflection Night", "Voyage Velvet", "Colors Serendipity" ]
+  }, {
+    "name" : "Bad Funeral ",
+    "songs" : [ "Radiance Velvet", "Mystique Euphoria", "Crescendo Night", "Glow Glow", "Cascade Melody", "Celestial Dance", "Bliss Sunset", "Love Serendipity", "Velvet Utopia", "Tranquility Paradox", "Twilight Ethereal", "Mystique Pinnacle", "Aurora Dream" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Rhythm Voyage", "Aurora Rapture", "Twilight Zephyr", "Zephyr Eclipse", "Starlight Euphoria", "Bliss Radiance", "Luminescence Whirlwind" ]
+  }, {
+    "name" : "Electric Harmonies",
+    "songs" : [ "Celestial Lullaby", "Harmonize Eclipse", "Euphoria Sunset", "Dream Love", "Glow Whisper", "Celestial Heart", "Love Echo", "Zephyr Reflection", "Rapture Dream", "Rapture Infinity" ]
+  }, {
+    "name" : "Bad Hood",
+    "songs" : [ "Night Utopia", "Celestial Harmony", "Harmonize Enigma", "Melody Melody", "Melody Paradox", "Cascade Reflection", "Essence Mystique", "Serendipity Melody", "Heart Utopia", "Pulse Infinity" ]
+  }, {
+    "name" : "Groovy View",
+    "songs" : [ "Whisper Pulse", "Radiance Euphoria", "Odyssey Rapture", "Dream Rhythm", "Euphoria Luminescence", "Voyage Cascade", "Dance Harmonize", "Ethereal Solitude", "Aurora Velvet" ]
+  }, {
+    "name" : "Teen Funeral ",
+    "songs" : [ "Melody Echo", "Paradox Echo", "Luminescence Rhythm", "Zephyr Velvet", "Serendipity Love", "Night Cascade", "Mystique Voyage", "Soul Soul", "Sunset Whisper" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "amanda16",
+  "timestamp" : 187,
+  "result" : [ {
+    "name" : "Teen Technology",
+    "songs" : [ "Paradox Aurora", "Heart Ethereal", "Colors Bliss", "Euphoria Eclipse", "Cascade Solitude", "Cascade Sunset", "Odyssey Pinnacle", "Dance Infinity", "Euphoria Aurora", "Whisper Echo", "Celestial Crescendo" ]
+  }, {
+    "name" : "Chill Hood",
+    "songs" : [ "Enigma Glow", "Euphoria Twilight", "Colors Echo", "Infinity Soul", "Twilight Lullaby", "Luminescence Zephyr", "Dream Whisper", "Odyssey Rapture", "Serenade Infinity", "Tranquility Odyssey", "Harmony Rapture", "Lullaby Melody", "Rapture Euphoria" ]
+  }, {
+    "name" : "Blue Dirt",
+    "songs" : [ "Love Love", "Soul Love", "Mystique Bliss", "Melody Colors", "Infinity Paradox", "Harmony Bliss", "Euphoria Celestial", "Serendipity Enigma", "Essence Colors", "Twilight Serenade" ]
+  }, {
+    "name" : "Groovy Revolution",
+    "songs" : [ "Mystique Harmonize", "Harmony Mystique", "Whisper Pandora", "Pulse Solitude", "Harmony Glow", "Pinnacle Celestial", "Paradox Echo", "Heart Tranquility", "Serendipity Twilight" ]
+  }, {
+    "name" : "Heroic Hood",
+    "songs" : [ "Ethereal Rapture", "Whirlwind Whirlwind", "Echo Odyssey", "Eclipse Luminescence", "Adventure Essence", "Essence Rhythm", "Sunset Pinnacle", "Crescendo Ethereal", "Rapture Harmonize", "Melody Whisper", "Dance Harmony" ]
+  }, {
+    "name" : "Bad Harmonies",
+    "songs" : [ "Odyssey Serendipity", "Sunset Essence", "Soul Celestial", "Ethereal Starlight", "Sunset Infinity", "Rapture Twilight", "Infinity Euphoria", "Voyage Pulse" ]
+  }, {
+    "name" : "Teen Dreams",
+    "songs" : [ "Luminescence Crescendo", "Bliss Rhythm", "Echo Pinnacle", "Zephyr Eclipse", "Voyage Solitude", "Sunset Melody", "Colors Rapture" ]
+  }, {
+    "name" : "Heroic Harmonies",
+    "songs" : [ "Heart Bliss", "Pinnacle Euphoria", "Whirlwind Solitude", "Sunset Night", "Whirlwind Serenade", "Enigma Euphoria", "Essence Voyage", "Adventure Cascade", "Aurora Voyage", "Zephyr Twilight" ]
+  }, {
+    "name" : "Chill Funeral ",
+    "songs" : [ "Serendipity Serendipity", "Melody Sunset", "Rapture Odyssey", "Mystique Radiance", "Cascade Mystique", "Dance Pinnacle", "Essence Cascade", "Radiance Starlight" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Celestial Soul", "Utopia Harmony", "Dream Infinity", "Ethereal Velvet", "Soul Mystique", "Love Colors", "Celestial Dream", "Tranquility Zephyr" ]
+  }, {
+    "name" : "Breezy Autumn",
+    "songs" : [ "Whisper Paradox", "Radiance Voyage", "Euphoria Eclipse", "Pandora Mystique", "Cascade Serendipity", "Pulse Whisper", "Paradox Pulse", "Whirlwind Pulse", "Dance Harmonize", "Reflection Night", "Voyage Velvet", "Colors Serendipity" ]
+  }, {
+    "name" : "Bad Funeral ",
+    "songs" : [ "Radiance Velvet", "Mystique Euphoria", "Crescendo Night", "Glow Glow", "Cascade Melody", "Celestial Dance", "Bliss Sunset", "Love Serendipity", "Velvet Utopia", "Tranquility Paradox", "Twilight Ethereal", "Mystique Pinnacle", "Aurora Dream" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Rhythm Voyage", "Aurora Rapture", "Twilight Zephyr", "Zephyr Eclipse", "Starlight Euphoria", "Bliss Radiance", "Luminescence Whirlwind" ]
+  }, {
+    "name" : "Electric Harmonies",
+    "songs" : [ "Celestial Lullaby", "Harmonize Eclipse", "Euphoria Sunset", "Dream Love", "Glow Whisper", "Celestial Heart", "Love Echo", "Zephyr Reflection", "Rapture Dream", "Rapture Infinity" ]
+  }, {
+    "name" : "Bad Hood",
+    "songs" : [ "Night Utopia", "Celestial Harmony", "Harmonize Enigma", "Melody Melody", "Melody Paradox", "Cascade Reflection", "Essence Mystique", "Serendipity Melody", "Heart Utopia", "Pulse Infinity" ]
+  }, {
+    "name" : "Groovy View",
+    "songs" : [ "Whisper Pulse", "Radiance Euphoria", "Odyssey Rapture", "Dream Rhythm", "Euphoria Luminescence", "Voyage Cascade", "Dance Harmonize", "Ethereal Solitude", "Aurora Velvet" ]
+  }, {
+    "name" : "Teen Funeral ",
+    "songs" : [ "Melody Echo", "Paradox Echo", "Luminescence Rhythm", "Zephyr Velvet", "Serendipity Love", "Night Cascade", "Mystique Voyage", "Soul Soul", "Sunset Whisper" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "amanda16",
+  "timestamp" : 188,
+  "result" : [ {
+    "name" : "Teen Technology",
+    "songs" : [ "Paradox Aurora", "Heart Ethereal", "Colors Bliss", "Euphoria Eclipse", "Cascade Solitude", "Cascade Sunset", "Odyssey Pinnacle", "Dance Infinity", "Euphoria Aurora", "Whisper Echo", "Celestial Crescendo" ]
+  }, {
+    "name" : "Chill Hood",
+    "songs" : [ "Enigma Glow", "Euphoria Twilight", "Colors Echo", "Infinity Soul", "Twilight Lullaby", "Luminescence Zephyr", "Dream Whisper", "Odyssey Rapture", "Serenade Infinity", "Tranquility Odyssey", "Harmony Rapture", "Lullaby Melody", "Rapture Euphoria" ]
+  }, {
+    "name" : "Blue Dirt",
+    "songs" : [ "Love Love", "Soul Love", "Mystique Bliss", "Melody Colors", "Infinity Paradox", "Harmony Bliss", "Euphoria Celestial", "Serendipity Enigma", "Essence Colors", "Twilight Serenade" ]
+  }, {
+    "name" : "Groovy Revolution",
+    "songs" : [ "Mystique Harmonize", "Harmony Mystique", "Whisper Pandora", "Pulse Solitude", "Harmony Glow", "Pinnacle Celestial", "Paradox Echo", "Heart Tranquility", "Serendipity Twilight" ]
+  }, {
+    "name" : "Heroic Hood",
+    "songs" : [ "Ethereal Rapture", "Whirlwind Whirlwind", "Echo Odyssey", "Eclipse Luminescence", "Adventure Essence", "Essence Rhythm", "Sunset Pinnacle", "Crescendo Ethereal", "Rapture Harmonize", "Melody Whisper", "Dance Harmony" ]
+  }, {
+    "name" : "Bad Harmonies",
+    "songs" : [ "Odyssey Serendipity", "Sunset Essence", "Soul Celestial", "Ethereal Starlight", "Sunset Infinity", "Rapture Twilight", "Infinity Euphoria", "Voyage Pulse" ]
+  }, {
+    "name" : "Teen Dreams",
+    "songs" : [ "Luminescence Crescendo", "Bliss Rhythm", "Echo Pinnacle", "Zephyr Eclipse", "Voyage Solitude", "Sunset Melody", "Colors Rapture" ]
+  }, {
+    "name" : "Heroic Harmonies",
+    "songs" : [ "Heart Bliss", "Pinnacle Euphoria", "Whirlwind Solitude", "Sunset Night", "Whirlwind Serenade", "Enigma Euphoria", "Essence Voyage", "Adventure Cascade", "Aurora Voyage", "Zephyr Twilight" ]
+  }, {
+    "name" : "Chill Funeral ",
+    "songs" : [ "Serendipity Serendipity", "Melody Sunset", "Rapture Odyssey", "Mystique Radiance", "Cascade Mystique", "Dance Pinnacle", "Essence Cascade", "Radiance Starlight" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Celestial Soul", "Utopia Harmony", "Dream Infinity", "Ethereal Velvet", "Soul Mystique", "Love Colors", "Celestial Dream", "Tranquility Zephyr" ]
+  }, {
+    "name" : "Breezy Autumn",
+    "songs" : [ "Whisper Paradox", "Radiance Voyage", "Euphoria Eclipse", "Pandora Mystique", "Cascade Serendipity", "Pulse Whisper", "Paradox Pulse", "Whirlwind Pulse", "Dance Harmonize", "Reflection Night", "Voyage Velvet", "Colors Serendipity" ]
+  }, {
+    "name" : "Bad Funeral ",
+    "songs" : [ "Radiance Velvet", "Mystique Euphoria", "Crescendo Night", "Glow Glow", "Cascade Melody", "Celestial Dance", "Bliss Sunset", "Love Serendipity", "Velvet Utopia", "Tranquility Paradox", "Twilight Ethereal", "Mystique Pinnacle", "Aurora Dream" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Rhythm Voyage", "Aurora Rapture", "Twilight Zephyr", "Zephyr Eclipse", "Starlight Euphoria", "Bliss Radiance", "Luminescence Whirlwind" ]
+  }, {
+    "name" : "Electric Harmonies",
+    "songs" : [ "Celestial Lullaby", "Harmonize Eclipse", "Euphoria Sunset", "Dream Love", "Glow Whisper", "Celestial Heart", "Love Echo", "Zephyr Reflection", "Rapture Dream", "Rapture Infinity" ]
+  }, {
+    "name" : "Bad Hood",
+    "songs" : [ "Night Utopia", "Celestial Harmony", "Harmonize Enigma", "Melody Melody", "Melody Paradox", "Cascade Reflection", "Essence Mystique", "Serendipity Melody", "Heart Utopia", "Pulse Infinity" ]
+  }, {
+    "name" : "Groovy View",
+    "songs" : [ "Whisper Pulse", "Radiance Euphoria", "Odyssey Rapture", "Dream Rhythm", "Euphoria Luminescence", "Voyage Cascade", "Dance Harmonize", "Ethereal Solitude", "Aurora Velvet" ]
+  }, {
+    "name" : "Teen Funeral ",
+    "songs" : [ "Melody Echo", "Paradox Echo", "Luminescence Rhythm", "Zephyr Velvet", "Serendipity Love", "Night Cascade", "Mystique Voyage", "Soul Soul", "Sunset Whisper" ]
+  } ]
 }, {
   "command" : "switchVisibility",
   "user" : "alice22",
@@ -14086,7 +14758,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 11769,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -14102,7 +14774,7 @@
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 11779,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14118,7 +14790,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 11789,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -14134,7 +14806,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 11799,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14150,7 +14822,7 @@
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 11809,
-  "message" : null
+  "message" : "cbutler has added new album successfully."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -14166,7 +14838,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 11819,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14182,7 +14854,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 11829,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -14198,7 +14870,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 11839,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14214,7 +14886,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 11849,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -14230,7 +14902,7 @@
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 11859,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14246,7 +14918,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 11869,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -14262,7 +14934,7 @@
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 11879,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14278,7 +14950,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 11889,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -14294,7 +14966,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 11899,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14310,7 +14982,7 @@
   "command" : "addAlbum",
   "user" : "leslie27",
   "timestamp" : 11909,
-  "message" : null
+  "message" : "leslie27 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -14326,7 +14998,7 @@
   "command" : "addAlbum",
   "user" : "leslie27",
   "timestamp" : 11919,
-  "message" : null
+  "message" : "leslie27 has another album with the same name."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14342,7 +15014,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 11929,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -14358,7 +15030,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 11939,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14374,7 +15046,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 11949,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -14390,7 +15062,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 11959,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14406,7 +15078,7 @@
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 11969,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -14422,7 +15094,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 11979,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14438,7 +15110,7 @@
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 11989,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -14454,7 +15126,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 11999,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14470,7 +15142,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12009,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -14486,7 +15158,7 @@
   "command" : "addAlbum",
   "user" : "leslie27",
   "timestamp" : 12019,
-  "message" : null
+  "message" : "leslie27 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14502,7 +15174,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12029,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -14518,7 +15190,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 12039,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14534,7 +15206,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12049,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -14550,7 +15222,7 @@
   "command" : "addAlbum",
   "user" : "leslie27",
   "timestamp" : 12059,
-  "message" : null
+  "message" : "leslie27 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14566,7 +15238,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12069,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -14582,7 +15254,7 @@
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12079,
-  "message" : null
+  "message" : "cbutler has added new album successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14598,7 +15270,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 12089,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -14614,7 +15286,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12099,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14630,7 +15302,7 @@
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 12109,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -14646,7 +15318,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 12119,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14662,7 +15334,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12129,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -14678,7 +15350,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 12139,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14694,7 +15366,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12149,
-  "message" : null
+  "message" : "jacobdean has another album with the same name."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -14710,7 +15382,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 12159,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14726,7 +15398,7 @@
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 12169,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -14742,7 +15414,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12179,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14758,7 +15430,7 @@
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 12189,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -14774,7 +15446,7 @@
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 12199,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14790,7 +15462,7 @@
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 12209,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -14806,7 +15478,7 @@
   "command" : "addAlbum",
   "user" : "leslie27",
   "timestamp" : 12219,
-  "message" : null
+  "message" : "leslie27 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14822,7 +15494,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12229,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -14838,7 +15510,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12239,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14854,7 +15526,7 @@
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 12249,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -14870,7 +15542,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 12259,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14886,7 +15558,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12269,
-  "message" : null
+  "message" : "matthewfernandez has the same song at least twice in this album."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -14902,7 +15574,7 @@
   "command" : "addAlbum",
   "user" : "leslie27",
   "timestamp" : 12279,
-  "message" : null
+  "message" : "leslie27 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14918,7 +15590,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 12289,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -14934,7 +15606,7 @@
   "command" : "addAlbum",
   "user" : "jenningsbeth",
   "timestamp" : 12299,
-  "message" : null
+  "message" : "jenningsbeth  is not an artist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14950,7 +15622,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12309,
-  "message" : null
+  "message" : "matthewfernandez has another album with the same name."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -14966,7 +15638,7 @@
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12319,
-  "message" : null
+  "message" : "cbutler has added new album successfully."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14982,7 +15654,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12329,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -14998,7 +15670,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 12339,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -15014,7 +15686,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12349,
-  "message" : null
+  "message" : "jacobdean has another album with the same name."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -15030,7 +15702,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12359,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -15046,7 +15718,7 @@
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 12369,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -15062,7 +15734,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 12379,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -15078,7 +15750,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12389,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -15094,7 +15766,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12399,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15110,7 +15782,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12409,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -15126,7 +15798,7 @@
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12419,
-  "message" : null
+  "message" : "cbutler has added new album successfully."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -15142,7 +15814,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12429,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -15158,7 +15830,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12439,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -15174,7 +15846,7 @@
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12449,
-  "message" : null
+  "message" : "cbutler has added new album successfully."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -15190,7 +15862,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12459,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -15206,7 +15878,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 12469,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -15222,7 +15894,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12479,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -15238,7 +15910,7 @@
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 12489,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -15254,7 +15926,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 12499,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15270,7 +15942,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 12509,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -15286,7 +15958,7 @@
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 12519,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -15302,7 +15974,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12529,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -15318,7 +15990,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 12539,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -15334,7 +16006,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 12549,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -15350,7 +16022,7 @@
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12559,
-  "message" : null
+  "message" : "cbutler has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -15366,7 +16038,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12569,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -15382,7 +16054,7 @@
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 12579,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -15398,7 +16070,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12589,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -15414,7 +16086,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12599,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15430,7 +16102,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12609,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -15446,7 +16118,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12619,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -15462,7 +16134,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12629,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -15478,7 +16150,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 12639,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -15494,7 +16166,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12649,
-  "message" : null
+  "message" : "barmstrong has another album with the same name."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -15510,7 +16182,7 @@
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12659,
-  "message" : null
+  "message" : "cbutler has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -15526,7 +16198,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12669,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -15542,7 +16214,7 @@
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 12679,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -15558,7 +16230,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12689,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -15574,7 +16246,7 @@
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 12699,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15590,7 +16262,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12709,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -15606,7 +16278,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12719,
-  "message" : null
+  "message" : "jacobdean has another album with the same name."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -15622,7 +16294,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 12729,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -15638,7 +16310,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12739,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -15654,7 +16326,7 @@
   "command" : "addAlbum",
   "user" : "leslie27",
   "timestamp" : 12749,
-  "message" : null
+  "message" : "leslie27 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -15670,7 +16342,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12759,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -15686,7 +16358,7 @@
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12769,
-  "message" : null
+  "message" : "cbutler has added new album successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -15702,7 +16374,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12779,
-  "message" : null
+  "message" : "matthewfernandez has another album with the same name."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -15718,7 +16390,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12789,
-  "message" : null
+  "message" : "matthewfernandez has another album with the same name."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -15734,7 +16406,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12799,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15750,7 +16422,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12809,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -15766,7 +16438,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12819,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -15782,7 +16454,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12829,
-  "message" : null
+  "message" : "jacobdean has another album with the same name."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -15798,7 +16470,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12839,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -15814,7 +16486,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12849,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -15830,7 +16502,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12859,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -15846,7 +16518,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 12869,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -15862,7 +16534,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12879,
-  "message" : null
+  "message" : "matthewfernandez has another album with the same name."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -15878,7 +16550,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12889,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -15894,7 +16566,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12899,
-  "message" : null
+  "message" : "jacobdean has another album with the same name."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15910,7 +16582,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12909,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -15926,7 +16598,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12919,
-  "message" : null
+  "message" : "matthewfernandez has another album with the same name."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -15942,7 +16614,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12929,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -15958,7 +16630,7 @@
   "command" : "addAlbum",
   "user" : "leslie27",
   "timestamp" : 12939,
-  "message" : null
+  "message" : "leslie27 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -15974,7 +16646,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12949,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -15990,7 +16662,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12959,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -16006,7 +16678,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 12969,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -16022,7 +16694,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12979,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -16038,7 +16710,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12989,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -16054,7 +16726,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 12999,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -16070,7 +16742,7 @@
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 13009,
-  "message" : null
+  "message" : "cbutler has added new album successfully."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -16086,7 +16758,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 13019,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -16102,7 +16774,7 @@
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 13029,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -16118,7 +16790,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 13039,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -16134,7 +16806,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 13049,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -16150,7 +16822,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 13059,
-  "message" : null
+  "message" : "jacobdean has another album with the same name."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -16166,7 +16838,7 @@
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 13069,
-  "message" : null
+  "message" : "cbutler has added new album successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -16182,7 +16854,7 @@
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 13079,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -16198,7 +16870,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 13089,
-  "message" : null
+  "message" : "barmstrong has another album with the same name."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -16214,7 +16886,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 13099,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -16230,7 +16902,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 13109,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -16246,7 +16918,7 @@
   "command" : "addAlbum",
   "user" : "conniealvarez",
   "timestamp" : 13119,
-  "message" : null
+  "message" : "conniealvarez  is not an artist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -16262,7 +16934,7 @@
   "command" : "addAlbum",
   "user" : "jenningsbeth",
   "timestamp" : 13129,
-  "message" : null
+  "message" : "jenningsbeth  is not an artist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -16278,7 +16950,7 @@
   "command" : "addAlbum",
   "user" : "leslie27",
   "timestamp" : 13139,
-  "message" : null
+  "message" : "leslie27 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -16294,7 +16966,7 @@
   "command" : "addAlbum",
   "user" : "amanda16",
   "timestamp" : 13149,
-  "message" : null
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -16310,7 +16982,7 @@
   "command" : "addAlbum",
   "user" : "leslie27",
   "timestamp" : 13159,
-  "message" : null
+  "message" : "leslie27 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -16326,7 +16998,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 13169,
-  "message" : null
+  "message" : "jacobdean has another album with the same name."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -16342,7 +17014,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 13179,
-  "message" : null
+  "message" : "barmstrong has added new album successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -16358,7 +17030,7 @@
   "command" : "addAlbum",
   "user" : "leslie27",
   "timestamp" : 13189,
-  "message" : null
+  "message" : "leslie27 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -16374,7 +17046,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 13199,
-  "message" : null
+  "message" : "jacobdean has another album with the same name."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -16390,7 +17062,7 @@
   "command" : "addAlbum",
   "user" : "leslie27",
   "timestamp" : 13209,
-  "message" : null
+  "message" : "leslie27 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -16406,7 +17078,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 13219,
-  "message" : null
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -16422,7 +17094,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 13229,
-  "message" : null
+  "message" : "barmstrong has another album with the same name."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -16438,7 +17110,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 13239,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -16454,7 +17126,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 13249,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -16470,7 +17142,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 13259,
-  "message" : null
+  "message" : "matthewfernandez has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",

@@ -12,7 +12,7 @@
   "command" : "addAlbum",
   "user" : "melodymaster",
   "timestamp" : 142,
-  "message" : null
+  "message" : "melodymaster has added new album successfully."
 }, {
   "command" : "addUser",
   "user" : "melodymaster 2",
@@ -22,7 +22,7 @@
   "command" : "addAlbum",
   "user" : "melodymaster 2",
   "timestamp" : 144,
-  "message" : null
+  "message" : "melodymaster 2 has added new album successfully."
 }, {
   "command" : "createPlaylist",
   "user" : "bob35",
@@ -32,28 +32,28 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 170,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Vibrant Echoes", "Synth Symphony", "Retro Rhythms", "Digital Dreams", "Night Pulse" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 190,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Vibrant Echoes."
 }, {
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 200,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 205,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 240,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "createPlaylist",
   "user" : "carol19",
@@ -285,7 +285,7 @@
   "command" : "showPreferredSongs",
   "user" : "bob35",
   "timestamp" : 3100,
-  "result" : [ ]
+  "result" : [ "Vibrant Echoes" ]
 }, {
   "command" : "showPreferredSongs",
   "user" : "carol19",
@@ -294,5 +294,5 @@
 }, {
   "command" : "getTop5Songs",
   "timestamp" : 3300,
-  "result" : [ "Bohemian Rhapsody", "Angie", "Shape of You", "Don't", "Stairway to Heaven" ]
+  "result" : [ "Bohemian Rhapsody", "Angie", "Vibrant Echoes", "Shape of You", "Don't" ]
 } ]

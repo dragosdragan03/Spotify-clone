@@ -7,7 +7,7 @@
   "command" : "addAlbum",
   "user" : "melodymaster",
   "timestamp" : 4,
-  "message" : null
+  "message" : "melodymaster has added new album successfully."
 }, {
   "command" : "createPlaylist",
   "user" : "bob35",
@@ -17,23 +17,23 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 170,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Night Pulse" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 190,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Night Pulse."
 }, {
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 195,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 240,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -80,33 +80,33 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 440,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Vibrant Echoes" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 445,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Vibrant Echoes."
 }, {
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 446,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 450,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 480,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 216,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "search",
@@ -129,8 +129,8 @@
   "user" : "bob35",
   "timestamp" : 655,
   "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 228,
+    "name" : "Night Pulse",
+    "remainedTime" : 235,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -139,14 +139,14 @@
   "command" : "next",
   "user" : "bob35",
   "timestamp" : 670,
-  "message" : "Skipped to next track successfully. The current track is Stairway to Heaven."
+  "message" : "Skipped to next track successfully. The current track is Shape of You."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 690,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 462,
+    "name" : "Shape of You",
+    "remainedTime" : 213,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -155,14 +155,14 @@
   "command" : "prev",
   "user" : "bob35",
   "timestamp" : 710,
-  "message" : "Returned to previous track successfully. The current track is Stairway to Heaven."
+  "message" : "Returned to previous track successfully. The current track is Shape of You."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 711,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 481,
+    "name" : "Shape of You",
+    "remainedTime" : 232,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -171,19 +171,19 @@
   "command" : "prev",
   "user" : "bob35",
   "timestamp" : 712,
-  "message" : "Returned to previous track successfully. The current track is Stairway to Heaven."
+  "message" : "Returned to previous track successfully. The current track is Shape of You."
 }, {
   "command" : "prev",
   "user" : "bob35",
   "timestamp" : 712,
-  "message" : "Returned to previous track successfully. The current track is Shape of You."
+  "message" : "Returned to previous track successfully. The current track is Night Pulse."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 713,
   "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 232,
+    "name" : "Night Pulse",
+    "remainedTime" : 239,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false

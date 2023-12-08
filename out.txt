@@ -3,12 +3,12 @@
   "user" : "alice22",
   "timestamp" : 10,
   "message" : "Search returned 1 results",
-  "results" : [ "TED Radio Hour" ]
+  "results" : [ "Shape of You" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 15,
-  "message" : "Successfully selected TED Radio Hour."
+  "message" : "Successfully selected Shape of You."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -17,167 +17,94 @@
 }, {
   "command" : "status",
   "user" : "alice22",
-  "timestamp" : 59,
+  "timestamp" : 25,
   "stats" : {
-    "name" : "The Power of Design",
-    "remainedTime" : 3065,
+    "name" : "Shape of You",
+    "remainedTime" : 228,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
 }, {
-  "command" : "search",
+  "command" : "switchConnectionStatus",
   "user" : "alice22",
-  "timestamp" : 60,
-  "message" : "Search returned 1 results",
-  "results" : [ "Stairway to Heaven" ]
+  "timestamp" : 240,
+  "message" : "alice22 has changed status successfully."
 }, {
-  "command" : "select",
+  "command" : "like",
   "user" : "alice22",
-  "timestamp" : 65,
-  "message" : "Successfully selected Stairway to Heaven."
+  "timestamp" : 280,
+  "message" : "alice22 is offline."
 }, {
-  "command" : "load",
-  "user" : "alice22",
-  "timestamp" : 70,
-  "message" : "Playback loaded successfully."
+  "command" : "addUser",
+  "user" : "melodymaster",
+  "timestamp" : 295,
+  "message" : "The username melodymaster has been added successfully."
 }, {
-  "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 75,
-  "message" : "Search returned 1 results",
-  "results" : [ "TED Radio Hour" ]
+  "command" : "addAlbum",
+  "user" : "melodymaster",
+  "timestamp" : 305,
+  "message" : "melodymaster has added new album successfully."
 }, {
-  "command" : "select",
-  "user" : "alice22",
-  "timestamp" : 80,
-  "message" : "Successfully selected TED Radio Hour."
+  "command" : "showAlbums",
+  "user" : "melodymaster",
+  "timestamp" : 350,
+  "result" : [ ]
 }, {
-  "command" : "load",
+  "command" : "addUser",
   "user" : "alice22",
-  "timestamp" : 85,
-  "message" : "Playback loaded successfully."
+  "timestamp" : 380,
+  "message" : "The username alice22 is already taken."
 }, {
-  "command" : "status",
+  "command" : "switchConnectionStatus",
   "user" : "alice22",
-  "timestamp" : 86,
-  "stats" : {
-    "name" : "The Power of Design",
-    "remainedTime" : 3063,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "playPause",
-  "user" : "alice22",
-  "timestamp" : 3200,
-  "message" : "Playback paused successfully."
-}, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 3201,
-  "stats" : {
-    "name" : "The Science of Us",
-    "remainedTime" : 3081,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "createPlaylist",
-  "user" : "alice22",
-  "timestamp" : 3210,
-  "message" : "Playlist created successfully."
+  "timestamp" : 390,
+  "message" : "alice22 has changed status successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
-  "timestamp" : 3215,
+  "timestamp" : 395,
   "message" : "Search returned 2 results",
-  "results" : [ "Freedom", "Freedom" ]
+  "results" : [ "Radio Ga Ga", "Retro Rhythms" ]
 }, {
-  "command" : "select",
-  "user" : "alice22",
-  "timestamp" : 3220,
-  "message" : "Successfully selected Freedom."
-}, {
-  "command" : "load",
-  "user" : "alice22",
-  "timestamp" : 3225,
-  "message" : "Playback loaded successfully."
-}, {
-  "command" : "addRemoveInPlaylist",
-  "user" : "alice22",
-  "timestamp" : 3230,
-  "message" : "Successfully added to playlist."
+  "command" : "addAlbum",
+  "user" : "melodymaster",
+  "timestamp" : 400,
+  "message" : "melodymaster has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
-  "timestamp" : 3235,
-  "message" : "Search returned 1 results",
-  "results" : [ "Happier" ]
+  "timestamp" : 420,
+  "message" : "Search returned 4 results",
+  "results" : [ "Money Trees", "Maps", "Moves Like Jagger", "Melodic Mirage" ]
 }, {
   "command" : "select",
   "user" : "alice22",
-  "timestamp" : 3240,
-  "message" : "Successfully selected Happier."
+  "timestamp" : 430,
+  "message" : "Successfully selected Melodic Mirage."
 }, {
   "command" : "load",
   "user" : "alice22",
-  "timestamp" : 3245,
+  "timestamp" : 440,
   "message" : "Playback loaded successfully."
 }, {
-  "command" : "addRemoveInPlaylist",
+  "command" : "like",
   "user" : "alice22",
-  "timestamp" : 3250,
-  "message" : "Successfully added to playlist."
+  "timestamp" : 460,
+  "message" : "Like registered successfully."
 }, {
-  "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 3255,
-  "message" : "Search returned 1 results",
-  "results" : [ "2010 hits" ]
+  "command" : "addAlbum",
+  "user" : "melodymaster",
+  "timestamp" : 515,
+  "message" : "melodymaster has another album with the same name."
 }, {
-  "command" : "select",
-  "user" : "alice22",
-  "timestamp" : 3260,
-  "message" : "Successfully selected 2010 hits."
+  "command" : "showAlbums",
+  "user" : "melodymaster",
+  "timestamp" : 550,
+  "result" : [ ]
 }, {
-  "command" : "load",
-  "user" : "alice22",
-  "timestamp" : 3265,
-  "message" : "Playback loaded successfully."
-}, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 3270,
-  "stats" : {
-    "name" : "Freedom",
-    "remainedTime" : 173,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 3448,
-  "stats" : {
-    "name" : "Happier",
-    "remainedTime" : 202,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 4000,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "command" : "addAlbum",
+  "user" : "melodymaster",
+  "timestamp" : 560,
+  "message" : "melodymaster has the same song at least twice in this album."
 } ]

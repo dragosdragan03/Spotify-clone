@@ -26,7 +26,15 @@
   "command" : "addAlbum",
   "user" : "melodymaster",
   "timestamp" : 35,
-  "message" : null
+  "message" : "melodymaster has added new album successfully."
+}, {
+  "command" : "showAlbums",
+  "user" : "beatblazer",
+  "timestamp" : 40,
+  "result" : [ {
+    "name" : "Harmonic Horizons",
+    "songs" : [ "Vibrant Echoes", "Synth Symphony", "Retro Rhythms", "Digital Dreams", "Night Pulse" ]
+  } ]
 }, {
   "command" : "search",
   "user" : "alice22",

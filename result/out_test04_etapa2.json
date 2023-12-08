@@ -42,18 +42,18 @@
   "command" : "addAlbum",
   "user" : "rhythmrider",
   "timestamp" : 50,
-  "message" : null
+  "message" : "rhythmrider has added new album successfully."
 }, {
   "command" : "addAlbum",
   "user" : "beatblazer",
   "timestamp" : 55,
-  "message" : null
+  "message" : "beatblazer has added new album successfully."
 }, {
   "command" : "search",
   "user" : "melodicmind42",
   "timestamp" : 60,
-  "message" : "Search returned 1 results",
-  "results" : [ "Radio Ga Ga" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Radio Ga Ga", "Rhythm Rise", "Rhythmic Revolution" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -63,28 +63,28 @@
   "command" : "select",
   "user" : "melodicmind42",
   "timestamp" : 70,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Rhythmic Revolution."
 }, {
   "command" : "load",
   "user" : "melodicmind42",
   "timestamp" : 75,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
   "user" : "melodicmind42",
   "timestamp" : 90,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Rhythmic Revolution",
+    "remainedTime" : 185,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
   "user" : "melodicmind42",
   "timestamp" : 120,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -110,21 +110,21 @@
   "command" : "search",
   "user" : "melodicmind42",
   "timestamp" : 1385,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Rapid Rhythms", "Rapid Fire" ]
 }, {
   "command" : "select",
   "user" : "melodicmind42",
   "timestamp" : 1390,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Rapid Rhythms."
 }, {
   "command" : "load",
   "user" : "melodicmind42",
   "timestamp" : 1440,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "melodicmind42",
   "timestamp" : 1455,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 } ]

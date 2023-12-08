@@ -44,7 +44,15 @@
   "command" : "addAlbum",
   "user" : "melodymaster",
   "timestamp" : 305,
-  "message" : null
+  "message" : "melodymaster has added new album successfully."
+}, {
+  "command" : "showAlbums",
+  "user" : "melodymaster",
+  "timestamp" : 350,
+  "result" : [ {
+    "name" : "Harmonic Horizons",
+    "songs" : [ "Vibrant Echoes", "Synth Symphony", "Retro Rhythms", "Digital Dreams", "Night Pulse" ]
+  } ]
 }, {
   "command" : "addUser",
   "user" : "alice22",
@@ -59,42 +67,53 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 395,
-  "message" : "Search returned 1 results",
-  "results" : [ "Radio Ga Ga" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Radio Ga Ga", "Retro Rhythms" ]
 }, {
   "command" : "addAlbum",
   "user" : "melodymaster",
   "timestamp" : 400,
-  "message" : null
+  "message" : "melodymaster has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 420,
-  "message" : "Search returned 3 results",
-  "results" : [ "Money Trees", "Maps", "Moves Like Jagger" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Money Trees", "Maps", "Moves Like Jagger", "Melodic Mirage" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 430,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Melodic Mirage."
 }, {
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 440,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 460,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "addAlbum",
   "user" : "melodymaster",
   "timestamp" : 515,
-  "message" : null
+  "message" : "melodymaster has another album with the same name."
+}, {
+  "command" : "showAlbums",
+  "user" : "melodymaster",
+  "timestamp" : 550,
+  "result" : [ {
+    "name" : "Harmonic Horizons",
+    "songs" : [ "Vibrant Echoes", "Synth Symphony", "Retro Rhythms", "Digital Dreams", "Night Pulse" ]
+  }, {
+    "name" : "Echoes of Harmony",
+    "songs" : [ "Melodic Mirage", "Pop Serenade" ]
+  } ]
 }, {
   "command" : "addAlbum",
   "user" : "melodymaster",
   "timestamp" : 560,
-  "message" : null
+  "message" : "melodymaster has the same song at least twice in this album."
 } ]

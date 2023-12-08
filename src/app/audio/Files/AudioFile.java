@@ -7,7 +7,7 @@ import lombok.Getter;
 public abstract class AudioFile extends LibraryEntry {
     private final Integer duration;
 
-    public AudioFile(String name, Integer duration) {
+    public AudioFile(final String name, final Integer duration) {
         super(name);
         this.duration = duration;
     }

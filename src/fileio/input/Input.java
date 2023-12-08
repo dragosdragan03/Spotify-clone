@@ -14,7 +14,7 @@ public final class Input {
         return library;
     }
 
-    public void setLibrary(LibraryInput library) {
+    public void setLibrary(final LibraryInput library) {
         this.library = library;
     }
 
@@ -22,7 +22,7 @@ public final class Input {
         return users;
     }
 
-    public void setUsers(ArrayList<UserInput> users) {
+    public void setUsers(final ArrayList<UserInput> users) {
         this.users = users;
     }
 
@@ -30,16 +30,16 @@ public final class Input {
         return commands;
     }
 
-    public void setCommands(ArrayList<CommandInput> commands) {
+    public void setCommands(final ArrayList<CommandInput> commands) {
         this.commands = commands;
     }
 
     @Override
     public String toString() {
-        return "AppInput{" +
-                "library=" + library +
-                ", users=" + users +
-                ", commands=" + commands +
-                '}';
+        return "AppInput{"
+                + "library=" + library
+                + ", users=" + users
+                + ", commands=" + commands
+                + '}';
     }
 }

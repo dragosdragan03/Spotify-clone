@@ -18,7 +18,7 @@ public final class CommandInput {
     private String name;
     private int age;
     private String city;
-    private String releaseYear;
+    private int releaseYear;
     private String description;
     private ArrayList<SongInput> songs;
     private String date;
@@ -127,7 +127,7 @@ public final class CommandInput {
         return city;
     }
 
-    public String getReleaseYear() {
+    public int getReleaseYear() {
         return releaseYear;
     }
 

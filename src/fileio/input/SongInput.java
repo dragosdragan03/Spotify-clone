@@ -1,6 +1,5 @@
 package fileio.input;
 
-import app.utils.Enums;
 import java.util.ArrayList;
 
 public final class SongInput {
@@ -20,7 +19,7 @@ public final class SongInput {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(final String name) {
         this.name = name;
     }
 
@@ -28,7 +27,7 @@ public final class SongInput {
         return duration;
     }
 
-    public void setDuration(Integer duration) {
+    public void setDuration(final Integer duration) {
         this.duration = duration;
     }
 
@@ -36,7 +35,7 @@ public final class SongInput {
         return album;
     }
 
-    public void setAlbum(String album) {
+    public void setAlbum(final String album) {
         this.album = album;
     }
 
@@ -44,7 +43,7 @@ public final class SongInput {
         return tags;
     }
 
-    public void setTags(ArrayList<String> tags) {
+    public void setTags(final ArrayList<String> tags) {
         this.tags = tags;
     }
 
@@ -52,7 +51,7 @@ public final class SongInput {
         return lyrics;
     }
 
-    public void setLyrics(String lyrics) {
+    public void setLyrics(final String lyrics) {
         this.lyrics = lyrics;
     }
 
@@ -60,7 +59,7 @@ public final class SongInput {
         return genre;
     }
 
-    public void setGenre(String genre) {
+    public void setGenre(final String genre) {
         this.genre = genre;
     }
 
@@ -68,7 +67,7 @@ public final class SongInput {
         return releaseYear;
     }
 
-    public void setReleaseYear(int releaseYear) {
+    public void setReleaseYear(final int releaseYear) {
         this.releaseYear = releaseYear;
     }
 
@@ -76,21 +75,21 @@ public final class SongInput {
         return artist;
     }
 
-    public void setArtist(String artist) {
+    public void setArtist(final String artist) {
         this.artist = artist;
     }
 
     @Override
     public String toString() {
-        return "SongInput{" +
-                "name='" + name + '\'' +
-                ", duration=" + duration +
-                ", album='" + album + '\'' +
-                ", tags=" + tags +
-                ", lyrics='" + lyrics + '\'' +
-                ", genre='" + genre + '\'' +
-                ", releaseYear='" + releaseYear + '\'' +
-                ", artist='" + artist + '\'' +
-                '}';
+        return "SongInput{"
+                + "name='" + name + '\''
+                + ", duration=" + duration
+                + ", album='" + album + '\''
+                + ", tags=" + tags
+                + ", lyrics='" + lyrics + '\''
+                + ", genre='" + genre + '\''
+                + ", releaseYear='" + releaseYear + '\''
+                + ", artist='" + artist + '\''
+                + '}';
     }
 }
