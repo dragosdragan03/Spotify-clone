@@ -1,27 +1,26 @@
 package app.user;
 
 import app.Admin;
-import app.audio.Collections.Album;
-import app.audio.Collections.AudioCollection;
-import app.audio.Collections.Playlist;
-import app.audio.Collections.PlaylistOutput;
+import app.audio.Collections.*;
 import app.audio.Files.AudioFile;
 import app.audio.Files.Song;
 import app.audio.LibraryEntry;
-import app.pageSystem.ArtistPage;
 import app.pageSystem.HomePage;
+import app.pageSystem.LikedContentPage;
 import app.pageSystem.Page;
 import app.player.Player;
 import app.player.PlayerStats;
 import app.searchBar.Filters;
 import app.searchBar.SearchBar;
 import app.utils.Enums;
+import fileio.input.EpisodeInput;
 import fileio.input.SongInput;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * The type User.
@@ -113,8 +112,8 @@ public class User {
             return "The selected ID is too high.";
         }
 
-        if (searchBar.getLastSearchType().equals("artist")) {
-            this.currentPage = new ArtistPage();
+        if (searchBar.getLastSearchType().equals("artist") || searchBar.getLastSearchType().equals("host")) {
+            this.currentPage = Objects.requireNonNull(Admin.getUser(selected.getName())).getCurrentPage();
             this.userPage = selected.getName();
             return "Successfully selected %s's page.".formatted(selected.getName());
         }
@@ -216,8 +215,8 @@ public class User {
             return "Please load a source before using the shuffle function.";
         }
 
-        if (!player.getType().equals("playlist")) {
-            return "The loaded source is not a playlist.";
+        if (!player.getType().equals("playlist") && !player.getType().equals("album")) {
+            return "The loaded source is not a playlist or an album.";
         }
 
         player.shuffle(seed);
@@ -509,8 +508,12 @@ public class User {
         return username + "  is not an artist.";
     }
 
+    public String removeAlbum(final String name) {
+        return username + " is not an artist.";
+    }
+
     public String printCurrentPage() {
-        if (isOnline()) {
+        if (online) {
             return currentPage.printCurrentPage(Admin.getUser(userPage));
         } else {
             return username + " is offline.";
@@ -520,9 +523,57 @@ public class User {
     public String addEvent(final String nameEvent, final String date, final String description) {
         return username + " is not an artist.";
     }
+    public String removeEvent(final String nameEvent) {
+        return username + " is not an artist.";
+    }
+    public List<Artist.Event> getEventsOfAnArtist() {
+        return null;
+    }
 
     public String addMerch(final String name, final String description, final int price) {
         return username + " is not an artist.";
+    }
+
+    public List<Artist.Merch> getMerchandiseOfAnArtist() {
+        return null;
+    }
+
+    public String addPodcast(final String name, final List<EpisodeInput> episodes) {
+        return username + " is not a host.";
+    }
+
+    public String removePodcast(final String name) {
+        return username + " is not a host.";
+    }
+
+    public List<Podcast> getPodcastsHost() {
+        return null;
+    }
+
+    public String addAnnouncement(final String name, final String description) {
+        return username + " is not a host.";
+    }
+
+    public String removeAnnouncement(final String name) {
+        return username + " is not a host.";
+    }
+
+    public List<Host.Announcement> getAnnouncementsHost() {
+        return null;
+    }
+
+    public String changePage(final String nextPage) {
+        if (nextPage.equals("Home")) {
+            currentPage = new HomePage();
+            userPage = username;
+            return username + " accessed " + nextPage + " successfully.";
+        } else if (nextPage.equals("LikedContent")) {
+            currentPage = new LikedContentPage();
+            userPage = username;
+            return username + " accessed " + nextPage + " successfully.";
+        } else {
+            return username + " is trying to access a non-existent page.";
+        }
     }
 
     /**
@@ -531,20 +582,12 @@ public class User {
      * @param time the time
      */
     public void simulateTime(int time) {
-        if (isOnline()) { // doar daca este online verific
+        if (online) { // doar daca este online verific
             player.simulatePlayer(time);
         }
     }
 
     public List<Album> getAlbumsOfAnArtist() {
-        return null;
-    }
-
-    public List<Artist.Merch> getMerchandiseOfAnArtist() {
-        return null;
-    }
-
-    public List<Artist.Event> getEventsOfAnArtist() {
         return null;
     }
 
@@ -556,6 +599,38 @@ public class User {
         return false;
     }
 
+    /**
+     * o metoda care sterge toate referintele a tot ce a creat un user
+     * (playlisturile si melodiile din el)
+     */
     public void removeSongs() {
+        for (Playlist iterPlaylists : playlists) { // parcurg playlisturile unui user care trebuie sters
+            for (User iterUsers : Admin.getUsers()) {
+                if (!(iterUsers.getUsername().equals(username))) { // sa nu fie userul pe care vreau sa l sterg
+                    iterUsers.getPlaylists().remove(iterPlaylists); // sterg playlistul din lista de playlisturi unui user
+                    iterUsers.getFollowedPlaylists().remove(iterPlaylists);
+                }
+            }
+        }
+        // trebuie sa vad cui a dat follow la playlist
+        for (Playlist iterPlaylist : followedPlaylists) { // playlisturile la care a dat follow userul pe care vreau sa l sterg
+            iterPlaylist.decreaseFollowers();
+        }
+
     }
+
+    public boolean isListening(final String name) {
+        if (player.getSource() != null && player.getSource().getAudioCollection() != null) { // verific daca asculta ceva acum
+            if (player.getSource().getAudioCollection().matchesOwner(name)) { // inseamna ca asculta un podcast/playlist/album
+                return true;
+            }
+        }
+        if (player.getSource() != null && player.getSource().getAudioFile() != null) { // inseamna ca asculta o melodie (nu podcast/album/playlist
+            if (player.getSource().getAudioFile().matchesArtist(name)) { // asta inseamna ca asculta o melodie
+                return true;
+            }
+        }
+        return false;
+    }
+
 }

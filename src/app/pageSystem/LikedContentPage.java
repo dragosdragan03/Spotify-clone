@@ -23,7 +23,7 @@ public class LikedContentPage implements Page {
             followedPlaylists.add(iterPlaylist.getName() + " - " + iterPlaylist.getOwner());
         }
 
-        currentPage = "Liked Songs:\n\t" + likedSong
+        currentPage = "Liked songs:\n\t" + likedSong
                 + "\n\nFollowed playlists:\n\t" + followedPlaylists;
 
         return currentPage;

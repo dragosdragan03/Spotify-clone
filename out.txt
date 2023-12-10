@@ -1,159 +1,250 @@
 [ {
-  "command" : "addUser",
-  "user" : "melodymaster",
-  "timestamp" : 5,
-  "message" : "The username melodymaster has been added successfully."
-}, {
-  "command" : "addUser",
-  "user" : "rhythmrider",
-  "timestamp" : 10,
-  "message" : "The username rhythmrider has been added successfully."
-}, {
-  "command" : "addUser",
-  "user" : "beatblazer",
-  "timestamp" : 15,
-  "message" : "The username beatblazer has been added successfully."
-}, {
-  "command" : "addUser",
-  "user" : "harmonichero",
-  "timestamp" : 20,
-  "message" : "The username harmonichero has been added successfully."
-}, {
-  "command" : "addUser",
-  "user" : "melodicmind42",
-  "timestamp" : 25,
-  "message" : "The username melodicmind42 has been added successfully."
-}, {
-  "command" : "addUser",
-  "user" : "rhythmicrider58",
-  "timestamp" : 30,
-  "message" : "The username rhythmicrider58 has been added successfully."
-}, {
-  "command" : "addUser",
-  "user" : "harmonyhunter73",
-  "timestamp" : 35,
-  "message" : "The username harmonyhunter73 has been added successfully."
-}, {
-  "command" : "addUser",
-  "user" : "irene33",
-  "timestamp" : 40,
-  "message" : "The username irene33 is already taken."
-}, {
-  "command" : "getAllUsers",
-  "timestamp" : 45,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "melodicmind42", "rhythmicrider58", "harmonyhunter73", "melodymaster", "rhythmrider", "beatblazer", "harmonichero" ]
-}, {
-  "command" : "addAlbum",
-  "user" : "rhythmrider",
-  "timestamp" : 50,
-  "message" : "rhythmrider has added new album successfully."
-}, {
-  "command" : "addAlbum",
-  "user" : "beatblazer",
-  "timestamp" : 55,
-  "message" : "beatblazer has added new album successfully."
-}, {
   "command" : "search",
-  "user" : "melodicmind42",
-  "timestamp" : 60,
-  "message" : "Search returned 3 results",
-  "results" : [ "Radio Ga Ga", "Rhythm Rise", "Rhythmic Revolution" ]
+  "user" : "alice22",
+  "timestamp" : 10,
+  "message" : "Search returned 1 results",
+  "results" : [ "TED Radio Hour" ]
 }, {
   "command" : "select",
   "user" : "alice22",
-  "timestamp" : 65,
-  "message" : "Please conduct a search before making a selection."
-}, {
-  "command" : "select",
-  "user" : "melodicmind42",
-  "timestamp" : 70,
-  "message" : "Successfully selected Rhythmic Revolution."
+  "timestamp" : 15,
+  "message" : "Successfully selected TED Radio Hour."
 }, {
   "command" : "load",
-  "user" : "melodicmind42",
-  "timestamp" : 75,
+  "user" : "alice22",
+  "timestamp" : 20,
   "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
-  "user" : "melodicmind42",
-  "timestamp" : 90,
+  "user" : "alice22",
+  "timestamp" : 49,
   "stats" : {
-    "name" : "Rhythmic Revolution",
-    "remainedTime" : 185,
+    "name" : "The Power of Design",
+    "remainedTime" : 3075,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
 }, {
-  "command" : "like",
-  "user" : "melodicmind42",
-  "timestamp" : 120,
-  "message" : "Like registered successfully."
+  "command" : "addUser",
+  "user" : "soundseeker",
+  "timestamp" : 50,
+  "message" : "The username soundseeker has been added successfully."
 }, {
-  "user" : "melodicmind42",
-  "command" : "printCurrentPage",
-  "timestamp" : 135,
-  "message" : "Liked songs:\n\t[Rhythmic Revolution]\n\nFollowed playlists:\n\t[]"
+  "command" : "addPodcast",
+  "user" : "soundseeker",
+  "timestamp" : 51,
+  "message" : "soundseeker has added new podcast successfully."
 }, {
-  "command" : "deleteUser",
-  "user" : "beatblazer",
-  "timestamp" : 150,
-  "message" : "beatblazer can't be deleted."
+  "command" : "addPodcast",
+  "user" : "alice22",
+  "timestamp" : 52,
+  "message" : "alice22 is not a host."
+}, {
+  "command" : "addPodcast",
+  "user" : "soundseeker",
+  "timestamp" : 53,
+  "message" : "soundseeker has added new podcast successfully."
+}, {
+  "command" : "addPodcast",
+  "user" : "soundseeker",
+  "timestamp" : 53,
+  "message" : "soundseeker has another podcast with the same name."
 }, {
   "command" : "search",
   "user" : "alice22",
-  "timestamp" : 190,
-  "message" : "Search returned 1 results",
-  "results" : [ "Beat Odyssey" ]
+  "timestamp" : 55,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "alice22",
-  "timestamp" : 280,
-  "message" : "Successfully selected Beat Odyssey."
+  "timestamp" : 57,
+  "message" : "The selected ID is too high."
 }, {
-  "command" : "load",
   "user" : "alice22",
-  "timestamp" : 285,
-  "message" : "Playback loaded successfully."
-}, {
-  "command" : "deleteUser",
-  "user" : "beatblazer",
-  "timestamp" : 1158,
-  "message" : "beatblazer can't be deleted."
-}, {
-  "command" : "prev",
-  "user" : "alice22",
-  "timestamp" : 1159,
-  "message" : "Returned to previous track successfully. The current track is Melodic Motion."
-}, {
-  "command" : "deleteUser",
-  "user" : "beatblazer",
-  "timestamp" : 1380,
-  "message" : "beatblazer was successfully deleted."
+  "command" : "printCurrentPage",
+  "timestamp" : 58,
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
-  "user" : "melodicmind42",
-  "timestamp" : 1385,
+  "user" : "alice22",
+  "timestamp" : 60,
   "message" : "Search returned 1 results",
-  "results" : [ "Rapid Rhythms" ]
+  "results" : [ "TED Radio Hour" ]
 }, {
   "command" : "select",
-  "user" : "melodicmind42",
-  "timestamp" : 1390,
-  "message" : "Successfully selected Rapid Rhythms."
+  "user" : "alice22",
+  "timestamp" : 65,
+  "message" : "Successfully selected TED Radio Hour."
 }, {
   "command" : "load",
-  "user" : "melodicmind42",
-  "timestamp" : 1440,
+  "user" : "alice22",
+  "timestamp" : 70,
   "message" : "Playback loaded successfully."
 }, {
-  "command" : "like",
-  "user" : "melodicmind42",
-  "timestamp" : 1455,
-  "message" : "Like registered successfully."
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 73,
+  "stats" : {
+    "name" : "The Power of Design",
+    "remainedTime" : 3066,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
-  "user" : "melodicmind42",
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 75,
+  "message" : "Search returned 1 results",
+  "results" : [ "Auditory Adventures" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 80,
+  "message" : "Successfully selected Auditory Adventures."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 85,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 86,
+  "stats" : {
+    "name" : "Exploring Sonic Landscapes",
+    "remainedTime" : 2699,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "playPause",
+  "user" : "alice22",
+  "timestamp" : 3200,
+  "message" : "Playback paused successfully."
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 3201,
+  "stats" : {
+    "name" : "The Future of Music Technology",
+    "remainedTime" : 2785,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "createPlaylist",
+  "user" : "alice22",
+  "timestamp" : 3210,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 3215,
+  "message" : "Search returned 2 results",
+  "results" : [ "Freedom", "Freedom" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 3220,
+  "message" : "Successfully selected Freedom."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 3225,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 3230,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 3235,
+  "message" : "Search returned 1 results",
+  "results" : [ "Happier" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 3240,
+  "message" : "Successfully selected Happier."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 3245,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addUser",
+  "user" : "magichost",
+  "timestamp" : 3247,
+  "message" : "The username magichost has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "magichost",
+  "timestamp" : 3247,
+  "message" : "The username magichost is already taken."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 3250,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 3255,
+  "message" : "Search returned 1 results",
+  "results" : [ "2010 hits" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 3260,
+  "message" : "Successfully selected 2010 hits."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 3265,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 3270,
+  "stats" : {
+    "name" : "Freedom",
+    "remainedTime" : 173,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "user" : "alice22",
   "command" : "printCurrentPage",
-  "timestamp" : 1480,
-  "message" : "Liked songs:\n\t[Rhythmic Revolution, Rapid Rhythms]\n\nFollowed playlists:\n\t[]"
+  "timestamp" : 3275,
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 3448,
+  "stats" : {
+    "name" : "Happier",
+    "remainedTime" : 202,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 4000,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
 } ]

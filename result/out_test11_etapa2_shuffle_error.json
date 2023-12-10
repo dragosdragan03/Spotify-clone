@@ -23,7 +23,7 @@
   "command" : "shuffle",
   "user" : "bob35",
   "timestamp" : 120,
-  "message" : "The loaded source is not a playlist."
+  "message" : "The loaded source is not a playlist or an album."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -86,7 +86,7 @@
   "command" : "shuffle",
   "user" : "bob35",
   "timestamp" : 420,
-  "message" : "The loaded source is not a playlist."
+  "message" : "The loaded source is not a playlist or an album."
 }, {
   "command" : "search",
   "user" : "bob35",

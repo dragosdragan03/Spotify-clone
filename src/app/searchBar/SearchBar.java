@@ -134,11 +134,11 @@ public final class SearchBar {
                 break;
             case "artist":
                 entries = new ArrayList<>();
-                UserEntry newInstance;
+                UserEntry newInstanceArtist;
 
                 for (User iterUser : Admin.getArtists()) {
-                    newInstance = new UserEntry(iterUser.getUsername());
-                    entries.add(newInstance);
+                    newInstanceArtist = new UserEntry(iterUser.getUsername());
+                    entries.add(newInstanceArtist);
                 }
 
                 if (filters.getName() != null) {
@@ -155,6 +155,22 @@ public final class SearchBar {
 
                 if (filters.getOwner() != null) {
                     entries = filterByOwner(entries, filters.getOwner());
+                }
+
+                break;
+            case "host":
+                entries = new ArrayList<>();
+                UserEntry newInstanceHost;
+
+                for (User iterUser : Admin.getUsers()) {
+                    if (iterUser.isHost()) {
+                        newInstanceHost = new UserEntry(iterUser.getUsername());
+                        entries.add(newInstanceHost);
+                    }
+                }
+
+                if (filters.getName() != null) {
+                    entries = filterByName(entries, filters.getName());
                 }
 
                 break;
@@ -183,19 +199,6 @@ public final class SearchBar {
 
             return null;
         } else {
-//            if (lastSearchType.equals("artist")) {
-//                LibraryEntry artist = results.get(itemNumber - 1); // artistul selectat
-//                User userArtist = Admin.getUser(artist.getName()); // artistul sub forma de user
-//                user.setCurrentPage(userArtist.getCurrentPage());
-//                user.setUserPage(artist.getName());
-//            }
-//
-//            if (lastSearchType.equals("artist")) {
-//                for (int i = 0; i < results.size(); i++) {
-//                    UserEntry newInstance = new UserEntry(Admin.getArtists().get(i).getUsername() + "'s page");
-//                    results.set(i, newInstance);
-//                }
-//            }
 
             lastSelected = this.results.get(itemNumber - 1);
             results.clear();

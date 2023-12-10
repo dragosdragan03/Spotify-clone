@@ -31,21 +31,46 @@
   "timestamp" : 50,
   "message" : "The username soundseeker has been added successfully."
 }, {
+  "command" : "addPodcast",
+  "user" : "soundseeker",
+  "timestamp" : 51,
+  "message" : "soundseeker has added new podcast successfully."
+}, {
+  "command" : "addPodcast",
+  "user" : "alice22",
+  "timestamp" : 52,
+  "message" : "alice22 is not a host."
+}, {
+  "command" : "addPodcast",
+  "user" : "soundseeker",
+  "timestamp" : 53,
+  "message" : "soundseeker has added new podcast successfully."
+}, {
+  "command" : "addPodcast",
+  "user" : "soundseeker",
+  "timestamp" : 53,
+  "message" : "soundseeker has another podcast with the same name."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 55,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "soundseeker" ]
+}, {
+  "command" : "addAnnouncement",
+  "user" : "soundseeker",
+  "timestamp" : 56,
+  "message" : "soundseeker has successfully added new announcement."
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 57,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected soundseeker's page."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 58,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Podcasts:\n\t[Auditory Adventures:\n\t[Exploring Sonic Landscapes - Journey through the world's most unique auditory experiences., The Future of Music Technology - A look into the innovations shaping the future of music production and listening., Cultural Beats - An exploration of how different cultures influence music genres.]\n, Harmony & History:\n\t[The Roots of Blues - Tracing the origins and evolution of blues music., Classical Music's Modern Impact - Discussing how classical music continues to influence contemporary artists., Jazz Journeys - Exploring the rich history and vibrant present of jazz music., The Folk Revival - Examining the resurgence of folk music in modern times.]\n]\n\nAnnouncements:\n\t[Announcement1:\n\tPrimul anunt adaugat!\n]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -77,41 +102,41 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 75,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Auditory Adventures" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 80,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Auditory Adventures."
 }, {
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 85,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 86,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Exploring Sonic Landscapes",
+    "remainedTime" : 2699,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "playPause",
   "user" : "alice22",
   "timestamp" : 3200,
-  "message" : "Please load a source before attempting to pause or resume playback."
+  "message" : "Playback paused successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 3201,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "The Future of Music Technology",
+    "remainedTime" : 2785,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -138,6 +163,11 @@
   "timestamp" : 3225,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addAnnouncement",
+  "user" : "soundseeker",
+  "timestamp" : 3226,
+  "message" : "soundseeker has successfully added new announcement."
+}, {
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 3230,
@@ -159,6 +189,11 @@
   "timestamp" : 3245,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "removeAnnouncement",
+  "user" : "soundseeker",
+  "timestamp" : 3246,
+  "message" : "soundseeker has no announcement with the given name."
+}, {
   "command" : "addUser",
   "user" : "magichost",
   "timestamp" : 3247,
@@ -169,10 +204,26 @@
   "timestamp" : 3247,
   "message" : "The username magichost is already taken."
 }, {
+  "command" : "showPodcasts",
+  "user" : "soundseeker",
+  "timestamp" : 3250,
+  "result" : [ {
+    "name" : "Auditory Adventures",
+    "episodes" : [ "Exploring Sonic Landscapes", "The Future of Music Technology", "Cultural Beats" ]
+  }, {
+    "name" : "Harmony & History",
+    "episodes" : [ "The Roots of Blues", "Classical Music's Modern Impact", "Jazz Journeys", "The Folk Revival" ]
+  } ]
+}, {
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 3250,
   "message" : "Successfully added to playlist."
+}, {
+  "command" : "removeAnnouncement",
+  "user" : "soundseeker",
+  "timestamp" : 3251,
+  "message" : "soundseeker has successfully deleted the announcement."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -204,7 +255,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 3275,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Podcasts:\n\t[Auditory Adventures:\n\t[Exploring Sonic Landscapes - Journey through the world's most unique auditory experiences., The Future of Music Technology - A look into the innovations shaping the future of music production and listening., Cultural Beats - An exploration of how different cultures influence music genres.]\n, Harmony & History:\n\t[The Roots of Blues - Tracing the origins and evolution of blues music., Classical Music's Modern Impact - Discussing how classical music continues to influence contemporary artists., Jazz Journeys - Exploring the rich history and vibrant present of jazz music., The Folk Revival - Examining the resurgence of folk music in modern times.]\n]\n\nAnnouncements:\n\t[Announcement2:\n\tAl doilea anunt adaugat!\n]"
 }, {
   "command" : "status",
   "user" : "alice22",

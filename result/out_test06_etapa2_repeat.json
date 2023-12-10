@@ -131,6 +131,11 @@
   "timestamp" : 1009,
   "message" : "Successfully added to playlist."
 }, {
+  "command" : "removeAlbum",
+  "user" : "melodymaster",
+  "timestamp" : 1010,
+  "message" : "melodymaster can't delete this album."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1010,
@@ -327,6 +332,11 @@
     "paused" : false
   }
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 2102,
+  "message" : "carol19 accessed LikedContent successfully."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 2334,
@@ -362,7 +372,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 2338,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs - alice22]"
 }, {
   "command" : "status",
   "user" : "alice22",

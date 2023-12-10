@@ -43,6 +43,31 @@
   "timestamp" : 85,
   "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "soundseeker21", "melodicwanderer", "sonicpainter", "echoexplorer", "rhythmweaver", "audiosage", "soundcurator", "musicmaven" ]
 }, {
+  "command" : "addPodcast",
+  "user" : "audiosage",
+  "timestamp" : 280,
+  "message" : "audiosage has added new podcast successfully."
+}, {
+  "command" : "addPodcast",
+  "user" : "audiosage",
+  "timestamp" : 285,
+  "message" : "audiosage has added new podcast successfully."
+}, {
+  "command" : "addPodcast",
+  "user" : "musicmaven",
+  "timestamp" : 290,
+  "message" : "musicmaven has added new podcast successfully."
+}, {
+  "command" : "addPodcast",
+  "user" : "musicmaven",
+  "timestamp" : 295,
+  "message" : "musicmaven has added new podcast successfully."
+}, {
+  "command" : "addPodcast",
+  "user" : "musicmaven",
+  "timestamp" : 300,
+  "message" : "musicmaven has added new podcast successfully."
+}, {
   "command" : "createPlaylist",
   "user" : "melodicwanderer",
   "timestamp" : 305,
@@ -77,18 +102,18 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 335,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Rhythmic Dialogues" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 340,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Rhythmic Dialogues."
 }, {
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 345,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -145,13 +170,13 @@
   "command" : "search",
   "user" : "soundseeker21",
   "timestamp" : 625,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "audiosage" ]
 }, {
   "command" : "select",
   "user" : "soundseeker21",
   "timestamp" : 630,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected audiosage's page."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -188,7 +213,12 @@
   "command" : "deleteUser",
   "user" : "audiosage",
   "timestamp" : 930,
-  "message" : "audiosage was successfully deleted."
+  "message" : "audiosage can't be deleted."
+}, {
+  "command" : "changePage",
+  "user" : "soundseeker21",
+  "timestamp" : 955,
+  "message" : "soundseeker21 accessed Home successfully."
 }, {
   "command" : "deleteUser",
   "user" : "melodicwanderer",
@@ -205,10 +235,15 @@
   "timestamp" : 975,
   "message" : "sonicpainter can't be deleted."
 }, {
+  "command" : "removePodcast",
+  "user" : "musicmaven",
+  "timestamp" : 980,
+  "message" : "musicmaven can't delete this podcast."
+}, {
   "command" : "deleteUser",
   "user" : "audiosage",
   "timestamp" : 1100,
-  "message" : "The username audiosage doesn't exist."
+  "message" : "audiosage was successfully deleted."
 }, {
   "command" : "select",
   "user" : "david27",
@@ -223,7 +258,7 @@
   "command" : "deleteUser",
   "user" : "musicmaven",
   "timestamp" : 6900,
-  "message" : "musicmaven was successfully deleted."
+  "message" : "musicmaven can't be deleted."
 }, {
   "command" : "repeat",
   "user" : "carol19",
@@ -248,15 +283,20 @@
   "command" : "deleteUser",
   "user" : "sonicpainter",
   "timestamp" : 7860,
-  "message" : "sonicpainter was successfully deleted."
+  "message" : "sonicpainter can't be deleted."
+}, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 7885,
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "deleteUser",
   "user" : "sonicpainter",
   "timestamp" : 7890,
-  "message" : "The username sonicpainter doesn't exist."
+  "message" : "sonicpainter was successfully deleted."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 7900,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[Playlist bengos]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 } ]

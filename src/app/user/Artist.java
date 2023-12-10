@@ -17,7 +17,7 @@ public class Artist extends User {
     private List<Event> events;
     private List<Merch> merchandise;
 
-    public Artist( String username, int age, String city) {
+    public Artist(String username, int age, String city) {
         super(username, age, city);
         albums = new ArrayList<>();
         events = new ArrayList<>();
@@ -53,18 +53,22 @@ public class Artist extends User {
             this.price = price;
         }
     }
+
     @Override
     public List<Merch> getMerchandiseOfAnArtist() {
         return merchandise;
     }
+
     @Override
     public List<Album> getAlbumsOfAnArtist() {
         return albums;
     }
+
     @Override
     public List<Event> getEventsOfAnArtist() {
         return events;
     }
+
     @Override
     public boolean isArtist() {
         return true;
@@ -84,6 +88,7 @@ public class Artist extends User {
 
     /**
      * metoda care verifica daca exista duplicate in lista de melodii
+     *
      * @param songs lista de melodii
      * @return true or false
      */
@@ -98,9 +103,8 @@ public class Artist extends User {
     }
 
     /**
-     *
-     * @param songs lista de melodii pe care un artist vrea sa le adauge in album
-     * @param name numele albumului
+     * @param songs       lista de melodii pe care un artist vrea sa le adauge in album
+     * @param name        numele albumului
      * @param releaseYear anul de lansare al albumului
      * @param description descrierea albumului
      * @return mesajul in functie daca s a putut adauga albumul sau nu
@@ -132,7 +136,6 @@ public class Artist extends User {
     }
 
     /**
-     *
      * @param date data evenimentului
      * @return daca data este una valida sau nu
      */
@@ -165,8 +168,9 @@ public class Artist extends User {
 
     /**
      * metoda care adauga in lista un eveniment
-     * @param name numele evenimentului
-     * @param date data evenimentului
+     *
+     * @param name        numele evenimentului
+     * @param date        data evenimentului
      * @param description descrierea evenimentului
      * @return mesajul daca a putut fi adaugat evenimentul sau nu
      */
@@ -216,5 +220,59 @@ public class Artist extends User {
                 }
             }
         }
+    }
+
+    private void removeSongsOfASingleAlbum(final Album album) {
+        for (Song iterSong : album.getSongs()) {
+            Admin.getSongs().remove(iterSong);
+            for (User iterUsers : Admin.getUsers()) {
+                if (iterUsers.getLikedSongs().contains(iterSong)) {
+                    iterUsers.getLikedSongs().remove(iterSong);
+                }
+            }
+        }
+    }
+
+    private int indexAlbum(final String nameAlbum) {
+        for (int i = 0; i < albums.size(); i++) {
+            if (albums.get(i).getName().equals(nameAlbum)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    @Override
+    public String removeAlbum(final String name) {
+        final int indexAlbum = indexAlbum(name);
+        if (indexAlbum == -1) { // inseamna ca nu exista albumul
+            return getUsername() + " doesn't have an album with the given name.";
+        }
+
+        for (User iterUser : Admin.getUsers()) { // parcurg toata lista de useri sa vad daca cineva a incarcat albumul respectiv
+            if (!iterUser.equals(getUsername())) { // sa fie diferit de artistul respectiv
+                if (iterUser.isListening(getUsername()) || iterUser.getUserPage().equals(getUsername())) {
+                    return getUsername() + " can't delete this album.";
+                }
+            }
+        }
+
+        // inseamna ca niciun user nu asculta albumul pe care vreau sa l sterg sau o melodie din acesta
+
+        removeSongsOfASingleAlbum(albums.get(indexAlbum)); // am sters melodiile din albumul respectiv din toate sursele
+        albums.remove(indexAlbum);
+        return getUsername() + " deleted the album successfully.";
+
+    }
+
+    @Override
+    public String removeEvent(final String name) {
+        for (Event iterEvent : events) {
+            if (iterEvent.getNameEvent().equals(name)) {
+                events.remove(iterEvent);
+                return getUsername() + " deleted the event successfully.";
+            }
+        }
+        return getUsername() + " doesn't have an event with the given name.";
     }
 }

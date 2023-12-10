@@ -130,6 +130,11 @@
   "timestamp" : 2555,
   "message" : "The loaded source is not a podcast."
 }, {
+  "command" : "changePage",
+  "user" : "rhythmicrider58",
+  "timestamp" : 2755,
+  "message" : "rhythmicrider58 accessed LikedContent successfully."
+}, {
   "command" : "deleteUser",
   "user" : "melodymaster",
   "timestamp" : 2760,
@@ -233,7 +238,7 @@
   "user" : "rhythmicrider58",
   "command" : "printCurrentPage",
   "timestamp" : 3300,
-  "message" : "Liked songs:\n\t[Synth Symphony]\n\nFollowed playlists:\n\t[My favourite songs]"
+  "message" : "Liked songs:\n\t[Synth Symphony - melodymaster]\n\nFollowed playlists:\n\t[My favourite songs - emily30]"
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -245,6 +250,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "changePage",
+  "user" : "rhythmicrider58",
+  "timestamp" : 3320,
+  "message" : "rhythmicrider58 accessed Home successfully."
 }, {
   "command" : "repeat",
   "user" : "emily30",
@@ -322,5 +332,5 @@
   "user" : "rhythmicrider58",
   "command" : "printCurrentPage",
   "timestamp" : 7000,
-  "message" : "Liked songs:\n\t[Shape of You]\n\nFollowed playlists:\n\t[My favourite songs]"
+  "message" : "Liked songs:\n\t[Shape of You]\n\nFollowed playlists:\n\t[]"
 } ]

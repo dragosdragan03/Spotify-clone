@@ -292,20 +292,19 @@ public final class Admin {
 
         for (User userIter : users) {
             if (!userIter.equals(user)) { // sa fie diferit de userul pe care vreau sa l sterg
-                if (userIter.getPlayer().getSource() != null && userIter.getPlayer().getSource().getAudioCollection() != null) { // verific daca asculta ceva acum
-                    if (userIter.getPlayer().getSource().getAudioCollection().matchesOwner(username)) { // inseamna ca asculta un podcast/playlist/album
-                        return username + " can't be deleted.";
-                    }
-                }
-                if (userIter.getPlayer().getSource() != null && userIter.getPlayer().getSource().getAudioFile() != null) { // inseamna ca asculta o melodie (nu podcast/album/playlist
-                    if (userIter.getPlayer().getSource().getAudioFile().matchesArtist(username)) { // asta inseamna ca asculta o melodie
-                        return username + " can't be deleted.";
-                    }
-
+                if (userIter.isListening(username) || userIter.getUserPage().equals(username)) {
+                    return username + " can't be deleted.";
                 }
             }
         }
-        user.removeSongs(); // asta daca userul meu este artist
+        if (user.isArtist()) {
+            user.removeSongs(); // sterg toate referintele cu melodiile din albume
+        } else if (user.isHost()) {
+
+        } else { // inseamna ca este un user normal
+            user.removeSongs();
+        }
+
         users.remove(getUser(username));
         return username + " was successfully deleted.";
     }
