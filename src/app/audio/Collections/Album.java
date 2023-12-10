@@ -7,7 +7,7 @@ import lombok.Getter;
 import java.util.ArrayList;
 import java.util.List;
 
-public final class Album extends AudioCollection{
+public final class Album extends AudioCollection {
 
     @Getter
     private int releaseYear;
@@ -22,7 +22,7 @@ public final class Album extends AudioCollection{
         this.description = description;
     }
 
-    public void addSong (final Song song) {
+    public void addSong(final Song song) {
         songs.add(song);
     }
 

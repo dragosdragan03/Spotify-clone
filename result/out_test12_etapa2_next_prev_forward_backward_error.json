@@ -149,8 +149,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2000,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Harmonic Horizons" ]
 }, {
   "command" : "forward",
   "user" : "emily30",
@@ -160,27 +160,27 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2190,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Harmonic Horizons."
 }, {
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 2200,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "forward",
   "user" : "emily30",
   "timestamp" : 3120,
-  "message" : "Please load a source before attempting to forward."
+  "message" : "The loaded source is not a podcast."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 3220,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Digital Dreams",
+    "remainedTime" : 10,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "forward",

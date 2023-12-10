@@ -1,5 +1,6 @@
 package app.user;
 
+import app.Admin;
 import app.audio.Collections.Album;
 import app.audio.Collections.AudioCollection;
 import app.audio.Collections.Playlist;
@@ -7,6 +8,9 @@ import app.audio.Collections.PlaylistOutput;
 import app.audio.Files.AudioFile;
 import app.audio.Files.Song;
 import app.audio.LibraryEntry;
+import app.pageSystem.ArtistPage;
+import app.pageSystem.HomePage;
+import app.pageSystem.Page;
 import app.player.Player;
 import app.player.PlayerStats;
 import app.searchBar.Filters;
@@ -35,11 +39,19 @@ public class User {
     private ArrayList<Song> likedSongs;
     @Getter
     private ArrayList<Playlist> followedPlaylists;
+    @Getter
     private final Player player;
     private final SearchBar searchBar;
     private boolean lastSearched;
-    @Getter @Setter
+    @Getter
+    @Setter
     private boolean online = true;
+    @Setter
+    @Getter
+    private Page currentPage = new HomePage();
+    @Getter
+    @Setter
+    private String userPage;
 
     /**
      * Instantiates a new User.
@@ -52,6 +64,7 @@ public class User {
         this.username = username;
         this.age = age;
         this.city = city;
+        this.userPage = username;
         playlists = new ArrayList<>();
         likedSongs = new ArrayList<>();
         followedPlaylists = new ArrayList<>();
@@ -100,6 +113,12 @@ public class User {
             return "The selected ID is too high.";
         }
 
+        if (searchBar.getLastSearchType().equals("artist")) {
+            this.currentPage = new ArtistPage();
+            this.userPage = selected.getName();
+            return "Successfully selected %s's page.".formatted(selected.getName());
+        }
+
         return "Successfully selected %s.".formatted(selected.getName());
     }
 
@@ -109,12 +128,16 @@ public class User {
      * @return the string
      */
     public String load() {
+        if (!online) {
+            return username + " is offline.";
+        }
+
         if (searchBar.getLastSelected() == null) {
             return "Please select a source before attempting to load.";
         }
 
         if (!searchBar.getLastSearchType().equals("song")
-            && ((AudioCollection) searchBar.getLastSelected()).getNumberOfTracks() == 0) {
+                && ((AudioCollection) searchBar.getLastSelected()).getNumberOfTracks() == 0) {
             return "You can't load an empty audio collection!";
         }
 
@@ -486,8 +509,20 @@ public class User {
         return username + "  is not an artist.";
     }
 
-    public List<Album> getAlbumsOfAnArtist() {
-        return null;
+    public String printCurrentPage() {
+        if (isOnline()) {
+            return currentPage.printCurrentPage(Admin.getUser(userPage));
+        } else {
+            return username + " is offline.";
+        }
+    }
+
+    public String addEvent(final String nameEvent, final String date, final String description) {
+        return username + " is not an artist.";
+    }
+
+    public String addMerch(final String name, final String description, final int price) {
+        return username + " is not an artist.";
     }
 
     /**
@@ -499,5 +534,28 @@ public class User {
         if (isOnline()) { // doar daca este online verific
             player.simulatePlayer(time);
         }
+    }
+
+    public List<Album> getAlbumsOfAnArtist() {
+        return null;
+    }
+
+    public List<Artist.Merch> getMerchandiseOfAnArtist() {
+        return null;
+    }
+
+    public List<Artist.Event> getEventsOfAnArtist() {
+        return null;
+    }
+
+    public boolean isArtist() {
+        return false;
+    }
+
+    public boolean isHost() {
+        return false;
+    }
+
+    public void removeSongs() {
     }
 }

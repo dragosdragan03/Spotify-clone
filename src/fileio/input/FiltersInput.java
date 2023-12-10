@@ -88,6 +88,7 @@ public final class FiltersInput {
         this.followers = followers;
     }
 
+
     @Override
     public String toString() {
         return "FilterInput{"

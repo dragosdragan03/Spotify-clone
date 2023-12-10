@@ -1,6 +1,7 @@
 package app.searchBar;
 
 import app.audio.LibraryEntry;
+import app.user.User;
 
 import java.util.ArrayList;
 import java.util.List;

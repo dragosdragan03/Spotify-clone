@@ -3,7 +3,9 @@ package app.searchBar;
 
 import app.Admin;
 import app.audio.LibraryEntry;
+import app.user.User;
 import lombok.Getter;
+import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,6 +50,13 @@ public final class SearchBar {
     public void clearSelection() {
         lastSelected = null;
         lastSearchType = null;
+    }
+
+    @Setter
+    public class UserEntry extends LibraryEntry {
+        public UserEntry(final String name) {
+            super(name);
+        }
     }
 
     /**
@@ -123,6 +132,32 @@ public final class SearchBar {
                 }
 
                 break;
+            case "artist":
+                entries = new ArrayList<>();
+                UserEntry newInstance;
+
+                for (User iterUser : Admin.getArtists()) {
+                    newInstance = new UserEntry(iterUser.getUsername());
+                    entries.add(newInstance);
+                }
+
+                if (filters.getName() != null) {
+                    entries = filterByName(entries, filters.getName());
+                }
+
+                break;
+            case "album":
+                entries = new ArrayList<>(Admin.getAlbums());
+
+                if (filters.getName() != null) {
+                    entries = filterByName(entries, filters.getName());
+                }
+
+                if (filters.getOwner() != null) {
+                    entries = filterByOwner(entries, filters.getOwner());
+                }
+
+                break;
             default:
                 entries = new ArrayList<>();
         }
@@ -148,7 +183,21 @@ public final class SearchBar {
 
             return null;
         } else {
-            lastSelected =  this.results.get(itemNumber - 1);
+//            if (lastSearchType.equals("artist")) {
+//                LibraryEntry artist = results.get(itemNumber - 1); // artistul selectat
+//                User userArtist = Admin.getUser(artist.getName()); // artistul sub forma de user
+//                user.setCurrentPage(userArtist.getCurrentPage());
+//                user.setUserPage(artist.getName());
+//            }
+//
+//            if (lastSearchType.equals("artist")) {
+//                for (int i = 0; i < results.size(); i++) {
+//                    UserEntry newInstance = new UserEntry(Admin.getArtists().get(i).getUsername() + "'s page");
+//                    results.set(i, newInstance);
+//                }
+//            }
+
+            lastSelected = this.results.get(itemNumber - 1);
             results.clear();
 
             return lastSelected;

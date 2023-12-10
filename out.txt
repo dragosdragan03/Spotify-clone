@@ -1,110 +1,159 @@
 [ {
-  "command" : "search",
-  "user" : "alice22",
+  "command" : "addUser",
+  "user" : "melodymaster",
+  "timestamp" : 5,
+  "message" : "The username melodymaster has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "rhythmrider",
   "timestamp" : 10,
-  "message" : "Search returned 1 results",
-  "results" : [ "Shape of You" ]
+  "message" : "The username rhythmrider has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "beatblazer",
+  "timestamp" : 15,
+  "message" : "The username beatblazer has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "harmonichero",
+  "timestamp" : 20,
+  "message" : "The username harmonichero has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "melodicmind42",
+  "timestamp" : 25,
+  "message" : "The username melodicmind42 has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "rhythmicrider58",
+  "timestamp" : 30,
+  "message" : "The username rhythmicrider58 has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "harmonyhunter73",
+  "timestamp" : 35,
+  "message" : "The username harmonyhunter73 has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "irene33",
+  "timestamp" : 40,
+  "message" : "The username irene33 is already taken."
+}, {
+  "command" : "getAllUsers",
+  "timestamp" : 45,
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "melodicmind42", "rhythmicrider58", "harmonyhunter73", "melodymaster", "rhythmrider", "beatblazer", "harmonichero" ]
+}, {
+  "command" : "addAlbum",
+  "user" : "rhythmrider",
+  "timestamp" : 50,
+  "message" : "rhythmrider has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "beatblazer",
+  "timestamp" : 55,
+  "message" : "beatblazer has added new album successfully."
+}, {
+  "command" : "search",
+  "user" : "melodicmind42",
+  "timestamp" : 60,
+  "message" : "Search returned 3 results",
+  "results" : [ "Radio Ga Ga", "Rhythm Rise", "Rhythmic Revolution" ]
 }, {
   "command" : "select",
   "user" : "alice22",
-  "timestamp" : 15,
-  "message" : "Successfully selected Shape of You."
+  "timestamp" : 65,
+  "message" : "Please conduct a search before making a selection."
+}, {
+  "command" : "select",
+  "user" : "melodicmind42",
+  "timestamp" : 70,
+  "message" : "Successfully selected Rhythmic Revolution."
 }, {
   "command" : "load",
-  "user" : "alice22",
-  "timestamp" : 20,
+  "user" : "melodicmind42",
+  "timestamp" : 75,
   "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 25,
+  "user" : "melodicmind42",
+  "timestamp" : 90,
   "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 228,
+    "name" : "Rhythmic Revolution",
+    "remainedTime" : 185,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
 }, {
-  "command" : "switchConnectionStatus",
-  "user" : "alice22",
-  "timestamp" : 240,
-  "message" : "alice22 has changed status successfully."
-}, {
   "command" : "like",
-  "user" : "alice22",
-  "timestamp" : 280,
-  "message" : "alice22 is offline."
+  "user" : "melodicmind42",
+  "timestamp" : 120,
+  "message" : "Like registered successfully."
 }, {
-  "command" : "addUser",
-  "user" : "melodymaster",
-  "timestamp" : 295,
-  "message" : "The username melodymaster has been added successfully."
+  "user" : "melodicmind42",
+  "command" : "printCurrentPage",
+  "timestamp" : 135,
+  "message" : "Liked songs:\n\t[Rhythmic Revolution]\n\nFollowed playlists:\n\t[]"
 }, {
-  "command" : "addAlbum",
-  "user" : "melodymaster",
-  "timestamp" : 305,
-  "message" : "melodymaster has added new album successfully."
-}, {
-  "command" : "showAlbums",
-  "user" : "melodymaster",
-  "timestamp" : 350,
-  "result" : [ ]
-}, {
-  "command" : "addUser",
-  "user" : "alice22",
-  "timestamp" : 380,
-  "message" : "The username alice22 is already taken."
-}, {
-  "command" : "switchConnectionStatus",
-  "user" : "alice22",
-  "timestamp" : 390,
-  "message" : "alice22 has changed status successfully."
+  "command" : "deleteUser",
+  "user" : "beatblazer",
+  "timestamp" : 150,
+  "message" : "beatblazer can't be deleted."
 }, {
   "command" : "search",
   "user" : "alice22",
-  "timestamp" : 395,
-  "message" : "Search returned 2 results",
-  "results" : [ "Radio Ga Ga", "Retro Rhythms" ]
-}, {
-  "command" : "addAlbum",
-  "user" : "melodymaster",
-  "timestamp" : 400,
-  "message" : "melodymaster has added new album successfully."
-}, {
-  "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 420,
-  "message" : "Search returned 4 results",
-  "results" : [ "Money Trees", "Maps", "Moves Like Jagger", "Melodic Mirage" ]
+  "timestamp" : 190,
+  "message" : "Search returned 1 results",
+  "results" : [ "Beat Odyssey" ]
 }, {
   "command" : "select",
   "user" : "alice22",
-  "timestamp" : 430,
-  "message" : "Successfully selected Melodic Mirage."
+  "timestamp" : 280,
+  "message" : "Successfully selected Beat Odyssey."
 }, {
   "command" : "load",
   "user" : "alice22",
-  "timestamp" : 440,
+  "timestamp" : 285,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "deleteUser",
+  "user" : "beatblazer",
+  "timestamp" : 1158,
+  "message" : "beatblazer can't be deleted."
+}, {
+  "command" : "prev",
+  "user" : "alice22",
+  "timestamp" : 1159,
+  "message" : "Returned to previous track successfully. The current track is Melodic Motion."
+}, {
+  "command" : "deleteUser",
+  "user" : "beatblazer",
+  "timestamp" : 1380,
+  "message" : "beatblazer was successfully deleted."
+}, {
+  "command" : "search",
+  "user" : "melodicmind42",
+  "timestamp" : 1385,
+  "message" : "Search returned 1 results",
+  "results" : [ "Rapid Rhythms" ]
+}, {
+  "command" : "select",
+  "user" : "melodicmind42",
+  "timestamp" : 1390,
+  "message" : "Successfully selected Rapid Rhythms."
+}, {
+  "command" : "load",
+  "user" : "melodicmind42",
+  "timestamp" : 1440,
   "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
-  "user" : "alice22",
-  "timestamp" : 460,
+  "user" : "melodicmind42",
+  "timestamp" : 1455,
   "message" : "Like registered successfully."
 }, {
-  "command" : "addAlbum",
-  "user" : "melodymaster",
-  "timestamp" : 515,
-  "message" : "melodymaster has another album with the same name."
-}, {
-  "command" : "showAlbums",
-  "user" : "melodymaster",
-  "timestamp" : 550,
-  "result" : [ ]
-}, {
-  "command" : "addAlbum",
-  "user" : "melodymaster",
-  "timestamp" : 560,
-  "message" : "melodymaster has the same song at least twice in this album."
+  "user" : "melodicmind42",
+  "command" : "printCurrentPage",
+  "timestamp" : 1480,
+  "message" : "Liked songs:\n\t[Rhythmic Revolution, Rapid Rhythms]\n\nFollowed playlists:\n\t[]"
 } ]

@@ -523,7 +523,7 @@ public final class CommandRunner {
     }
 
     public static ObjectNode showAlbums(final CommandInput commandInput) {
-        List<Album> albums = Admin.getAlbums();
+        List<Album> albums = Admin.getUser(commandInput.getUsername()).getAlbumsOfAnArtist();
         ArrayNode arrayNode = objectMapper.createArrayNode();
 
         for (Album iterAlbum : albums) {
@@ -539,6 +539,84 @@ public final class CommandRunner {
         objectNode.put("user", commandInput.getUsername());
         objectNode.put("timestamp", commandInput.getTimestamp());
         objectNode.put("result", objectMapper.valueToTree(arrayNode));
+        return objectNode;
+    }
+
+    public static ObjectNode printCurrentPage(final CommandInput commandInput) {
+        String message = null;
+        User user = Admin.getUser(commandInput.getUsername());
+
+        if (user != null) {
+            message = user.printCurrentPage();
+        }
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("user", commandInput.getUsername());
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("message", message);
+        return objectNode;
+    }
+
+    public static ObjectNode addEvent(final CommandInput commandInput) {
+        String message;
+        User user = Admin.getUser(commandInput.getUsername());
+
+        if (user != null) {
+            String nameEvent = commandInput.getName();
+            String date = commandInput.getDate();
+            String description = commandInput.getDescription();
+            message = user.addEvent(nameEvent, date, description);
+        } else {
+            message = "The username " + commandInput.getUsername() + " doesn't exist.";
+        }
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("user", commandInput.getUsername());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("message", message);
+        return objectNode;
+    }
+
+    public static ObjectNode addMerch(final CommandInput commandInput) {
+        String message;
+        User user = Admin.getUser(commandInput.getUsername());
+        if (user == null) {
+            message = "The username " + commandInput.getUsername() + " doesn't exist.";
+        } else {
+            String name = commandInput.getName();
+            String description = commandInput.getDescription();
+            int price = commandInput.getPrice();
+            message = user.addMerch(name, description, price);
+        }
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("user", commandInput.getUsername());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("message", message);
+        return objectNode;
+    }
+
+    public static ObjectNode getAllUsers(final CommandInput commandInput) {
+         List<String> allUsers = Admin.getAllUsers();
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("result", objectMapper.valueToTree(allUsers));
+        return objectNode;
+    }
+
+    public static ObjectNode deleteUser(final CommandInput commandInput) {
+        String message = Admin.deleteUser(commandInput.getUsername());
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("user", commandInput.getUsername());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("message", message);
         return objectNode;
     }
 

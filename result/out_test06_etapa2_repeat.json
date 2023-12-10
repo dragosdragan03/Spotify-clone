@@ -113,23 +113,23 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1006,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Harmonic Horizons" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 1007,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Harmonic Horizons."
 }, {
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 1008,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 1009,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -256,8 +256,8 @@
   "user" : "alice22",
   "timestamp" : 1035,
   "stats" : {
-    "name" : "Hustle Hard",
-    "remainedTime" : 225,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 243,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -272,12 +272,17 @@
   "user" : "alice22",
   "timestamp" : 1037,
   "stats" : {
-    "name" : "Hustle Hard",
-    "remainedTime" : 223,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 241,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "user" : "alice22",
+  "command" : "printCurrentPage",
+  "timestamp" : 1038,
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -285,12 +290,17 @@
   "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
+  "user" : "carol19",
+  "command" : "printCurrentPage",
+  "timestamp" : 1040,
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs]"
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 2099,
   "stats" : {
-    "name" : "Butterfly Effect",
-    "remainedTime" : 179,
+    "name" : "Dream Chaser",
+    "remainedTime" : 7,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -310,8 +320,8 @@
   "user" : "alice22",
   "timestamp" : 2101,
   "stats" : {
-    "name" : "Butterfly Effect",
-    "remainedTime" : 177,
+    "name" : "Dream Chaser",
+    "remainedTime" : 5,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -321,8 +331,8 @@
   "user" : "alice22",
   "timestamp" : 2334,
   "stats" : {
-    "name" : "Butterfly Effect",
-    "remainedTime" : 134,
+    "name" : "Dream Chaser",
+    "remainedTime" : 182,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -342,12 +352,17 @@
   "user" : "alice22",
   "timestamp" : 2336,
   "stats" : {
-    "name" : "Butterfly Effect",
-    "remainedTime" : 132,
+    "name" : "Dream Chaser",
+    "remainedTime" : 180,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "user" : "carol19",
+  "command" : "printCurrentPage",
+  "timestamp" : 2338,
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs]"
 }, {
   "command" : "status",
   "user" : "alice22",

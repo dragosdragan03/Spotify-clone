@@ -1,10 +1,15 @@
 package app;
 
 import app.audio.Collections.Album;
+import app.audio.Collections.AudioCollection;
 import app.audio.Collections.Playlist;
 import app.audio.Collections.Podcast;
+import app.audio.Files.AudioFile;
 import app.audio.Files.Episode;
 import app.audio.Files.Song;
+import app.pageSystem.ArtistPage;
+import app.pageSystem.HomePage;
+import app.pageSystem.HostPage;
 import app.user.Artist;
 import app.user.Host;
 import app.user.User;
@@ -12,6 +17,7 @@ import fileio.input.EpisodeInput;
 import fileio.input.PodcastInput;
 import fileio.input.SongInput;
 import fileio.input.UserInput;
+import lombok.Getter;
 import org.checkerframework.checker.units.qual.A;
 
 import java.util.ArrayList;
@@ -23,6 +29,7 @@ import java.util.stream.Collectors;
  * The type Admin.
  */
 public final class Admin {
+    @Getter
     private static List<User> users = new ArrayList<>();
     private static List<Song> songs = new ArrayList<>();
     private static List<Podcast> podcasts = new ArrayList<>();
@@ -108,17 +115,18 @@ public final class Admin {
         return playlists;
     }
 
+    /**
+     * @return albumele tuturor artistilor
+     */
     public static List<Album> getAlbums() {
         List<Album> albums = new ArrayList<>();
         for (User iterUser : users) {
-            if (iterUser.getAlbumsOfAnArtist() != null) {
-                albums.addAll(iterUser.getAlbumsOfAnArtist());
+            if (iterUser.isArtist()) {
+                if (iterUser.getAlbumsOfAnArtist().size() != 0) {
+                    albums.addAll(iterUser.getAlbumsOfAnArtist());
+                }
             }
         }
-//        List<String> nameAlbums = new ArrayList<>();
-//        for (Album iterAlbums : albums) {
-//            nameAlbums.add(iterAlbums.getName());
-//        }
         return albums;
     }
 
@@ -135,6 +143,19 @@ public final class Admin {
             }
         }
         return null;
+    }
+
+    /**
+     * @return lista cu toti artistii
+     */
+    public static List<User> getArtists() {
+        List<User> listArtists = new ArrayList<>();
+        for (User user : users) {
+            if (user.isArtist()) {
+                listArtists.add(user);
+            }
+        }
+        return listArtists;
     }
 
     /**
@@ -206,6 +227,13 @@ public final class Admin {
         return onlineUsers;
     }
 
+    /**
+     * @param username numle unui user
+     * @param age      varsta userului
+     * @param city     orasul
+     * @param type     artist/user normal/host
+     * @return adauga in lista de users un artis/host/user normal
+     */
     public static String addUser(final String username, final int age, final String city, final String type) {
 
         for (User iter : users) { // verific daca mai exista userul respectiv
@@ -219,12 +247,67 @@ public final class Admin {
             users.add(user);
         } else if (type.equals("artist")) {
             User artist = new Artist(username, age, city);
+            artist.setCurrentPage(new ArtistPage());
             users.add(artist);
+            artist.setOnline(false);
         } else if (type.equals("host")) {
             User host = new Host(username, age, city);
+            host.setCurrentPage(new HostPage());
             users.add(host);
+            host.setOnline(false);
         }
         return "The username " + username + " has been added successfully.";
+    }
+
+    /**
+     * @return lista cu numele tuturor userilor normali, artisti si host
+     */
+    public static List<String> getAllUsers() {
+        List<String> usersName = new ArrayList<>();
+        for (int i = 0; i < 3; i++) {
+            for (User iterUser : users) {
+                if (i == 0 && iterUser.isHost() == false && iterUser.isArtist() == false) {
+                    usersName.add(iterUser.getUsername());
+                }
+                if (i == 1 && iterUser.isArtist()) {
+                    usersName.add(iterUser.getUsername());
+                }
+                if (i == 2 && iterUser.isHost()) {
+                    usersName.add(iterUser.getUsername());
+                }
+            }
+        }
+        return usersName;
+    }
+
+    /**
+     * @param username numele userului pe care vreau sa l sterg
+     * @return mesajul daca a putut fi sters userul sau nu
+     */
+    public static String deleteUser(final String username) {
+        User user = getUser(username);
+        if (user == null) {
+            return "The username " + username + " doesn't exist.";
+        }
+
+        for (User userIter : users) {
+            if (!userIter.equals(user)) { // sa fie diferit de userul pe care vreau sa l sterg
+                if (userIter.getPlayer().getSource() != null && userIter.getPlayer().getSource().getAudioCollection() != null) { // verific daca asculta ceva acum
+                    if (userIter.getPlayer().getSource().getAudioCollection().matchesOwner(username)) { // inseamna ca asculta un podcast/playlist/album
+                        return username + " can't be deleted.";
+                    }
+                }
+                if (userIter.getPlayer().getSource() != null && userIter.getPlayer().getSource().getAudioFile() != null) { // inseamna ca asculta o melodie (nu podcast/album/playlist
+                    if (userIter.getPlayer().getSource().getAudioFile().matchesArtist(username)) { // asta inseamna ca asculta o melodie
+                        return username + " can't be deleted.";
+                    }
+
+                }
+            }
+        }
+        user.removeSongs(); // asta daca userul meu este artist
+        users.remove(getUser(username));
+        return username + " was successfully deleted.";
     }
 
     /**

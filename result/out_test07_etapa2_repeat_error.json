@@ -130,6 +130,11 @@
   "timestamp" : 2555,
   "message" : "The loaded source is not a podcast."
 }, {
+  "command" : "deleteUser",
+  "user" : "melodymaster",
+  "timestamp" : 2760,
+  "message" : "melodymaster can't be deleted."
+}, {
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 3000,
@@ -225,6 +230,11 @@
   "timestamp" : 3295,
   "message" : "Please load a source before setting the repeat status."
 }, {
+  "user" : "rhythmicrider58",
+  "command" : "printCurrentPage",
+  "timestamp" : 3300,
+  "message" : "Liked songs:\n\t[Synth Symphony]\n\nFollowed playlists:\n\t[My favourite songs]"
+}, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 3310,
@@ -241,11 +251,16 @@
   "timestamp" : 3335,
   "message" : "Please load a source before setting the repeat status."
 }, {
+  "command" : "deleteUser",
+  "user" : "melodymaster",
+  "timestamp" : 3335,
+  "message" : "melodymaster was successfully deleted."
+}, {
   "command" : "search",
   "user" : "rhythmicrider58",
   "timestamp" : 3380,
-  "message" : "Search returned 1 results",
-  "results" : [ "Vibrant Echoes" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "search",
   "user" : "rhythmicrider58",
@@ -294,8 +309,18 @@
   "timestamp" : 3440,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "deleteUser",
+  "user" : "emily30",
+  "timestamp" : 3443,
+  "message" : "emily30 was successfully deleted."
+}, {
   "command" : "like",
   "user" : "rhythmicrider58",
   "timestamp" : 3445,
   "message" : "Like registered successfully."
+}, {
+  "user" : "rhythmicrider58",
+  "command" : "printCurrentPage",
+  "timestamp" : 7000,
+  "message" : "Liked songs:\n\t[Shape of You]\n\nFollowed playlists:\n\t[My favourite songs]"
 } ]

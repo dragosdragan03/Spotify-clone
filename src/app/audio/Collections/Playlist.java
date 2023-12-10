@@ -11,7 +11,7 @@ import java.util.ArrayList;
  * The type Playlist.
  */
 @Getter
-public final class Playlist extends AudioCollection {
+public class Playlist extends AudioCollection {
     private final ArrayList<Song> songs;
     private Enums.Visibility visibility;
     private Integer followers;
