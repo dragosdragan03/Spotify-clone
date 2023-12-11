@@ -10,7 +10,12 @@ import java.util.List;
 
 public class HostPage implements Page {
 
-    public String printCurrentPage(User user) {
+    /**
+     *
+     * @param user cel caruia i se va afisa pagina
+     * @return pagina unui host. podcasturile si anunturile postate de acesta
+     */
+    public String printCurrentPage(final User user) {
         List<String> podcastsName = new ArrayList<>();
         List<String> announcements = new ArrayList<>();
         List<String> episodes = new ArrayList<>();

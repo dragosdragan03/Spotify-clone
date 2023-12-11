@@ -1,7 +1,6 @@
 package app.pageSystem;
 
 import app.audio.Collections.Album;
-import app.audio.Files.Song;
 import app.user.Artist;
 import app.user.User;
 
@@ -10,7 +9,11 @@ import java.util.List;
 
 public class ArtistPage implements Page {
 
-    public String printCurrentPage(User user) {
+    /**
+     * @param user cel caruia i se va afisa pagina
+     * @return pagina unui artist
+     */
+    public String printCurrentPage(final User user) {
         String currentPage;
         List<String> albumsName = new ArrayList<>();
         List<String> merchandise = new ArrayList<>();
@@ -26,12 +29,12 @@ public class ArtistPage implements Page {
 
         for (Artist.Event iterEvent : user.getEventsOfAnArtist()) {
             event.add(iterEvent.getNameEvent() + " - " + iterEvent.getDate()
-            + ":\n\t" + iterEvent.getDescription());
+                    + ":\n\t" + iterEvent.getDescription());
         }
 
         currentPage = "Albums:\n\t" + albumsName
                 + "\n\nMerch:\n\t" + merchandise
-        + "\n\nEvents:\n\t" + event;
+                + "\n\nEvents:\n\t" + event;
         return currentPage;
     }
 

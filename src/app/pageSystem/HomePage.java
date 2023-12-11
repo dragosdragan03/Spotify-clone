@@ -8,11 +8,15 @@ import app.user.User;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
 
-public class HomePage implements Page {
+public final class HomePage implements Page {
 
-    public String printCurrentPage(User user) {
+    /**
+     * @param user
+     * @return pagina unui user
+     */
+    public String printCurrentPage(final User user) {
+        final int maxLimit = 5;
         String currentPage;
 
         List<Song> likedSongs = user.getLikedSongs();
@@ -20,7 +24,8 @@ public class HomePage implements Page {
 
         sortedLikedSongs.sort(Comparator.comparingInt(Song::getLikes).reversed());
 
-        List<String> top5Songs = sortedLikedSongs.stream().limit(5).map(LibraryEntry::getName)
+        List<String> top5Songs = sortedLikedSongs.stream().limit(maxLimit)
+                .map(LibraryEntry::getName)
                 .toList();
 
         List<String> followedPlaylists = new ArrayList<>();
@@ -29,7 +34,8 @@ public class HomePage implements Page {
             followedPlaylists.add(iterPlaylist.getName());
         }
 
-        currentPage = "Liked songs:\n\t" + top5Songs + "\n\nFollowed playlists:\n\t" + followedPlaylists;
+        currentPage = "Liked songs:\n\t" + top5Songs + "\n\nFollowed playlists:\n\t"
+                + followedPlaylists;
 
         return currentPage;
     }

@@ -1,7 +1,11 @@
 package app.user;
 
 import app.Admin;
-import app.audio.Collections.*;
+import app.audio.Collections.Album;
+import app.audio.Collections.Podcast;
+import app.audio.Collections.Playlist;
+import app.audio.Collections.AudioCollection;
+import app.audio.Collections.PlaylistOutput;
 import app.audio.Files.AudioFile;
 import app.audio.Files.Song;
 import app.audio.LibraryEntry;
@@ -112,8 +116,10 @@ public class User {
             return "The selected ID is too high.";
         }
 
-        if (searchBar.getLastSearchType().equals("artist") || searchBar.getLastSearchType().equals("host")) {
-            this.currentPage = Objects.requireNonNull(Admin.getUser(selected.getName())).getCurrentPage();
+        if (searchBar.getLastSearchType().equals("artist")
+                || searchBar.getLastSearchType().equals("host")) {
+            this.currentPage = Objects.requireNonNull(Admin.getUser(selected.getName()))
+                    .getCurrentPage();
             this.userPage = selected.getName();
             return "Successfully selected %s's page.".formatted(selected.getName());
         }
@@ -275,7 +281,8 @@ public class User {
             return "Please load a source before liking or unliking.";
         }
 
-        if (!player.getType().equals("song") && !player.getType().equals("playlist") && !player.getType().equals("album")) {
+        if (!player.getType().equals("song") && !player.getType().equals("playlist")
+                && !player.getType().equals("album")) {
             return "Loaded source is not a song.";
         }
 
@@ -499,6 +506,11 @@ public class User {
         return "This user's preferred genre is %s.".formatted(preferredGenre);
     }
 
+    /**
+     * schimba statusul unui user din online in ofline si invers
+     *
+     * @return daca s a putut realiza schimbarea
+     */
     public String switchConnectionStatus() {
         if (!isHost() && !isArtist()) {
             online = !online;
@@ -508,14 +520,33 @@ public class User {
         }
     }
 
-    public String addAlbum(final List<SongInput> songs, final String name, final int releaseYear, final String description) {
+    /**
+     * adauga un album in lista de albumuri a artistului
+     *
+     * @param songs       lista de melodii care trebuie adauga in album
+     * @param name        numele albumului
+     * @param releaseYear anul lansarii albumului
+     * @param description descrierea albumului
+     * @return mesajul daca s a putuu adauga un album
+     */
+    public String addAlbum(final List<SongInput> songs, final String name, final int releaseYear,
+                           final String description) {
         return username + " is not an artist.";
     }
 
+    /**
+     * sterge un album din lista
+     *
+     * @param name numele albumului
+     * @return mesajul daca a putut fi sters sau nu
+     */
     public String removeAlbum(final String name) {
         return username + " is not an artist.";
     }
 
+    /**
+     * @return pagina userului
+     */
     public String printCurrentPage() {
         if (online) {
             return currentPage.printCurrentPage(Admin.getUser(userPage));
@@ -524,48 +555,110 @@ public class User {
         }
     }
 
+    /**
+     * @param nameEvent   numele evenimentului
+     * @param date        data evenimentului
+     * @param description descrierea evenimentului
+     * @return mesajul daca s a putut adauga evenimentul
+     */
     public String addEvent(final String nameEvent, final String date, final String description) {
         return username + " is not an artist.";
     }
+
+    /**
+     * sterge un eveniment din lista de evenimente a artistului
+     *
+     * @param nameEvent numele evenimentului
+     * @return daca s a putut sterge sau nu evenimentul
+     */
     public String removeEvent(final String nameEvent) {
         return username + " is not an artist.";
     }
+
+    /**
+     * @return lista de evenimente a unui artist
+     */
     public List<Artist.Event> getEventsOfAnArtist() {
         return null;
     }
 
+    /**
+     * @param name        numele merchului
+     * @param description descrierea
+     * @param price       pretul
+     * @return mesajul daca s a putut adauga in lista, merchul
+     */
     public String addMerch(final String name, final String description, final int price) {
         return username + " is not an artist.";
     }
 
+    /**
+     * @return lista de merchuri a unui artist
+     */
     public List<Artist.Merch> getMerchandiseOfAnArtist() {
         return null;
     }
 
+    /**
+     * adauga un podcast in lista de podcasturi a hostului
+     *
+     * @param name     numele podcastului
+     * @param episodes lista de episoade
+     * @return mesajul daca s a putut adauga un podcast
+     */
     public String addPodcast(final String name, final List<EpisodeInput> episodes) {
         return username + " is not a host.";
     }
 
+    /**
+     * sterge u podcast din lista hostului
+     *
+     * @param name numele podcastului pe care vreau sa l sterg
+     * @return mesajul daca s a putut sterge podcastul
+     */
     public String removePodcast(final String name) {
         return username + " is not a host.";
     }
 
+    /**
+     * @return lista de podcasturi a unui host
+     */
     public List<Podcast> getPodcastsHost() {
         return null;
     }
 
+    /**
+     * adauga un anunt in lista de anunturi a hostului
+     *
+     * @param name        numele anuntului
+     * @param description descrierea anuntului
+     * @return mesajul daca s a putut adauga anuntul
+     */
     public String addAnnouncement(final String name, final String description) {
         return username + " is not a host.";
     }
 
+    /**
+     * sterge un anunt din lista a unui host
+     *
+     * @param name numele anuntului
+     * @return mesajul daca s a putut sterge anuntul
+     */
     public String removeAnnouncement(final String name) {
         return username + " is not a host.";
     }
 
+    /**
+     * @return lista cu toate anunturile unui host
+     */
     public List<Host.Announcement> getAnnouncementsHost() {
         return null;
     }
 
+    /**
+     * @param nextPage pagina pe care vrea sa ajunga
+     * @return daca s a putut muta pe pagina respectiva sau nu
+     */
     public String changePage(final String nextPage) {
         if (nextPage.equals("Home")) {
             currentPage = new HomePage();
@@ -585,20 +678,29 @@ public class User {
      *
      * @param time the time
      */
-    public void simulateTime(int time) {
+    public void simulateTime(final int time) {
         if (online) { // doar daca este online verific
             player.simulatePlayer(time);
         }
     }
 
+    /**
+     * @return lista de albume a unui artist
+     */
     public List<Album> getAlbumsOfAnArtist() {
         return null;
     }
 
+    /**
+     * @return daca este artist sau nu
+     */
     public boolean isArtist() {
         return false;
     }
 
+    /**
+     * @return daca este host sau nu
+     */
     public boolean isHost() {
         return false;
     }
@@ -607,36 +709,51 @@ public class User {
      * o metoda care sterge toate referintele a tot ce a creat un user
      * (playlisturile si melodiile din el)
      */
-    public void removeSongs() {
-        for (Playlist iterPlaylists : playlists) { // parcurg playlisturile unui user care trebuie sters
+    public void removeReference() {
+        // parcurg playlisturile unui user care trebuie sters
+        for (Playlist iterPlaylists : playlists) {
             for (User iterUsers : Admin.getUsers()) {
-                if (!(iterUsers.getUsername().equals(username))) { // sa nu fie userul pe care vreau sa l sterg
-                    iterUsers.getPlaylists().remove(iterPlaylists); // sterg playlistul din lista de playlisturi unui user
+                // sa nu fie userul pe care vreau sa l sterg
+                if (!(iterUsers.getUsername().equals(username))) {
+                    // sterg playlistul din lista de playlisturi unui user
+                    iterUsers.getPlaylists().remove(iterPlaylists);
                     iterUsers.getFollowedPlaylists().remove(iterPlaylists);
                 }
             }
         }
         // trebuie sa vad cui a dat follow la playlist
-        for (Playlist iterPlaylist : followedPlaylists) { // playlisturile la care a dat follow userul pe care vreau sa l sterg
+        // playlisturile la care a dat follow userul pe care vreau sa l sterg
+        for (Playlist iterPlaylist : followedPlaylists) {
             iterPlaylist.decreaseFollowers();
         }
 
     }
 
+    /**
+     * @param name numele userului pe care vreau sa l sterg
+     * @return daca un user asculta in acest moment ceva din ce detine user ul cu numele "name"
+     */
     public boolean isListening(final String name) {
-        if (player.getSource() != null && player.getSource().getAudioCollection() != null) { // verific daca asculta ceva acum
-            if (player.getSource().getAudioCollection().matchesOwner(name)) { // inseamna ca asculta un podcast/playlist/album
+        // verific daca asculta ceva acum
+        if (player.getSource() != null && player.getSource().getAudioCollection() != null) {
+            // inseamna ca asculta un podcast/playlist/album
+            if (player.getSource().getAudioCollection().matchesOwner(name)) {
                 return true;
             }
         }
-        if (player.getSource() != null && player.getSource().getAudioFile() != null) { // inseamna ca asculta o melodie (nu podcast/album/playlist
-            if (player.getSource().getAudioFile().matchesArtist(name)) { // asta inseamna ca asculta o melodie
+        // inseamna ca asculta o melodie
+        if (player.getSource() != null && player.getSource().getAudioFile() != null) {
+            if (player.getSource().getAudioFile().matchesArtist(name)) {
                 return true;
             }
         }
         return false;
     }
 
+    /**
+     *
+     * @return numarul de likeuri a tuturor albumelor unui artist
+     */
     public int numberLikesAlbums() {
         return 0;
     }

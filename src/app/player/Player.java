@@ -51,8 +51,8 @@ public final class Player {
         if (source != null && source.getAudioFile() != null) {
             PodcastBookmark currentBookmark =
                     new PodcastBookmark(source.getAudioCollection().getName(),
-                                        source.getIndex(),
-                                        source.getDuration());
+                            source.getIndex(),
+                            source.getDuration());
             bookmarks.removeIf(bookmark -> bookmark.getName().equals(currentBookmark.getName()));
             bookmarks.add(currentBookmark);
         }
@@ -95,8 +95,8 @@ public final class Player {
     /**
      * Sets source.
      *
-     * @param entry the entry
-     * @param sourceType  the sourceType
+     * @param entry      the entry
+     * @param sourceType the sourceType
      */
     public void setSource(final LibraryEntry entry, final String sourceType) {
         if ("podcast".equals(this.type)) {
@@ -127,7 +127,8 @@ public final class Player {
             source.generateShuffleOrder(seed);
         }
 
-        if (source.getType() == Enums.PlayerSourceType.PLAYLIST || source.getType() == Enums.PlayerSourceType.ALBUM) {
+        if (source.getType() == Enums.PlayerSourceType.PLAYLIST
+                || source.getType() == Enums.PlayerSourceType.ALBUM) {
             shuffle = !shuffle;
             if (shuffle) {
                 source.updateShuffleIndex();

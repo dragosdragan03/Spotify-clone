@@ -1,14 +1,11 @@
 package app;
 
 import app.audio.Collections.Album;
-import app.audio.Collections.AudioCollection;
 import app.audio.Collections.Playlist;
 import app.audio.Collections.Podcast;
-import app.audio.Files.AudioFile;
 import app.audio.Files.Episode;
 import app.audio.Files.Song;
 import app.pageSystem.ArtistPage;
-import app.pageSystem.HomePage;
 import app.pageSystem.HostPage;
 import app.user.Artist;
 import app.user.Host;
@@ -18,10 +15,8 @@ import fileio.input.PodcastInput;
 import fileio.input.SongInput;
 import fileio.input.UserInput;
 import lombok.Getter;
-import org.checkerframework.checker.units.qual.A;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -77,8 +72,7 @@ public final class Admin {
         for (PodcastInput podcastInput : podcastInputList) {
             List<Episode> episodes = new ArrayList<>();
             for (EpisodeInput episodeInput : podcastInput.getEpisodes()) {
-                episodes.add(new Episode(episodeInput.getName(),
-                        episodeInput.getDuration(),
+                episodes.add(new Episode(episodeInput.getName(), episodeInput.getDuration(),
                         episodeInput.getDescription()));
             }
             podcasts.add(new Podcast(podcastInput.getName(), podcastInput.getOwner(), episodes));
@@ -203,8 +197,7 @@ public final class Admin {
      */
     public static List<String> getTop5Playlists() {
         List<Playlist> sortedPlaylists = new ArrayList<>(getPlaylists());
-        sortedPlaylists.sort(Comparator.comparingInt(Playlist::getFollowers)
-                .reversed()
+        sortedPlaylists.sort(Comparator.comparingInt(Playlist::getFollowers).reversed()
                 .thenComparing(Playlist::getTimestamp, Comparator.naturalOrder()));
         List<String> topPlaylists = new ArrayList<>();
         int count = 0;
@@ -218,11 +211,13 @@ public final class Admin {
         return topPlaylists;
     }
 
+    /**
+     * @return primele 5 cele mai apreciate albume
+     */
     public static List<String> getTop5Albums() {
         List<Album> sortedAlbums = new ArrayList<>(getAlbums());
         sortedAlbums.sort(Comparator.comparing(Album::getName));
-        sortedAlbums.sort(Comparator.comparingInt(Album::getNumberLikesAlbum)
-                .reversed());
+        sortedAlbums.sort(Comparator.comparingInt(Album::getNumberLikesAlbum).reversed());
         List<String> topAlbums = new ArrayList<>();
         int count = 0;
         for (Album album : sortedAlbums) {
@@ -235,8 +230,10 @@ public final class Admin {
         return topAlbums;
     }
 
+    /**
+     * @return primii 5 artisti care au cele mai multe likeuri la meldoii
+     */
     public static List<String> getTop5Artists() {
-        List<String> topArtist = new ArrayList<>();
         List<User> artists = new ArrayList<>();
         for (User iterUser : users) {
             if (iterUser.isArtist()) {
@@ -244,8 +241,7 @@ public final class Admin {
             }
         }
         artists.sort(Comparator.comparing(User::getUsername));
-        artists.sort(Comparator.comparingInt(User::numberLikesAlbums)
-                .reversed());
+        artists.sort(Comparator.comparingInt(User::numberLikesAlbums).reversed());
         List<String> topArtists = new ArrayList<>();
         int count = 0;
         for (User iterArtist : artists) {
@@ -258,11 +254,12 @@ public final class Admin {
         return topArtists;
     }
 
+    /**
+     * @return lista de useri online
+     */
     public static List<String> getOnlineUsers() {
         List<String> onlineUsers; // fac un string pentru a vedea userii activi
-        onlineUsers = users.stream()
-                .filter(User::isOnline)
-                .map(User::getUsername)
+        onlineUsers = users.stream().filter(User::isOnline).map(User::getUsername)
                 .collect(Collectors.toList());
 
         return onlineUsers;
@@ -275,7 +272,8 @@ public final class Admin {
      * @param type     artist/user normal/host
      * @return adauga in lista de users un artis/host/user normal
      */
-    public static String addUser(final String username, final int age, final String city, final String type) {
+    public static String addUser(final String username, final int age, final String city,
+                                 final String type) {
 
         for (User iter : users) { // verific daca mai exista userul respectiv
             if (iter.getUsername().equals(username)) {
@@ -305,9 +303,10 @@ public final class Admin {
      */
     public static List<String> getAllUsers() {
         List<String> usersName = new ArrayList<>();
-        for (int i = 0; i < 3; i++) {
+        final int orderUsers = 3;
+        for (int i = 0; i < orderUsers; i++) {
             for (User iterUser : users) {
-                if (i == 0 && iterUser.isHost() == false && iterUser.isArtist() == false) {
+                if (i == 0 && !iterUser.isHost() && !iterUser.isArtist()) {
                     usersName.add(iterUser.getUsername());
                 }
                 if (i == 1 && iterUser.isArtist()) {
@@ -338,15 +337,10 @@ public final class Admin {
                 }
             }
         }
-        if (user.isArtist()) {
-            user.removeSongs(); // sterg toate referintele cu melodiile din albume
-        } else if (user.isHost()) {
 
-        } else { // inseamna ca este un user normal
-            user.removeSongs();
-        }
+        user.removeReference(); // sterg toate referintele userului
 
-        users.remove(getUser(username));
+        users.remove(user);
         return username + " was successfully deleted.";
     }
 

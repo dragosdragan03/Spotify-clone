@@ -11,13 +11,13 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class Artist extends User {
+public final class Artist extends User {
 
     private List<Album> albums; // fac o lista de albume ale unui user
     private List<Event> events;
     private List<Merch> merchandise;
 
-    public Artist(String username, int age, String city) {
+    public Artist(final String username, final int age, final String city) {
         super(username, age, city);
         albums = new ArrayList<>();
         events = new ArrayList<>();
@@ -32,7 +32,7 @@ public class Artist extends User {
         @Getter
         private String date;
 
-        public Event(String nameEvent, String description, String date) {
+        public Event(final String nameEvent, final String description, final String date) {
             this.nameEvent = nameEvent;
             this.description = description;
             this.date = date;
@@ -47,7 +47,7 @@ public class Artist extends User {
         @Getter
         private int price;
 
-        public Merch(String name, String description, int price) {
+        public Merch(final String name, final String description, final int price) {
             this.name = name;
             this.description = description;
             this.price = price;
@@ -110,7 +110,8 @@ public class Artist extends User {
      * @return mesajul in functie daca s a putut adauga albumul sau nu
      */
     @Override
-    public String addAlbum(final List<SongInput> songs, final String name, final int releaseYear, final String description) {
+    public String addAlbum(final List<SongInput> songs, final String name,
+                           final int releaseYear, final String description) {
 
         for (Album iter : albums) {
             if (iter.getName().equals(name)) { // sa vad
@@ -140,6 +141,12 @@ public class Artist extends User {
      * @return daca data este una valida sau nu
      */
     private boolean isDateCorrect(final String date) {
+        final int februaryMonth = 2;
+        final int februaryMaxDay = 28;
+        final int maxDay = 31;
+        final int maxMonth = 12;
+        final int minYear = 1900;
+        final int maxYear = 2023;
         String[] dateParts = date.split("-");
 
         // extrag ziua, luna si anul
@@ -147,19 +154,19 @@ public class Artist extends User {
         int month = Integer.parseInt(dateParts[1]);
         int year = Integer.parseInt(dateParts[2]);
 
-        if (month == 6 && day > 28) {
+        if (month == februaryMonth && day > februaryMaxDay) {
             return false;
         }
 
-        if (day > 31) {
+        if (day > maxDay) {
             return false;
         }
 
-        if (month > 12) {
+        if (month > maxMonth) {
             return false;
         }
 
-        if (year < 1900 || year > 2023) {
+        if (year < minYear || year > maxYear) {
             return false;
         }
 
@@ -209,9 +216,10 @@ public class Artist extends User {
     }
 
     @Override
-    public void removeSongs() {
+    public void removeReference() {
         for (Album iterAlbum : albums) { // parcurg fiecare album
-            for (Song iterSong : iterAlbum.getSongs()) { // parcurg lista de melodii din albume si le scot din lista mare
+            // parcurg lista de melodii din album si le scot din lista mare
+            for (Song iterSong : iterAlbum.getSongs()) {
                 Admin.getSongs().remove(iterSong);
                 for (User iterUsers : Admin.getUsers()) {
                     if (iterUsers.getLikedSongs().contains(iterSong)) {
@@ -248,18 +256,20 @@ public class Artist extends User {
         if (indexAlbum == -1) { // inseamna ca nu exista albumul
             return getUsername() + " doesn't have an album with the given name.";
         }
-
-        for (User iterUser : Admin.getUsers()) { // parcurg toata lista de useri sa vad daca cineva a incarcat albumul respectiv
+        // parcurg toata lista de useri sa vad daca cineva a incarcat albumul respectiv
+        for (User iterUser : Admin.getUsers()) {
             if (!iterUser.equals(getUsername())) { // sa fie diferit de artistul respectiv
-                if (iterUser.isListening(getUsername()) || iterUser.getUserPage().equals(getUsername())) {
+                if (iterUser.isListening(getUsername())
+                        || iterUser.getUserPage().equals(getUsername())) {
                     return getUsername() + " can't delete this album.";
                 }
             }
         }
 
-        // inseamna ca niciun user nu asculta albumul pe care vreau sa l sterg sau o melodie din acesta
-
-        removeSongsOfASingleAlbum(albums.get(indexAlbum)); // am sters melodiile din albumul respectiv din toate sursele
+        // inseamna ca niciun user nu asculta albumul pe care vreau sa l sterg
+        // sau o melodie din acesta
+        // am sters melodiile din albumul respectiv, din toate sursele
+        removeSongsOfASingleAlbum(albums.get(indexAlbum));
         albums.remove(indexAlbum);
         return getUsername() + " deleted the album successfully.";
 

@@ -5,7 +5,6 @@ import app.audio.Collections.PlaylistOutput;
 import app.audio.Collections.Podcast;
 import app.audio.Files.Episode;
 import app.audio.Files.Song;
-import app.pageSystem.LikedContentPage;
 import app.player.PlayerStats;
 import app.searchBar.Filters;
 import app.user.User;
@@ -463,6 +462,12 @@ public final class CommandRunner {
         return objectNode;
     }
 
+    /**
+     * schimba statusul unui user normal din online -> offline sau invers
+     *
+     * @param commandInput the command input
+     * @return mesajul daca s a putut realiza sau nu
+     */
     public static ObjectNode switchConnectionStatus(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
         String message;
@@ -481,6 +486,10 @@ public final class CommandRunner {
         return objectNode;
     }
 
+    /**
+     * @param commandInput the command input
+     * @return lista cu toti userii normali care sunt online
+     */
     public static ObjectNode getOnlineUsers(final CommandInput commandInput) {
         List<String> result = Admin.getOnlineUsers();
 
@@ -492,6 +501,12 @@ public final class CommandRunner {
         return objectNode;
     }
 
+    /**
+     * adauga un user in lista de users a adminului
+     *
+     * @param commandInput the command input
+     * @return mesajul daca s a putut adauga un user sau nu
+     */
     public static ObjectNode addUser(final CommandInput commandInput) {
         String username = commandInput.getUsername();
         int age = commandInput.getAge();
@@ -508,6 +523,12 @@ public final class CommandRunner {
         return objectNode;
     }
 
+    /**
+     * adauga un album unui user + melodii in lista de melodii
+     *
+     * @param commandInput the command input
+     * @return mesajul daca s a putut adauga un album sau nu
+     */
     public static ObjectNode addAlbum(final CommandInput commandInput) {
         String message;
         User user = Admin.getUser(commandInput.getUsername());
@@ -526,6 +547,10 @@ public final class CommandRunner {
         return objectNode;
     }
 
+    /**
+     * @param commandInput the command input
+     * @return afiseaza toate albumele unui artist
+     */
     public static ObjectNode showAlbums(final CommandInput commandInput) {
         List<Album> albums = Admin.getUser(commandInput.getUsername()).getAlbumsOfAnArtist();
         ArrayNode arrayNode = objectMapper.createArrayNode();
@@ -546,6 +571,10 @@ public final class CommandRunner {
         return objectNode;
     }
 
+    /**
+     * @param commandInput the command input
+     * @return printeaza pagina unui user/host/artist
+     */
     public static ObjectNode printCurrentPage(final CommandInput commandInput) {
         String message = null;
         User user = Admin.getUser(commandInput.getUsername());
@@ -562,6 +591,12 @@ public final class CommandRunner {
         return objectNode;
     }
 
+    /**
+     * adauga un eveniment in lista de evenimente a unui user
+     *
+     * @param commandInput the command input
+     * @return mesajul daca s a putut adauga un eveniment
+     */
     public static ObjectNode addEvent(final CommandInput commandInput) {
         String message;
         User user = Admin.getUser(commandInput.getUsername());
@@ -583,6 +618,12 @@ public final class CommandRunner {
         return objectNode;
     }
 
+    /**
+     * adauga un merch in lista de merchuri a unui user
+     *
+     * @param commandInput the command input
+     * @return mesajul daca s a putut adauga un merch sdu nu
+     */
     public static ObjectNode addMerch(final CommandInput commandInput) {
         String message;
         User user = Admin.getUser(commandInput.getUsername());
@@ -603,8 +644,12 @@ public final class CommandRunner {
         return objectNode;
     }
 
+    /**
+     * @param commandInput the command input
+     * @return se va afisa o lista cu utilizatori normali, artiști, hosti in aceasta ordine
+     */
     public static ObjectNode getAllUsers(final CommandInput commandInput) {
-         List<String> allUsers = Admin.getAllUsers();
+        List<String> allUsers = Admin.getAllUsers();
 
         ObjectNode objectNode = objectMapper.createObjectNode();
         objectNode.put("command", commandInput.getCommand());
@@ -613,6 +658,12 @@ public final class CommandRunner {
         return objectNode;
     }
 
+    /**
+     * sterge un user si toate referintele acestuia
+     *
+     * @param commandInput the command input
+     * @return mesajul daca s a putut sterge sau nu
+     */
     public static ObjectNode deleteUser(final CommandInput commandInput) {
         String message = Admin.deleteUser(commandInput.getUsername());
 
@@ -624,6 +675,12 @@ public final class CommandRunner {
         return objectNode;
     }
 
+    /**
+     * adauga un podcast in lista adminului de podcasturi
+     *
+     * @param commandInput the command input
+     * @return mesajul daca s a putut adauga un podcast
+     */
     public static ObjectNode addPodcast(final CommandInput commandInput) {
         String message;
         User user = Admin.getUser(commandInput.getUsername());
@@ -644,6 +701,12 @@ public final class CommandRunner {
         return objectNode;
     }
 
+    /**
+     * adauga un anunt unui artist in lista.
+     *
+     * @param commandInput the command input
+     * @return daca s a putut adauga un anunt pt un artist
+     */
     public static ObjectNode addAnnouncement(final CommandInput commandInput) {
         String message;
         User user = Admin.getUser(commandInput.getUsername());
@@ -664,6 +727,12 @@ public final class CommandRunner {
         return objectNode;
     }
 
+    /**
+     * sterge un anunt din lista de anunturi a unui user
+     *
+     * @param commandInput the command input
+     * @return mesajul daca s a putut sterge un anunt
+     */
     public static ObjectNode removeAnnouncement(final CommandInput commandInput) {
         String message;
         User user = Admin.getUser(commandInput.getUsername());
@@ -683,12 +752,18 @@ public final class CommandRunner {
         return objectNode;
     }
 
+    /**
+     * @param commandInput the command input
+     * @return podcasturile unui host
+     */
     public static ObjectNode showPodcasts(final CommandInput commandInput) {
         List<Podcast> podcasts = Admin.getUser(commandInput.getUsername()).getPodcastsHost();
         ArrayNode arrayNode = objectMapper.createArrayNode();
 
         for (Podcast iterPodcast : podcasts) {
-            List<String> episodes = iterPodcast.getEpisodes().stream().map(Episode::getName).toList();
+            List<String> episodes = iterPodcast.getEpisodes().stream()
+                    .map(Episode::getName)
+                    .toList();
             ObjectNode albumObject = objectMapper.createObjectNode();
             albumObject.put("name", iterPodcast.getName());
             albumObject.put("episodes", objectMapper.valueToTree(episodes));
@@ -704,6 +779,12 @@ public final class CommandRunner {
     }
 
 
+    /**
+     * sterge un album si toate referintele acestuia
+     *
+     * @param commandInput the command input
+     * @return mesajul daca s a putut sterge un album
+     */
     public static ObjectNode removeAlbum(final CommandInput commandInput) {
         String message;
         User user = Admin.getUser(commandInput.getUsername());
@@ -723,6 +804,11 @@ public final class CommandRunner {
         return objectNode;
     }
 
+    /**
+     * schimba un user de pe o pagina pe alta
+     * @param commandInput the command input
+     * @return pe ce pagina s a mutut un user
+     */
     public static ObjectNode changePage(final CommandInput commandInput) {
         String message;
         User user = Admin.getUser(commandInput.getUsername());
@@ -742,6 +828,11 @@ public final class CommandRunner {
         return objectNode;
     }
 
+    /**
+     * sterge un podcast si toate referintele acestuia
+     * @param commandInput the command input
+     * @return mesajul daca s a putut sterge un podcast
+     */
     public static ObjectNode removePodcast(final CommandInput commandInput) {
         String message;
         User user = Admin.getUser(commandInput.getUsername());
@@ -761,6 +852,11 @@ public final class CommandRunner {
         return objectNode;
     }
 
+    /**
+     * sterge un eveniment din lista de evenimnete a unui user
+     * @param commandInput
+     * @return mesajul daca s a putut sterge un eveniment
+     */
     public static ObjectNode removeEvent(final CommandInput commandInput) {
         String message;
         User user = Admin.getUser(commandInput.getUsername());
@@ -780,6 +876,11 @@ public final class CommandRunner {
         return objectNode;
     }
 
+    /**
+     *
+     * @param commandInput the command input
+     * @return lista cu primele cele mai apreciate albume
+     */
     public static ObjectNode getTop5Albums(final CommandInput commandInput) {
         List<String> albums = Admin.getTop5Albums();
 
@@ -791,6 +892,11 @@ public final class CommandRunner {
         return objectNode;
     }
 
+    /**
+     *
+     * @param commandInput the command input
+     * @return lista cu primii 5 artisti cei mai apreciati
+     */
     public static ObjectNode getTop5Artists(final CommandInput commandInput) {
         List<String> albums = Admin.getTop5Artists();
 

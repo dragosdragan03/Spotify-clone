@@ -11,7 +11,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class Host extends User {
+public final class Host extends User {
 
     private List<Podcast> podcasts;
     private List<Announcement> announcements;
@@ -28,7 +28,7 @@ public class Host extends User {
         @Getter
         private String description;
 
-        public Announcement(String name, String description) {
+        public Announcement(final String name, final String description) {
             this.name = name;
             this.description = description;
         }
@@ -112,7 +112,8 @@ public class Host extends User {
 
     @Override
     public String removePodcast(final String name) {
-        for (User iterUser : Admin.getUsers()) { // parcurg toata lista de useri sa vad daca cineva a incarcat albumul respectiv
+        // parcurg toata lista de useri sa vad daca cineva a incarcat albumul respectiv
+        for (User iterUser : Admin.getUsers()) {
             if (!(iterUser.equals(getUsername()))) { // sa fie diferit de artistul respectiv
                 if (iterUser.isListening(getUsername())) {
                     return getUsername() + " can't delete this podcast.";
