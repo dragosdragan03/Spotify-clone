@@ -15,6 +15,8 @@ public final class Album extends AudioCollection {
     private String description;
     @Getter
     private final List<Song> songs = new ArrayList<>();
+//    @Getter
+//    private final int numberLikesAlbum = 0;
 
     public Album(final String name, final String owner, final int releaseYear, final String description) {
         super(name, owner);
@@ -35,4 +37,13 @@ public final class Album extends AudioCollection {
     public AudioFile getTrackByIndex(final int index) {
         return songs.get(index);
     }
+
+    public int getNumberLikesAlbum() {
+        int sum = 0;
+        for (Song iterSong : songs) {
+            sum += iterSong.getLikes();
+        }
+        return sum;
+    }
+
 }

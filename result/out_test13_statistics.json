@@ -295,4 +295,8 @@
   "command" : "getTop5Songs",
   "timestamp" : 3300,
   "result" : [ "Bohemian Rhapsody", "Angie", "Vibrant Echoes", "Shape of You", "Don't" ]
+}, {
+  "command" : "getTop5Albums",
+  "timestamp" : 3480,
+  "result" : [ "Harmonic Horizons", "Harmonic Horizons 2" ]
 } ]

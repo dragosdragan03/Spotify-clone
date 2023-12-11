@@ -21,6 +21,7 @@ import lombok.Getter;
 import org.checkerframework.checker.units.qual.A;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -122,7 +123,7 @@ public final class Admin {
         List<Album> albums = new ArrayList<>();
         for (User iterUser : users) {
             if (iterUser.isArtist()) {
-                if (iterUser.getAlbumsOfAnArtist().size() != 0) {
+                if (!iterUser.getAlbumsOfAnArtist().isEmpty()) {
                     albums.addAll(iterUser.getAlbumsOfAnArtist());
                 }
             }
@@ -215,6 +216,46 @@ public final class Admin {
             count++;
         }
         return topPlaylists;
+    }
+
+    public static List<String> getTop5Albums() {
+        List<Album> sortedAlbums = new ArrayList<>(getAlbums());
+        sortedAlbums.sort(Comparator.comparing(Album::getName));
+        sortedAlbums.sort(Comparator.comparingInt(Album::getNumberLikesAlbum)
+                .reversed());
+        List<String> topAlbums = new ArrayList<>();
+        int count = 0;
+        for (Album album : sortedAlbums) {
+            if (count >= LIMIT) {
+                break;
+            }
+            topAlbums.add(album.getName());
+            count++;
+        }
+        return topAlbums;
+    }
+
+    public static List<String> getTop5Artists() {
+        List<String> topArtist = new ArrayList<>();
+        List<User> artists = new ArrayList<>();
+        for (User iterUser : users) {
+            if (iterUser.isArtist()) {
+                artists.add(iterUser);
+            }
+        }
+        artists.sort(Comparator.comparing(User::getUsername));
+        artists.sort(Comparator.comparingInt(User::numberLikesAlbums)
+                .reversed());
+        List<String> topArtists = new ArrayList<>();
+        int count = 0;
+        for (User iterArtist : artists) {
+            if (count >= LIMIT) {
+                break;
+            }
+            topArtists.add(iterArtist.getUsername());
+            count++;
+        }
+        return topArtists;
     }
 
     public static List<String> getOnlineUsers() {

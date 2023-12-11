@@ -275,7 +275,7 @@ public class User {
             return "Please load a source before liking or unliking.";
         }
 
-        if (!player.getType().equals("song") && !player.getType().equals("playlist")) {
+        if (!player.getType().equals("song") && !player.getType().equals("playlist") && !player.getType().equals("album")) {
             return "Loaded source is not a song.";
         }
 
@@ -500,12 +500,16 @@ public class User {
     }
 
     public String switchConnectionStatus() {
-        online = !online;
-        return username + " has changed status successfully.";
+        if (!isHost() && !isArtist()) {
+            online = !online;
+            return username + " has changed status successfully.";
+        } else {
+            return username + " is not a normal user.";
+        }
     }
 
     public String addAlbum(final List<SongInput> songs, final String name, final int releaseYear, final String description) {
-        return username + "  is not an artist.";
+        return username + " is not an artist.";
     }
 
     public String removeAlbum(final String name) {
@@ -631,6 +635,10 @@ public class User {
             }
         }
         return false;
+    }
+
+    public int numberLikesAlbums() {
+        return 0;
     }
 
 }

@@ -275,4 +275,13 @@ public class Artist extends User {
         }
         return getUsername() + " doesn't have an event with the given name.";
     }
+
+    @Override
+    public int numberLikesAlbums() {
+        int sum = 0;
+        for (Album iterAlbum : albums) {
+            sum += iterAlbum.getNumberLikesAlbum();
+        }
+        return sum;
+    }
 }
