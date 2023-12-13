@@ -126,8 +126,8 @@ public final class Artist extends User {
         Album newAlbum = new Album(name, getUsername(), releaseYear, description);
         for (SongInput iterSong : songs) {
             Song song = copySongInputToSong(iterSong);
-            if (!Admin.getSongs().contains(song)) {
-                Admin.getSongs().add(song);
+            if (!Admin.getInstance().getSongs().contains(song)) {
+                Admin.getInstance().getSongs().add(song);
             }
             newAlbum.addSong(song);
         }
@@ -220,8 +220,8 @@ public final class Artist extends User {
         for (Album iterAlbum : albums) { // parcurg fiecare album
             // parcurg lista de melodii din album si le scot din lista mare
             for (Song iterSong : iterAlbum.getSongs()) {
-                Admin.getSongs().remove(iterSong);
-                for (User iterUsers : Admin.getUsers()) {
+                Admin.getInstance().getSongs().remove(iterSong);
+                for (User iterUsers : Admin.getInstance().getUsers()) {
                     if (iterUsers.getLikedSongs().contains(iterSong)) {
                         iterUsers.getLikedSongs().remove(iterSong);
                     }
@@ -232,8 +232,8 @@ public final class Artist extends User {
 
     private void removeSongsOfASingleAlbum(final Album album) {
         for (Song iterSong : album.getSongs()) {
-            Admin.getSongs().remove(iterSong);
-            for (User iterUsers : Admin.getUsers()) {
+            Admin.getInstance().getSongs().remove(iterSong);
+            for (User iterUsers : Admin.getInstance().getUsers()) {
                 if (iterUsers.getLikedSongs().contains(iterSong)) {
                     iterUsers.getLikedSongs().remove(iterSong);
                 }
@@ -257,7 +257,7 @@ public final class Artist extends User {
             return getUsername() + " doesn't have an album with the given name.";
         }
         // parcurg toata lista de useri sa vad daca cineva a incarcat albumul respectiv
-        for (User iterUser : Admin.getUsers()) {
+        for (User iterUser : Admin.getInstance().getUsers()) {
             if (!iterUser.equals(getUsername())) { // sa fie diferit de artistul respectiv
                 if (iterUser.isListening(getUsername())
                         || iterUser.getUserPage().equals(getUsername())) {

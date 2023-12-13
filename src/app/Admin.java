@@ -5,11 +5,8 @@ import app.audio.Collections.Playlist;
 import app.audio.Collections.Podcast;
 import app.audio.Files.Episode;
 import app.audio.Files.Song;
-import app.pageSystem.ArtistPage;
-import app.pageSystem.HostPage;
-import app.user.Artist;
-import app.user.Host;
 import app.user.User;
+import app.user.UserFactory;
 import fileio.input.EpisodeInput;
 import fileio.input.PodcastInput;
 import fileio.input.SongInput;
@@ -26,11 +23,31 @@ import java.util.stream.Collectors;
  */
 public final class Admin {
     @Getter
-    private static List<User> users = new ArrayList<>();
-    private static List<Song> songs = new ArrayList<>();
-    private static List<Podcast> podcasts = new ArrayList<>();
-    private static int timestamp = 0;
-    private static final int LIMIT = 5;
+    private List<User> users = new ArrayList<>();
+    /**
+     * -- GETTER --
+     * Gets songs.
+     *
+     * @return the songs
+     */
+    @Getter
+    private List<Song> songs = new ArrayList<>();
+    /**
+     * -- GETTER --
+     * Gets podcasts.
+     *
+     * @return the podcasts
+     */
+    @Getter
+    private List<Podcast> podcasts = new ArrayList<>();
+    private int timestamp = 0;
+    private final int limit = 5;
+
+    private static Admin instance = new Admin();
+
+    public static Admin getInstance() {
+        return instance;
+    }
 
     private Admin() {
     }
@@ -40,7 +57,7 @@ public final class Admin {
      *
      * @param userInputList the user input list
      */
-    public static void setUsers(final List<UserInput> userInputList) {
+    public void setUsers(final List<UserInput> userInputList) {
         users = new ArrayList<>();
         for (UserInput userInput : userInputList) {
             users.add(new User(userInput.getUsername(), userInput.getAge(), userInput.getCity()));
@@ -52,7 +69,7 @@ public final class Admin {
      *
      * @param songInputList the song input list
      */
-    public static void setSongs(final List<SongInput> songInputList) {
+    public void setSongs(final List<SongInput> songInputList) {
         songs = new ArrayList<>();
         for (SongInput songInput : songInputList) {
             songs.add(new Song(songInput.getName(), songInput.getDuration(), songInput.getAlbum(),
@@ -67,7 +84,7 @@ public final class Admin {
      *
      * @param podcastInputList the podcast input list
      */
-    public static void setPodcasts(final List<PodcastInput> podcastInputList) {
+    public void setPodcasts(final List<PodcastInput> podcastInputList) {
         podcasts = new ArrayList<>();
         for (PodcastInput podcastInput : podcastInputList) {
             List<Episode> episodes = new ArrayList<>();
@@ -80,29 +97,11 @@ public final class Admin {
     }
 
     /**
-     * Gets songs.
-     *
-     * @return the songs
-     */
-    public static List<Song> getSongs() {
-        return songs;
-    }
-
-    /**
-     * Gets podcasts.
-     *
-     * @return the podcasts
-     */
-    public static List<Podcast> getPodcasts() {
-        return podcasts;
-    }
-
-    /**
      * Gets playlists.
      *
      * @return the playlists
      */
-    public static List<Playlist> getPlaylists() {
+    public List<Playlist> getPlaylists() {
         List<Playlist> playlists = new ArrayList<>();
         for (User user : users) {
             playlists.addAll(user.getPlaylists());
@@ -113,7 +112,7 @@ public final class Admin {
     /**
      * @return albumele tuturor artistilor
      */
-    public static List<Album> getAlbums() {
+    public List<Album> getAlbums() {
         List<Album> albums = new ArrayList<>();
         for (User iterUser : users) {
             if (iterUser.isArtist()) {
@@ -131,7 +130,7 @@ public final class Admin {
      * @param username the username
      * @return the user
      */
-    public static User getUser(final String username) {
+    public User getUser(final String username) {
         for (User user : users) {
             if (user.getUsername().equals(username)) {
                 return user;
@@ -143,7 +142,7 @@ public final class Admin {
     /**
      * @return lista cu toti artistii
      */
-    public static List<User> getArtists() {
+    public List<User> getArtists() {
         List<User> listArtists = new ArrayList<>();
         for (User user : users) {
             if (user.isArtist()) {
@@ -158,7 +157,7 @@ public final class Admin {
      *
      * @param newTimestamp the new timestamp
      */
-    public static void updateTimestamp(final int newTimestamp) {
+    public void updateTimestamp(final int newTimestamp) {
         int elapsed = newTimestamp - timestamp;
         timestamp = newTimestamp;
         if (elapsed == 0) {
@@ -175,13 +174,13 @@ public final class Admin {
      *
      * @return the top 5 songs
      */
-    public static List<String> getTop5Songs() {
+    public List<String> getTop5Songs() {
         List<Song> sortedSongs = new ArrayList<>(songs);
         sortedSongs.sort(Comparator.comparingInt(Song::getLikes).reversed());
         List<String> topSongs = new ArrayList<>();
         int count = 0;
         for (Song song : sortedSongs) {
-            if (count >= LIMIT) {
+            if (count >= limit) {
                 break;
             }
             topSongs.add(song.getName());
@@ -195,14 +194,14 @@ public final class Admin {
      *
      * @return the top 5 playlists
      */
-    public static List<String> getTop5Playlists() {
+    public List<String> getTop5Playlists() {
         List<Playlist> sortedPlaylists = new ArrayList<>(getPlaylists());
         sortedPlaylists.sort(Comparator.comparingInt(Playlist::getFollowers).reversed()
                 .thenComparing(Playlist::getTimestamp, Comparator.naturalOrder()));
         List<String> topPlaylists = new ArrayList<>();
         int count = 0;
         for (Playlist playlist : sortedPlaylists) {
-            if (count >= LIMIT) {
+            if (count >= limit) {
                 break;
             }
             topPlaylists.add(playlist.getName());
@@ -214,14 +213,14 @@ public final class Admin {
     /**
      * @return primele 5 cele mai apreciate albume
      */
-    public static List<String> getTop5Albums() {
+    public List<String> getTop5Albums() {
         List<Album> sortedAlbums = new ArrayList<>(getAlbums());
         sortedAlbums.sort(Comparator.comparing(Album::getName));
         sortedAlbums.sort(Comparator.comparingInt(Album::getNumberLikesAlbum).reversed());
         List<String> topAlbums = new ArrayList<>();
         int count = 0;
         for (Album album : sortedAlbums) {
-            if (count >= LIMIT) {
+            if (count >= limit) {
                 break;
             }
             topAlbums.add(album.getName());
@@ -233,7 +232,7 @@ public final class Admin {
     /**
      * @return primii 5 artisti care au cele mai multe likeuri la meldoii
      */
-    public static List<String> getTop5Artists() {
+    public List<String> getTop5Artists() {
         List<User> artists = new ArrayList<>();
         for (User iterUser : users) {
             if (iterUser.isArtist()) {
@@ -245,7 +244,7 @@ public final class Admin {
         List<String> topArtists = new ArrayList<>();
         int count = 0;
         for (User iterArtist : artists) {
-            if (count >= LIMIT) {
+            if (count >= limit) {
                 break;
             }
             topArtists.add(iterArtist.getUsername());
@@ -257,7 +256,7 @@ public final class Admin {
     /**
      * @return lista de useri online
      */
-    public static List<String> getOnlineUsers() {
+    public List<String> getOnlineUsers() {
         List<String> onlineUsers; // fac un string pentru a vedea userii activi
         onlineUsers = users.stream().filter(User::isOnline).map(User::getUsername)
                 .collect(Collectors.toList());
@@ -272,36 +271,26 @@ public final class Admin {
      * @param type     artist/user normal/host
      * @return adauga in lista de users un artis/host/user normal
      */
-    public static String addUser(final String username, final int age, final String city,
-                                 final String type) {
+    public String addUser(final String username, final int age, final String city,
+                          final String type) {
 
+        // verific sa nu mai fie un user cu acelasi nume
         for (User iter : users) { // verific daca mai exista userul respectiv
             if (iter.getUsername().equals(username)) {
                 return "The username " + username + " is already taken.";
             }
         }
-        // inseamna ca nu a mai fost gasit un user cu acelasi nume
-        if (type.equals("user")) { // inseamna ca este admin
-            User user = new User(username, age, city); // creez un user normal
-            users.add(user);
-        } else if (type.equals("artist")) {
-            User artist = new Artist(username, age, city);
-            artist.setCurrentPage(new ArtistPage());
-            users.add(artist);
-            artist.setOnline(false);
-        } else if (type.equals("host")) {
-            User host = new Host(username, age, city);
-            host.setCurrentPage(new HostPage());
-            users.add(host);
-            host.setOnline(false);
-        }
+
+        // am fct un factory pattern pentru a crea un user/host/artist
+        UserFactory factory = new UserFactory();
+        users.add(factory.createUser(type, username, age, city));
         return "The username " + username + " has been added successfully.";
     }
 
     /**
      * @return lista cu numele tuturor userilor normali, artisti si host
      */
-    public static List<String> getAllUsers() {
+    public List<String> getAllUsers() {
         List<String> usersName = new ArrayList<>();
         final int orderUsers = 3;
         for (int i = 0; i < orderUsers; i++) {
@@ -324,7 +313,7 @@ public final class Admin {
      * @param username numele userului pe care vreau sa l sterg
      * @return mesajul daca a putut fi sters userul sau nu
      */
-    public static String deleteUser(final String username) {
+    public String deleteUser(final String username) {
         User user = getUser(username);
         if (user == null) {
             return "The username " + username + " doesn't exist.";
@@ -347,7 +336,7 @@ public final class Admin {
     /**
      * Reset.
      */
-    public static void reset() {
+    public void reset() {
         users = new ArrayList<>();
         songs = new ArrayList<>();
         podcasts = new ArrayList<>();

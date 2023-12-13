@@ -118,8 +118,9 @@ public class User {
 
         if (searchBar.getLastSearchType().equals("artist")
                 || searchBar.getLastSearchType().equals("host")) {
-            this.currentPage = Objects.requireNonNull(Admin.getUser(selected.getName()))
-                    .getCurrentPage();
+            this.currentPage = Objects.requireNonNull(Admin.getInstance()
+                            .getUser(selected.getName()))
+                            .getCurrentPage();
             this.userPage = selected.getName();
             return "Successfully selected %s's page.".formatted(selected.getName());
         }
@@ -549,7 +550,7 @@ public class User {
      */
     public String printCurrentPage() {
         if (online) {
-            return currentPage.printCurrentPage(Admin.getUser(userPage));
+            return currentPage.printCurrentPage(Admin.getInstance().getUser(userPage));
         } else {
             return username + " is offline.";
         }
@@ -712,7 +713,7 @@ public class User {
     public void removeReference() {
         // parcurg playlisturile unui user care trebuie sters
         for (Playlist iterPlaylists : playlists) {
-            for (User iterUsers : Admin.getUsers()) {
+            for (User iterUsers : Admin.getInstance().getUsers()) {
                 // sa nu fie userul pe care vreau sa l sterg
                 if (!(iterUsers.getUsername().equals(username))) {
                     // sterg playlistul din lista de playlisturi unui user
@@ -751,7 +752,6 @@ public class User {
     }
 
     /**
-     *
      * @return numarul de likeuri a tuturor albumelor unui artist
      */
     public int numberLikesAlbums() {

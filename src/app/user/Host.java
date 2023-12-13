@@ -79,8 +79,8 @@ public final class Host extends User {
         Podcast newPodcast = new Podcast(name, getUsername(), newListEpisode);
         podcasts.add(newPodcast);
         // verific daca mai exista deja podcastul in lista mare de podcasturi
-        if (!Admin.getPodcasts().contains(newPodcast)) {
-            Admin.getPodcasts().add(newPodcast);
+        if (!Admin.getInstance().getPodcasts().contains(newPodcast)) {
+            Admin.getInstance().getPodcasts().add(newPodcast);
         }
 
         return getUsername() + " has added new podcast successfully.";
@@ -113,7 +113,7 @@ public final class Host extends User {
     @Override
     public String removePodcast(final String name) {
         // parcurg toata lista de useri sa vad daca cineva a incarcat albumul respectiv
-        for (User iterUser : Admin.getUsers()) {
+        for (User iterUser : Admin.getInstance().getUsers()) {
             if (!(iterUser.equals(getUsername()))) { // sa fie diferit de artistul respectiv
                 if (iterUser.isListening(getUsername())) {
                     return getUsername() + " can't delete this podcast.";
@@ -124,7 +124,7 @@ public final class Host extends User {
         for (Podcast iterPodcast : podcasts) {
             if (iterPodcast.getName().equals(name)) {
                 podcasts.remove(iterPodcast);
-                Admin.getPodcasts().remove(iterPodcast);
+                Admin.getInstance().getPodcasts().remove(iterPodcast);
                 return getUsername() + " deleted the podcast successfully.";
             }
         }

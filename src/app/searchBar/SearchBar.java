@@ -71,7 +71,7 @@ public final class SearchBar {
 
         switch (type) {
             case "song":
-                entries = new ArrayList<>(Admin.getSongs());
+                entries = new ArrayList<>(Admin.getInstance().getSongs());
 
                 if (filters.getName() != null) {
                     entries = filterByName(entries, filters.getName());
@@ -103,7 +103,7 @@ public final class SearchBar {
 
                 break;
             case "playlist":
-                entries = new ArrayList<>(Admin.getPlaylists());
+                entries = new ArrayList<>(Admin.getInstance().getPlaylists());
 
                 entries = filterByPlaylistVisibility(entries, user);
 
@@ -121,7 +121,7 @@ public final class SearchBar {
 
                 break;
             case "podcast":
-                entries = new ArrayList<>(Admin.getPodcasts());
+                entries = new ArrayList<>(Admin.getInstance().getPodcasts());
 
                 if (filters.getName() != null) {
                     entries = filterByName(entries, filters.getName());
@@ -136,7 +136,7 @@ public final class SearchBar {
                 entries = new ArrayList<>();
                 UserEntry newInstanceArtist;
 
-                for (User iterUser : Admin.getArtists()) {
+                for (User iterUser : Admin.getInstance().getArtists()) {
                     newInstanceArtist = new UserEntry(iterUser.getUsername());
                     entries.add(newInstanceArtist);
                 }
@@ -147,7 +147,7 @@ public final class SearchBar {
 
                 break;
             case "album":
-                entries = new ArrayList<>(Admin.getAlbums());
+                entries = new ArrayList<>(Admin.getInstance().getAlbums());
 
                 if (filters.getName() != null) {
                     entries = filterByName(entries, filters.getName());
@@ -162,7 +162,7 @@ public final class SearchBar {
                 entries = new ArrayList<>();
                 UserEntry newInstanceHost;
 
-                for (User iterUser : Admin.getUsers()) {
+                for (User iterUser : Admin.getInstance().getUsers()) {
                     if (iterUser.isHost()) {
                         newInstanceHost = new UserEntry(iterUser.getUsername());
                         entries.add(newInstanceHost);

@@ -1,20 +1,23 @@
-# Proiect GlobalWaves  - Etapa 2
+Nume: DRAGAN DRAGOS-OVIDIU
+Grupă: 323CA
 
-<div align="center"><img src="https://tenor.com/view/listening-to-music-spongebob-gif-8009182.gif" width="300px"></div>
+Titlu temă: "Proiect GlobalWaves - Etapa 2 - Pagination"
 
-#### Assignment Link: [https://ocw.cs.pub.ro/courses/poo-ca-cd/teme/proiect/etapa1](https://ocw.cs.pub.ro/courses/poo-ca-cd/teme/proiect/etapa1)
+### Descriere:
 
+* Scurtă descriere a funcționalității temei
+* Eventuale explicații suplimentare pentru anumite părți din temă ce crezi că nu sunt suficient de clare doar urmărind codul
 
-## Skel Structure
+-Am folosit scheletul etapei 2 + modficari in CommandInput si FiltersInput-
 
-* src/
-  * checker/ - checker files
-  * fileio/ - contains classes used to read data from the json files
-  * main/
-      * Main - the Main class runs the checker on your implementation. Add the entry point to your implementation in it. Run Main to test your implementation from the IDE or from command line.
-      * Test - run the main method from Test class with the name of the input file from the command line and the result will be written
-        to the out.txt file. Thus, you can compare this result with ref.
-* input/ - contains the tests and library in JSON format
-* ref/ - contains all reference output for the tests in JSON format
+Pentru inceput am decis sa fac clasa Admin de tip singleton pentru a ma folosi de aceasta in celelalte clase + am inlocuit metodele de tip static din clasa Admin.
 
-<div align="center"><img src="https://tenor.com/view/homework-time-gif-24854817.gif" width="500px"></div>
+Pentru a crea un user de tip host/artist/user normal am implementat factory design pattern. In functie de ce tip este parametrul "type", UserFactory va crea un User instantiat de tip Artist/Host/User, iar la final, in clasa Admin, il va adauga in lista de users.
+
+M-am gandit ca pachetul "user" sa contina clasele User, Host, Artist si UserFactory. Host si Artist sunt 2 clase care mostenesc clasa User si au in plus campurile pt podcasturi si anunturi, respectiv albume, merchandise si evenimente. In afara de clasa Album care mosteneste AudioCollection si am inclus-o in pachetul collection, celelalte clase (ex: Event, Merch, Announcement) sunt clase interne formate in interiorul mostenitorilor.
+
+Pe parcursul acestui proiect m-am folosit foarte mult de suprascrierea metodelor. In cazul in care este un user normal, acesta sa execute o metoda, iar in cazul in care este un artist/host sa suprascrie metoda respectiva.
+
+Pentru printarea paginilor am creat un pachet numit "pageSystem" care contine interfata Page si clasele "ArtistPage", "HostPage", "LikedContentPage" si " HomePage" care executa metoda printCurrentPage.
+
+In searchBar am adaugat cazurile de cautare a unui host, artist, album.
