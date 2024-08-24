@@ -1,0 +1,272 @@
+[
+  {
+    "command": "addUser",
+    "timestamp": 5,
+    "type": "artist",
+    "username": "melodymaster",
+    "age": 25,
+    "city": "Los Angeles"
+  },
+  {
+    "command": "addUser",
+    "timestamp": 10,
+    "type": "artist",
+    "username": "rhythmrider",
+    "age": 28,
+    "city": "Chicago"
+  },
+  {
+    "command": "addUser",
+    "timestamp": 15,
+    "type": "artist",
+    "username": "beatblazer",
+    "age": 22,
+    "city": "Miami"
+  },
+  {
+    "command": "addUser",
+    "timestamp": 20,
+    "type": "artist",
+    "username": "harmonichero",
+    "age": 27,
+    "city": "Houston"
+  },
+  {
+    "command": "addUser",
+    "timestamp": 25,
+    "type": "user",
+    "username": "melodicmind42",
+    "age": 28,
+    "city": "San Francisco"
+  },
+  {
+    "command": "addUser",
+    "timestamp": 30,
+    "type": "user",
+    "username": "rhythmicrider58",
+    "age": 34,
+    "city": "Portland"
+  },
+  {
+    "command": "addUser",
+    "timestamp": 35,
+    "type": "user",
+    "username": "harmonyhunter73",
+    "age": 26,
+    "city": "Austin"
+  },
+  {
+    "command": "addUser",
+    "timestamp": 40,
+    "type": "user",
+    "username": "irene33",
+    "age": 26,
+    "city": "Austin"
+  },
+  {
+    "command": "getAllUsers",
+    "timestamp": 45
+  },
+  {
+    "command": "addAlbum",
+    "username": "rhythmrider",
+    "timestamp": 50,
+    "name": "Rhythmic Resonance",
+    "releaseYear": 2023,
+    "description": "An album that explores the depths of rhythm and sound.",
+    "songs": [
+      {
+        "name": "Rhythm Rise",
+        "duration": 220,
+        "album": "Rhythmic Resonance",
+        "tags": ["#energetic", "#dance", "#spotify"],
+        "lyrics": "Rising rhythms, moving souls",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "rhythmrider"
+      },
+      {
+        "name": "Reverberating Beats",
+        "duration": 205,
+        "album": "Rhythmic Resonance",
+        "tags": ["#powerful", "#hiphop", "#applemusic"],
+        "lyrics": "Beats that echo, in the heart they settle",
+        "genre": "Pop",
+        "releaseYear": 2023,
+        "artist": "rhythmrider"
+      },
+      {
+        "name": "Rapid Rhythms",
+        "duration": 230,
+        "album": "Rhythmic Resonance",
+        "tags": ["#fastpaced", "#electronic", "#deezer"],
+        "lyrics": "Fast-paced flow, where the rapid rhythms go",
+        "genre": "Pop",
+        "releaseYear": 2023,
+        "artist": "rhythmrider"
+      }
+    ]
+  },
+  {
+    "command": "addAlbum",
+    "username": "beatblazer",
+    "timestamp": 55,
+    "name": "Beat Odyssey",
+    "releaseYear": 2023,
+    "description": "Blazing through various beats and genres.",
+    "songs": [
+      {
+        "name": "Rapid Fire",
+        "duration": 245,
+        "album": "Beat Odyssey",
+        "tags": ["#intense", "#rap", "#spotify"],
+        "lyrics": "Quick words, like a rapid fire",
+        "genre": "Rap",
+        "releaseYear": 2023,
+        "artist": "beatblazer"
+      },
+      {
+        "name": "Bass Blaze",
+        "duration": 210,
+        "album": "Beat Odyssey",
+        "tags": ["#bassheavy", "#trap", "#applemusic"],
+        "lyrics": "In the blaze of the bass, find your pace",
+        "genre": "Rap",
+        "releaseYear": 2023,
+        "artist": "beatblazer"
+      },
+      {
+        "name": "Rhythmic Revolution",
+        "duration": 200,
+        "album": "Beat Odyssey",
+        "tags": ["#revolutionary", "#dance", "#deezer"],
+        "lyrics": "A revolution in every beat, feel the heat",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "beatblazer"
+      },
+      {
+        "name": "Melodic Motion",
+        "duration": 220,
+        "album": "Beat Odyssey",
+        "tags": ["#melodic", "#electronic", "#spotify"],
+        "lyrics": "Moving through melodic motions, like waves in oceans",
+        "genre": "Pop",
+        "releaseYear": 2023,
+        "artist": "beatblazer"
+      }
+    ]
+  },
+  {
+    "command": "search",
+    "username": "melodicmind42",
+    "timestamp": 60,
+    "type": "song",
+    "filters": {
+      "name": "R",
+      "genre": "Rock"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 65,
+    "itemNumber": 1
+  },
+  {
+    "command": "select",
+    "username": "melodicmind42",
+    "timestamp": 70,
+    "itemNumber": 3
+  },
+  {
+    "command": "load",
+    "username": "melodicmind42",
+    "timestamp": 75
+  },
+  {
+    "command": "status",
+    "username": "melodicmind42",
+    "timestamp": 90
+  },
+  {
+    "command": "like",
+    "username": "melodicmind42",
+    "timestamp": 120
+  },
+  {
+    "command": "printCurrentPage",
+    "username": "melodicmind42",
+    "timestamp": 135
+  },
+  {
+    "command": "deleteUser",
+    "username": "beatblazer",
+    "timestamp": 150
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 190,
+    "type": "album",
+    "filters": {
+      "owner": "beatblazer"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 280,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "alice22",
+    "timestamp": 285
+  },
+  {
+    "command": "deleteUser",
+    "username": "beatblazer",
+    "timestamp": 1158
+  },
+  {
+    "command": "prev",
+    "username": "alice22",
+    "timestamp": 1159
+  },
+  {
+    "command": "deleteUser",
+    "username": "beatblazer",
+    "timestamp": 1380
+  },
+  {
+    "command": "search",
+    "username": "melodicmind42",
+    "timestamp": 1385,
+    "type": "song",
+    "filters": {
+      "name": "Rapid"
+    }
+  },
+  {
+    "command": "select",
+    "username": "melodicmind42",
+    "timestamp": 1390,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "melodicmind42",
+    "timestamp": 1440
+  },
+  {
+    "command": "like",
+    "username": "melodicmind42",
+    "timestamp": 1455
+  },
+  {
+    "command": "printCurrentPage",
+    "username": "melodicmind42",
+    "timestamp": 1480
+  }
+]

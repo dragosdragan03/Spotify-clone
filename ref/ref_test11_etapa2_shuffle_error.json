@@ -1,0 +1,262 @@
+[ {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 50,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 100,
+  "message" : "Search returned 1 results",
+  "results" : [ "TED Talks Daily" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 110,
+  "message" : "Successfully selected TED Talks Daily."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 115,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 120,
+  "message" : "The loaded source is not a playlist or an album."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 200,
+  "message" : "Search returned 1 results",
+  "results" : [ "Blank Space" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 210,
+  "message" : "Successfully selected Blank Space."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 213,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 215,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 250,
+  "message" : "Search returned 1 results",
+  "results" : [ "Whole Lotta Love" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 260,
+  "message" : "Successfully selected Whole Lotta Love."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 263,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 265,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 400,
+  "message" : "Search returned 1 results",
+  "results" : [ "I Don't Wanna Live Forever" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 410,
+  "message" : "Successfully selected I Don't Wanna Live Forever."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 415,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 420,
+  "message" : "The loaded source is not a playlist or an album."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 500,
+  "message" : "Search returned 1 results",
+  "results" : [ "Kings Dead" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 510,
+  "message" : "Successfully selected Kings Dead."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 513,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 515,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 550,
+  "message" : "Search returned 1 results",
+  "results" : [ "Thinking Out Loud" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 560,
+  "message" : "Successfully selected Thinking Out Loud."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 563,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 565,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3100,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 3110,
+  "message" : "Search returned 1 results",
+  "results" : [ "Colaj" ]
+}, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 3120,
+  "message" : "Please load a source before using the shuffle function."
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 3130,
+  "message" : "Successfully selected Colaj."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 3140,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3150,
+  "stats" : {
+    "name" : "Blank Space",
+    "remainedTime" : 221,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3200,
+  "stats" : {
+    "name" : "Blank Space",
+    "remainedTime" : 171,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3250,
+  "stats" : {
+    "name" : "Blank Space",
+    "remainedTime" : 121,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 3260,
+  "message" : "Shuffle function activated successfully."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3270,
+  "stats" : {
+    "name" : "Blank Space",
+    "remainedTime" : 101,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3320,
+  "stats" : {
+    "name" : "Blank Space",
+    "remainedTime" : 51,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3370,
+  "stats" : {
+    "name" : "Blank Space",
+    "remainedTime" : 1,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 3680,
+  "message" : "Please load a source before using the shuffle function."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3690,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3740,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+} ]

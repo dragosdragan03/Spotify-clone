@@ -1,0 +1,363 @@
+[
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 10,
+    "type": "podcast",
+    "filters": {
+      "name": "TED Radio Hour"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 15,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "alice22",
+    "timestamp": 20
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 49
+  },
+  {
+    "command": "addUser",
+    "timestamp": 50,
+    "type": "host",
+    "username": "soundseeker",
+    "age": 50,
+    "city": "Los Angeles"
+  },
+  {
+    "command": "addPodcast",
+    "username": "soundseeker",
+    "timestamp": 51,
+    "name": "Auditory Adventures",
+    "episodes": [
+      {
+        "name": "Exploring Sonic Landscapes",
+        "duration": 2700,
+        "description": "Journey through the world's most unique auditory experiences."
+      },
+      {
+        "name": "The Future of Music Technology",
+        "duration": 3200,
+        "description": "A look into the innovations shaping the future of music production and listening."
+      },
+      {
+        "name": "Cultural Beats",
+        "duration": 2900,
+        "description": "An exploration of how different cultures influence music genres."
+      }
+    ]
+  },
+  {
+    "command": "addPodcast",
+    "username": "alice22",
+    "timestamp": 52,
+    "name": "Auditory Adventures",
+    "episodes": [
+      {
+        "name": "Exploring Sonic Landscapes",
+        "duration": 2700,
+        "description": "Journey through the world's most unique auditory experiences."
+      },
+      {
+        "name": "The Future of Music Technology",
+        "duration": 3200,
+        "description": "A look into the innovations shaping the future of music production and listening."
+      },
+      {
+        "name": "Cultural Beats",
+        "duration": 2900,
+        "description": "An exploration of how different cultures influence music genres."
+      }
+    ]
+  },
+  {
+    "command": "addPodcast",
+    "username": "soundseeker",
+    "timestamp": 53,
+    "name": "Harmony & History",
+    "episodes": [
+      {
+        "name": "The Roots of Blues",
+        "duration": 3100,
+        "description": "Tracing the origins and evolution of blues music."
+      },
+      {
+        "name": "Classical Music's Modern Impact",
+        "duration": 3400,
+        "description": "Discussing how classical music continues to influence contemporary artists."
+      },
+      {
+        "name": "Jazz Journeys",
+        "duration": 3600,
+        "description": "Exploring the rich history and vibrant present of jazz music."
+      },
+      {
+        "name": "The Folk Revival",
+        "duration": 2800,
+        "description": "Examining the resurgence of folk music in modern times."
+      }
+    ]
+  },
+  {
+    "command": "addPodcast",
+    "username": "soundseeker",
+    "timestamp": 53,
+    "name": "Harmony & History",
+    "episodes": [
+      {
+        "name": "The Roots of Blues",
+        "duration": 3100,
+        "description": "Tracing the origins and evolution of blues music."
+      },
+      {
+        "name": "Classical Music's Modern Impact",
+        "duration": 3400,
+        "description": "Discussing how classical music continues to influence contemporary artists."
+      },
+      {
+        "name": "Jazz Journeys",
+        "duration": 3600,
+        "description": "Exploring the rich history and vibrant present of jazz music."
+      },
+      {
+        "name": "The Folk Revival",
+        "duration": 2800,
+        "description": "Examining the resurgence of folk music in modern times."
+      }
+    ]
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 55,
+    "type": "host",
+    "filters": {
+      "name": "so"
+    }
+  },
+  {
+    "command": "addAnnouncement",
+    "username": "soundseeker",
+    "timestamp": 56,
+    "name": "Announcement1",
+    "description": "Primul anunt adaugat!"
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 57,
+    "itemNumber": 1
+  },
+  {
+    "command": "printCurrentPage",
+    "username": "alice22",
+    "timestamp": 58
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 60,
+    "type": "podcast",
+    "filters": {
+      "name": "TED Radio Hour"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 65,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "alice22",
+    "timestamp": 70
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 73
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 75,
+    "type": "podcast",
+    "filters": {
+      "name": "Auditory Adventures"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 80,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "alice22",
+    "timestamp": 85
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 86
+  },
+  {
+    "command": "playPause",
+    "username": "alice22",
+    "timestamp": 3200
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 3201
+  },
+  {
+    "command": "createPlaylist",
+    "username": "alice22",
+    "timestamp": 3210,
+    "playlistName": "2010 hits"
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 3215,
+    "type": "song",
+    "filters": {
+      "name": "Freedom"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 3220,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "alice22",
+    "timestamp": 3225
+  },
+  {
+    "command": "addAnnouncement",
+    "username": "soundseeker",
+    "timestamp": 3226,
+    "name": "Announcement2",
+    "description": "Al doilea anunt adaugat!"
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "alice22",
+    "timestamp": 3230,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 3235,
+    "type": "song",
+    "filters": {
+      "name": "Happier"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 3240,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "alice22",
+    "timestamp": 3245
+  },
+  {
+    "command": "removeAnnouncement",
+    "username": "soundseeker",
+    "timestamp": 3246,
+    "name": "Announcement"
+  },
+  {
+    "command": "addUser",
+    "timestamp": 3247,
+    "type": "host",
+    "username": "magichost",
+    "age": 25,
+    "city": "Los Angeles"
+  },
+  {
+    "command": "addUser",
+    "timestamp": 3247,
+    "type": "host",
+    "username": "magichost",
+    "age": 25,
+    "city": "Los Angeles"
+  },
+  {
+    "command": "showPodcasts",
+    "username": "soundseeker",
+    "timestamp": 3250,
+    "playlistId": 1
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "alice22",
+    "timestamp": 3250,
+    "playlistId": 1
+  },
+  {
+    "command": "removeAnnouncement",
+    "username": "soundseeker",
+    "timestamp": 3251,
+    "name": "Announcement1"
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 3255,
+    "type": "playlist",
+    "filters": {
+      "owner": "alice22"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 3260,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "alice22",
+    "timestamp": 3265
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 3270
+  },
+  {
+    "command": "printCurrentPage",
+    "username": "alice22",
+    "timestamp": 3275
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 3448
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 4000
+  }
+]

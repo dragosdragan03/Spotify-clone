@@ -1,0 +1,246 @@
+[
+  {
+    "command": "createPlaylist",
+    "username": "bob35",
+    "timestamp": 50,
+    "playlistName": "Colaj"
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 100,
+    "type": "podcast",
+    "filters": {
+      "name": "TED Talks Daily"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 110,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 115
+  },
+  {
+    "command": "shuffle",
+    "username": "bob35",
+    "timestamp": 120,
+    "seed": 1000
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 200,
+    "type": "song",
+    "filters": {
+      "name": "Blank Space"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 210,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 213
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 215,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 250,
+    "type": "song",
+    "filters": {
+      "name": "Whole Lotta Love"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 260,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 263
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 265,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 400,
+    "type": "song",
+    "filters": {
+      "name": "I Don't Wanna Live Forever"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 410,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 415
+  },
+  {
+    "command": "shuffle",
+    "username": "bob35",
+    "timestamp": 420,
+    "seed": 2000
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 500,
+    "type": "song",
+    "filters": {
+      "name": "Kings Dead"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 510,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 513
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 515,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 550,
+    "type": "song",
+    "filters": {
+      "name": "Thinking Out Loud"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 560,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 563
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "bob35",
+    "timestamp": 565,
+    "playlistId": 1
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 3100
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 3110,
+    "type": "playlist",
+    "filters": {
+      "name": "Colaj"
+    }
+  },
+  {
+    "command": "shuffle",
+    "username": "bob35",
+    "timestamp": 3120,
+    "seed": 3000
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 3130,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 3140
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 3150
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 3200
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 3250
+  },
+  {
+    "command": "shuffle",
+    "username": "bob35",
+    "timestamp": 3260,
+    "seed": 5555
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 3270
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 3320
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 3370
+  },
+  {
+    "command": "shuffle",
+    "username": "bob35",
+    "timestamp": 3680
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 3690
+  },
+  {
+    "command": "status",
+    "username": "bob35",
+    "timestamp": 3740
+  }
+]

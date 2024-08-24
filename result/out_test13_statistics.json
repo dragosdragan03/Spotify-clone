@@ -1,0 +1,302 @@
+[ {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 130,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "addUser",
+  "user" : "melodymaster",
+  "timestamp" : 140,
+  "message" : "The username melodymaster has been added successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "melodymaster",
+  "timestamp" : 142,
+  "message" : "melodymaster has added new album successfully."
+}, {
+  "command" : "addUser",
+  "user" : "melodymaster 2",
+  "timestamp" : 143,
+  "message" : "The username melodymaster 2 has been added successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "melodymaster 2",
+  "timestamp" : 144,
+  "message" : "melodymaster 2 has added new album successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 150,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 170,
+  "message" : "Search returned 5 results",
+  "results" : [ "Vibrant Echoes", "Synth Symphony", "Retro Rhythms", "Digital Dreams", "Night Pulse" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 190,
+  "message" : "Successfully selected Vibrant Echoes."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 200,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "like",
+  "user" : "bob35",
+  "timestamp" : 205,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 240,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "createPlaylist",
+  "user" : "carol19",
+  "timestamp" : 250,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 270,
+  "message" : "Search returned 3 results",
+  "results" : [ "Freedom", "Happy", "Freedom" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 290,
+  "message" : "Successfully selected Freedom."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 300,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "like",
+  "user" : "carol19",
+  "timestamp" : 305,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 340,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 370,
+  "message" : "Search returned 3 results",
+  "results" : [ "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 390,
+  "message" : "Successfully selected Bohemian Rhapsody."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 400,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "like",
+  "user" : "carol19",
+  "timestamp" : 405,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 470,
+  "message" : "Search returned 2 results",
+  "results" : [ "Angie", "Nothing Else Matters" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 490,
+  "message" : "Successfully selected Angie."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 500,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 540,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 770,
+  "message" : "Search returned 3 results",
+  "results" : [ "Freedom", "Happy", "Freedom" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 790,
+  "message" : "Successfully selected Freedom."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 800,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "like",
+  "user" : "carol19",
+  "timestamp" : 805,
+  "message" : "Unlike registered successfully."
+}, {
+  "command" : "showPreferredSongs",
+  "user" : "carol19",
+  "timestamp" : 1000,
+  "result" : [ "Bohemian Rhapsody" ]
+}, {
+  "command" : "createPlaylist",
+  "user" : "david27",
+  "timestamp" : 1150,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 1170,
+  "message" : "Search returned 2 results",
+  "results" : [ "Angie", "Nothing Else Matters" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 1190,
+  "message" : "Successfully selected Angie."
+}, {
+  "command" : "load",
+  "user" : "david27",
+  "timestamp" : 1200,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "like",
+  "user" : "david27",
+  "timestamp" : 1205,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 1240,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2150,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2170,
+  "message" : "Search returned 3 results",
+  "results" : [ "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2190,
+  "message" : "Successfully selected Bohemian Rhapsody."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2295,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "showPreferredSongs",
+  "user" : "emily30",
+  "timestamp" : 2300,
+  "result" : [ ]
+}, {
+  "command" : "like",
+  "user" : "emily30",
+  "timestamp" : 2350,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2370,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "showPreferredSongs",
+  "user" : "emily30",
+  "timestamp" : 2400,
+  "result" : [ "Bohemian Rhapsody" ]
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2460,
+  "message" : "Search returned 1 results",
+  "results" : [ "My first playlist" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2490,
+  "message" : "Successfully selected My first playlist."
+}, {
+  "command" : "follow",
+  "user" : "emily30",
+  "timestamp" : 2520,
+  "message" : "Playlist followed successfully."
+}, {
+  "command" : "getTop5Playlists",
+  "timestamp" : 2560,
+  "result" : [ "My first playlist", "My favourite songs", "Just for fun", "Felt cute might delete later", "Listen on repeat" ]
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 2565,
+  "message" : "Search returned 1 results",
+  "results" : [ "Just for fun" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 2580,
+  "message" : "Successfully selected Just for fun."
+}, {
+  "command" : "follow",
+  "user" : "bob35",
+  "timestamp" : 2600,
+  "message" : "Playlist followed successfully."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 2765,
+  "message" : "Search returned 1 results",
+  "results" : [ "Just for fun" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 2810,
+  "message" : "Successfully selected Just for fun."
+}, {
+  "command" : "follow",
+  "user" : "david27",
+  "timestamp" : 2850,
+  "message" : "Playlist followed successfully."
+}, {
+  "command" : "getTop5Playlists",
+  "timestamp" : 3000,
+  "result" : [ "Just for fun", "My first playlist", "My favourite songs", "Felt cute might delete later", "Listen on repeat" ]
+}, {
+  "command" : "showPreferredSongs",
+  "user" : "bob35",
+  "timestamp" : 3100,
+  "result" : [ "Vibrant Echoes" ]
+}, {
+  "command" : "showPreferredSongs",
+  "user" : "carol19",
+  "timestamp" : 3200,
+  "result" : [ "Bohemian Rhapsody" ]
+}, {
+  "command" : "getTop5Songs",
+  "timestamp" : 3300,
+  "result" : [ "Bohemian Rhapsody", "Angie", "Vibrant Echoes", "Shape of You", "Don't" ]
+}, {
+  "command" : "getTop5Albums",
+  "timestamp" : 3480,
+  "result" : [ "Harmonic Horizons", "Harmonic Horizons 2" ]
+} ]

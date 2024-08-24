@@ -1,0 +1,288 @@
+[
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 10,
+    "type": "song",
+    "filters": {
+      "name": "Shape of You"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 15,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "alice22",
+    "timestamp": 20
+  },
+  {
+    "command": "status",
+    "username": "alice22",
+    "timestamp": 25
+  },
+  {
+    "command": "switchConnectionStatus",
+    "username": "alice22",
+    "timestamp": 240
+  },
+  {
+    "command": "like",
+    "username": "alice22",
+    "timestamp": 280
+  },
+  {
+    "command": "addUser",
+    "timestamp": 295,
+    "type": "artist",
+    "username": "melodymaster",
+    "age": 25,
+    "city": "Los Angeles"
+  },
+  {
+    "command": "addAlbum",
+    "username": "melodymaster",
+    "timestamp": 305,
+    "name": "Harmonic Horizons",
+    "releaseYear": 2023,
+    "description": "Exploring new soundscapes in modern music.",
+    "songs": [
+      {
+        "name": "Vibrant Echoes",
+        "duration": 250,
+        "album": "Harmonic Horizons",
+        "tags": ["#innovative", "#electronic", "#spotify"],
+        "lyrics": "Echoes in the night, vibrant lights taking flight",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Synth Symphony",
+        "duration": 300,
+        "album": "Harmonic Horizons",
+        "tags": ["#synthwave", "#electronic", "#applemusic"],
+        "lyrics": "Waves of sound, in a digital sea, a symphony",
+        "genre": "Rap",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Retro Rhythms",
+        "duration": 220,
+        "album": "Harmonic Horizons",
+        "tags": ["#retro", "#dance", "#deezer"],
+        "lyrics": "Back in time with beats so fine, rhythm's line",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Digital Dreams",
+        "duration": 260,
+        "album": "Harmonic Horizons",
+        "tags": ["#chillwave", "#relaxing", "#spotify"],
+        "lyrics": "In a digital dream, where the stars gleam",
+        "genre": "Pop",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Night Pulse",
+        "duration": 240,
+        "album": "Harmonic Horizons",
+        "tags": ["#nightlife", "#electronic", "#soundcloud"],
+        "lyrics": "In the pulse of the night, city lights shine bright",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      }
+    ]
+  },
+  {
+    "command": "showAlbums",
+    "username": "melodymaster",
+    "timestamp": 350
+  },
+  {
+    "command": "addUser",
+    "timestamp": 380,
+    "type": "artist",
+    "username": "alice22",
+    "age": 28,
+    "city": "New York"
+  },
+  {
+    "command": "switchConnectionStatus",
+    "username": "alice22",
+    "timestamp": 390
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 395,
+    "type": "song",
+    "filters": {
+      "name": "R"
+    }
+  },
+  {
+    "command": "addAlbum",
+    "username": "melodymaster",
+    "timestamp": 400,
+    "name": "Echoes of Harmony",
+    "releaseYear": 2023,
+    "description": "A journey through melodic stories and harmonious tunes.",
+    "songs": [
+      {
+        "name": "Melodic Mirage",
+        "duration": 235,
+        "album": "Echoes of Harmony",
+        "tags": ["#melodic", "#rock", "#spotify"],
+        "lyrics": "In the mirage of melodies, where dreams dance free",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Pop Serenade",
+        "duration": 215,
+        "album": "Echoes of Harmony",
+        "tags": ["#serene", "#pop", "#applemusic"],
+        "lyrics": "A serenade so sweet, in every beat we meet",
+        "genre": "Pop",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      }
+    ]
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 420,
+    "type": "song",
+    "filters": {
+      "name": "M"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 430,
+    "itemNumber": 4
+  },
+  {
+    "command": "load",
+    "username": "alice22",
+    "timestamp": 440
+  },
+  {
+    "command": "like",
+    "username": "alice22",
+    "timestamp": 460
+  },
+  {
+    "command": "printCurrentPage",
+    "username": "alice22",
+    "timestamp": 480
+  },
+  {
+    "command": "addAlbum",
+    "username": "melodymaster",
+    "timestamp": 515,
+    "name": "Echoes of Harmony",
+    "releaseYear": 2023,
+    "description": "Diving into a sea of harmonious rhythms and lyrical tales.",
+    "songs": [
+      {
+        "name": "Harmony Heights",
+        "duration": 245,
+        "album": "Echoes of Harmony",
+        "tags": ["#uplifting", "#rock", "#deezer"],
+        "lyrics": "Climbing high on harmony, where sounds are free",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Rhythmic Reverie",
+        "duration": 220,
+        "album": "Echoes of Harmony",
+        "tags": ["#dreamy", "#pop", "#spotify"],
+        "lyrics": "Lost in a rhythmic reverie, where beats set us free",
+        "genre": "Pop",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Echoing Euphoria",
+        "duration": 230,
+        "album": "Echoes of Harmony",
+        "tags": ["#euphoric", "#alternative", "#applemusic"],
+        "lyrics": "In euphoria's echo, where our spirits bellow",
+        "genre": "Alternative",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      }
+    ]
+  },
+  {
+    "command": "showAlbums",
+    "username": "melodymaster",
+    "timestamp": 550
+  },
+  {
+    "command": "addAlbum",
+    "username": "melodymaster",
+    "timestamp": 560,
+    "name": "Symphony of Shadows",
+    "releaseYear": 2023,
+    "description": "Navigating through the depths of sound and shadow.",
+    "songs": [
+      {
+        "name": "Whispers in the Wind",
+        "duration": 240,
+        "album": "Symphony of Shadows",
+        "tags": ["#mystic", "#ambient", "#spotify"],
+        "lyrics": "Soft whispers in the wind, tales untold begin",
+        "genre": "Ambient",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Lunar Lullaby",
+        "duration": 220,
+        "album": "Symphony of Shadows",
+        "tags": ["#soothing", "#pop", "#applemusic"],
+        "lyrics": "Under the moon's soft glow, melodies flow",
+        "genre": "Pop",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Whispers in the Wind",
+        "duration": 230,
+        "album": "Symphony of Shadows",
+        "tags": ["#haunting", "#acoustic", "#deezer"],
+        "lyrics": "Echoes of a song, where hearts belong",
+        "genre": "Acoustic",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Dance of the Dusk",
+        "duration": 250,
+        "album": "Symphony of Shadows",
+        "tags": ["#dynamic", "#electronic", "#soundcloud"],
+        "lyrics": "In the dusk's embrace, we find our pace",
+        "genre": "Electronic",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      }
+    ]
+  }
+
+]

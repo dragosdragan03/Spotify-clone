@@ -1,0 +1,456 @@
+[
+  {
+    "command": "addUser",
+    "timestamp": 45,
+    "type": "artist",
+    "username": "sonicpainter",
+    "age": 29,
+    "city": "Nashville"
+  },
+  {
+    "command": "addUser",
+    "timestamp": 50,
+    "type": "artist",
+    "username": "echoexplorer",
+    "age": 31,
+    "city": "New Orleans"
+  },
+  {
+    "command": "addUser",
+    "timestamp": 55,
+    "type": "artist",
+    "username": "rhythmweaver",
+    "age": 27,
+    "city": "Detroit"
+  },
+  {
+    "command": "addUser",
+    "timestamp": 60,
+    "type": "user",
+    "username": "soundseeker21",
+    "age": 33,
+    "city": "Seattle"
+  },
+  {
+    "command": "addUser",
+    "timestamp": 65,
+    "type": "user",
+    "username": "melodicwanderer",
+    "age": 30,
+    "city": "Boston"
+  },
+  {
+    "command": "addUser",
+    "timestamp": 70,
+    "type": "host",
+    "username": "audiosage",
+    "age": 35,
+    "city": "San Diego"
+  },
+  {
+    "command": "addUser",
+    "timestamp": 75,
+    "type": "host",
+    "username": "soundcurator",
+    "age": 32,
+    "city": "Philadelphia"
+  },
+  {
+    "command": "addUser",
+    "timestamp": 80,
+    "type": "host",
+    "username": "musicmaven",
+    "age": 29,
+    "city": "Atlanta"
+  },
+  {
+    "command": "getAllUsers",
+    "timestamp": 85
+  },
+  {
+    "command": "addPodcast",
+    "username": "audiosage",
+    "timestamp": 280,
+    "name": "Soundscapes",
+    "episodes": [
+      {
+        "name": "The Art of Ambient Music",
+        "duration": 3600,
+        "description": "Exploring the relaxing and immersive world of ambient music."
+      },
+      {
+        "name": "The History of Jazz",
+        "duration": 3300,
+        "description": "A journey through the evolution and impact of jazz music."
+      }
+    ]
+  },
+  {
+    "command": "addPodcast",
+    "username": "audiosage",
+    "timestamp": 285,
+    "name": "Audio Insights",
+    "episodes": [
+      {
+        "name": "The Power of Podcasting",
+        "duration": 3000,
+        "description": "Discussing the rise and impact of podcasting in the digital age."
+      },
+      {
+        "name": "Music Production 101",
+        "duration": 2700,
+        "description": "An introduction to the basics of music production and sound engineering."
+      }
+    ]
+  },
+  {
+    "command": "addPodcast",
+    "username": "musicmaven",
+    "timestamp": 290,
+    "name": "Melodic Journeys",
+    "episodes": [
+      {
+        "name": "The Evolution of Rock",
+        "duration": 3200,
+        "description": "Exploring the history and development of rock music."
+      },
+      {
+        "name": "Folk Music Today",
+        "duration": 3000,
+        "description": "A look at contemporary folk music and its roots."
+      }
+    ]
+  },
+  {
+    "command": "addPodcast",
+    "username": "musicmaven",
+    "timestamp": 295,
+    "name": "Harmonic Conversations",
+    "episodes": [
+      {
+        "name": "The Role of Music in Film",
+        "duration": 3100,
+        "description": "Analyzing how music shapes and enhances the cinematic experience."
+      }
+    ]
+  },
+  {
+    "command": "addPodcast",
+    "username": "musicmaven",
+    "timestamp": 300,
+    "name": "Rhythmic Dialogues",
+    "episodes": [
+      {
+        "name": "The Future of Electronic Music",
+        "duration": 3400,
+        "description": "Discussing the trends and future direction of electronic music."
+      },
+      {
+        "name": "World Music and Cultural Exchange",
+        "duration": 3500,
+        "description": "Exploring how world music facilitates cultural exchange and understanding."
+      }
+    ]
+  },
+  {
+    "command": "createPlaylist",
+    "username": "melodicwanderer",
+    "timestamp": 305,
+    "playlistName": "Playlist bengos"
+  },
+  {
+    "command": "addAlbum",
+    "username": "sonicpainter",
+    "timestamp": 310,
+    "name": "Colors of Sound",
+    "releaseYear": 2023,
+    "description": "An album that paints a vivid soundscape, blending melodies as an artist blends colors.",
+    "songs": [
+      {
+        "name": "Aurora Harmony",
+        "duration": 210,
+        "album": "Colors of Sound",
+        "tags": ["#ambient", "#melodic", "#spotify"],
+        "lyrics": "In the aurora of sound, where light and melody bound",
+        "genre": "Pop",
+        "releaseYear": 2023,
+        "artist": "sonicpainter"
+      },
+      {
+        "name": "Crimson Riff",
+        "duration": 190,
+        "album": "Colors of Sound",
+        "tags": ["#rock", "#vibrant", "#applemusic"],
+        "lyrics": "A crimson riff in the night, a fiery musical sight",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "sonicpainter"
+      },
+      {
+        "name": "Azure Echoes",
+        "duration": 230,
+        "album": "Colors of Sound",
+        "tags": ["#soothing", "#acoustic", "#deezer"],
+        "lyrics": "Echoes in the azure sky, where notes fly high",
+        "genre": "Pop",
+        "releaseYear": 2023,
+        "artist": "sonicpainter"
+      }
+    ]
+  },
+  {
+    "command": "search",
+    "username": "melodicwanderer",
+    "timestamp": 315,
+    "type": "song",
+    "filters": {
+      "name": "A",
+      "genre": "Pop"
+    }
+  },
+  {
+    "command": "select",
+    "username": "melodicwanderer",
+    "timestamp": 320,
+    "itemNumber": 2
+  },
+  {
+    "command": "load",
+    "username": "melodicwanderer",
+    "timestamp": 325
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "melodicwanderer",
+    "timestamp": 330,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "alice22",
+    "timestamp": 335,
+    "type": "podcast",
+    "filters": {
+      "name": "Rhythmic Dialogues"
+    }
+  },
+  {
+    "command": "select",
+    "username": "alice22",
+    "timestamp": 340,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "alice22",
+    "timestamp": 345
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 350,
+    "type": "playlist",
+    "filters": {
+      "owner": "melodicwanderer"
+    }
+  },
+  {
+  "command": "select",
+  "username": "bob35",
+  "timestamp": 355,
+  "itemNumber": 1
+  },
+  {
+    "command": "follow",
+    "username": "bob35",
+    "timestamp": 360
+  },
+  {
+    "command": "search",
+    "username": "bob35",
+    "timestamp": 365,
+    "type": "song",
+    "filters": {
+      "name": "Aur"
+    }
+  },
+  {
+    "command": "select",
+    "username": "bob35",
+    "timestamp": 370,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "bob35",
+    "timestamp": 375
+  },
+  {
+    "command": "like",
+    "username": "bob35",
+    "timestamp": 380
+  },
+  {
+    "command": "repeat",
+    "username": "melodicwanderer",
+    "timestamp": 480
+  },
+  {
+    "command": "printCurrentPage",
+    "username": "bob35",
+    "timestamp": 525
+  },
+  {
+    "command": "deleteUser",
+    "username": "sonicpainter",
+    "timestamp": 620
+  },
+  {
+    "command": "search",
+    "username": "soundseeker21",
+    "timestamp": 625,
+    "type": "host",
+    "filters": {
+      "name": "audiosage"
+    }
+  },
+  {
+    "command": "select",
+    "username": "soundseeker21",
+    "timestamp": 630,
+    "itemNumber": 1
+  },
+  {
+    "command": "search",
+    "username": "carol19",
+    "timestamp": 725,
+    "type": "playlist",
+    "filters": {
+      "owner": "melodicwanderer"
+    }
+  },
+  {
+    "command": "select",
+    "username": "carol19",
+    "timestamp": 730,
+    "itemNumber": 1
+  },
+  {
+    "command": "follow",
+    "username": "carol19",
+    "timestamp": 735
+  },
+  {
+    "command": "load",
+    "username": "carol19",
+    "timestamp": 740
+  },
+  {
+    "command": "search",
+    "username": "david27",
+    "timestamp": 760,
+    "type": "artist",
+    "filters": {
+      "name": "s"
+    }
+  },
+  {
+    "command": "deleteUser",
+    "username": "sonicpainter",
+    "timestamp": 900
+  },
+  {
+    "command": "deleteUser",
+    "username": "audiosage",
+    "timestamp": 930
+  },
+  {
+    "command": "changePage",
+    "username": "soundseeker21",
+    "timestamp": 955,
+    "nextPage": "Home"
+  },
+  {
+    "command": "deleteUser",
+    "username": "melodicwanderer",
+    "timestamp": 960
+  },
+  {
+    "command": "repeat",
+    "username": "carol19",
+    "timestamp": 965
+  },
+  {
+    "command": "deleteUser",
+    "username": "sonicpainter",
+    "timestamp": 975
+  },
+  {
+    "command": "removePodcast",
+    "username": "musicmaven",
+    "timestamp": 980,
+    "name": "Rhythmic Dialogues"
+  },
+  {
+    "command": "deleteUser",
+    "username": "audiosage",
+    "timestamp": 1100
+  },
+  {
+    "command": "select",
+    "username": "david27",
+    "timestamp": 1225,
+    "itemNumber": 1
+  },
+  {
+    "command": "deleteUser",
+    "username": "melodicwanderer",
+    "timestamp": 1500
+  },
+  {
+    "command": "deleteUser",
+    "username": "musicmaven",
+    "timestamp": 6900
+  },
+  {
+    "command": "repeat",
+    "username": "carol19",
+    "timestamp": 7200
+  },
+  {
+    "command": "deleteUser",
+    "username": "sonicpainter",
+    "timestamp": 7225
+  },
+  {
+    "command": "repeat",
+    "username": "carol19",
+    "timestamp": 7505
+  },
+  {
+    "command": "deleteUser",
+    "username": "melodicwanderer",
+    "timestamp": 7855
+  },
+  {
+    "command": "deleteUser",
+    "username": "sonicpainter",
+    "timestamp": 7860
+  },
+  {
+    "command": "changePage",
+    "username": "david27",
+    "timestamp": 7885,
+    "nextPage": "Home"
+  },
+  {
+    "command": "deleteUser",
+    "username": "sonicpainter",
+    "timestamp": 7890
+  },
+  {
+    "command": "printCurrentPage",
+    "username": "bob35",
+    "timestamp": 7900
+  }
+]

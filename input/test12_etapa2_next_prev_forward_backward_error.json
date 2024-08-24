@@ -1,0 +1,283 @@
+[
+  {
+    "command": "createPlaylist",
+    "username": "emily30",
+    "timestamp": 150,
+    "playlistName": "My favourite songs"
+  },
+  {
+    "command": "addUser",
+    "timestamp": 152,
+    "type": "artist",
+    "username": "melodymaster",
+    "age": 25,
+    "city": "Los Angeles"
+  },
+  {
+    "command": "addAlbum",
+    "username": "melodymaster",
+    "timestamp": 152,
+    "name": "Harmonic Horizons",
+    "releaseYear": 2023,
+    "description": "Exploring new soundscapes in modern music.",
+    "songs": [
+      {
+        "name": "Vibrant Echoes",
+        "duration": 250,
+        "album": "Harmonic Horizons",
+        "tags": ["#innovative", "#electronic", "#spotify"],
+        "lyrics": "Echoes in the night, vibrant lights taking flight",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Synth Symphony",
+        "duration": 300,
+        "album": "Harmonic Horizons",
+        "tags": ["#synthwave", "#electronic", "#applemusic"],
+        "lyrics": "Waves of sound, in a digital sea, a symphony",
+        "genre": "Rap",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Retro Rhythms",
+        "duration": 220,
+        "album": "Harmonic Horizons",
+        "tags": ["#retro", "#dance", "#deezer"],
+        "lyrics": "Back in time with beats so fine, rhythm's line",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Digital Dreams",
+        "duration": 260,
+        "album": "Harmonic Horizons",
+        "tags": ["#chillwave", "#relaxing", "#spotify"],
+        "lyrics": "In a digital dream, where the stars gleam",
+        "genre": "Pop",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      },
+      {
+        "name": "Night Pulse",
+        "duration": 240,
+        "album": "Harmonic Horizons",
+        "tags": ["#nightlife", "#electronic", "#soundcloud"],
+        "lyrics": "In the pulse of the night, city lights shine bright",
+        "genre": "Rock",
+        "releaseYear": 2023,
+        "artist": "melodymaster"
+      }
+    ]
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 170,
+    "type": "song",
+    "filters": {
+      "name": "Digital Dreams"
+    }
+  },
+  {
+    "command": "select",
+    "username": "emily30",
+    "timestamp": 190,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 195
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "emily30",
+    "timestamp": 240,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 270,
+    "type": "song",
+    "filters": {
+      "name": "Swimming Pools (Drank)"
+    }
+  },
+  {
+    "command": "select",
+    "username": "emily30",
+    "timestamp": 290,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 300
+  },
+  {
+    "command": "addRemoveInPlaylist",
+    "username": "emily30",
+    "timestamp": 340,
+    "playlistId": 1
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 1000,
+    "type": "playlist",
+    "filters": {
+      "name": "My favourite songs"
+    }
+  },
+  {
+    "command": "prev",
+    "username": "emily30",
+    "timestamp": 1120
+  },
+  {
+    "command": "next",
+    "username": "emily30",
+    "timestamp": 1130
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 1140
+  },
+  {
+    "command": "select",
+    "username": "emily30",
+    "timestamp": 1190,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 1195
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 1220
+  },
+  {
+    "command": "next",
+    "username": "emily30",
+    "timestamp": 1240
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 1250
+  },
+  {
+    "command": "prev",
+    "username": "emily30",
+    "timestamp": 1260
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 1320
+  },
+  {
+    "command": "forward",
+    "username": "emily30",
+    "timestamp": 1350
+  },
+  {
+    "command": "backward",
+    "username": "emily30",
+    "timestamp": 1390
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 2000,
+    "type": "album",
+    "filters": {
+      "name": "Harmonic Horizons"
+    }
+  },
+  {
+    "command": "forward",
+    "username": "emily30",
+    "timestamp": 2120
+  },
+  {
+    "command": "select",
+    "username": "emily30",
+    "timestamp": 2190,
+    "itemNumber": 1
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 2200
+  },
+  {
+    "command": "forward",
+    "username": "emily30",
+    "timestamp": 3120
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 3220
+  },
+  {
+    "command": "forward",
+    "username": "emily30",
+    "timestamp": 3520
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 3920
+  },
+  {
+    "command": "next",
+    "username": "emily30",
+    "timestamp": 4120
+  },
+  {
+    "command": "search",
+    "username": "emily30",
+    "timestamp": 4200,
+    "type": "song",
+    "filters": {
+      "lyrics": "I got"
+    }
+  },
+  {
+    "command": "select",
+    "username": "emily30",
+    "timestamp": 4220,
+    "itemNumber": 2
+  },
+  {
+    "command": "forward",
+    "username": "emily30",
+    "timestamp": 4290
+  },
+  {
+    "command": "status",
+    "username": "emily30",
+    "timestamp": 4330
+  },
+  {
+    "command": "load",
+    "username": "emily30",
+    "timestamp": 4350
+  },
+  {
+    "command": "backward",
+    "username": "emily30",
+    "timestamp": 4390
+  }
+]

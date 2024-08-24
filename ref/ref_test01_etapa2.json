@@ -1,0 +1,150 @@
+[ {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 10,
+  "message" : "Search returned 3 results",
+  "results" : [ "Stairway to Heaven", "Start Me Up", "Stargazing" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 15,
+  "message" : "Successfully selected Stairway to Heaven."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 20,
+  "message" : "Search returned 3 results",
+  "results" : [ "Shape of You", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 25,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 30,
+  "message" : "Search returned 1 results",
+  "results" : [ "Big Pimpin'" ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 40,
+  "message" : "Search returned 2 results",
+  "results" : [ "Begin Again", "Butterfly Effect" ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 50,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "Don't", "Maps", "The Man", "Freedom" ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 60,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Big Pimpin'", "The Unforgiven" ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 70,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "Whatever You Need", "The Man", "Delicate", "Sicko Mode" ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 80,
+  "message" : "Search returned 5 results",
+  "results" : [ "Money Trees", "DNA.", "Kings Dead", "Legendary", "Swimming Pools (Drank)" ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 90,
+  "message" : "Search returned 4 results",
+  "results" : [ "Stairway to Heaven", "Black Dog", "Whole Lotta Love", "Good Times Bad Times" ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 100,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Joe Rogan Experience", "The Daily", "The Michelle Obama Podcast", "The Daily Show With Trevor Noah", "The Happiness Lab" ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 110,
+  "message" : "Search returned 2 results",
+  "results" : [ "How I Built This", "TED Radio Hour" ]
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "alice22",
+  "timestamp" : 130,
+  "message" : "alice22 has changed status successfully."
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "bob35",
+  "timestamp" : 140,
+  "message" : "bob35 has changed status successfully."
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "mari21",
+  "timestamp" : 150,
+  "message" : "The username mari21 doesn't exist."
+}, {
+  "command" : "getOnlineUsers",
+  "timestamp" : 170,
+  "result" : [ "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 180,
+  "message" : "alice22 is offline.",
+  "results" : [ ]
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "alice22",
+  "timestamp" : 210,
+  "message" : "alice22 has changed status successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 240,
+  "message" : "Search returned 1 results",
+  "results" : [ "Big Pimpin'" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 250,
+  "message" : "Successfully selected Big Pimpin'."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 280,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 420,
+  "stats" : {
+    "name" : "Big Pimpin'",
+    "remainedTime" : 144,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "switchConnectionStatus",
+  "user" : "alice22",
+  "timestamp" : 430,
+  "message" : "alice22 has changed status successfully."
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 700,
+  "stats" : {
+    "name" : "Big Pimpin'",
+    "remainedTime" : 134,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+} ]
